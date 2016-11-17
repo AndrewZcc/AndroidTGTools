@@ -147,6 +147,7 @@ case  $1  in
   #echo $extCounter
   echo "** Start Random Ripping"
   while true; do
+    $PLATFORMPATH/adb kill-server
     $PLATFORMPATH/adb start-server
     $EMULATORTASK -avd $AVDNAME -partition-size 512 -snapshot $SNAPSHOTPATH -no-snapshot-save &
     #sleep $(WAITFORAVD)
@@ -260,7 +261,6 @@ case  $1  in
   echo "No target specified. Targets in order: prepare <strategy> <apk>, ripper <strategy> <apk>, etc"
   echo "strategy = random or systematic"
   ;;
-
 esac
 
 export $PATH_Origin

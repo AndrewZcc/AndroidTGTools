@@ -3,7 +3,7 @@ RandomSeed -4244019791393197310
 
 it.unina.androidripper.guitree.GuiTreeEngine:.
 Test results for InstrumentationTestRunner=.
-Time: 16.86
+Time: 16.765
 
 OK (1 test)
 
@@ -14,7 +14,7 @@ RandomSeed -4244019791393197310
 
 it.unina.androidripper.guitree.GuiTreeEngine:.
 Test results for InstrumentationTestRunner=.
-Time: 15.78
+Time: 15.141
 
 OK (1 test)
 
@@ -22,5 +22,3 @@ OK (1 test)
 End of Session 2
 Playing Session 3
 RandomSeed -4244019791393197310
-
-it.unina.androidripper.guitree.GuiTreeEngine:

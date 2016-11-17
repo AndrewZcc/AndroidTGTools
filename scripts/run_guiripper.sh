@@ -60,7 +60,7 @@ cd $APPDIR
   cd $TOOLDIR
   date1=$(date +"%s")
   #timeout 1h bash -x run.sh ripper systematic apks/$apkName &> $RESULTDIR$p/tool.log
-  gtimeout 500s bash -x run.sh ripper systematic apks/$apkName > $RESULTDIR$p/tool.log
+  gtimeout 480s bash -x run.sh ripper systematic apks/$apkName > $RESULTDIR$p/tool.log
   date2=$(date +"%s")
   diff=$(($date2-$date1))
   echo "Performed ripping for $(($diff / 60)) minutes and $(($diff % 60)) seconds."  
@@ -71,8 +71,8 @@ cd $APPDIR
   cp -r $TOOLDIR/output-exp $RESULTDIR$p/
   echo "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
   echo "-- FINISHED GUI RIPPER -- "
-  #adb shell am broadcast -a edu.gatech.m3.emma.COLLECT_COVERAGE
-  #adb pull /mnt/sdcard/coverage.ec $RESULTDIR$p/coverage.ec
+  adb shell am broadcast -a edu.gatech.m3.emma.COLLECT_COVERAGE
+  adb pull /mnt/sdcard/coverage.ec $RESULTDIR$p/coverage.ec
 
   NOW=$(date +"%m-%d-%Y-%H-%M")
   echo $NOW.$p >> $RESULTDIR/status.log

@@ -6,7 +6,7 @@
 
 ### 1. GUIRipper
 
-1. How to run?  
+#### 1.1 How to run?  
 
 ```  
 vagrant@run1:~$ cd scripts
@@ -22,5 +22,29 @@ zhchuch$ adb kill-server
 zhchuch$ adb start-server
 zhchuch$ adb devices
 ```
+
+#### 1.2 How to get HTML Report (emma)
+
+根据 `em & ec` 文件生成 html 报告
+`
+java -cp /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/emma.jar emma
+`
+`
+report -r html -in coverage.em,coverage.ec 
+-Dreport.html.out.file=./report/coverage.html
+`
+
+合并多个 ec 文件
+`
+java -cp /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/emma.jar emma
+`
+`
+merge –in coverage1.ec,coverage2.ec,coverage3.ec –out coverage.ec
+`
+
+命令前缀总结
+`
+java -cp /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/emma.jar emma *
+`
 
 ### 2. SwiftHand

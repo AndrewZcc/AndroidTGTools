@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
-<SESSION date_time="Thu Nov 17 14:35:17 GMT 2016" app="ApplicationInfo{40cd16b8 net.mandaria.tippytipper}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="net.mandaria.tippytipper.activities.TippyTipper" package_name="net.mandaria.tippytipper" comparation_widgets="editText,button,menu,dialog,listView,singleChoiceList,multiChoiceList,webPage,tabHost,image,text,searchBar,autoCText" in_and_out_focus="true" end_task_sleep="1000" random_seed="-4244019791393197310" max_depth="0" state_file="activities.xml">
-    <TRACE id="0" fail="false" date_time="Thu Nov 17 14:35:24 GMT 2016">
+<SESSION date_time="Thu Nov 17 15:13:26 GMT 2016" app="ApplicationInfo{40cd1978 net.mandaria.tippytipper}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="net.mandaria.tippytipper.activities.TippyTipper" package_name="net.mandaria.tippytipper" comparation_widgets="editText,button,menu,dialog,listView,singleChoiceList,multiChoiceList,webPage,tabHost,image,text,searchBar,autoCText" in_and_out_focus="true" end_task_sleep="1000" random_seed="-4244019791393197310" max_depth="0" state_file="activities.xml">
+    <TRACE id="0" fail="false" date_time="Thu Nov 17 15:13:32 GMT 2016">
         <TRANSITION>
             <START_ACTIVITY name="TippyTipper" title="Tippy Tipper" id="a1" unique_id="a1" screenshot="a1.jpg">
                 <DESCRIPTION id="a1"/>
@@ -23,7 +23,7 @@
     </TRACE>
 
 
-    <TRACE id="1" fail="false" date_time="Thu Nov 17 14:37:45 GMT 2016">
+    <TRACE id="1" fail="false" date_time="Thu Nov 17 15:16:46 GMT 2016">
         <TRANSITION>
             <START_ACTIVITY name="TippyTipper" title="Tippy Tipper" id="a1" unique_id="a1" screenshot="a1.jpg">
                 <DESCRIPTION id="a1"/>
