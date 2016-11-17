@@ -1,0 +1,82 @@
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter$ArrayFilter;::performFiltering(3) : 148 154 210 248 254 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter$ArrayFilter;::publishResults(4) : 26 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::<init>(6) : 56 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::createViewFromResource(12) : 148 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::getContext(14) : 0 4 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::getDropDownView(16) : 0 4 12 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::getPosition(20) : 0 4 12 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::notifyDataSetChanged(22) : 0 12 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::setDropDownViewResource(23) : 0 4 
+Lorg/jessies/dalvikexplorer/BetterArrayAdapter;::setNotifyOnChange(24) : 0 4 
+Lorg/jessies/dalvikexplorer/BetterListActivity;::showSoftKeyboard(30) : 0 32 
+Lorg/jessies/dalvikexplorer/BetterListActivity;::onOptionsItemSelected(33) : 16 58 
+Lorg/jessies/dalvikexplorer/BetterListActivity;::onRestoreInstanceState(34) : 0 22 
+Lorg/jessies/dalvikexplorer/TextViewActivity;::copyToClipboard(38) : 0 70 
+Lorg/jessies/dalvikexplorer/TextViewActivity;::mail(39) : 0 118 
+Lorg/jessies/dalvikexplorer/TextViewActivity;::onContextItemSelected(44) : 0 46 54 56 66 
+Lorg/jessies/dalvikexplorer/TextViewActivity;::onCreateContextMenu(46) : 0 40 
+Lorg/jessies/dalvikexplorer/TextViewActivity;::onOptionsItemSelected(48) : 16 58 70 
+Lorg/jessies/dalvikexplorer/BuildActivity;::getBuildDetailsAsString(52) : 994 
+Lorg/jessies/dalvikexplorer/BuildActivity;::getFieldReflectively(53) : 32 
+Lorg/jessies/dalvikexplorer/BuildConfig;::<init>(56) : 0 6 
+Lorg/jessies/dalvikexplorer/CharsetActivity;::describeCharset(58) : 114 
+Lorg/jessies/dalvikexplorer/CharsetsActivity$CharsetListItem;::toSubtitle(68) : 34 
+Lorg/jessies/dalvikexplorer/CharsetsActivity;::describeCharsets(71) : 0 38 70 72 74 116 
+Lorg/jessies/dalvikexplorer/Compatibility;::get(76) : 24 36 48 60 72 
+Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;::configureActionBar(83) : 0 
+Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;::configureSearchView(84) : 0 
+Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;::configureSearchView(85) : 0 
+Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;::describeFs(86) : 0 50 
+Lorg/jessies/dalvikexplorer/Compatibility$PreGingerbreadCompatibility;::isInterestingFileSystem(87) : 0 2 
+Lorg/jessies/dalvikexplorer/Compatibility$HoneycombCompatibility$1;::onQueryTextSubmit(93) : 0 2 
+Lorg/jessies/dalvikexplorer/Compatibility$HoneycombCompatibility$3;::onQueryTextSubmit(98) : 0 2 
+Lorg/jessies/dalvikexplorer/DeviceActivity;::countEnabledCores(116) : 100 110 118 124 128 132 136 142 
+Lorg/jessies/dalvikexplorer/DeviceActivity;::decodeImplementer(118) : 14 22 28 36 42 50 56 64 70 78 84 
+Lorg/jessies/dalvikexplorer/DeviceActivity;::decodePartNumber(119) : 8 22 36 50 64 78 92 106 120 140 148 154 162 168 176 182 190 196 204 210 218 224 232 238 246 252 260 266 274 282 290 298 306 314 
+Lorg/jessies/dalvikexplorer/DeviceActivity;::getDeviceDetailsAsString(120) : 178 1132 1632 1810 3136 3142 
+Lorg/jessies/dalvikexplorer/DeviceActivity;::getFieldReflectively(121) : 0 28 32 
+Lorg/jessies/dalvikexplorer/DeviceActivity;::numericValueForKey(122) : 70 
+Lorg/jessies/dalvikexplorer/FileSystemActivity;::onCreate(140) : 30 
+Lorg/jessies/dalvikexplorer/FileViewerActivity;::sendViewIntent(155) : 0 80 84 
+Lorg/jessies/dalvikexplorer/FileViewerActivity;::onContextItemSelected(158) : 0 14 22 24 
+Lorg/jessies/dalvikexplorer/FileViewerActivity;::onCreateContextMenu(159) : 0 20 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::appendAvailability(162) : 148 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::describeChar(164) : 104 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::describeDecimalFormatSymbols(166) : 0 972 996 1072 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::describeLocale(167) : 772 1330 1364 2030 4282 4352 4368 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::getLocaleDataInstance(171) : 62 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::hasLocaleData(172) : 16 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::localeByName(173) : 20 124 
+Lorg/jessies/dalvikexplorer/LocaleActivity;::localeDataClass(174) : 16 
+Lorg/jessies/dalvikexplorer/MailReportTask;::<init>(193) : 0 38 
+Lorg/jessies/dalvikexplorer/MailReportTask;::appendReport(194) : 0 54 70 96 
+Lorg/jessies/dalvikexplorer/MailReportTask;::generateReport(195) : 0 72 
+Lorg/jessies/dalvikexplorer/MailReportTask;::doInBackground(196) : 0 12 
+Lorg/jessies/dalvikexplorer/MailReportTask;::doInBackground(197) : 0 8 
+Lorg/jessies/dalvikexplorer/MailReportTask;::onCancel(198) : 0 8 
+Lorg/jessies/dalvikexplorer/MailReportTask;::onPostExecute(199) : 0 10 
+Lorg/jessies/dalvikexplorer/MailReportTask;::onPostExecute(200) : 0 4 22 24 
+Lorg/jessies/dalvikexplorer/R$attr;::<init>(201) : 0 6 
+Lorg/jessies/dalvikexplorer/R$drawable;::<init>(202) : 0 6 
+Lorg/jessies/dalvikexplorer/R$id;::<init>(203) : 0 6 
+Lorg/jessies/dalvikexplorer/R$layout;::<init>(204) : 0 6 
+Lorg/jessies/dalvikexplorer/R$menu;::<init>(205) : 0 6 
+Lorg/jessies/dalvikexplorer/R$raw;::<init>(206) : 0 6 
+Lorg/jessies/dalvikexplorer/R$string;::<init>(207) : 0 6 
+Lorg/jessies/dalvikexplorer/R;::<init>(208) : 0 6 
+Lorg/jessies/dalvikexplorer/TextViewActivity$1;::afterTextChanged(215) : 0 4 18 
+Lorg/jessies/dalvikexplorer/TextViewActivity$1;::beforeTextChanged(216) : 0 
+Lorg/jessies/dalvikexplorer/TextViewActivity$1;::onTextChanged(217) : 0 
+Lorg/jessies/dalvikexplorer/TextViewActivity$GeoFilter;::fromDms(221) : 102 
+Lorg/jessies/dalvikexplorer/TimeZoneActivity;::describeTimeZone(225) : 158 372 966 1644 1726 1840 1868 1872 1882 1964 1968 
+Lorg/jessies/dalvikexplorer/TimeZoneActivity;::describeTransitions(226) : 224 
+Lorg/jessies/dalvikexplorer/TimeZonesActivity$TimeZoneListItem;::toSubtitle(235) : 78 
+Lorg/jessies/dalvikexplorer/TimeZonesActivity;::gatherTimeZones(237) : 80 
+Lorg/jessies/dalvikexplorer/Utils;::<init>(242) : 0 6 
+Lorg/jessies/dalvikexplorer/Utils;::appVersion(243) : 0 34 38 
+Lorg/jessies/dalvikexplorer/Utils;::escapeForJava(244) : 40 84 104 132 
+Lorg/jessies/dalvikexplorer/Utils;::join(245) : 0 20 36 42 54 62 
+Lorg/jessies/dalvikexplorer/Utils;::offsetString(246) : 214 220 
+Lorg/jessies/dalvikexplorer/Utils;::prettyHz(247) : 0 24 30 38 44 52 58 96 
+Lorg/jessies/dalvikexplorer/Utils;::prettySize(248) : 46 
+Lorg/jessies/dalvikexplorer/Utils;::readLines(250) : 54 62 108 114 118 122 126 130 

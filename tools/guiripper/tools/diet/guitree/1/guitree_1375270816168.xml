@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE SESSION PUBLIC "SESSION" "guitree.dtd">
+<SESSION date_time="Wed Jul 31 11:38:17 GMT 2013" app="ApplicationInfo{40cdd278 org.tomdroid}" event_sleep="1000" restart_sleep="1000" throbber_sleep="1000" class_name="org.tomdroid.ui.Tomdroid" package_name="org.tomdroid" comparation_widgets="null" in_and_out_focus="true" end_task_sleep="1000" random_seed="-1945332789161236926" max_depth="0" state_file="activities.xml">
+    <TRACE id="2" fail="false" date_time="Wed Jul 31 11:38:26 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="8" date_time="Wed Jul 31 11:38:35 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w21" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="14" date_time="Wed Jul 31 11:38:42 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w21" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" id="e12" value="1" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w38" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="10" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="20" date_time="Wed Jul 31 11:38:54 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w21" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e12" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w38" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="10" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e20">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="26" date_time="Wed Jul 31 11:39:00 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w21" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e12" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w38" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="10" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e20">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e28">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="31" date_time="Wed Jul 31 11:39:06 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w21" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e12" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w38" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="10" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e20">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e28">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e32" desc="Settings">
+                <WIDGET id="16908310" name="Settings" type="com.android.internal.view.menu.IconMenuItemView" unique_id="w71" text_type="0" simple_type="menuItem" available="true" clickable="true" long_clickable="false" index="3" value="Settings"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="39" date_time="Wed Jul 31 11:39:15 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w21" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e12" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w38" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="10" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e20">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e28">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e32" desc="Settings">
+                <WIDGET id="16908310" name="Settings" type="com.android.internal.view.menu.IconMenuItemView" unique_id="w71" text_type="0" simple_type="menuItem" available="true" clickable="true" long_clickable="false" index="3" value="Settings"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e42">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+    <TRACE fail="false" async="false" id="47" date_time="Wed Jul 31 11:39:22 GMT 2013">
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a1" unique_id="a1" screenshot="">
+                <DESCRIPTION id="a1"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e0" desc="OK">
+                <WIDGET id="16908315" name="OK" type="android.widget.Button" unique_id="w14" text_type="0" simple_type="button" available="true" clickable="true" long_clickable="false" index="17" value="OK"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a2" unique_id="a2" screenshot="">
+                <DESCRIPTION id="a2"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e3">
+                <WIDGET id="2131296257" name="" type="android.widget.ImageView" unique_id="w21" text_type="0" simple_type="image" available="true" clickable="true" long_clickable="false" index="5" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a3" unique_id="a3" screenshot="">
+                <DESCRIPTION id="a3"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="selectListItem" value="1" id="e12" desc="Tomdroid's first note">
+                <WIDGET id="16908298" name="" type="android.widget.ListView" unique_id="w38" text_type="0" simple_type="listView" available="true" clickable="true" long_clickable="true" index="10" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="ViewNote" title="Tomdroid" id="a4" unique_id="a4" screenshot="">
+                <DESCRIPTION id="a4"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="back" id="e20">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a5" unique_id="a5" screenshot="">
+                <DESCRIPTION id="a5"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e28">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="Tomdroid" title="Tomdroid" id="a6" unique_id="a6" screenshot="">
+                <DESCRIPTION id="a6"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="click" id="e32" desc="Settings">
+                <WIDGET id="16908310" name="Settings" type="com.android.internal.view.menu.IconMenuItemView" unique_id="w71" text_type="0" simple_type="menuItem" available="true" clickable="true" long_clickable="false" index="3" value="Settings"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a7" unique_id="a7" screenshot="">
+                <DESCRIPTION id="a7"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e42">
+                <WIDGET id="-1" name="" type="null" unique_id="w0" text_type="0" simple_type="null" available="" clickable="" long_clickable="" index="0" value=""/>
+            </EVENT>
+            <FINAL_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+        <TRANSITION>
+            <START_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="a8" unique_id="a8" screenshot="">
+                <DESCRIPTION id="a8"/>
+                <SUPPORTED_EVENTS/>
+            </START_ACTIVITY>
+            <INPUTS/>
+            <EVENT type="openMenu" id="e50">
+                <WIDGET type="null" id="-1" simple_type="null" unique_id="w0"/>
+            </EVENT>
+            <FINAL_ACTIVITY name="PreferencesActivity" title="Tomdroid" id="exit" unique_id="a9" screenshot="">
+                <DESCRIPTION id="exit"/>
+                <SUPPORTED_EVENTS/>
+            </FINAL_ACTIVITY>
+        </TRANSITION>
+    </TRACE>
+

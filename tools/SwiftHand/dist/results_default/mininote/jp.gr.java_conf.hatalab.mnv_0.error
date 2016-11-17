@@ -1,0 +1,9 @@
+java.lang.NullPointerException
+	at edu.berkeley.wtchoi.swift.testing.android.learning.ActiveLearningGuide.setNextRefinementGoalFromRoot(ActiveLearningGuide.java:320)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.ActiveLearningGuide.getRequestImp(ActiveLearningGuide.java:265)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.getRequest(AbstractLearningGuide.java:283)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.getRequest(AbstractLearningGuide.java:56)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:111)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)

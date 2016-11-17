@@ -1,0 +1,19 @@
+===============================
+09:56:25
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.7156104193231707E10
+Elapsed Time(m)   = 15.86
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 149
+#Events           = 143
+#Reset            = 10
+Query Average(ms) = 6387.34
+Event Average(ms) = 5734.95
+Reset Average(ms) = 13851
+Execution Rate    = 100.72%
+Events : Reset    = 85.55 : 14.45
+Decision Rate     = 0.05%
+===============================

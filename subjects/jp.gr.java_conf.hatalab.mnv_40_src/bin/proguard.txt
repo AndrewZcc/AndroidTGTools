@@ -1,0 +1,36 @@
+# view AndroidManifest.xml #generated:67
+-keep class jp.gr.java_conf.hatalab.mnv.EmmaInstrument.EmmaInstrumentation { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class jp.gr.java_conf.hatalab.mnv.EmmaInstrument.InstrumentedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class jp.gr.java_conf.hatalab.mnv.EmmaInstrument.SMSInstrumentedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class jp.gr.java_conf.hatalab.mnv.GrepActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:6
+-keep class jp.gr.java_conf.hatalab.mnv.MainActivity { <init>(...); }
+
+# view res/layout/editbox_scrl.xml #generated:19
+-keep class jp.gr.java_conf.hatalab.mnv.ScrollWrappableEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class jp.gr.java_conf.hatalab.mnv.SelectDirName { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class jp.gr.java_conf.hatalab.mnv.SelectFileName { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class jp.gr.java_conf.hatalab.mnv.SettingAutoLink { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class jp.gr.java_conf.hatalab.mnv.Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class jp.gr.java_conf.hatalab.mnv.TemplateTextList { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class jp.gr.java_conf.hatalab.mnv.TextEdit { <init>(...); }
+

@@ -1,0 +1,19 @@
+===============================
+07:04:31
+Target            = org.liberty.android.fantastischmemo_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.466000640161904E9
+Elapsed Time(m)   = 47.72
+#Covered Branch   = 1649
+#Branch           = 18165
+#Query            = 392
+#Events           = 380
+#Reset            = 14
+Query Average(ms) = 7303.45
+Event Average(ms) = 6337.51
+Reset Average(ms) = 19635.5
+Execution Rate    = 93.72%
+Events : Reset    = 89.75 : 10.25
+Decision Rate     = 0.05%
+===============================

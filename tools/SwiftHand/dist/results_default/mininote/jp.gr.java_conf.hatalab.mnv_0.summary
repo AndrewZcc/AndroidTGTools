@@ -1,0 +1,19 @@
+===============================
+09:32:46
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.404206021789473E10
+Elapsed Time(m)   = 6.4
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 18
+#Events           = 0
+#Reset            = 18
+Query Average(ms) = 21335.5
+Event Average(ms) = 0
+Reset Average(ms) = 15050.83
+Execution Rate    = 70.54%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================

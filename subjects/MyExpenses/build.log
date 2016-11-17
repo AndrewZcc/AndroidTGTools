@@ -1,0 +1,170 @@
+Buildfile: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/build.xml
+  [taskdef] Could not load definitions from resource net/sf/antcontrib/antlib.xml. It could not be found.
+
+emma:
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 23.0.2
+ [checkenv] Installed at /home/vagrant/android-sdk-linux
+
+-setup:
+     [echo] Project Name: MyExpenses
+  [gettype] Project Type: Self-Tested Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+android_rules.-build-setup:
+[getbuildtools] Using latest Build Tools: 20.0.0
+     [echo] Resolving Build Target for MyExpenses...
+[gettarget] Project Target:   Android 2.3.3
+[gettarget] API level:        10
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/rsObj
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/rsLibs
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/gen
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/classes
+    [mkdir] Created dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for MyExpenses...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+[dependency] API<=15: Adding annotations.jar to the classpath.
+     [echo] ----------
+     [echo] Building Libraries with 'instrument'...
+   [subant] No sub-builds to iterate on
+
+-build-setup:
+     [echo] Configuring build date
+     [copy] Copying 1 file to /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/raw
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 32 source files to /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [echo] Instrumenting classes from /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/classes...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/classes
+      [dex] input: /home/vagrant/android-sdk-linux/tools/support/annotations.jar
+      [dex] input: /home/vagrant/android-sdk-linux/tools/lib/emma_device.jar
+      [dex] Pre-Dexing /home/vagrant/android-sdk-linux/tools/support/annotations.jar -> annotations-5442badee1f6d6457826eac12c92c46e.jar
+      [dex] Pre-Dexing /home/vagrant/android-sdk-linux/tools/lib/emma_device.jar -> emma_device-e790229f52a04d2b195df6976ccc31d7.jar
+      [dex] Converting compiled files and external libraries into /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/classes.dex...
+       [dx] Merged dex A (112 defs/201.5KiB) with dex B (2 defs/1.1KiB). Result is 114 defs/239.9KiB. Took 1.0s
+       [dx] Merged dex A (114 defs/239.9KiB) with dex B (297 defs/326.8KiB). Result is 411 defs/689.1KiB. Took 0.8s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res
+   [crunch] To destination dir: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi-v11/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v11/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v11/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi-v11/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v11/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v11/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi-v9/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v9/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v9/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi-v9/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v9/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi-v9/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_default_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_default_normal_disable.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_normal_disable.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_normal_disable.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_default_normal_disable_focused.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_normal_disable_focused.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_normal_disable_focused.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_default_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_default_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_default_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_popup_normal.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_popup_normal.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_popup_normal.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_popup_pressed.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_popup_pressed.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_popup_pressed.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/btn_popup_selected.9.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_popup_selected.9.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/btn_popup_selected.9.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-hdpi/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-hdpi/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-ldpi-v11/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v11/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v11/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-ldpi-v11/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v11/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v11/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-ldpi-v9/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v9/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v9/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-ldpi-v9/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v9/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-ldpi-v9/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-mdpi-v11/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v11/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v11/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-mdpi-v11/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v11/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v11/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-mdpi-v9/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v9/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v9/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-mdpi-v9/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v9/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi-v9/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-mdpi/ic_menu_goto.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi/ic_menu_goto.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi/ic_menu_goto.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable-mdpi/ic_menu_mark.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi/ic_menu_mark.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable-mdpi/ic_menu_mark.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable/icon.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable/icon.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable/icon.png: 83% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable/paypal.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable/paypal.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable/paypal.png: 0% size of source)
+   [crunch] Processing image to cache: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/res/drawable/squiggle.png => /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable/squiggle.png
+   [crunch]   (processed image to cache entry /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/res/drawable/squiggle.png: 0% size of source)
+   [crunch] Crunched 27 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating MyExpenses-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/MyExpenses-debug.apk
+[propertyfile] Creating new property file: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/build.prop
+[propertyfile] Updating property file: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/build.prop
+[propertyfile] Updating property file: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/build.prop
+[propertyfile] Updating property file: /vagrant/subjects/tool_subjects/swifthand/MyExpenses/bin/build.prop
+
+-post-build:
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 54 seconds

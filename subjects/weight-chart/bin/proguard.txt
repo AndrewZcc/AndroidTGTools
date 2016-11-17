@@ -1,0 +1,30 @@
+# view AndroidManifest.xml #generated:36
+-keep class es.senselesssolutions.gpl.weightchart.ChartActivity { <init>(...); }
+
+# view res/layout/chart.xml #generated:29
+-keep class es.senselesssolutions.gpl.weightchart.ChartView { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class es.senselesssolutions.gpl.weightchart.EmmaInstrument.EmmaInstrumentation { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class es.senselesssolutions.gpl.weightchart.EmmaInstrument.InstrumentedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class es.senselesssolutions.gpl.weightchart.EmmaInstrument.SMSInstrumentedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class es.senselesssolutions.gpl.weightchart.EntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class es.senselesssolutions.gpl.weightchart.EntryListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class es.senselesssolutions.gpl.weightchart.LegendActivity { <init>(...); }
+
+# view res/layout/legend.xml #generated:29
+-keep class es.senselesssolutions.gpl.weightchart.LegendView { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class es.senselesssolutions.gpl.weightchart.PreferencesActivity { <init>(...); }
+

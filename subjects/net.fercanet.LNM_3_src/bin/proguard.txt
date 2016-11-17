@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:41
+-keep class net.fercanet.LNM.EmmaInstrument.EmmaInstrumentation { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class net.fercanet.LNM.EmmaInstrument.InstrumentedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class net.fercanet.LNM.EmmaInstrument.SMSInstrumentedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class net.fercanet.LNM.Game { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class net.fercanet.LNM.Hof { <init>(...); }
+
+# view AndroidManifest.xml #generated:9
+-keep class net.fercanet.LNM.MainMenu { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class net.fercanet.LNM.Settings { <init>(...); }
+

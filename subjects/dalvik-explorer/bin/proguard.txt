@@ -1,0 +1,60 @@
+# view AndroidManifest.xml #generated:22
+-keep class org.jessies.dalvikexplorer.BuildActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class org.jessies.dalvikexplorer.BuildWidget { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class org.jessies.dalvikexplorer.BuildWidget$UpdateService { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class org.jessies.dalvikexplorer.CharsetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class org.jessies.dalvikexplorer.CharsetsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class org.jessies.dalvikexplorer.DalvikExplorerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class org.jessies.dalvikexplorer.DeviceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class org.jessies.dalvikexplorer.EmmaInstrument.EmmaInstrumentation { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class org.jessies.dalvikexplorer.EmmaInstrument.InstrumentedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class org.jessies.dalvikexplorer.EmmaInstrument.SMSInstrumentedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class org.jessies.dalvikexplorer.EnvironmentVariablesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class org.jessies.dalvikexplorer.FileSystemActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class org.jessies.dalvikexplorer.FileSystemsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class org.jessies.dalvikexplorer.FileViewerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class org.jessies.dalvikexplorer.LocaleActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class org.jessies.dalvikexplorer.LocaleCountriesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class org.jessies.dalvikexplorer.LocalesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class org.jessies.dalvikexplorer.SystemPropertiesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class org.jessies.dalvikexplorer.TimeZoneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class org.jessies.dalvikexplorer.TimeZonesActivity { <init>(...); }
+

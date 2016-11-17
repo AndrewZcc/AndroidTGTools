@@ -1,0 +1,3450 @@
+get ChimpChat instance
+get ADB
+Jul 31, 2014 9:39:50 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: wake.
+Device Connected
+Jul 31, 2014 9:39:50 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: wake.
+Device Waked
+Target Application Initialized
+TEST START : net.fercanet.LNM_0
+Jul 31, 2014 9:39:51 AM com.android.chimpchat.adb.AdbChimpDevice removePackage
+SEVERE: Got error uninstalling package net.fercanet.LNM: Unknown failure
+Jul 31, 2014 9:39:53 AM com.android.chimpchat.adb.AdbChimpDevice$1 run
+INFO: Error starting command: monkey --port 12345
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:609)
+	at com.android.chimpchat.adb.AdbChimpDevice$1.run(AdbChimpDevice.java:104)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+send wake up!
+send wake up!
+wait
+1trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:40:21 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:40:28
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.033998056765E11
+Elapsed Time(s)   = 21.11
+#Covered Branch   = 22
+#Branch           = 245
+#Query            = 1
+#Events           = 1
+#Reset            = 1
+Query Average(ms) = 21110
+Event Average(ms) = 6628
+Reset Average(ms) = 14442
+Execution Rate    = 99.81%
+Events : Reset    = 31.46 : 68.54
+Decision Rate     = 0.13%
+===============================
+Jul 31, 2014 9:40:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 1 204.
+Jul 31, 2014 9:40:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 204.
+Jul 31, 2014 9:40:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 200.
+Jul 31, 2014 9:40:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 197.
+Jul 31, 2014 9:40:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 193.
+Jul 31, 2014 9:40:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 190.
+Jul 31, 2014 9:40:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 186.
+Jul 31, 2014 9:40:29 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 182.
+Jul 31, 2014 9:40:29 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 179.
+Jul 31, 2014 9:40:29 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 175.
+Jul 31, 2014 9:40:29 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 172.
+Jul 31, 2014 9:40:29 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 168.
+Jul 31, 2014 9:40:29 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch up 1 168.
+===============================
+09:40:34
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.689332056406667E11
+Elapsed Time(s)   = 26.65
+#Covered Branch   = 22
+#Branch           = 245
+#Query            = 2
+#Events           = 2
+#Reset            = 1
+Query Average(ms) = 13327
+Event Average(ms) = 6085
+Reset Average(ms) = 14442
+Execution Rate    = 99.84%
+Events : Reset    = 45.73 : 54.27
+Decision Rate     = 0.11%
+===============================
+Jul 31, 2014 9:40:34 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:40:40
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.5169990570475E11
+Elapsed Time(s)   = 32.54
+#Covered Branch   = 24
+#Branch           = 245
+#Query            = 3
+#Events           = 3
+#Reset            = 1
+Query Average(ms) = 10847.67
+Event Average(ms) = 6018.67
+Reset Average(ms) = 14442
+Execution Rate    = 99.86%
+Events : Reset    = 55.56 : 44.44
+Decision Rate     = 0.1%
+===============================
+Jul 31, 2014 9:40:40 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:40:46
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.813599257834E11
+Elapsed Time(s)   = 38.62
+#Covered Branch   = 24
+#Branch           = 245
+#Query            = 4
+#Events           = 4
+#Reset            = 1
+Query Average(ms) = 9656
+Event Average(ms) = 6034
+Reset Average(ms) = 14442
+Execution Rate    = 99.88%
+Events : Reset    = 62.56 : 37.44
+Decision Rate     = 0.09%
+===============================
+Jul 31, 2014 9:40:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:40:51
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.3446660570533334E11
+Elapsed Time(s)   = 43.93
+#Covered Branch   = 24
+#Branch           = 245
+#Query            = 5
+#Events           = 5
+#Reset            = 1
+Query Average(ms) = 8786
+Event Average(ms) = 5888.2
+Reset Average(ms) = 14442
+Execution Rate    = 99.89%
+Events : Reset    = 67.09 : 32.91
+Decision Rate     = 0.08%
+===============================
+Jul 31, 2014 9:40:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:40:57
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0097137719785715E11
+Elapsed Time(s)   = 50.06
+#Covered Branch   = 24
+#Branch           = 245
+#Query            = 6
+#Events           = 6
+#Reset            = 1
+Query Average(ms) = 8344
+Event Average(ms) = 5928.83
+Reset Average(ms) = 14442
+Execution Rate    = 99.9%
+Events : Reset    = 71.12 : 28.88
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:40:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 242.
+===============================
+09:41:04
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.7584995585225E11
+Elapsed Time(s)   = 56.49
+#Covered Branch   = 64
+#Branch           = 245
+#Query            = 7
+#Events           = 7
+#Reset            = 1
+Query Average(ms) = 8069.71
+Event Average(ms) = 5998.86
+Reset Average(ms) = 14442
+Execution Rate    = 99.9%
+Events : Reset    = 74.41 : 25.59
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:04 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 393 499.
+===============================
+09:41:09
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.5631107245966666E11
+Elapsed Time(m)   = 1.03
+#Covered Branch   = 70
+#Branch           = 245
+#Query            = 8
+#Events           = 8
+#Reset            = 1
+Query Average(ms) = 7724.75
+Event Average(ms) = 5912.38
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 76.61 : 23.39
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:09 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 290 499.
+===============================
+09:41:14
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.406799657397E11
+Elapsed Time(m)   = 1.12
+#Covered Branch   = 70
+#Branch           = 245
+#Query            = 9
+#Events           = 9
+#Reset            = 1
+Query Average(ms) = 7450
+Event Average(ms) = 5838.44
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 78.44 : 21.56
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:14 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 344 602.
+===============================
+09:41:20
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.2789087844290909E11
+Elapsed Time(m)   = 1.21
+#Covered Branch   = 70
+#Branch           = 245
+#Query            = 10
+#Events           = 10
+#Reset            = 1
+Query Average(ms) = 7250.4
+Event Average(ms) = 5799.8
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 80.06 : 19.94
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:20 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:41:25
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.1723330572966667E11
+Elapsed Time(m)   = 1.31
+#Covered Branch   = 70
+#Branch           = 245
+#Query            = 11
+#Events           = 11
+#Reset            = 1
+Query Average(ms) = 7125.36
+Event Average(ms) = 5806.18
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 81.56 : 18.44
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:25 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:41:31
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.0821535959715384E11
+Elapsed Time(m)   = 1.41
+#Covered Branch   = 72
+#Branch           = 245
+#Query            = 12
+#Events           = 12
+#Reset            = 1
+Query Average(ms) = 7031.33
+Event Average(ms) = 5821.58
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 82.87 : 17.13
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:31 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 476 699.
+===============================
+09:41:37
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.0048569146157143E11
+Elapsed Time(m)   = 1.5
+#Covered Branch   = 77
+#Branch           = 245
+#Query            = 13
+#Events           = 13
+#Reset            = 1
+Query Average(ms) = 6927.85
+Event Average(ms) = 5810.62
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 83.95 : 16.05
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:37 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 182 499.
+===============================
+09:41:42
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 9.378664571226666E10
+Elapsed Time(m)   = 1.59
+#Covered Branch   = 80
+#Branch           = 245
+#Query            = 14
+#Events           = 14
+#Reset            = 1
+Query Average(ms) = 6804.93
+Event Average(ms) = 5767.14
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 84.83 : 15.17
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:42 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 236 602.
+===============================
+09:41:48
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 8.7924980699375E10
+Elapsed Time(m)   = 1.68
+#Covered Branch   = 80
+#Branch           = 245
+#Query            = 15
+#Events           = 15
+#Reset            = 1
+Query Average(ms) = 6717.8
+Event Average(ms) = 5749.07
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 85.66 : 14.34
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:48 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 128 602.
+===============================
+09:41:53
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 8.275292332464706E10
+Elapsed Time(m)   = 1.77
+#Covered Branch   = 80
+#Branch           = 245
+#Query            = 16
+#Events           = 16
+#Reset            = 1
+Query Average(ms) = 6628.75
+Event Average(ms) = 5720.44
+Reset Average(ms) = 14442
+Execution Rate    = 99.91%
+Events : Reset    = 86.37 : 13.63
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:53 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:41:59
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.815553901705556E10
+Elapsed Time(m)   = 1.86
+#Covered Branch   = 89
+#Branch           = 245
+#Query            = 17
+#Events           = 17
+#Reset            = 1
+Query Average(ms) = 6578.29
+Event Average(ms) = 5723.24
+Reset Average(ms) = 14442
+Execution Rate    = 99.92%
+Events : Reset    = 87.08 : 12.92
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:41:59 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:42:04
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.404208987457895E10
+Elapsed Time(m)   = 1.95
+#Covered Branch   = 89
+#Branch           = 245
+#Query            = 18
+#Events           = 18
+#Reset            = 1
+Query Average(ms) = 6506.83
+Event Average(ms) = 5699.22
+Reset Average(ms) = 14442
+Execution Rate    = 99.92%
+Events : Reset    = 87.66 : 12.34
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:42:04 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 347 549.
+===============================
+09:42:10
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.033998567225E10
+Elapsed Time(m)   = 2.05
+#Covered Branch   = 93
+#Branch           = 245
+#Query            = 19
+#Events           = 19
+#Reset            = 1
+Query Average(ms) = 6470.63
+Event Average(ms) = 5705.42
+Reset Average(ms) = 14442
+Execution Rate    = 99.92%
+Events : Reset    = 88.24 : 11.76
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:42:10 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 323.
+===============================
+09:42:16
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 6.699046283552381E10
+Elapsed Time(m)   = 2.15
+#Covered Branch   = 94
+#Branch           = 245
+#Query            = 20
+#Events           = 20
+#Reset            = 1
+Query Average(ms) = 6451.25
+Event Average(ms) = 5724.1
+Reset Average(ms) = 14442
+Execution Rate    = 99.92%
+Events : Reset    = 88.8 : 11.2
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:42:16 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 447 602.
+===============================
+09:42:21
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 6.394544203190909E10
+Elapsed Time(m)   = 2.24
+#Covered Branch   = 94
+#Branch           = 245
+#Query            = 21
+#Events           = 21
+#Reset            = 1
+Query Average(ms) = 6389.14
+Event Average(ms) = 5696.57
+Reset Average(ms) = 14442
+Execution Rate    = 99.92%
+Events : Reset    = 89.23 : 10.77
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:42:21 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 124.
+===============================
+09:42:27
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 6.116520564891304E10
+Elapsed Time(m)   = 2.32
+#Covered Branch   = 94
+#Branch           = 245
+#Query            = 22
+#Events           = 22
+#Reset            = 1
+Query Average(ms) = 6335.68
+Event Average(ms) = 5674.55
+Reset Average(ms) = 14442
+Execution Rate    = 99.93%
+Events : Reset    = 89.63 : 10.37
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:42:27 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:42:32
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 5.8616655630583336E10
+Elapsed Time(m)   = 2.41
+#Covered Branch   = 94
+#Branch           = 245
+#Query            = 23
+#Events           = 23
+#Reset            = 1
+Query Average(ms) = 6285.48
+Event Average(ms) = 5652.91
+Reset Average(ms) = 14442
+Execution Rate    = 99.93%
+Events : Reset    = 90 : 10
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:42:32 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:42:38
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 5.8616655630583336E10
+Elapsed Time(m)   = 2.51
+#Covered Branch   = 94
+#Branch           = 245
+#Query            = 24
+#Events           = 24
+#Reset            = 1
+Query Average(ms) = 6268.5
+Event Average(ms) = 5662.25
+Reset Average(ms) = 14442
+Execution Rate    = 99.93%
+Events : Reset    = 90.39 : 9.61
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:42:38 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:42:40
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 5.627198971584E10
+Elapsed Time(m)   = 2.54
+#Covered Branch   = 95
+#Branch           = 245
+#Query            = 25
+#Events           = 24
+#Reset            = 1
+Query Average(ms) = 6091.52
+Event Average(ms) = 5662.25
+Reset Average(ms) = 14442
+Execution Rate    = 98.72%
+Events : Reset    = 90.39 : 9.61
+Decision Rate     = 0.06%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:42:53 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:43:00
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 5.627198971584E10
+Elapsed Time(m)   = 2.87
+#Covered Branch   = 95
+#Branch           = 245
+#Query            = 26
+#Events           = 25
+#Reset            = 2
+Query Average(ms) = 6622.77
+Event Average(ms) = 5698.08
+Reset Average(ms) = 13893.5
+Execution Rate    = 98.87%
+Events : Reset    = 83.68 : 16.32
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:43:00 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 799.
+===============================
+09:43:06
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 5.410768342330769E10
+Elapsed Time(m)   = 2.97
+#Covered Branch   = 115
+#Branch           = 245
+#Query            = 27
+#Events           = 26
+#Reset            = 2
+Query Average(ms) = 6606.22
+Event Average(ms) = 5716.27
+Reset Average(ms) = 13893.5
+Execution Rate    = 98.9%
+Events : Reset    = 84.25 : 15.75
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:43:06 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 279.
+===============================
+09:43:11
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 5.210369534559259E10
+Elapsed Time(m)   = 3.06
+#Covered Branch   = 118
+#Branch           = 245
+#Query            = 28
+#Events           = 27
+#Reset            = 2
+Query Average(ms) = 6560.11
+Event Average(ms) = 5701.37
+Reset Average(ms) = 13893.5
+Execution Rate    = 98.93%
+Events : Reset    = 84.71 : 15.29
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:43:11 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 449 614.
+===============================
+09:43:17
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 5.024284929121429E10
+Elapsed Time(m)   = 3.16
+#Covered Branch   = 118
+#Branch           = 245
+#Query            = 29
+#Events           = 28
+#Reset            = 2
+Query Average(ms) = 6534.34
+Event Average(ms) = 5705.21
+Reset Average(ms) = 13893.5
+Execution Rate    = 98.96%
+Events : Reset    = 85.18 : 14.82
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:43:17 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:43:23
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.851033744786207E10
+Elapsed Time(m)   = 3.26
+#Covered Branch   = 118
+#Branch           = 245
+#Query            = 30
+#Events           = 29
+#Reset            = 2
+Query Average(ms) = 6510.63
+Event Average(ms) = 5709.21
+Reset Average(ms) = 13893.5
+Execution Rate    = 98.99%
+Events : Reset    = 85.63 : 14.37
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:43:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:43:28
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.6893326392066666E10
+Elapsed Time(m)   = 3.35
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 31
+#Events           = 30
+#Reset            = 2
+Query Average(ms) = 6486.32
+Event Average(ms) = 5710.57
+Reset Average(ms) = 13893.5
+Execution Rate    = 99.02%
+Events : Reset    = 86.04 : 13.96
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:43:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:43:34
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.538063862548387E10
+Elapsed Time(m)   = 3.44
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 32
+#Events           = 31
+#Reset            = 2
+Query Average(ms) = 6459.03
+Event Average(ms) = 5706.39
+Reset Average(ms) = 13893.5
+Execution Rate    = 99.03%
+Events : Reset    = 86.42 : 13.58
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:43:34 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:43:40
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.396249385403125E10
+Elapsed Time(m)   = 3.54
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 33
+#Events           = 32
+#Reset            = 2
+Query Average(ms) = 6442.97
+Event Average(ms) = 5713.28
+Reset Average(ms) = 13893.5
+Execution Rate    = 99.06%
+Events : Reset    = 86.81 : 13.19
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:43:40 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:43:42
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.263029712578788E10
+Elapsed Time(m)   = 3.57
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 34
+#Events           = 32
+#Reset            = 2
+Query Average(ms) = 6306.79
+Event Average(ms) = 5713.28
+Reset Average(ms) = 13893.5
+Execution Rate    = 98.22%
+Events : Reset    = 86.81 : 13.19
+Decision Rate     = 0.08%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:43:56 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:44:02
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.263029712578788E10
+Elapsed Time(m)   = 3.91
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 35
+#Events           = 33
+#Reset            = 3
+Query Average(ms) = 6710.6
+Event Average(ms) = 5743.45
+Reset Average(ms) = 13838.67
+Execution Rate    = 98.37%
+Events : Reset    = 82.03 : 17.97
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:44:02 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 799.
+===============================
+09:44:09
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.263029712578788E10
+Elapsed Time(m)   = 4.02
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 36
+#Events           = 34
+#Reset            = 3
+Query Average(ms) = 6695.83
+Event Average(ms) = 5756.26
+Reset Average(ms) = 13838.67
+Execution Rate    = 98.41%
+Events : Reset    = 82.5 : 17.5
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:44:09 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:44:15
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.263029712578788E10
+Elapsed Time(m)   = 4.12
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 37
+#Events           = 35
+#Reset            = 3
+Query Average(ms) = 6678.89
+Event Average(ms) = 5765.2
+Reset Average(ms) = 13838.67
+Execution Rate    = 98.45%
+Events : Reset    = 82.94 : 17.06
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:44:15 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:44:20
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.137646598870588E10
+Elapsed Time(m)   = 4.21
+#Covered Branch   = 134
+#Branch           = 245
+#Query            = 38
+#Events           = 36
+#Reset            = 3
+Query Average(ms) = 6654.11
+Event Average(ms) = 5764.39
+Reset Average(ms) = 13838.67
+Execution Rate    = 98.49%
+Events : Reset    = 83.33 : 16.67
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:44:20 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 476 799.
+===============================
+09:44:22
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.019428129591428E10
+Elapsed Time(m)   = 4.24
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 39
+#Events           = 36
+#Reset            = 3
+Query Average(ms) = 6527.77
+Event Average(ms) = 5764.39
+Reset Average(ms) = 13838.67
+Execution Rate    = 97.82%
+Events : Reset    = 83.33 : 16.67
+Decision Rate     = 0.07%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:44:36 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:44:42
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.019428129591428E10
+Elapsed Time(m)   = 4.58
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 40
+#Events           = 37
+#Reset            = 4
+Query Average(ms) = 6869.68
+Event Average(ms) = 5785.59
+Reset Average(ms) = 13792.5
+Execution Rate    = 97.98%
+Events : Reset    = 79.51 : 20.49
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:44:42 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 799.
+===============================
+09:44:48
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.019428129591428E10
+Elapsed Time(m)   = 4.68
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 41
+#Events           = 38
+#Reset            = 4
+Query Average(ms) = 6848.51
+Event Average(ms) = 5791.26
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.02%
+Events : Reset    = 79.96 : 20.04
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:44:48 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:44:54
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.019428129591428E10
+Elapsed Time(m)   = 4.78
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 42
+#Events           = 39
+#Reset            = 4
+Query Average(ms) = 6827
+Event Average(ms) = 5795.21
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.06%
+Events : Reset    = 80.38 : 19.62
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:44:54 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 323.
+===============================
+09:45:01
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.9077774552666664E10
+Elapsed Time(m)   = 4.88
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 43
+#Events           = 40
+#Reset            = 4
+Query Average(ms) = 6815.91
+Event Average(ms) = 5808.92
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.1%
+Events : Reset    = 80.81 : 19.19
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:01 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:45:06
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.9077774552666664E10
+Elapsed Time(m)   = 4.98
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 44
+#Events           = 41
+#Reset            = 4
+Query Average(ms) = 6787.09
+Event Average(ms) = 5802.51
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.14%
+Events : Reset    = 81.18 : 18.82
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:06 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:45:12
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.9077774552666664E10
+Elapsed Time(m)   = 5.08
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 45
+#Events           = 42
+#Reset            = 4
+Query Average(ms) = 6767.89
+Event Average(ms) = 5805.36
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.17%
+Events : Reset    = 81.55 : 18.45
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 25 470.
+Jul 31, 2014 9:45:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 470.
+Jul 31, 2014 9:45:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 460.
+Jul 31, 2014 9:45:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 449.
+Jul 31, 2014 9:45:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 439.
+Jul 31, 2014 9:45:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 429.
+Jul 31, 2014 9:45:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 419.
+Jul 31, 2014 9:45:13 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 408.
+Jul 31, 2014 9:45:13 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 398.
+Jul 31, 2014 9:45:13 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 388.
+Jul 31, 2014 9:45:13 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 377.
+Jul 31, 2014 9:45:13 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 367.
+Jul 31, 2014 9:45:13 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch up 25 367.
+===============================
+09:45:17
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.802161893337838E10
+Elapsed Time(m)   = 5.16
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 46
+#Events           = 43
+#Reset            = 4
+Query Average(ms) = 6732.41
+Event Average(ms) = 5789.7
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.2%
+Events : Reset    = 81.86 : 18.14
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:17 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:45:23
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.702105015781579E10
+Elapsed Time(m)   = 5.25
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 47
+#Events           = 44
+#Reset            = 4
+Query Average(ms) = 6705.17
+Event Average(ms) = 5782
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.23%
+Events : Reset    = 82.18 : 17.82
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 25 367.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 367.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 377.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 388.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 398.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 408.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 419.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 429.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 439.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 449.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 460.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 25 470.
+Jul 31, 2014 9:45:23 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch up 25 470.
+===============================
+09:45:28
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.607179260361539E10
+Elapsed Time(m)   = 5.34
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 48
+#Events           = 45
+#Reset            = 4
+Query Average(ms) = 6680.85
+Event Average(ms) = 5776.53
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.26%
+Events : Reset    = 82.49 : 17.51
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 347 549.
+===============================
+09:45:34
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.607179260361539E10
+Elapsed Time(m)   = 5.44
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 49
+#Events           = 46
+#Reset            = 4
+Query Average(ms) = 6660.45
+Event Average(ms) = 5774.43
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.29%
+Events : Reset    = 82.8 : 17.2
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:34 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:45:40
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.607179260361539E10
+Elapsed Time(m)   = 5.54
+#Covered Branch   = 135
+#Branch           = 245
+#Query            = 50
+#Events           = 47
+#Reset            = 4
+Query Average(ms) = 6644.28
+Event Average(ms) = 5776.04
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.32%
+Events : Reset    = 83.11 : 16.89
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:40 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 159 799.
+===============================
+09:45:46
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.5169998224975E10
+Elapsed Time(m)   = 5.63
+#Covered Branch   = 137
+#Branch           = 245
+#Query            = 51
+#Events           = 48
+#Reset            = 4
+Query Average(ms) = 6628.9
+Event Average(ms) = 5777.75
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.35%
+Events : Reset    = 83.41 : 16.59
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 1 168.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 168.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 172.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 175.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 179.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 182.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 186.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 190.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 193.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 197.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 200.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 204.
+Jul 31, 2014 9:45:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch up 1 204.
+===============================
+09:45:51
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.431219352190244E10
+Elapsed Time(m)   = 5.72
+#Covered Branch   = 137
+#Branch           = 245
+#Query            = 52
+#Events           = 49
+#Reset            = 4
+Query Average(ms) = 6605
+Event Average(ms) = 5769.71
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.38%
+Events : Reset    = 83.67 : 16.33
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:45:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:45:57
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.431219352190244E10
+Elapsed Time(m)   = 5.82
+#Covered Branch   = 137
+#Branch           = 245
+#Query            = 53
+#Events           = 50
+#Reset            = 4
+Query Average(ms) = 6589.08
+Event Average(ms) = 5769.52
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.4%
+Events : Reset    = 83.95 : 16.05
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:45:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:46:03
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.431219352190244E10
+Elapsed Time(m)   = 5.91
+#Covered Branch   = 137
+#Branch           = 245
+#Query            = 54
+#Events           = 51
+#Reset            = 4
+Query Average(ms) = 6570.61
+Event Average(ms) = 5766.04
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.43%
+Events : Reset    = 84.2 : 15.8
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:46:03 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 238 699.
+===============================
+09:46:08
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.3495236944261906E10
+Elapsed Time(m)   = 6.01
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 55
+#Events           = 52
+#Reset            = 4
+Query Average(ms) = 6557.93
+Event Average(ms) = 5767.88
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.45%
+Events : Reset    = 84.46 : 15.54
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:46:08 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:46:14
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.3495236944261906E10
+Elapsed Time(m)   = 6.1
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 56
+#Events           = 53
+#Reset            = 4
+Query Average(ms) = 6535.5
+Event Average(ms) = 5759.08
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.47%
+Events : Reset    = 84.69 : 15.31
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:46:14 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:46:20
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.3495236944261906E10
+Elapsed Time(m)   = 6.2
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 57
+#Events           = 54
+#Reset            = 4
+Query Average(ms) = 6526.61
+Event Average(ms) = 5764.06
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.5%
+Events : Reset    = 84.94 : 15.06
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:46:20 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:46:26
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.3495236944261906E10
+Elapsed Time(m)   = 6.3
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 58
+#Events           = 55
+#Reset            = 4
+Query Average(ms) = 6513.47
+Event Average(ms) = 5764.04
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.52%
+Events : Reset    = 85.18 : 14.82
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:46:26 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:46:31
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.27162784787907E10
+Elapsed Time(m)   = 6.39
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 59
+#Events           = 56
+#Reset            = 4
+Query Average(ms) = 6501.22
+Event Average(ms) = 5764.46
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.54%
+Events : Reset    = 85.4 : 14.6
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:46:31 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 323.
+===============================
+09:46:37
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.1972726830886364E10
+Elapsed Time(m)   = 6.49
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 60
+#Events           = 57
+#Reset            = 4
+Query Average(ms) = 6492.22
+Event Average(ms) = 5767.75
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.56%
+Events : Reset    = 85.63 : 14.37
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:46:37 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:46:42
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.1972726830886364E10
+Elapsed Time(m)   = 6.58
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 61
+#Events           = 58
+#Reset            = 4
+Query Average(ms) = 6469.89
+Event Average(ms) = 5756.71
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.58%
+Events : Reset    = 85.82 : 14.18
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:46:42 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:46:48
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.1972726830886364E10
+Elapsed Time(m)   = 6.67
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 62
+#Events           = 59
+#Reset            = 4
+Query Average(ms) = 6458.08
+Event Average(ms) = 5756.36
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.6%
+Events : Reset    = 86.03 : 13.97
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:46:48 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:46:54
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.1972726830886364E10
+Elapsed Time(m)   = 6.77
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 63
+#Events           = 60
+#Reset            = 4
+Query Average(ms) = 6448.25
+Event Average(ms) = 5757.72
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.62%
+Events : Reset    = 86.23 : 13.77
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:46:54 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:47:00
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.12622222954E10
+Elapsed Time(m)   = 6.87
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 64
+#Events           = 61
+#Reset            = 4
+Query Average(ms) = 6440.39
+Event Average(ms) = 5760.74
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.64%
+Events : Reset    = 86.43 : 13.57
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:00 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:47:02
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.0582608807608696E10
+Elapsed Time(m)   = 6.9
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 65
+#Events           = 61
+#Reset            = 4
+Query Average(ms) = 6369.72
+Event Average(ms) = 5760.74
+Reset Average(ms) = 13792.5
+Execution Rate    = 98.2%
+Events : Reset    = 86.43 : 13.57
+Decision Rate     = 0.05%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:47:15 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:47:22
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.0582608807608696E10
+Elapsed Time(m)   = 7.23
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 66
+#Events           = 62
+#Reset            = 5
+Query Average(ms) = 6576.53
+Event Average(ms) = 5774.53
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.28%
+Events : Reset    = 83.93 : 16.07
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:22 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 799.
+===============================
+09:47:28
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.0582608807608696E10
+Elapsed Time(m)   = 7.34
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 67
+#Events           = 63
+#Reset            = 5
+Query Average(ms) = 6571.21
+Event Average(ms) = 5781.6
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.31%
+Events : Reset    = 84.16 : 15.84
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:47:34
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.0582608807608696E10
+Elapsed Time(m)   = 7.44
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 68
+#Events           = 64
+#Reset            = 5
+Query Average(ms) = 6561.29
+Event Average(ms) = 5783.41
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.33%
+Events : Reset    = 84.37 : 15.63
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:34 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:47:40
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.9931915813042553E10
+Elapsed Time(m)   = 7.53
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 69
+#Events           = 65
+#Reset            = 5
+Query Average(ms) = 6551.33
+Event Average(ms) = 5784.77
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.35%
+Events : Reset    = 84.58 : 15.42
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:40 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:47:46
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.9931915813042553E10
+Elapsed Time(m)   = 7.63
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 70
+#Events           = 66
+#Reset            = 5
+Query Average(ms) = 6538.94
+Event Average(ms) = 5783.23
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.37%
+Events : Reset    = 84.77 : 15.23
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:47:51
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.9931915813042553E10
+Elapsed Time(m)   = 7.73
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 71
+#Events           = 67
+#Reset            = 5
+Query Average(ms) = 6528.87
+Event Average(ms) = 5783.84
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.39%
+Events : Reset    = 84.97 : 15.03
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:47:57
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.9931915813042553E10
+Elapsed Time(m)   = 7.82
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 72
+#Events           = 68
+#Reset            = 5
+Query Average(ms) = 6519.03
+Event Average(ms) = 5784.37
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.41%
+Events : Reset    = 85.15 : 14.85
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:47:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 242.
+===============================
+09:48:03
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.930833471675E10
+Elapsed Time(m)   = 7.92
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 73
+#Events           = 69
+#Reset            = 5
+Query Average(ms) = 6509.32
+Event Average(ms) = 5784.55
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.43%
+Events : Reset    = 85.34 : 14.66
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:03 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:48:09
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.930833471675E10
+Elapsed Time(m)   = 8.02
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 74
+#Events           = 70
+#Reset            = 5
+Query Average(ms) = 6499.84
+Event Average(ms) = 5784.89
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.45%
+Events : Reset    = 85.52 : 14.48
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:09 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:48:15
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.930833471675E10
+Elapsed Time(m)   = 8.11
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 75
+#Events           = 71
+#Reset            = 5
+Query Average(ms) = 6491.56
+Event Average(ms) = 5786.2
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.46%
+Events : Reset    = 85.7 : 14.3
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:15 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:48:21
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.930833471675E10
+Elapsed Time(m)   = 8.21
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 76
+#Events           = 72
+#Reset            = 5
+Query Average(ms) = 6481.71
+Event Average(ms) = 5785.58
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.48%
+Events : Reset    = 85.87 : 14.13
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:21 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:48:26
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.8710205910857143E10
+Elapsed Time(m)   = 8.31
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 77
+#Events           = 73
+#Reset            = 5
+Query Average(ms) = 6472.01
+Event Average(ms) = 5784.85
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.5%
+Events : Reset    = 86.03 : 13.97
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:26 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:48:32
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.8710205910857143E10
+Elapsed Time(m)   = 8.4
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 78
+#Events           = 74
+#Reset            = 5
+Query Average(ms) = 6461.97
+Event Average(ms) = 5783.55
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.52%
+Events : Reset    = 86.19 : 13.81
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:32 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:48:38
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.8710205910857143E10
+Elapsed Time(m)   = 8.5
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 79
+#Events           = 75
+#Reset            = 5
+Query Average(ms) = 6453.35
+Event Average(ms) = 5783.52
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.53%
+Events : Reset    = 86.35 : 13.65
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:38 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 799.
+===============================
+09:48:44
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.8710205910857143E10
+Elapsed Time(m)   = 8.6
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 80
+#Events           = 76
+#Reset            = 5
+Query Average(ms) = 6446.6
+Event Average(ms) = 5785.22
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.55%
+Events : Reset    = 86.51 : 13.49
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:44 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:48:49
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.813600224658E10
+Elapsed Time(m)   = 8.68
+#Covered Branch   = 138
+#Branch           = 245
+#Query            = 81
+#Events           = 77
+#Reset            = 5
+Query Average(ms) = 6432.06
+Event Average(ms) = 5778.49
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.56%
+Events : Reset    = 86.65 : 13.35
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:49 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 315 351.
+===============================
+09:48:55
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.7584316036333332E10
+Elapsed Time(m)   = 8.78
+#Covered Branch   = 140
+#Branch           = 245
+#Query            = 82
+#Events           = 78
+#Reset            = 5
+Query Average(ms) = 6420.84
+Event Average(ms) = 5775.04
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.58%
+Events : Reset    = 86.79 : 13.21
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:48:55 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:49:00
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.7584316036333332E10
+Elapsed Time(m)   = 8.86
+#Covered Branch   = 140
+#Branch           = 245
+#Query            = 83
+#Events           = 79
+#Reset            = 5
+Query Average(ms) = 6406.51
+Event Average(ms) = 5768.14
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.59%
+Events : Reset    = 86.92 : 13.08
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:49:00 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 449 614.
+===============================
+09:49:05
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.705384862303846E10
+Elapsed Time(m)   = 8.95
+#Covered Branch   = 140
+#Branch           = 245
+#Query            = 84
+#Events           = 80
+#Reset            = 5
+Query Average(ms) = 6393.29
+Event Average(ms) = 5761.76
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.6%
+Events : Reset    = 87.05 : 12.95
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:49:05 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:49:10
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.705384862303846E10
+Elapsed Time(m)   = 9.04
+#Covered Branch   = 140
+#Branch           = 245
+#Query            = 85
+#Events           = 81
+#Reset            = 5
+Query Average(ms) = 6379.04
+Event Average(ms) = 5754.57
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.61%
+Events : Reset    = 87.18 : 12.82
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:49:10 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 449 614.
+===============================
+09:49:16
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.65433988455283E10
+Elapsed Time(m)   = 9.12
+#Covered Branch   = 140
+#Branch           = 245
+#Query            = 86
+#Events           = 82
+#Reset            = 5
+Query Average(ms) = 6365.47
+Event Average(ms) = 5747.65
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.62%
+Events : Reset    = 87.3 : 12.7
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:16 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 279.
+===============================
+09:49:21
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.6051854515574074E10
+Elapsed Time(m)   = 9.21
+#Covered Branch   = 140
+#Branch           = 245
+#Query            = 87
+#Events           = 83
+#Reset            = 5
+Query Average(ms) = 6350.03
+Event Average(ms) = 5738.9
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.63%
+Events : Reset    = 87.42 : 12.58
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:21 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:49:26
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.5578184538636364E10
+Elapsed Time(m)   = 9.3
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 88
+#Events           = 84
+#Reset            = 5
+Query Average(ms) = 6343.43
+Event Average(ms) = 5739.2
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.65%
+Events : Reset    = 87.55 : 12.45
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:26 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:49:32
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.5578184538636364E10
+Elapsed Time(m)   = 9.4
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 89
+#Events           = 85
+#Reset            = 5
+Query Average(ms) = 6338.47
+Event Average(ms) = 5741.09
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.66%
+Events : Reset    = 87.68 : 12.32
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:32 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:49:38
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.5578184538636364E10
+Elapsed Time(m)   = 9.49
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 90
+#Events           = 86
+#Reset            = 5
+Query Average(ms) = 6326.39
+Event Average(ms) = 5735.38
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.67%
+Events : Reset    = 87.79 : 12.21
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:38 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 315 351.
+===============================
+09:49:43
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.5121431536E10
+Elapsed Time(m)   = 9.58
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 91
+#Events           = 87
+#Reset            = 5
+Query Average(ms) = 6313.89
+Event Average(ms) = 5729.07
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.68%
+Events : Reset    = 87.91 : 12.09
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:43 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:49:48
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.5121431536E10
+Elapsed Time(m)   = 9.66
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 92
+#Events           = 88
+#Reset            = 5
+Query Average(ms) = 6301.58
+Event Average(ms) = 5722.82
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.7%
+Events : Reset    = 88.02 : 11.98
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:48 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:49:53
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.4680704853175438E10
+Elapsed Time(m)   = 9.75
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 93
+#Events           = 89
+#Reset            = 5
+Query Average(ms) = 6291.71
+Event Average(ms) = 5718.73
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.7%
+Events : Reset    = 88.13 : 11.87
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:53 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:49:59
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.4680704853175438E10
+Elapsed Time(m)   = 9.84
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 94
+#Events           = 90
+#Reset            = 5
+Query Average(ms) = 6280.3
+Event Average(ms) = 5713.18
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.71%
+Events : Reset    = 88.23 : 11.77
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:49:59 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 449 614.
+===============================
+09:50:04
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.425517564E10
+Elapsed Time(m)   = 9.93
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 95
+#Events           = 91
+#Reset            = 5
+Query Average(ms) = 6269.37
+Event Average(ms) = 5707.71
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.72%
+Events : Reset    = 88.34 : 11.66
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:04 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:50:09
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.425517564E10
+Elapsed Time(m)   = 10.01
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 96
+#Events           = 92
+#Reset            = 5
+Query Average(ms) = 6256.78
+Event Average(ms) = 5700.68
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.73%
+Events : Reset    = 88.44 : 11.56
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:09 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 279.
+===============================
+09:50:14
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.425517564E10
+Elapsed Time(m)   = 10.1
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 97
+#Events           = 93
+#Reset            = 5
+Query Average(ms) = 6246.56
+Event Average(ms) = 5695.99
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.74%
+Events : Reset    = 88.54 : 11.46
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:14 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 279.
+===============================
+09:50:20
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.3844071234372883E10
+Elapsed Time(m)   = 10.19
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 98
+#Events           = 94
+#Reset            = 5
+Query Average(ms) = 6237.29
+Event Average(ms) = 5692.14
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.75%
+Events : Reset    = 88.64 : 11.36
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:20 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 449 614.
+===============================
+09:50:25
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.3446670140833332E10
+Elapsed Time(m)   = 10.28
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 99
+#Events           = 95
+#Reset            = 5
+Query Average(ms) = 6231.01
+Event Average(ms) = 5691.32
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.76%
+Events : Reset    = 88.74 : 11.26
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:25 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 458 515.
+===============================
+09:50:31
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.306229859772131E10
+Elapsed Time(m)   = 10.38
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 100
+#Events           = 96
+#Reset            = 5
+Query Average(ms) = 6228.56
+Event Average(ms) = 5694.33
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.78%
+Events : Reset    = 88.85 : 11.15
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:31 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 279.
+===============================
+09:50:37
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.306229859772131E10
+Elapsed Time(m)   = 10.47
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 101
+#Events           = 97
+#Reset            = 5
+Query Average(ms) = 6221.55
+Event Average(ms) = 5692.55
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.79%
+Events : Reset    = 88.95 : 11.05
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:37 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:50:43
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.306229859772131E10
+Elapsed Time(m)   = 10.57
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 102
+#Events           = 98
+#Reset            = 5
+Query Average(ms) = 6217.14
+Event Average(ms) = 5693.35
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.8%
+Events : Reset    = 89.06 : 10.94
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:43 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 242.
+===============================
+09:50:49
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.2690326322903225E10
+Elapsed Time(m)   = 10.67
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 103
+#Events           = 99
+#Reset            = 5
+Query Average(ms) = 6217.31
+Event Average(ms) = 5698.71
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.81%
+Events : Reset    = 89.16 : 10.84
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:49 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:50:55
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.2690326322903225E10
+Elapsed Time(m)   = 10.77
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 104
+#Events           = 100
+#Reset            = 5
+Query Average(ms) = 6212.83
+Event Average(ms) = 5699.22
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.82%
+Events : Reset    = 89.26 : 10.74
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:50:55 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:51:00
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.2690326322903225E10
+Elapsed Time(m)   = 10.86
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 105
+#Events           = 101
+#Reset            = 5
+Query Average(ms) = 6207.52
+Event Average(ms) = 5698.78
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.83%
+Events : Reset    = 89.35 : 10.65
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:00 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:51:06
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.2690326322903225E10
+Elapsed Time(m)   = 10.95
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 106
+#Events           = 102
+#Reset            = 5
+Query Average(ms) = 6200.49
+Event Average(ms) = 5696.46
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.84%
+Events : Reset    = 89.44 : 10.56
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:06 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:51:11
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.2330162772984127E10
+Elapsed Time(m)   = 11.05
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 107
+#Events           = 103
+#Reset            = 5
+Query Average(ms) = 6196.49
+Event Average(ms) = 5697.17
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.85%
+Events : Reset    = 89.54 : 10.46
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:11 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:51:17
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.2330162772984127E10
+Elapsed Time(m)   = 11.14
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 108
+#Events           = 104
+#Reset            = 5
+Query Average(ms) = 6186.83
+Event Average(ms) = 5691.94
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.86%
+Events : Reset    = 89.62 : 10.38
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:17 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:51:22
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.2330162772984127E10
+Elapsed Time(m)   = 11.23
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 109
+#Events           = 105
+#Reset            = 5
+Query Average(ms) = 6182.62
+Event Average(ms) = 5692.28
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.87%
+Events : Reset    = 89.71 : 10.29
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:22 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 242.
+===============================
+09:51:28
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.1981254245734375E10
+Elapsed Time(m)   = 11.33
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 110
+#Events           = 106
+#Reset            = 5
+Query Average(ms) = 6181.95
+Event Average(ms) = 5696.08
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.87%
+Events : Reset    = 89.8 : 10.2
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:51:34
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.1981254245734375E10
+Elapsed Time(m)   = 11.43
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 111
+#Events           = 107
+#Reset            = 5
+Query Average(ms) = 6178.54
+Event Average(ms) = 5697.06
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.88%
+Events : Reset    = 89.89 : 10.11
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:34 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:51:40
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.1643081282369232E10
+Elapsed Time(m)   = 11.53
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 112
+#Events           = 108
+#Reset            = 5
+Query Average(ms) = 6175.16
+Event Average(ms) = 5697.79
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.89%
+Events : Reset    = 89.97 : 10.03
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:40 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:51:46
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.1643081282369232E10
+Elapsed Time(m)   = 11.63
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 113
+#Events           = 109
+#Reset            = 5
+Query Average(ms) = 6173
+Event Average(ms) = 5699.92
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.9%
+Events : Reset    = 90.06 : 9.94
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:51:46 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:51:48
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.1315155923757576E10
+Elapsed Time(m)   = 11.65
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 114
+#Events           = 109
+#Reset            = 5
+Query Average(ms) = 6133.49
+Event Average(ms) = 5699.92
+Reset Average(ms) = 13714.4
+Execution Rate    = 98.66%
+Events : Reset    = 90.06 : 9.94
+Decision Rate     = 0.07%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:52:02 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:52:04
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.099701951597015E10
+Elapsed Time(m)   = 11.93
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 115
+#Events           = 109
+#Reset            = 6
+Query Average(ms) = 6224.44
+Event Average(ms) = 5699.92
+Reset Average(ms) = 13795.5
+Execution Rate    = 98.36%
+Events : Reset    = 88.24 : 11.76
+Decision Rate     = 0.07%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:52:18 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:52:25
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.099701951597015E10
+Elapsed Time(m)   = 12.27
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 116
+#Events           = 110
+#Reset            = 7
+Query Average(ms) = 6347.27
+Event Average(ms) = 5711.77
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.4%
+Events : Reset    = 86.72 : 13.28
+Decision Rate     = 0.07%
+===============================
+Jul 31, 2014 9:52:25 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:52:31
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.099701951597015E10
+Elapsed Time(m)   = 12.37
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 117
+#Events           = 111
+#Reset            = 7
+Query Average(ms) = 6343.39
+Event Average(ms) = 5713.4
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.42%
+Events : Reset    = 86.82 : 13.18
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:52:31 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:52:36
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0688240290411766E10
+Elapsed Time(m)   = 12.47
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 118
+#Events           = 112
+#Reset            = 7
+Query Average(ms) = 6338.57
+Event Average(ms) = 5713.91
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.43%
+Events : Reset    = 86.93 : 13.07
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:52:36 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 159 799.
+===============================
+09:52:42
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0688240290411766E10
+Elapsed Time(m)   = 12.56
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 119
+#Events           = 113
+#Reset            = 7
+Query Average(ms) = 6334.57
+Event Average(ms) = 5715.23
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.44%
+Events : Reset    = 87.03 : 12.97
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:52:42 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:52:48
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0688240290411766E10
+Elapsed Time(m)   = 12.66
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 120
+#Events           = 114
+#Reset            = 7
+Query Average(ms) = 6331.09
+Event Average(ms) = 5717
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.45%
+Events : Reset    = 87.13 : 12.87
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:52:48 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 323.
+===============================
+09:52:54
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0388410980231884E10
+Elapsed Time(m)   = 12.76
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 121
+#Events           = 115
+#Reset            = 7
+Query Average(ms) = 6329.11
+Event Average(ms) = 5720.24
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.47%
+Events : Reset    = 87.24 : 12.76
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:52:54 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 344 602.
+===============================
+09:53:00
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0097148044014286E10
+Elapsed Time(m)   = 12.85
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 122
+#Events           = 116
+#Reset            = 7
+Query Average(ms) = 6321.8
+Event Average(ms) = 5717.74
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.47%
+Events : Reset    = 87.33 : 12.67
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:00 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+===============================
+09:53:06
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0097148044014286E10
+Elapsed Time(m)   = 12.95
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 123
+#Events           = 117
+#Reset            = 7
+Query Average(ms) = 6317.3
+Event Average(ms) = 5718.18
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.49%
+Events : Reset    = 87.42 : 12.58
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:06 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:53:11
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0097148044014286E10
+Elapsed Time(m)   = 13.05
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 124
+#Events           = 118
+#Reset            = 7
+Query Average(ms) = 6312.62
+Event Average(ms) = 5718.33
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.5%
+Events : Reset    = 87.52 : 12.48
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:11 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:53:17
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0097148044014286E10
+Elapsed Time(m)   = 13.14
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 125
+#Events           = 119
+#Reset            = 7
+Query Average(ms) = 6308.78
+Event Average(ms) = 5719.29
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.51%
+Events : Reset    = 87.61 : 12.39
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:17 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:53:19
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.981408988956338E10
+Elapsed Time(m)   = 13.17
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 126
+#Events           = 119
+#Reset            = 7
+Query Average(ms) = 6271.98
+Event Average(ms) = 5719.29
+Reset Average(ms) = 13748.43
+Execution Rate    = 98.3%
+Events : Reset    = 87.61 : 12.39
+Decision Rate     = 0.06%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:53:33 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:53:39
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.981408988956338E10
+Elapsed Time(m)   = 13.51
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 127
+#Events           = 120
+#Reset            = 8
+Query Average(ms) = 6382.9
+Event Average(ms) = 5727.53
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.34%
+Events : Reset    = 86.22 : 13.78
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:39 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:53:45
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.981408988956338E10
+Elapsed Time(m)   = 13.61
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 128
+#Events           = 121
+#Reset            = 8
+Query Average(ms) = 6379.56
+Event Average(ms) = 5729.41
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.35%
+Events : Reset    = 86.32 : 13.68
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:45 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:53:51
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.981408988956338E10
+Elapsed Time(m)   = 13.71
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 129
+#Events           = 122
+#Reset            = 8
+Query Average(ms) = 6375.43
+Event Average(ms) = 5730.38
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.37%
+Events : Reset    = 86.42 : 13.58
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 1 168.
+Jul 31, 2014 9:53:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 168.
+Jul 31, 2014 9:53:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 172.
+Jul 31, 2014 9:53:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 175.
+Jul 31, 2014 9:53:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 179.
+Jul 31, 2014 9:53:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 182.
+Jul 31, 2014 9:53:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 186.
+Jul 31, 2014 9:53:52 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 190.
+Jul 31, 2014 9:53:52 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 193.
+Jul 31, 2014 9:53:52 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 197.
+Jul 31, 2014 9:53:52 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 200.
+Jul 31, 2014 9:53:52 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 204.
+Jul 31, 2014 9:53:52 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch up 1 204.
+===============================
+09:53:57
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.9538894724375E10
+Elapsed Time(m)   = 13.8
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 130
+#Events           = 123
+#Reset            = 8
+Query Average(ms) = 6370.96
+Event Average(ms) = 5730.89
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.38%
+Events : Reset    = 86.51 : 13.49
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 1 204.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 204.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 200.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 197.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 193.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 190.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 186.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 182.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 179.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 175.
+Jul 31, 2014 9:53:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 172.
+Jul 31, 2014 9:53:58 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 168.
+Jul 31, 2014 9:53:58 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch up 1 168.
+===============================
+09:54:02
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.927123870608219E10
+Elapsed Time(m)   = 13.89
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 131
+#Events           = 124
+#Reset            = 8
+Query Average(ms) = 6363.4
+Event Average(ms) = 5728.04
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.39%
+Events : Reset    = 86.6 : 13.4
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:02 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:54:08
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.927123870608219E10
+Elapsed Time(m)   = 13.99
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 132
+#Events           = 125
+#Reset            = 8
+Query Average(ms) = 6359.28
+Event Average(ms) = 5728.77
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.4%
+Events : Reset    = 86.7 : 13.3
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:08 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 242.
+===============================
+09:54:14
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.927123870608219E10
+Elapsed Time(m)   = 14.09
+#Covered Branch   = 141
+#Branch           = 245
+#Query            = 133
+#Events           = 126
+#Reset            = 8
+Query Average(ms) = 6355.52
+Event Average(ms) = 5729.8
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.41%
+Events : Reset    = 86.79 : 13.21
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:14 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:54:20
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.901081680039189E10
+Elapsed Time(m)   = 14.19
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 134
+#Events           = 127
+#Reset            = 8
+Query Average(ms) = 6352.58
+Event Average(ms) = 5731.61
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.42%
+Events : Reset    = 86.88 : 13.12
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:20 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:54:26
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.901081680039189E10
+Elapsed Time(m)   = 14.28
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 135
+#Events           = 128
+#Reset            = 8
+Query Average(ms) = 6348.13
+Event Average(ms) = 5731.77
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.43%
+Events : Reset    = 86.97 : 13.03
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:26 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 317 799.
+===============================
+09:54:32
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.901081680039189E10
+Elapsed Time(m)   = 14.38
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 136
+#Events           = 129
+#Reset            = 8
+Query Average(ms) = 6345.78
+Event Average(ms) = 5734.06
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.44%
+Events : Reset    = 87.07 : 12.93
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:32 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 449 614.
+===============================
+09:54:37
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.901081680039189E10
+Elapsed Time(m)   = 14.48
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 137
+#Events           = 130
+#Reset            = 8
+Query Average(ms) = 6341.22
+Event Average(ms) = 5733.95
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.45%
+Events : Reset    = 87.15 : 12.85
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:37 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:54:43
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.8757339546253334E10
+Elapsed Time(m)   = 14.57
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 138
+#Events           = 131
+#Reset            = 8
+Query Average(ms) = 6332.96
+Event Average(ms) = 5729.87
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.46%
+Events : Reset    = 87.23 : 12.77
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:43 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 458 321.
+===============================
+09:54:49
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.8510532523710526E10
+Elapsed Time(m)   = 14.66
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 139
+#Events           = 132
+#Reset            = 8
+Query Average(ms) = 6329.22
+Event Average(ms) = 5730.48
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.47%
+Events : Reset    = 87.32 : 12.68
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:49 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:54:55
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.827013607574026E10
+Elapsed Time(m)   = 14.76
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 140
+#Events           = 133
+#Reset            = 8
+Query Average(ms) = 6327.01
+Event Average(ms) = 5732.65
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.48%
+Events : Reset    = 87.4 : 12.6
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:54:55 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 323.
+===============================
+09:55:00
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.827013607574026E10
+Elapsed Time(m)   = 14.86
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 141
+#Events           = 134
+#Reset            = 8
+Query Average(ms) = 6324.08
+Event Average(ms) = 5734.01
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.49%
+Events : Reset    = 87.49 : 12.51
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:55:00 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 236 602.
+===============================
+09:55:06
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.8035903706576923E10
+Elapsed Time(m)   = 14.95
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 142
+#Events           = 135
+#Reset            = 8
+Query Average(ms) = 6317.21
+Event Average(ms) = 5731.15
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.5%
+Events : Reset    = 87.56 : 12.44
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:55:06 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+===============================
+09:55:12
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.7807601201126583E10
+Elapsed Time(m)   = 15.05
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 143
+#Events           = 136
+#Reset            = 8
+Query Average(ms) = 6313.34
+Event Average(ms) = 5731.38
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.51%
+Events : Reset    = 87.64 : 12.36
+Decision Rate     = 0.06%
+===============================
+Jul 31, 2014 9:55:12 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 128 602.
+===============================
+09:55:17
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.75850062527875E10
+Elapsed Time(m)   = 15.14
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 144
+#Events           = 137
+#Reset            = 8
+Query Average(ms) = 6306.49
+Event Average(ms) = 5728.42
+Reset Average(ms) = 13735.75
+Execution Rate    = 98.52%
+Events : Reset    = 87.72 : 12.28
+Decision Rate     = 0.06%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:55:31 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 422.
+===============================
+09:55:38
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.75850062527875E10
+Elapsed Time(m)   = 15.49
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 145
+#Events           = 138
+#Reset            = 9
+Query Average(ms) = 6408.26
+Event Average(ms) = 5736.06
+Reset Average(ms) = 13796.11
+Execution Rate    = 98.55%
+Events : Reset    = 86.44 : 13.56
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:55:38 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 471 799.
+===============================
+09:55:44
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.75850062527875E10
+Elapsed Time(m)   = 15.59
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 146
+#Events           = 139
+#Reset            = 9
+Query Average(ms) = 6405.23
+Event Average(ms) = 5737.72
+Reset Average(ms) = 13796.11
+Execution Rate    = 98.56%
+Events : Reset    = 86.53 : 13.47
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:55:44 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 474 323.
+===============================
+09:55:50
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.75850062527875E10
+Elapsed Time(m)   = 15.68
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 147
+#Events           = 140
+#Reset            = 9
+Query Average(ms) = 6401.46
+Event Average(ms) = 5738.5
+Reset Average(ms) = 13796.11
+Execution Rate    = 98.57%
+Events : Reset    = 86.61 : 13.39
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:55:50 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 290 499.
+===============================
+09:55:55
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.7367907881962963E10
+Elapsed Time(m)   = 15.77
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 148
+#Events           = 141
+#Reset            = 9
+Query Average(ms) = 6394.04
+Event Average(ms) = 5735.41
+Reset Average(ms) = 13796.11
+Execution Rate    = 98.58%
+Events : Reset    = 86.69 : 13.31
+Decision Rate     = 0.05%
+===============================
+Jul 31, 2014 9:55:55 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 447 602.
+===============================
+09:56:01
+Target            = net.fercanet.LNM_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.7156104193231707E10
+Elapsed Time(m)   = 15.86
+#Covered Branch   = 142
+#Branch           = 245
+#Query            = 149
+#Events           = 142
+#Reset            = 9
+Query Average(ms) = 6387.34
+Event Average(ms) = 5733.01
+Reset Average(ms) = 13796.11
+Execution Rate    = 98.59%
+Events : Reset    = 86.77 : 13.23
+Decision Rate     = 0.05%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:56:15 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+Error!
+java.lang.RuntimeException: Being inconsistent for 1 times?
+path:	MENU
+model:	{MENU, BACK, (238,699,IconMenuItemView), (476,699,IconMenuItemView), (159,799,IconMenuItemView), (317,799,IconMenuItemView), (476,799,IconMenuItemView)}
+observed:	{MENU, BACK, (474,242,Button), (474,323,Button), (474,422,Button), (471,799,Button)}
+
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.handleInconsistency(AbstractLearningGuide.java:367)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:187)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:56)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:119)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+Caused by: edu.berkeley.wtchoi.swift.testing.android.learning.model.InconsistencyException
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.Model.visitState(Model.java:87)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.TreeModel.visitState(TreeModel.java:92)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.TreeModel.addTrace(TreeModel.java:78)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.updateTree(AbstractLearningGuide.java:210)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:184)
+	... 5 more

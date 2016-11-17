@@ -1,0 +1,19 @@
+===============================
+11:03:38
+Target            = org.totschnig.myexpenses_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.3257791673853426E9
+Elapsed Time(m)   = 59.58
+#Covered Branch   = 730
+#Branch           = 1948
+#Query            = 610
+#Events           = 603
+#Reset            = 8
+Query Average(ms) = 5860.77
+Event Average(ms) = 5635.55
+Reset Average(ms) = 16109.88
+Execution Rate    = 98.66%
+Events : Reset    = 96.35 : 3.65
+Decision Rate     = 0.08%
+===============================

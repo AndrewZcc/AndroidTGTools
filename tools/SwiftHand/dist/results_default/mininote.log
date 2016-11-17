@@ -1,0 +1,1775 @@
+get ChimpChat instance
+get ADB
+Jul 31, 2014 9:25:59 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: wake.
+Device Connected
+Jul 31, 2014 9:25:59 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: wake.
+Jul 31, 2014 9:25:59 AM com.android.chimpchat.adb.AdbChimpDevice wake
+SEVERE: Unable to wake device (too sleepy?)
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:295)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:254)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.wake(ChimpManager.java:377)
+	at com.android.chimpchat.adb.AdbChimpDevice.wake(AdbChimpDevice.java:250)
+	at edu.berkeley.wtchoi.swift.driver.Device.wake(Device.java:247)
+	at edu.berkeley.wtchoi.swift.driver.Driver.connectToDevice(Driver.java:90)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.<init>(TargetApplication.java:106)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.StrictLearningTestRunner.prepareTesting(StrictLearningTestRunner.java:55)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:76)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Device Waked
+Target Application Initialized
+TEST START : jp.gr.java_conf.hatalab.mnv_0
+Jul 31, 2014 9:26:01 AM com.android.chimpchat.adb.AdbChimpDevice removePackage
+SEVERE: Got error uninstalling package jp.gr.java_conf.hatalab.mnv: Unknown failure
+Jul 31, 2014 9:26:02 AM com.android.chimpchat.adb.AdbChimpDevice$1 run
+INFO: Error starting command: monkey --port 12345
+com.android.ddmlib.ShellCommandUnresponsiveException
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:430)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:609)
+	at com.android.chimpchat.adb.AdbChimpDevice$1.run(AdbChimpDevice.java:104)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:744)
+
+send wake up!
+send wake up!
+wait
+1trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 1 124.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 start
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchDown(ChimpManager.java:88)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.start(AdbChimpDevice.java:575)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:118)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 184.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 244.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 305.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 365.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 425.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 485.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 545.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 606.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 666.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 726.
+Jul 31, 2014 9:26:35 AM com.android.chimpchat.adb.AdbChimpDevice$2 end
+SEVERE: Error sending drag end event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.end(AdbChimpDevice.java:591)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:126)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:92)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:26:41
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.033993916355E11
+Elapsed Time(s)   = 23.4
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 1
+#Events           = 0
+#Reset            = 1
+Query Average(ms) = 23395
+Event Average(ms) = 0
+Reset Average(ms) = 16891
+Execution Rate    = 72.2%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.06%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:26:57 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 179.
+Jul 31, 2014 9:26:57 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 179 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:27:03
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.689329350673333E11
+Elapsed Time(s)   = 45.3
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 2
+#Events           = 0
+#Reset            = 2
+Query Average(ms) = 22647.5
+Event Average(ms) = 0
+Reset Average(ms) = 16288.5
+Execution Rate    = 71.92%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.04%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:27:18 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 585.
+Jul 31, 2014 9:27:18 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 585 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:27:24
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.51699706666E11
+Elapsed Time(m)   = 1.11
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 3
+#Events           = 0
+#Reset            = 3
+Query Average(ms) = 22247
+Event Average(ms) = 0
+Reset Average(ms) = 15895.33
+Execution Rate    = 71.45%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.03%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:27:40 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch down 1 726.
+Jul 31, 2014 9:27:40 AM com.android.chimpchat.adb.AdbChimpDevice$2 start
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchDown(ChimpManager.java:88)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.start(AdbChimpDevice.java:575)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:118)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 666.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 606.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 545.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 485.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 425.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 365.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 305.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 244.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 184.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 step
+SEVERE: Error sending drag start event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.step(AdbChimpDevice.java:560)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:123)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: touch move 1 124.
+Jul 31, 2014 9:27:41 AM com.android.chimpchat.adb.AdbChimpDevice$2 end
+SEVERE: Error sending drag end event
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.touchMove(ChimpManager.java:112)
+	at com.android.chimpchat.adb.AdbChimpDevice$2.end(AdbChimpDevice.java:591)
+	at com.android.chimpchat.adb.LinearInterpolator.interpolate(LinearInterpolator.java:126)
+	at com.android.chimpchat.adb.AdbChimpDevice.drag(AdbChimpDevice.java:556)
+	at edu.berkeley.wtchoi.swift.driver.Device.drag(Device.java:243)
+	at edu.berkeley.wtchoi.swift.driver.DragCommand.sendCommandImp(DragCommand.java:94)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:27:47
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.813597697612E11
+Elapsed Time(m)   = 1.48
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 4
+#Events           = 0
+#Reset            = 4
+Query Average(ms) = 22217.75
+Event Average(ms) = 0
+Reset Average(ms) = 15936
+Execution Rate    = 71.73%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.02%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:28:02 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 527.
+Jul 31, 2014 9:28:02 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 527 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:28:09
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.3446647848916666E11
+Elapsed Time(m)   = 1.85
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 5
+#Events           = 0
+#Reset            = 5
+Query Average(ms) = 22198.2
+Event Average(ms) = 0
+Reset Average(ms) = 15923.8
+Execution Rate    = 71.73%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.02%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:28:24 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_MENU.
+Jul 31, 2014 9:28:24 AM com.android.chimpchat.adb.AdbChimpDevice press
+SEVERE: Error sending press event: KEYCODE_MENU DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.press(ChimpManager.java:135)
+	at com.android.chimpchat.adb.AdbChimpDevice.press(AdbChimpDevice.java:328)
+	at com.android.chimpchat.adb.AdbChimpDevice.press(AdbChimpDevice.java:344)
+	at edu.berkeley.wtchoi.swift.driver.Device.press(Device.java:231)
+	at edu.berkeley.wtchoi.swift.driver.PushCommand.sendCommandImp(PushCommand.java:62)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:28:30
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 2.0097127033914285E11
+Elapsed Time(m)   = 2.21
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 6
+#Events           = 0
+#Reset            = 6
+Query Average(ms) = 22070
+Event Average(ms) = 0
+Reset Average(ms) = 15780
+Execution Rate    = 71.5%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.02%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:28:44 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 469.
+Jul 31, 2014 9:28:44 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 469 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:28:50
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.7584986409725E11
+Elapsed Time(m)   = 2.55
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 7
+#Events           = 0
+#Reset            = 7
+Query Average(ms) = 21830
+Event Average(ms) = 0
+Reset Average(ms) = 15564.14
+Execution Rate    = 71.3%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.02%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:29:07 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 727.
+Jul 31, 2014 9:29:07 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 727 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:29:13
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.5631099282266666E11
+Elapsed Time(m)   = 2.92
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 8
+#Events           = 0
+#Reset            = 8
+Query Average(ms) = 21927.62
+Event Average(ms) = 0
+Reset Average(ms) = 15641.75
+Execution Rate    = 71.33%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.02%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:29:28 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 295.
+Jul 31, 2014 9:29:28 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 295 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:29:34
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.406798956608E11
+Elapsed Time(m)   = 3.28
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 9
+#Events           = 0
+#Reset            = 9
+Query Average(ms) = 21845.22
+Event Average(ms) = 0
+Reset Average(ms) = 15574.44
+Execution Rate    = 71.29%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.02%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:29:49 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 239 799.
+Jul 31, 2014 9:29:49 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 239 799 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:29:55
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.2789081613609091E11
+Elapsed Time(m)   = 3.62
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 10
+#Events           = 0
+#Reset            = 10
+Query Average(ms) = 21748.2
+Event Average(ms) = 0
+Reset Average(ms) = 15453.4
+Execution Rate    = 71.06%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.02%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:30:10 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 799.
+Jul 31, 2014 9:30:10 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 799 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:30:16
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.1723324986941667E11
+Elapsed Time(m)   = 3.97
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 11
+#Events           = 0
+#Reset            = 11
+Query Average(ms) = 21673.64
+Event Average(ms) = 0
+Reset Average(ms) = 15382
+Execution Rate    = 70.97%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:30:31 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: press KEYCODE_BACK.
+Jul 31, 2014 9:30:31 AM com.android.chimpchat.adb.AdbChimpDevice press
+SEVERE: Error sending press event: KEYCODE_BACK DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.press(ChimpManager.java:135)
+	at com.android.chimpchat.adb.AdbChimpDevice.press(AdbChimpDevice.java:328)
+	at com.android.chimpchat.adb.AdbChimpDevice.press(AdbChimpDevice.java:344)
+	at edu.berkeley.wtchoi.swift.driver.Device.press(Device.java:231)
+	at edu.berkeley.wtchoi.swift.driver.PushCommand.sendCommandImp(PushCommand.java:65)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:30:37
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.0821530916423077E11
+Elapsed Time(m)   = 4.32
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 12
+#Events           = 0
+#Reset            = 12
+Query Average(ms) = 21591.83
+Event Average(ms) = 0
+Reset Average(ms) = 15296.42
+Execution Rate    = 70.84%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:30:51 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 643.
+Jul 31, 2014 9:30:51 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 643 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:30:58
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 1.0048564570421428E11
+Elapsed Time(m)   = 4.66
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 13
+#Events           = 0
+#Reset            = 13
+Query Average(ms) = 21524.38
+Event Average(ms) = 0
+Reset Average(ms) = 15233.62
+Execution Rate    = 70.77%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:31:13 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 237.
+Jul 31, 2014 9:31:13 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 237 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:31:19
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 9.378660408533333E10
+Elapsed Time(m)   = 5.02
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 14
+#Events           = 0
+#Reset            = 14
+Query Average(ms) = 21516.43
+Event Average(ms) = 0
+Reset Average(ms) = 15233.14
+Execution Rate    = 70.8%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:31:33 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 411.
+Jul 31, 2014 9:31:33 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 411 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:31:40
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 8.7924942615125E10
+Elapsed Time(m)   = 5.36
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 15
+#Events           = 0
+#Reset            = 15
+Query Average(ms) = 21452.27
+Event Average(ms) = 0
+Reset Average(ms) = 15165.67
+Execution Rate    = 70.69%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:31:54 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 353.
+Jul 31, 2014 9:31:54 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 353 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:32:01
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 8.275288840435294E10
+Elapsed Time(m)   = 5.71
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 16
+#Events           = 0
+#Reset            = 16
+Query Average(ms) = 21425.19
+Event Average(ms) = 0
+Reset Average(ms) = 15122.31
+Execution Rate    = 70.58%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:32:14 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 122.
+Jul 31, 2014 9:32:14 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 122 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:32:20
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.815550680794444E10
+Elapsed Time(m)   = 6.04
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 17
+#Events           = 0
+#Reset            = 17
+Query Average(ms) = 21321
+Event Average(ms) = 0
+Reset Average(ms) = 15042.35
+Execution Rate    = 70.55%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+RESTART: Restart by reinstall
+send wake up!
+wait
+1trial.
+2trial.
+Connected!
+go
+Waiting for initial information report
+Waiting for application to be stable
+Application Initiated
+Testing option sent
+restart
+Jul 31, 2014 9:32:35 AM com.android.chimpchat.ChimpManager sendMonkeyEventAndGetResponse
+INFO: Monkey Command: tap 479 701.
+Jul 31, 2014 9:32:35 AM com.android.chimpchat.adb.AdbChimpDevice touch
+SEVERE: Error sending touch event: 479 701 DOWN_AND_UP
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:159)
+	at sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+	at sun.nio.cs.StreamEncoder.implWrite(StreamEncoder.java:282)
+	at sun.nio.cs.StreamEncoder.write(StreamEncoder.java:125)
+	at java.io.OutputStreamWriter.write(OutputStreamWriter.java:207)
+	at java.io.BufferedWriter.flushBuffer(BufferedWriter.java:129)
+	at java.io.BufferedWriter.flush(BufferedWriter.java:253)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEventAndGetResponse(ChimpManager.java:187)
+	at com.android.chimpchat.ChimpManager.sendMonkeyEvent(ChimpManager.java:235)
+	at com.android.chimpchat.ChimpManager.tap(ChimpManager.java:330)
+	at com.android.chimpchat.adb.AdbChimpDevice.touch(AdbChimpDevice.java:367)
+	at edu.berkeley.wtchoi.swift.driver.Device.touch(Device.java:220)
+	at edu.berkeley.wtchoi.swift.driver.TouchCommand.sendCommandImp(TouchCommand.java:72)
+	at edu.berkeley.wtchoi.swift.driver.ICommand.sendCommand(ICommand.java:50)
+	at edu.berkeley.wtchoi.swift.driver.Driver.go(Driver.java:382)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:192)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.execute(TargetApplication.java:19)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:115)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+
+===============================
+09:32:42
+Target            = jp.gr.java_conf.hatalab.mnv_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 7.404206021789473E10
+Elapsed Time(m)   = 6.4
+#Covered Branch   = 98
+#Branch           = 2584
+#Query            = 18
+#Events           = 0
+#Reset            = 18
+Query Average(ms) = 21335.5
+Event Average(ms) = 0
+Reset Average(ms) = 15050.83
+Execution Rate    = 70.54%
+Events : Reset    = 0 : 100
+Decision Rate     = 0.01%
+===============================
+Refinement!
+Error!
+java.lang.NullPointerException
+	at edu.berkeley.wtchoi.swift.testing.android.learning.ActiveLearningGuide.setNextRefinementGoalFromRoot(ActiveLearningGuide.java:320)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.ActiveLearningGuide.getRequestImp(ActiveLearningGuide.java:265)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.getRequest(AbstractLearningGuide.java:283)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.getRequest(AbstractLearningGuide.java:56)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:111)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)

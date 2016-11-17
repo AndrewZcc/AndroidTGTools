@@ -1,0 +1,447 @@
+Lorg/amr/arabic/ArabicReshaper;::<clinit>(368) : 0 966 
+Lorg/amr/arabic/ArabicUtilities;::<clinit>(378) : 0 16 
+Lorg/amr/arabic/ArabicUtilities;::getWords(381) : 0 4 16 
+Lorg/amr/arabic/ArabicUtilities;::hasArabicLetters(383) : 0 14 36 38 44 
+Lorg/amr/arabic/ArabicUtilities;::isArabicCharacter(384) : 0 16 32 34 40 52 64 70 
+Lorg/amr/arabic/ArabicUtilities;::manualRTL(388) : 0 166 318 
+Lorg/amr/arabic/ArabicUtilities;::reshape(389) : 0 4 34 68 76 
+Lorg/amr/arabic/ArabicUtilities;::reshapeSentence(390) : 0 10 
+Lorg/amr/arabic/ArabicUtilities;::reshapeSentence(391) : 0 44 104 234 266 278 300 
+Lorg/liberty/android/fantastischmemo/AMActivity;::<init>(3603) : 0 6 
+Lorg/liberty/android/fantastischmemo/AMActivity;::onCreate(3605) : 0 58 80 176 178 200 222 254 286 318 350 384 418 452 486 520 
+Lorg/liberty/android/fantastischmemo/AMGUIUtility$3;::<init>(3615) : 0 4 22 
+Lorg/liberty/android/fantastischmemo/AMGUIUtility$3;::run(3616) : 0 4 
+Lorg/liberty/android/fantastischmemo/AMGUIUtility;::doProgressTask(3624) : 0 22 
+Lorg/liberty/android/fantastischmemo/AMGUIUtility;::doProgressTask(3625) : 0 36 
+Lorg/liberty/android/fantastischmemo/AMUtil;::isHTML(3630) : 0 52 66 68 
+Lorg/liberty/android/fantastischmemo/AMUtil;::isInteger(3631) : 0 8 12 
+Lorg/liberty/android/fantastischmemo/AlarmReceiver;::<clinit>(3638) : 0 12 
+Lorg/liberty/android/fantastischmemo/AnyMemoService$DatabaseInfo;::<init>(3641) : 0 4 106 
+Lorg/liberty/android/fantastischmemo/AnyMemoService$DatabaseInfo;::getDbName(3644) : 0 4 
+Lorg/liberty/android/fantastischmemo/AnyMemoService$DatabaseInfo;::getNewCount(3646) : 0 4 
+Lorg/liberty/android/fantastischmemo/AnyMemoService$DatabaseInfo;::getRevCount(3647) : 0 4 
+Lorg/liberty/android/fantastischmemo/AnyMemoService;::<clinit>(3648) : 0 18 
+Lorg/liberty/android/fantastischmemo/AnyMemoService;::<init>(3649) : 0 36 
+Lorg/liberty/android/fantastischmemo/AnyMemoService;::cancelNotification(3650) : 0 28 
+Lorg/liberty/android/fantastischmemo/AnyMemoService;::updateWidget(3652) : 0 184 304 306 394 
+Lorg/liberty/android/fantastischmemo/AnyMemoService;::onStart(3654) : 0 26 28 66 72 88 98 104 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::<init>(3659) : 0 56 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::createEmptyDatabase(3661) : 0 126 330 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::addOrReplaceItem(3663) : 0 356 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::checkDatabase(3664) : 0 16 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::close(3666) : 0 10 20 28 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getItemById(3673) : 0 36 90 128 282 394 402 412 422 464 1264 1298 1354 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getListItems(3674) : 0 94 136 306 322 380 384 442 486 492 1036 1058 1074 1112 1114 1130 1146 1192 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getNewCount(3675) : 0 4 40 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getNewId(3676) : 0 38 40 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getRecentFilters(3677) : 0 30 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getScheduledCount(3678) : 0 4 40 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getSettings(3679) : 0 42 46 104 112 118 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::getTotalCount(3680) : 0 4 40 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::inverseQA(3683) : 0 44 86 276 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::openDatabase(3687) : 0 108 110 144 
+Lorg/liberty/android/fantastischmemo/DatabaseHelper;::setSettings(3691) : 0 16 28 114 
+Lorg/liberty/android/fantastischmemo/DatabaseUtility;::<init>(3738) : 0 38 
+Lorg/liberty/android/fantastischmemo/DownloaderTab;::<init>(3759) : 0 6 
+Lorg/liberty/android/fantastischmemo/DownloaderTab;::onClick(3760) : 0 4 8 28 56 64 84 92 112 140 
+Lorg/liberty/android/fantastischmemo/DownloaderTab;::onCreate(3761) : 0 158 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::<init>(3762) : 0 46 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::access$000(3763) : 0 6 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::access$100(3764) : 0 4 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::browseTo(3765) : 0 12 44 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::fill(3767) : 0 4 26 50 76 148 188 220 236 300 308 320 360 386 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::upOneLevel(3768) : 0 4 16 34 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::onCreate(3770) : 0 112 128 156 240 260 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::onCreateOptionsMenu(3771) : 0 22 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::onItemClick(3772) : 0 4 52 54 80 88 116 120 132 196 298 310 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::onOptionsItemSelected(3774) : 0 30 32 162 
+Lorg/liberty/android/fantastischmemo/FileBrowser;::onResume(3775) : 0 16 
+Lorg/liberty/android/fantastischmemo/EditScreenTab;::<init>(3776) : 0 6 
+Lorg/liberty/android/fantastischmemo/EditScreenTab;::fileClickAction(3777) : 0 64 
+Lorg/liberty/android/fantastischmemo/FileBrowser$2;::<init>(3784) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/FileBrowser$2;::onClick(3785) : 0 4 36 74 122 
+Lorg/liberty/android/fantastischmemo/FileBrowser$3;::<init>(3786) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/FileBrowser$4;::<clinit>(3788) : 0 62 
+Lorg/liberty/android/fantastischmemo/FileBrowser$DISPLAYMODE;::<clinit>(3789) : 0 66 
+Lorg/liberty/android/fantastischmemo/FileBrowser$DISPLAYMODE;::<init>(3790) : 0 6 
+Lorg/liberty/android/fantastischmemo/FileBrowser$DISPLAYMODE;::values(3792) : 0 4 16 
+Lorg/liberty/android/fantastischmemo/FileBrowser$FileBrowserAdapter$1;::<init>(3793) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/FileBrowser$FileBrowserAdapter$1;::compare(3794) : 0 16 
+Lorg/liberty/android/fantastischmemo/FileBrowser$FileBrowserAdapter$1;::compare(3795) : 0 20 22 38 42 58 74 90 110 
+Lorg/liberty/android/fantastischmemo/FileBrowser$FileBrowserAdapter;::<init>(3796) : 0 72 96 112 186 198 224 230 248 274 
+Lorg/liberty/android/fantastischmemo/FileBrowser$FileBrowserAdapter;::getView(3800) : 0 8 44 60 112 160 178 184 186 202 216 232 248 264 294 310 326 356 372 388 420 
+Lorg/liberty/android/fantastischmemo/Item$1;::<init>(3801) : 0 6 
+Lorg/liberty/android/fantastischmemo/Item$1;::createFromParcel(3802) : 0 8 
+Lorg/liberty/android/fantastischmemo/Item$1;::createFromParcel(3803) : 0 242 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::<init>(3806) : 0 88 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::<init>(3807) : 0 256 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$1500(3808) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$1600(3809) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$1700(3810) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$1800(3811) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$1900(3812) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2000(3813) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2100(3814) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2200(3815) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2300(3816) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2400(3817) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2500(3818) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2600(3819) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2700(3820) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::access$2800(3821) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::build(3822) : 0 12 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setAcqReps(3823) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setAcqRepsSinceLapse(3824) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setAnswer(3825) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setCategory(3826) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setDateLearn(3827) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setEasiness(3828) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setGrade(3829) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setId(3830) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setInterval(3831) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setLapses(3832) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setNote(3833) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setQuestion(3834) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setRetReps(3835) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item$Builder;::setRetRepsSinceLapse(3836) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::<clinit>(3837) : 0 14 
+Lorg/liberty/android/fantastischmemo/Item;::<init>(3838) : 0 192 
+Lorg/liberty/android/fantastischmemo/Item;::<init>(3839) : 0 6 
+Lorg/liberty/android/fantastischmemo/Item;::access$000(3840) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$100(3841) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$1000(3842) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$1100(3843) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$1200(3844) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$1300(3845) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$200(3846) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$300(3847) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$400(3848) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$500(3849) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$600(3850) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$700(3851) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$800(3852) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::access$900(3853) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::calculateInitialInterval(3854) : 0 8 10 14 18 22 26 
+Lorg/liberty/android/fantastischmemo/Item;::calculateIntervalNoise(3855) : 0 6 8 10 14 26 34 
+Lorg/liberty/android/fantastischmemo/Item;::diffDate(3856) : 0 78 
+Lorg/liberty/android/fantastischmemo/Item;::randomNumber(3857) : 0 28 
+Lorg/liberty/android/fantastischmemo/Item;::getAcqReps(3863) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getAcqRepsSinceLapse(3864) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getAnswer(3865) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getCategory(3866) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getDateLearn(3867) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getEasiness(3869) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getGrade(3870) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getId(3871) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getInterval(3872) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getLapses(3873) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getNote(3874) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getQuestion(3875) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getRetReps(3876) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::getRetRepsSinceLapse(3877) : 0 4 
+Lorg/liberty/android/fantastischmemo/Item;::inverseQA(3878) : 0 42 
+Lorg/liberty/android/fantastischmemo/Item;::isNew(3880) : 0 4 8 10 12 
+Lorg/liberty/android/fantastischmemo/Item;::isScheduled(3881) : 0 42 50 52 54 
+Lorg/liberty/android/fantastischmemo/Item;::processAnswer(3882) : 0 108 110 122 138 142 156 262 264 284 294 306 326 336 
+Lorg/liberty/android/fantastischmemo/Item;::writeToParcel(3884) : 0 4 140 
+Lorg/liberty/android/fantastischmemo/MainTabs$2;::<init>(3887) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/MainTabs$2;::onClick(3888) : 0 58 
+Lorg/liberty/android/fantastischmemo/MainTabs;::<init>(3889) : 0 14 
+Lorg/liberty/android/fantastischmemo/MainTabs;::copyFile(3890) : 0 86 100 208 218 230 
+Lorg/liberty/android/fantastischmemo/MainTabs;::init(3891) : 0 328 340 554 570 938 1022 1072 1192 1218 1244 1270 1310 1350 1392 1434 1476 1518 1560 1602 1644 
+Lorg/liberty/android/fantastischmemo/MainTabs;::onCreate(3892) : 0 488 
+Lorg/liberty/android/fantastischmemo/MainTabs;::onDestroy(3893) : 0 46 
+Lorg/liberty/android/fantastischmemo/MiscTab;::<init>(3901) : 0 6 
+Lorg/liberty/android/fantastischmemo/MiscTab;::onClick(3902) : 0 26 46 80 114 170 226 282 338 394 450 506 562 618 674 702 786 954 962 1016 1280 
+Lorg/liberty/android/fantastischmemo/MiscTab;::onCreate(3903) : 0 558 
+Lorg/liberty/android/fantastischmemo/OpenScreenTab;::<init>(3904) : 0 6 
+Lorg/liberty/android/fantastischmemo/OpenScreenTab;::fileClickAction(3905) : 0 52 
+Lorg/liberty/android/fantastischmemo/OptionScreen;::<init>(3906) : 0 6 
+Lorg/liberty/android/fantastischmemo/OptionScreen;::onCreate(3908) : 0 50 
+Lorg/liberty/android/fantastischmemo/RecentList$1$1;::<init>(3920) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/RecentList$1$1;::run(3921) : 0 4 34 46 86 
+Lorg/liberty/android/fantastischmemo/RecentList$1$2;::<init>(3922) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/RecentList$1$2;::run(3923) : 0 4 34 46 86 
+Lorg/liberty/android/fantastischmemo/RecentList$1;::<init>(3924) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/RecentList$1;::run(3925) : 0 4 46 54 68 290 292 340 582 624 
+Lorg/liberty/android/fantastischmemo/RecentList$RecentItem;::<init>(3928) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/RecentList$RecentItem;::<init>(3929) : 0 6 
+Lorg/liberty/android/fantastischmemo/RecentList$RecentListAdapter;::<init>(3930) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/RecentList$RecentListAdapter;::getView(3931) : 0 6 42 58 114 
+Lorg/liberty/android/fantastischmemo/RecentList;::<init>(3932) : 0 12 
+Lorg/liberty/android/fantastischmemo/RecentList;::access$100(3933) : 0 4 
+Lorg/liberty/android/fantastischmemo/RecentList;::access$200(3934) : 0 4 
+Lorg/liberty/android/fantastischmemo/RecentList;::onCreate(3936) : 0 116 
+Lorg/liberty/android/fantastischmemo/RecentList;::onCreateOptionsMenu(3938) : 0 22 
+Lorg/liberty/android/fantastischmemo/RecentList;::onItemClick(3939) : 0 92 
+Lorg/liberty/android/fantastischmemo/RecentList;::onPause(3941) : 0 14 40 
+Lorg/liberty/android/fantastischmemo/RecentList;::onResume(3942) : 0 30 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::addToRecentList(3944) : 0 54 212 238 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::clearRecentList(3945) : 0 26 120 126 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::deleteFromRecentList(3946) : 0 56 64 72 88 104 212 218 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::getAllRecentDBName(3947) : 0 16 20 78 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::getAllRecentDBPath(3948) : 0 16 20 86 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::getRecentDBName(3949) : 0 22 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::getRecentDBPath(3950) : 0 30 
+Lorg/liberty/android/fantastischmemo/RecentListUtil;::trimPath(3951) : 0 4 18 20 36 
+Lorg/liberty/android/fantastischmemo/SetAlarmReceiver;::cancelNotificationAlarm(3953) : 0 68 
+Lorg/liberty/android/fantastischmemo/SetAlarmReceiver;::setNotificationAlarm(3955) : 0 56 58 80 242 266 290 306 314 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$1;::<init>(3958) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$1;::onItemSelected(3959) : 0 70 94 118 140 142 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$2;::<init>(3961) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$2;::onItemSelected(3962) : 0 4 50 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$5;::<init>(3968) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$5;::onClick(3969) : 0 4 46 66 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$6;::<init>(3970) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$7;::<init>(3972) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$8;::<init>(3974) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$8;::onClick(3975) : 0 4 8 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$9$1;::<init>(3976) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$9$1;::run(3977) : 0 4 58 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$9;::<init>(3978) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/SettingsScreen$9;::run(3979) : 0 4 52 94 118 136 182 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::<init>(3980) : 0 50 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$000(3981) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$1200(3986) : 0 6 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$1300(3987) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$1400(3988) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$1500(3989) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$1600(3990) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$1700(3991) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$200(3992) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$300(3993) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$400(3994) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$500(3995) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$800(3999) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$802(4000) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::access$900(4001) : 0 4 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::arrayToBitfield(4002) : 0 10 14 28 34 40 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::bitfieldToArray(4003) : 0 12 32 36 42 50 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::doSave(4004) : 0 26 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::setInitialPosition(4005) : 0 24 56 122 134 182 262 308 310 316 532 534 546 582 662 708 710 716 742 752 788 812 846 874 902 906 942 966 1000 1028 1056 1060 1096 1130 1156 1184 1228 1252 1254 1262 1310 1320 1356 1398 1424 1452 1496 1520 1522 1530 1578 1588 1624 1682 1706 1708 1714 1750 1786 1958 2006 2042 2152 2178 2214 2324 2350 2386 2516 2546 2582 2608 2616 2698 2734 2766 2786 2898 2934 3012 3036 3072 3150 3174 3210 3242 3294 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::updateSettings(4006) : 0 636 644 678 770 846 908 910 928 944 976 992 1008 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::onClick(4008) : 0 26 32 62 180 298 306 322 416 492 566 574 590 636 694 822 886 894 910 920 1052 1060 1076 1184 1192 1208 1316 1346 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::onCreate(4010) : 0 882 914 1810 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::onCreateDialog(4011) : 0 14 16 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::onCreateOptionsMenu(4012) : 0 22 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::onDestroy(4013) : 0 34 
+Lorg/liberty/android/fantastischmemo/SettingsScreen;::onOptionsItemSelected(4014) : 0 20 22 
+Lorg/liberty/android/fantastischmemo/cardscreen/ControlButtons;::<init>(4019) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/AnyMemoGradeButtons;::<init>(4029) : 0 320 
+Lorg/liberty/android/fantastischmemo/cardscreen/AnyMemoGradeButtons;::getButtons(4031) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/AnyMemoGradeButtons;::getView(4032) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/CardEditor$1;::<init>(4034) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/CardEditor$1;::onClick(4035) : 0 32 
+Lorg/liberty/android/fantastischmemo/cardscreen/CardEditor;::<init>(4038) : 0 40 
+Lorg/liberty/android/fantastischmemo/cardscreen/CardEditor;::setInitRadioButton(4041) : 0 4 8 22 
+Lorg/liberty/android/fantastischmemo/cardscreen/CardEditor;::onClick(4043) : 0 252 374 382 450 474 498 522 
+Lorg/liberty/android/fantastischmemo/cardscreen/CardEditor;::onCreate(4045) : 0 52 120 332 384 392 458 464 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::<init>(4048) : 0 110 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::access$100(4050) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::access$200(4051) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::access$300(4052) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::composeViews(4054) : 0 136 174 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::getGradeButtonListener(4055) : 0 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::getGradeButtonLongClickListener(4056) : 0 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::hideButtons(4057) : 0 4 42 44 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::initTTS(4058) : 0 106 108 112 134 138 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::showButtons(4059) : 0 4 8 28 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::autoSpeak(4060) : 0 4 8 16 36 102 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::createQueue(4061) : 0 82 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::getActivityTitleString(4062) : 0 4 176 192 250 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::initQueue(4063) : 0 26 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onActivityResult(4064) : 0 10 12 116 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onCreate(4066) : 0 60 108 250 252 310 346 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onCreateDialog(4068) : 0 16 18 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onCreateOptionsMenu(4069) : 0 22 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onDestroy(4070) : 0 22 38 46 56 64 74 82 92 138 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onKeyDown(4071) : 0 34 44 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onKeyUp(4072) : 0 72 260 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onOptionsItemSelected(4073) : 0 18 20 76 84 92 116 124 132 156 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::onPause(4074) : 0 4 8 20 26 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::restartActivity(4075) : 0 68 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::setGradeButtonListeners(4076) : 0 4 14 20 82 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::setGradeButtonTitle(4077) : 0 258 260 898 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::setViewListeners(4078) : 0 120 164 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen;::updateFlashcardView(4081) : 0 4 36 38 56 76 88 104 140 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::<init>(4141) : 0 182 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setScreenColor(4142) : 0 164 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::displayQA(4143) : 0 124 182 186 236 272 304 578 612 786 820 1010 1108 1130 1184 1214 1234 1302 1358 1478 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::getView(4147) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::isAnswerShown(4149) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setAnswerLayoutClickListener(4150) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setAnswerLayoutLongClickListener(4151) : 0 4 20 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setAnswerTextClickListener(4152) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setQARatio(4153) : 0 76 78 138 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setQuestionLayoutClickListener(4154) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setQuestionLayoutLongClickListener(4155) : 0 4 20 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setQuestionTextClickListener(4156) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::setScreenOnTouchListener(4157) : 0 4 30 
+Lorg/liberty/android/fantastischmemo/cardscreen/SingleSidedCardDisplay;::updateView(4159) : 0 4 6 56 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$10;::<init>(4164) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$10;::onTouch(4165) : 0 4 20 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$11;::<init>(4166) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$12;::<init>(4168) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$12;::onDown(4169) : 0 2 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$12;::onLongPress(4171) : 0 4 36 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$1;::<init>(4172) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$2;::<init>(4174) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$3;::<init>(4176) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$3;::onClick(4177) : 0 98 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$5;::<init>(4180) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$6;::<init>(4182) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$7;::<init>(4184) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$8;::<init>(4186) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen$9;::<init>(4188) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::<init>(4190) : 0 292 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::access$700(4198) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::composeViews(4199) : 0 136 174 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::initTTS(4205) : 0 158 160 164 186 190 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::updateCardFrontSide(4206) : 0 4 8 44 46 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::updateTitle(4207) : 0 4 8 148 164 222 228 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::onActivityResult(4208) : 0 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::onContextItemSelected(4209) : 0 24 26 34 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::onCreate(4210) : 0 56 116 302 340 372 398 400 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::onCreateContextMenu(4211) : 0 38 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::onDestroy(4213) : 0 4 8 18 26 36 44 54 62 72 78 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreen;::setViewListeners(4216) : 0 4 220 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreenButtons;::<init>(4217) : 0 232 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreenButtons;::getButtons(4218) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/EditScreenButtons;::getView(4219) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager$Builder;::<init>(4235) : 0 26 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager$Builder;::access$100(4236) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager$Builder;::access$200(4237) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager$Builder;::access$300(4238) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager$Builder;::access$400(4239) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager$Builder;::build(4240) : 0 12 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager$Builder;::setFilter(4241) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager;::<init>(4242) : 0 122 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager;::<init>(4243) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager;::close(4244) : 0 4 8 18 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager;::getItem(4246) : 0 4 20 
+Lorg/liberty/android/fantastischmemo/cardscreen/ItemManager;::getStatInfo(4249) : 0 16 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::<init>(4253) : 0 40 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::access$100(4254) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::access$200(4255) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::access$300(4256) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::access$400(4257) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::access$500(4258) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::access$600(4259) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::build(4260) : 0 12 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::setFilter(4261) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::setQueueSize(4262) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager$Builder;::setShuffle(4263) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::<init>(4264) : 0 142 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::<init>(4265) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::getMaxQueuedItemId(4266) : 0 4 24 40 52 76 80 92 96 108 110 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::close(4268) : 0 4 8 18 26 50 64 70 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::getNext(4269) : 0 20 22 38 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::getStatInfo(4270) : 0 26 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::initQueue(4271) : 0 36 54 
+Lorg/liberty/android/fantastischmemo/cardscreen/LearnQueueManager;::updateAndNext(4273) : 0 16 34 36 40 58 86 98 122 134 162 174 202 214 320 348 372 382 430 434 458 494 518 538 554 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$1$1;::<init>(4294) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$1$1;::run(4295) : 0 4 48 50 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$1;::<init>(4298) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$1;::run(4299) : 0 4 64 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$2;::<init>(4300) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$2;::onClick(4301) : 0 14 80 104 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$3;::<init>(4302) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$3;::onClick(4303) : 0 4 12 28 62 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$4;::<init>(4304) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$4;::onClick(4305) : 0 4 12 32 54 56 72 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$5;::<init>(4306) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$6;::<init>(4308) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$6;::onClick(4309) : 0 118 136 152 170 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$7;::<init>(4310) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$BackgroundUpdateTask;::<init>(4316) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$BackgroundUpdateTask;::<init>(4317) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$BackgroundUpdateTask;::doInBackground(4318) : 0 12 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$BackgroundUpdateTask;::doInBackground(4319) : 0 4 22 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$BackgroundUpdateTask;::onPostExecute(4321) : 0 10 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$BackgroundUpdateTask;::onPostExecute(4322) : 0 48 50 78 
+Lorg/liberty/android/fantastischmemo/cardscreen/MemoScreen$BackgroundUpdateTask;::onPreExecute(4323) : 0 60 72 82 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$Alignment;::<clinit>(4329) : 0 94 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$Alignment;::<init>(4330) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$Alignment;::parse(4331) : 0 16 36 38 54 76 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$ButtonStyle;::<clinit>(4334) : 0 94 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$ButtonStyle;::<init>(4335) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$ButtonStyle;::parse(4336) : 0 20 22 44 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$CardStyle;::<clinit>(4340) : 0 66 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$CardStyle;::<init>(4341) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$CardStyle;::parse(4342) : 0 32 36 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$DictApp;::<clinit>(4345) : 0 66 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$DictApp;::<init>(4346) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$DictApp;::parse(4347) : 0 4 68 70 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$SpeechControlMethod;::<clinit>(4350) : 0 122 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$SpeechControlMethod;::<init>(4351) : 0 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager$SpeechControlMethod;::parse(4352) : 0 20 22 44 66 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::<init>(4355) : 0 228 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::<init>(4356) : 0 26 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::loadDBSettings(4357) : 0 100 112 152 186 214 248 276 300 328 352 380 396 424 440 468 492 516 544 568 592 620 636 664 680 708 724 752 780 786 822 858 862 898 930 966 998 1034 1140 1156 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::loadGlobalOptions(4358) : 0 342 366 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::close(4359) : 0 4 8 18 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getAnswerAlign(4360) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getAnswerAudioLocale(4361) : 0 4 18 38 42 44 70 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getAnswerFontSize(4362) : 0 4 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getAnswerTypeface(4363) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getAnswerUserAudio(4364) : 0 4 20 42 44 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getAudioLocation(4365) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getButtonStyle(4366) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getCardField1(4367) : 0 4 20 22 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getCardField2(4368) : 0 4 20 22 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getCardStyle(4369) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getColors(4370) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getCopyClipboard(4371) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getEnableThirdPartyArabic(4375) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getHtmlDisplay(4378) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getLearningQueueSize(4379) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getQARatio(4381) : 0 4 46 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getQuestionAlign(4382) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getQuestionAudioLocale(4383) : 0 4 18 38 42 44 70 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getQuestionFontSize(4384) : 0 4 6 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getQuestionTypeface(4385) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getQuestionUserAudio(4386) : 0 4 20 42 44 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getShufflingCards(4389) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getSpeechControlMethod(4390) : 0 4 
+Lorg/liberty/android/fantastischmemo/cardscreen/SettingManager;::getVolumeKeyShortcut(4391) : 0 4 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderAnyMemo$1;::<init>(4458) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderAnyMemo$2;::<init>(4466) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderAnyMemo$2;::run(4467) : 0 4 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderBase;::<init>(4492) : 0 6 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderBase;::onCreate(4498) : 0 48 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderAnyMemo;::<init>(4502) : 0 6 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderAnyMemo;::access$000(4503) : 0 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderAnyMemo;::obtainCategories(4515) : 0 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderAnyMemo;::initialRetrieve(4521) : 0 156 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderBase$DownloadListAdapter;::<init>(4523) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderQuizlet$1;::<init>(4577) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderQuizlet$1;::doHeavyTask(4578) : 0 4 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderQuizlet;::<init>(4588) : 0 22 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderQuizlet;::access$000(4589) : 0 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderQuizlet;::retrieveList(4596) : 0 326 346 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderQuizlet;::initialRetrieve(4600) : 0 120 180 182 224 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderQuizlet;::onScroll(4601) : 0 4 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS$1;::<init>(4604) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS$2;::<init>(4612) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS$2;::run(4613) : 0 4 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS;::<init>(4632) : 0 12 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS;::access$100(4635) : 0 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS;::retrieveCategories(4647) : 0 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS;::initialRetrieve(4653) : 0 180 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderSS;::onScroll(4654) : 0 4 
+Lorg/liberty/android/fantastischmemo/downloader/DownloaderUtils;::downloadJSONString(4659) : 0 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher$1;::<init>(4739) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher$2;::<init>(4741) : 0 4 14 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher$2;::onClick(4742) : 0 4 108 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher;::<init>(4743) : 0 6 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher;::access$000(4744) : 0 4 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher;::showSearchTagDialog(4745) : 0 136 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher;::showSearchUserDialog(4746) : 0 136 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher;::onClick(4747) : 0 4 8 14 22 28 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher;::onCreate(4748) : 0 110 
+Lorg/liberty/android/fantastischmemo/downloader/QuizletLauncher;::onResume(4749) : 0 6 
+Lorg/liberty/android/fantastischmemo/tts/AnyMemoTTSPlatform;::<init>(4753) : 0 84 
+Lorg/liberty/android/fantastischmemo/tts/AnyMemoTTSPlatform;::onInit(4754) : 0 
+Lorg/liberty/android/fantastischmemo/tts/AnyMemoTTSPlatform;::sayText(4755) : 0 112 138 
+Lorg/liberty/android/fantastischmemo/tts/AnyMemoTTSPlatform;::shutdown(4756) : 0 4 10 
+Lorg/liberty/android/fantastischmemo/tts/AnyMemoTTSPlatform;::stop(4757) : 0 4 10 

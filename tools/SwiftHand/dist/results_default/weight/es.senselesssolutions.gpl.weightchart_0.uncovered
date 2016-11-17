@@ -1,0 +1,78 @@
+Les/senselesssolutions/gpl/weightchart/BuildConfig;::<init>(3) : 0 6 
+Les/senselesssolutions/gpl/weightchart/ChartActivity$1;::onScroll(5) : 0 10 42 44 
+Les/senselesssolutions/gpl/weightchart/HeightDialog;::createHeightDialog(9) : 262 418 444 506 
+Les/senselesssolutions/gpl/weightchart/HeightDialog;::createDialog(12) : 48 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::access$100(18) : 0 6 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::access$200(19) : 0 6 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::access$400(21) : 0 6 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::exportCsv(26) : 0 46 162 174 176 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::exportOds(27) : 0 156 334 346 348 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::exportPng(28) : 110 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::importCsv(29) : 98 142 244 292 312 342 368 498 510 532 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::showExportCsvDialog(34) : 24 88 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::showExportOdsDialog(35) : 24 82 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::showExportPngDialog(36) : 24 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::showImportCsvDialog(37) : 24 40 
+Les/senselesssolutions/gpl/weightchart/FileCommands;::showMessageDialog(39) : 0 38 
+Les/senselesssolutions/gpl/weightchart/ChartActivity$3;::fillData(48) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/ChartActivity$4;::<init>(49) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/ChartActivity$4;::done(50) : 0 4 70 
+Les/senselesssolutions/gpl/weightchart/ChartActivity;::access$000(54) : 0 4 
+Les/senselesssolutions/gpl/weightchart/ChartActivity;::access$100(55) : 0 6 
+Les/senselesssolutions/gpl/weightchart/ChartActivity;::onCreate(61) : 172 
+Les/senselesssolutions/gpl/weightchart/ChartActivity;::onCreateDialog(62) : 8 
+Les/senselesssolutions/gpl/weightchart/ChartActivity;::onOptionsItemSelected(65) : 138 160 
+Les/senselesssolutions/gpl/weightchart/ChartDraw;::draw(69) : 970 1022 1056 1252 1382 2218 2356 2422 2652 2818 2936 
+Les/senselesssolutions/gpl/weightchart/ChartDraw;::loadPreferences(70) : 214 230 242 
+Les/senselesssolutions/gpl/weightchart/ChartDraw;::setSize(71) : 116 
+Les/senselesssolutions/gpl/weightchart/Database$1;::onUpgrade(79) : 0 
+Les/senselesssolutions/gpl/weightchart/Database;::beginTransaction(81) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/Database;::endTransaction(83) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/Database;::setTransactionSuccessful(87) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/EntryActivity;::saveAndFinish(102) : 138 314 372 
+Les/senselesssolutions/gpl/weightchart/EntryActivity;::onCreate(103) : 296 340 374 420 492 510 710 780 794 
+Les/senselesssolutions/gpl/weightchart/EntryActivity;::onCreateDialog(104) : 138 
+Les/senselesssolutions/gpl/weightchart/EntryActivity;::onSaveInstanceState(105) : 0 34 
+Les/senselesssolutions/gpl/weightchart/EntryData;::<init>(106) : 0 6 
+Les/senselesssolutions/gpl/weightchart/EntryListActivity$2;::setViewValue(110) : 0 20 48 68 116 118 126 194 198 322 346 426 
+Les/senselesssolutions/gpl/weightchart/EntryListActivity;::access$100(113) : 0 4 
+Les/senselesssolutions/gpl/weightchart/EntryListActivity;::access$200(114) : 0 4 
+Les/senselesssolutions/gpl/weightchart/EntryListActivity;::onContextItemSelected(116) : 0 20 66 74 76 86 
+Les/senselesssolutions/gpl/weightchart/EntryListActivity;::onCreateContextMenu(118) : 0 20 
+Les/senselesssolutions/gpl/weightchart/EntryListActivity;::onListItemClick(121) : 0 12 
+Les/senselesssolutions/gpl/weightchart/EntryListActivity;::onResume(123) : 68 76 114 146 162 166 170 182 
+Les/senselesssolutions/gpl/weightchart/FileCommands$3;::<init>(129) : 0 4 14 
+Les/senselesssolutions/gpl/weightchart/FileCommands$3;::run(130) : 0 4 34 38 
+Les/senselesssolutions/gpl/weightchart/FileCommands$4;::<init>(131) : 0 4 14 
+Les/senselesssolutions/gpl/weightchart/FileCommands$4;::onClick(132) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/FileCommands$5;::<init>(133) : 0 4 14 
+Les/senselesssolutions/gpl/weightchart/FileCommands$5;::run(134) : 0 4 34 38 
+Les/senselesssolutions/gpl/weightchart/FileCommands$6;::<init>(135) : 0 4 14 
+Les/senselesssolutions/gpl/weightchart/FileCommands$6;::onClick(136) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/FileCommands$7$1;::<init>(137) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/FileCommands$7$1;::onDateSet(138) : 0 4 110 
+Les/senselesssolutions/gpl/weightchart/FileCommands$7;::onClick(140) : 0 80 
+Les/senselesssolutions/gpl/weightchart/FileCommands$8$1;::onClick(142) : 0 4 44 
+Les/senselesssolutions/gpl/weightchart/FileCommands$8$2;::onClick(144) : 86 108 164 186 
+Les/senselesssolutions/gpl/weightchart/HeightDialog$4;::onNothingSelected(157) : 0 
+Les/senselesssolutions/gpl/weightchart/HeightDialog$5;::onClick(159) : 88 
+Les/senselesssolutions/gpl/weightchart/HeightDialog$6;::<init>(160) : 0 4 10 
+Les/senselesssolutions/gpl/weightchart/HeightDialog$6;::onClick(161) : 0 4 64 
+Les/senselesssolutions/gpl/weightchart/HeightDialog$9;::onClick(167) : 0 4 20 
+Les/senselesssolutions/gpl/weightchart/LegendView;::onDraw(171) : 356 474 868 884 894 904 
+Les/senselesssolutions/gpl/weightchart/PreferencesActivity$10;::onPreferenceClick(173) : 52 
+Les/senselesssolutions/gpl/weightchart/PreferencesActivity$13;::onClick(179) : 0 4 164 
+Les/senselesssolutions/gpl/weightchart/PreferencesActivity$14;::onClick(181) : 0 
+Les/senselesssolutions/gpl/weightchart/PreferencesActivity$3;::onPreferenceClick(189) : 46 
+Les/senselesssolutions/gpl/weightchart/PreferencesActivity$8;::onPreferenceClick(199) : 52 
+Les/senselesssolutions/gpl/weightchart/PreferencesActivity;::updateHeight(209) : 50 78 140 
+Les/senselesssolutions/gpl/weightchart/R$array;::<init>(213) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$attr;::<init>(214) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$drawable;::<init>(215) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$id;::<init>(216) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$layout;::<init>(217) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$menu;::<init>(218) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$plurals;::<init>(219) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$string;::<init>(220) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R$xml;::<init>(221) : 0 6 
+Les/senselesssolutions/gpl/weightchart/R;::<init>(222) : 0 6 

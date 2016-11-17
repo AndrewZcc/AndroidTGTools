@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  This file is part of My Expenses.
+  My Expenses is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  My Expenses is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with My Expenses.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+ <ScrollView android:id="@+id/aboutscrollview" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+       <TextView android:text="@string/help_heading_whats_new"
+        style="@style/about_heading" />
+      <TextView android:id="@+id/versionInfoChanges"
+          style="@style/about_text"/>
+      <TextView android:id="@+id/versionInfoImportantHeading"
+          android:text="@string/important_version_information"
+          style="@style/about_heading"
+          android:visibility="gone"/>
+      <TextView android:id="@+id/versionInfoImportant"
+          android:visibility="gone"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="15px"
+	        android:textStyle="bold"
+	        android:textColor="#ffffff"
+	        android:textSize="18sp" />
+</LinearLayout>
+</ScrollView>

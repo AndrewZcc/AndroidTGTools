@@ -1,0 +1,1948 @@
+Lau/com/bytecode/opencsv/CSVReader;::<init>(3) : 0 10 
+Lau/com/bytecode/opencsv/CSVReader;::<init>(4) : 0 10 
+Lau/com/bytecode/opencsv/CSVReader;::<init>(5) : 0 8 
+Lau/com/bytecode/opencsv/CSVReader;::<init>(6) : 0 38 
+Lau/com/bytecode/opencsv/CSVReader;::getNextLine(7) : 0 10 20 36 42 58 62 70 72 
+Lau/com/bytecode/opencsv/CSVReader;::parseLine(8) : 0 6 8 10 38 60 92 110 126 130 146 166 188 194 198 206 226 242 262 270 274 282 286 312 320 324 330 
+Lau/com/bytecode/opencsv/CSVReader;::close(9) : 0 4 10 
+Lau/com/bytecode/opencsv/CSVReader;::readAll(10) : 0 10 18 30 38 
+Lau/com/bytecode/opencsv/CSVReader;::readNext(11) : 0 16 24 26 
+Lau/com/bytecode/opencsv/CSVWriter;::<clinit>(12) : 0 36 
+Lau/com/bytecode/opencsv/CSVWriter;::<init>(13) : 0 10 
+Lau/com/bytecode/opencsv/CSVWriter;::<init>(14) : 0 10 
+Lau/com/bytecode/opencsv/CSVWriter;::<init>(15) : 0 10 
+Lau/com/bytecode/opencsv/CSVWriter;::<init>(16) : 0 20 
+Lau/com/bytecode/opencsv/CSVWriter;::<init>(17) : 0 40 
+Lau/com/bytecode/opencsv/CSVWriter;::<init>(18) : 0 20 
+Lau/com/bytecode/opencsv/CSVWriter;::getColumnValue(19) : 0 10 14 18 22 24 36 46 66 84 96 106 118 166 186 226 238 248 260 276 288 300 312 328 
+Lau/com/bytecode/opencsv/CSVWriter;::read(20) : 0 38 54 58 66 74 
+Lau/com/bytecode/opencsv/CSVWriter;::close(21) : 0 4 30 
+Lau/com/bytecode/opencsv/CSVWriter;::flush(22) : 0 4 10 
+Lau/com/bytecode/opencsv/CSVWriter;::writeAll(23) : 0 12 18 26 38 48 82 90 
+Lau/com/bytecode/opencsv/CSVWriter;::writeAll(24) : 0 8 20 40 
+Lau/com/bytecode/opencsv/CSVWriter;::writeColumnNames(25) : 0 18 40 46 
+Lau/com/bytecode/opencsv/CSVWriter;::writeNext(26) : 0 6 8 26 30 40 48 54 62 72 86 102 110 134 142 150 170 178 186 198 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::<init>(30) : 0 6 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::captureHeader(31) : 0 12 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::createBean(32) : 0 4 12 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::findDescriptor(33) : 0 12 32 40 42 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::findDescriptor(34) : 0 4 8 28 40 60 62 64 70 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::getColumnName(35) : 0 4 8 18 26 28 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::getType(36) : 0 4 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::loadDescriptors(37) : 0 16 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::matches(38) : 0 16 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameMappingStrategy;::setType(39) : 0 4 
+Lau/com/bytecode/opencsv/bean/ColumnPositionMappingStrategy;::<init>(40) : 0 16 
+Lau/com/bytecode/opencsv/bean/ColumnPositionMappingStrategy;::captureHeader(41) : 0 
+Lau/com/bytecode/opencsv/bean/ColumnPositionMappingStrategy;::getColumnMapping(42) : 0 4 
+Lau/com/bytecode/opencsv/bean/ColumnPositionMappingStrategy;::getColumnName(43) : 0 4 8 18 26 28 
+Lau/com/bytecode/opencsv/bean/ColumnPositionMappingStrategy;::setColumnMapping(44) : 0 4 
+Lau/com/bytecode/opencsv/bean/CsvToBean;::<init>(45) : 0 6 
+Lau/com/bytecode/opencsv/bean/CsvToBean;::convertValue(46) : 0 12 26 
+Lau/com/bytecode/opencsv/bean/CsvToBean;::getPropertyEditor(47) : 0 12 24 26 
+Lau/com/bytecode/opencsv/bean/CsvToBean;::parse(48) : 0 38 56 72 
+Lau/com/bytecode/opencsv/bean/CsvToBean;::processLine(49) : 0 12 18 34 66 72 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameTranslateMappingStrategy;::<init>(50) : 0 20 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameTranslateMappingStrategy;::getColumnMapping(51) : 0 4 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameTranslateMappingStrategy;::getColumnName(52) : 0 28 
+Lau/com/bytecode/opencsv/bean/HeaderColumnNameTranslateMappingStrategy;::setColumnMapping(53) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotation;::<init>(54) : 0 6 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotation;::getDescription(56) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotation;::getOffset(57) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotation;::getPosition(58) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotation;::setDescription(59) : 0 4 8 24 28 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotation;::setOffset(60) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotation;::setPosition(61) : 0 4 16 20 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition;::<init>(62) : 0 6 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition;::absolute(63) : 0 10 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition;::absoluteByArea(64) : 0 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition;::absoluteByLegend(65) : 0 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition;::relativeToArea(66) : 0 16 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition;::relativeToSeries(67) : 0 10 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition$a;::<init>(69) : 0 10 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition$a;::<init>(70) : 0 18 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition$a;::getPin(71) : 0 4 10 12 24 52 100 128 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition$b;::<init>(72) : 0 18 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition$b;::getPin(73) : 0 24 40 62 66 72 74 100 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition$c;::<init>(74) : 0 14 
+Lcom/artfulbits/aiCharts/Annotations/ChartAnnotationPosition$c;::getPin(75) : 0 32 36 60 124 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation$1;::<clinit>(76) : 0 84 88 92 96 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::<init>(77) : 0 8 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::<init>(78) : 0 44 60 64 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::draw(79) : 0 88 114 138 140 144 152 156 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::getDrawable(80) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::getHorizontalAlignment(81) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::getVerticalAlignment(82) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::setAlignment(83) : 0 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::setHorizontalAlignment(84) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartDrawableAnnotation;::setVerticalAlignment(85) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation$1;::<clinit>(86) : 0 84 88 92 96 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::<clinit>(87) : 0 10 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::<init>(88) : 0 10 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::<init>(89) : 0 4 22 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::<init>(90) : 0 134 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::<init>(91) : 0 10 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::<init>(92) : 0 8 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::a(93) : 0 30 52 72 74 94 112 128 148 164 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::draw(94) : 0 106 206 240 252 270 288 300 318 326 368 374 396 402 430 438 458 554 556 574 586 608 626 638 660 682 692 714 724 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getBackground(95) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getConnectorPaint(96) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getDrawConnector(97) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getHorizontalAlignment(98) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getSmartPositioning(99) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getText(100) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getTextColor(101) : 0 4 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getTextPaint(102) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::getVerticalAlignment(103) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setAlignment(104) : 0 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setBackground(105) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setDrawConnector(106) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setHorizontalAlignment(107) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setSmartPositioning(108) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setText(109) : 0 4 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setTextColor(110) : 0 4 16 26 
+Lcom/artfulbits/aiCharts/Annotations/ChartTextAnnotation;::setVerticalAlignment(111) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea$1;::<init>(113) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartArea$1;::onChanged(114) : 0 12 22 26 34 
+Lcom/artfulbits/aiCharts/Base/ChartArea$2;::<clinit>(115) : 0 172 176 180 184 188 192 196 200 
+Lcom/artfulbits/aiCharts/Base/f;::inflate(117) : 0 30 50 62 74 82 132 
+Lcom/artfulbits/aiCharts/Base/f;::nextTag(118) : 0 2 16 28 30 40 52 
+Lcom/artfulbits/aiCharts/Base/f;::inflateAttributes(120) : 0 
+Lcom/artfulbits/aiCharts/Base/f;::inflateBeginTag(121) : 0 2 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::<init>(126) : 0 34 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::<init>(127) : 0 20 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::<init>(128) : 0 264 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::<init>(129) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::a(130) : 0 40 52 74 96 126 148 178 202 232 254 284 324 356 386 392 416 442 468 496 520 536 550 552 560 604 644 656 680 692 700 728 760 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::a(131) : 0 22 42 48 76 82 90 94 122 128 136 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::a(132) : 0 4 32 38 118 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::d(133) : 0 74 94 122 152 176 230 284 334 380 452 524 550 558 598 608 620 632 656 664 694 696 716 736 754 772 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::isVisible(134) : 0 16 32 34 38 44 50 58 62 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::a(135) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::b(136) : 0 18 46 88 104 120 138 146 154 158 162 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::c(137) : 0 18 20 34 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::doLayout(138) : 0 22 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::draw(139) : 0 70 114 134 170 182 238 242 266 304 320 344 374 422 548 584 712 740 754 766 782 788 800 810 822 836 874 954 966 994 1010 1022 1036 1044 1048 1072 1088 1106 1120 1142 1176 1186 1202 1206 1366 1386 1404 1416 1450 1472 1496 1516 1534 1550 1572 1594 1630 1654 1676 1712 1728 1734 1746 1758 1786 1802 1814 1820 1828 1836 1848 1864 1868 1874 1876 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::ensureLayout(140) : 0 24 32 44 150 168 180 222 290 302 308 310 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::ensureRefresh(141) : 0 4 14 32 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getAxes(142) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getBackground(143) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getBounds(144) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getChart(145) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getCoordinateSystem(146) : 0 4 8 12 14 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getDefaultXAxis(147) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getDefaultYAxis(148) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getDefaultZAxis(149) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getGridBackground(150) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getName(151) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getPadding(152) : 0 4 14 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getSeriesBounds(153) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::getView3D(154) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::hitTest(155) : 0 4 14 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::inflateAttributes(156) : 0 18 30 32 48 60 64 78 94 106 110 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::inflateBeginTag(157) : 0 16 20 22 38 44 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::invalidate(158) : 0 4 8 26 38 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::isAutoLayout(159) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::isClustered(160) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::layout(161) : 0 4 22 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::measure(162) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::refresh(163) : 0 48 50 86 106 134 146 200 204 240 276 280 304 318 322 364 396 420 454 502 526 534 538 550 562 566 578 610 622 632 644 654 662 670 684 694 702 716 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setBackground(164) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setBounds(165) : 0 6 18 28 30 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setChart(166) : 0 4 8 16 30 48 62 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setClustered(167) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setDefaultXAxis(168) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setDefaultYAxis(169) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setDefaultZAxis(170) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setGridBackground(171) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setName(172) : 0 4 8 26 38 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setPadding(173) : 0 4 18 
+Lcom/artfulbits/aiCharts/Base/ChartArea;::setPadding(174) : 0 4 18 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$1;::<init>(175) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$1;::onChanged(176) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$2;::<init>(177) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$2;::onChanged(178) : 0 22 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$3;::<clinit>(179) : 0 340 344 348 352 356 360 364 368 372 376 380 384 390 396 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$a;::<init>(180) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Label;::<init>(181) : 0 30 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Label;::<init>(182) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Label;::<init>(183) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Label;::a(184) : 0 10 24 26 40 60 66 80 100 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Label;::a(185) : 0 88 136 138 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Label;::measure(186) : 0 18 26 28 92 110 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelLayoutMode;::<clinit>(187) : 0 94 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelLayoutMode;::<init>(188) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelLayoutMode;::valueOf(189) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelLayoutMode;::values(190) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelPosition;::<clinit>(191) : 0 94 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelPosition;::<init>(192) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelPosition;::valueOf(193) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$LabelPosition;::values(194) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Position;::<clinit>(196) : 0 258 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Position;::<init>(197) : 0 18 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Position;::valueOf(198) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$Position;::values(199) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$TickMarkMode;::<clinit>(202) : 0 122 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$TickMarkMode;::<init>(203) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$TickMarkMode;::valueOf(204) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$TickMarkMode;::values(205) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$ValueType;::valueOf(208) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$ValueType;::values(209) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::<clinit>(210) : 0 4 80 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::<init>(211) : 0 474 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::a(212) : 0 28 66 92 102 150 162 196 200 210 226 232 240 264 268 284 364 374 376 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::a(213) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::a(214) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::a(215) : 0 4 22 70 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::a(216) : 0 18 42 62 64 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::b(217) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::b(218) : 0 4 12 42 56 70 74 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::b(219) : 0 36 48 76 88 128 152 168 180 212 224 242 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::c(220) : 0 48 60 100 120 148 160 192 204 216 238 240 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::isIntersects(221) : 0 4 22 44 66 88 90 92 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::coeficientToValue(222) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::drawCartesian(223) : 0 16 62 78 88 124 144 174 178 202 232 248 266 278 306 326 350 354 394 414 428 436 446 456 484 514 544 574 604 634 656 678 710 744 762 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::drawCartesianGrid(224) : 0 4 12 70 82 98 110 142 172 190 236 260 272 296 322 338 350 352 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::drawPolar(225) : 0 4 8 98 104 132 150 220 228 238 256 272 298 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::drawPolarXGrid(226) : 0 64 146 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::drawPolarYGrid(227) : 0 74 156 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::drawRadarYGrid(228) : 0 92 120 156 162 232 234 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::drawStriplines(229) : 0 4 16 38 64 70 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getArea(230) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getBounds(231) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getChart(232) : 0 4 8 10 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getCustomLabels(233) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getFormat(234) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getGridClipPath(235) : 0 66 80 128 148 154 156 164 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getGridLinePaint(236) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getGridVisible(237) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLabelAlignment(238) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLabelAngle(239) : 0 4 8 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLabelFormat(240) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLabelLayoutMode(241) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLabelPaint(242) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLabelPosition(243) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLabelsAdapter(244) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getLinePaint(245) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getOrigin(246) : 0 4 16 28 30 46 60 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getPadding(247) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getPosition(248) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getScale(249) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getScaleChangeListener(250) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getScrollBar(251) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getShowLabels(252) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getSpacing(253) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getStripLines(254) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getTickMarkMode(255) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getTickMarkSize(256) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getTitle(257) : 0 4 8 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getTitleAlignment(258) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getTitlePaint(259) : 0 4 8 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getValueType(260) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::getValueTypeInternal(261) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::inflateAttributes(262) : 0 16 44 46 62 84 100 132 148 166 182 200 216 234 250 268 284 316 332 390 420 436 494 524 540 578 594 624 640 660 676 702 718 742 752 768 780 796 808 824 836 852 872 888 912 928 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::invalidate(263) : 0 4 8 18 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::isIndexed(264) : 0 10 12 24 44 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::isInverted(265) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::isPrimaryAxis(266) : 0 10 12 24 44 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::isScrollBarEnabled(267) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::isVisible(268) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::layoutCartesian(269) : 0 110 120 136 154 188 192 222 316 340 356 372 394 428 472 536 540 552 570 574 600 606 636 650 680 696 718 724 740 744 774 860 864 894 980 984 1014 1100 1108 1130 1192 1202 1214 1262 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::layoutPolar(270) : 0 4 18 104 174 180 190 212 220 232 256 268 292 304 328 340 364 376 400 412 436 460 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::measureCartesian(271) : 0 18 30 42 60 82 94 104 110 130 142 154 196 226 248 274 288 296 298 302 312 316 320 324 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::measurePolar(272) : 0 38 64 180 192 204 214 222 224 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::onScaleChanged(273) : 0 4 8 26 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::onScaleChanging(274) : 0 4 20 32 40 58 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setArea(275) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setFormat(276) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setFormat(277) : 0 4 30 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setGridLineColor(278) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setGridVisible(279) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setInverted(280) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setLabelAlignment(281) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setLabelAngle(282) : 0 22 70 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setLabelFormat(283) : 0 4 30 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setLabelLayoutMode(284) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setLabelPosition(285) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setLabelsAdapter(286) : 0 4 8 32 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setLineType(287) : 0 4 28 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setOrigin(288) : 0 4 12 24 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setPadding(289) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setPosition(290) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setScaleChangeListener(291) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setScrollBarEnabled(292) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setShowLabels(293) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setSpacing(294) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setTickMarkMode(295) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setTickMarkSize(296) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setTitle(297) : 0 4 12 28 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setTitleAlignment(298) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setValueType(299) : 0 16 50 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::setVisible(300) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxis;::valueToCoeficient(301) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$IntervalType;::<clinit>(304) : 0 260 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$IntervalType;::<init>(305) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$IntervalType;::valueOf(306) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$IntervalType;::values(307) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$a;::<init>(308) : 0 50 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$a;::current(309) : 0 4 14 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$a;::next(310) : 0 4 34 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$b;::<init>(311) : 0 26 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$b;::current(312) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale$b;::next(313) : 0 4 30 32 34 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::<clinit>(314) : 0 46 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::<init>(315) : 0 112 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::a(316) : 0 44 56 60 62 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::a(317) : 0 54 72 78 80 102 124 138 152 166 180 196 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::a(318) : 0 4 14 30 72 74 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::coefficientToValue(319) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::computeInterval(320) : 0 4 20 30 34 36 42 60 78 96 114 132 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::computeRange(321) : 0 4 24 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::contains(322) : 0 4 12 24 26 28 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::createIterator(323) : 0 4 20 48 50 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getDesiredIntervalCount(324) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getInterval(325) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getIntervalType(326) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getMargin(327) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getRealMaximum(328) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getRealMinimum(329) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getRealSize(330) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getVisibleInterval(331) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getVisibleIntervalType(332) : 0 4 10 14 16 22 28 34 40 46 52 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getVisibleMaximum(333) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getVisibleMinimum(334) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getVisibleSize(335) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getZoomPosition(336) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::getZoomSize(337) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::isAuto(338) : 0 4 8 16 18 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::isInverted(339) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::mulZoom(340) : 0 20 26 62 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::recalculate(341) : 0 4 38 62 74 96 128 152 198 200 206 220 234 242 258 266 270 286 294 302 318 334 350 376 384 386 394 396 404 414 418 440 450 458 466 474 490 510 560 602 628 654 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::resetZoom(342) : 0 20 36 60 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::scroll(343) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setDateRange(344) : 0 26 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setDateRange(345) : 0 26 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setDesiredIntervalCount(346) : 0 4 8 28 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setInterval(347) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setInterval(348) : 0 4 24 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setIntervalType(349) : 0 4 8 28 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setInverted(350) : 0 4 8 28 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setMargin(351) : 0 4 12 32 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setMaximum(352) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setMinimum(353) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setRange(354) : 0 40 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setZoom(355) : 0 4 12 24 48 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::setZoomPosition(356) : 0 4 16 28 48 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::valueToCoefficient(357) : 0 4 14 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::zoom(358) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::zoom(359) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::zoomRange(360) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::zoomToFactor(361) : 0 44 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::zoomToRange(362) : 0 26 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScale;::zoomToSize(363) : 0 34 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::<init>(364) : 0 24 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::a(365) : 0 4 38 40 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::a(366) : 0 4 100 166 170 228 240 254 256 312 324 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::a(367) : 0 4 8 18 28 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::getBackground(368) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::getThumb(369) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::isEnabled(370) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::setBackground(371) : 0 4 8 20 46 48 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::setEnabled(372) : 0 12 24 32 104 116 
+Lcom/artfulbits/aiCharts/Base/ChartAxisScrollBar;::setThumb(373) : 0 4 8 24 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::<init>(374) : 0 126 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::<init>(375) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::draw(376) : 0 78 102 130 160 170 214 224 266 278 368 386 390 468 488 504 512 524 538 552 634 646 728 810 930 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getBackground(377) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getColor(378) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getEnd(379) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getHorizontalAlignment(380) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getPeriod(381) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getStart(382) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getText(383) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getTextPaint(384) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getVerticalAlignment(385) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::getWidth(386) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setAlignment(387) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setBackground(388) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setColor(389) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setEnd(390) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setHorizontalAlignment(391) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setPeriod(392) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setStart(393) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setText(394) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setVerticalAlignment(395) : 0 4 8 12 
+Lcom/artfulbits/aiCharts/Base/ChartAxisStripLine;::setWidth(396) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::add(398) : 0 20 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::add(399) : 0 18 36 38 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::addAll(400) : 0 20 36 48 68 96 98 100 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::clear(401) : 0 24 28 52 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::onChanged(402) : 0 4 8 18 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::remove(403) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::remove(404) : 0 20 30 32 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::removeAll(405) : 0 22 46 54 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::set(406) : 0 20 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::validate(407) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::findAttribute(410) : 0 4 12 24 44 60 62 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::findAttribute(411) : 0 4 12 24 52 54 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::register(413) : 28 102 110 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::hashCode(414) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::parse(415) : 0 56 60 70 80 90 100 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$1;::onChanged(417) : 0 12 22 26 34 48 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$2;::onChanged(419) : 0 4 14 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$3;::a(422) : 0 4 64 88 100 148 154 162 194 226 258 290 302 362 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$4;::a(424) : 0 24 26 64 98 104 126 142 156 198 228 244 332 340 344 368 384 448 456 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$5;::<clinit>(425) : 0 106 110 114 118 122 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$a;::onChanged(428) : 0 12 22 26 34 48 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$b;::onChanged(431) : 0 12 22 26 34 48 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$c;::onChanged(434) : 0 14 42 46 58 72 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::<init>(437) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::<init>(438) : 0 38 44 46 64 78 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::a(439) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::b(440) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::c(441) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::addNotificationListener(443) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::draw(444) : 10 26 38 152 202 236 264 292 314 322 340 368 390 398 416 446 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::ensureLayout(445) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getAnnotations(446) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getAntiAlias(447) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getAreas(448) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getAutoAlignAreas(449) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getBounds(450) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getChart(451) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getLegends(452) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getPalette(453) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getSeries(454) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getSeriesStyle(455) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getSpacing(456) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::getTitles(457) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::hitTest(458) : 0 30 66 72 80 98 134 146 152 158 166 178 182 218 230 238 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::inflateAttributes(459) : 0 18 30 34 58 60 76 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::inflateBeginTag(460) : 0 16 36 38 54 86 102 124 140 162 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::invalidate(461) : 0 30 60 72 76 106 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::isHitTestEnabled(462) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::notify(463) : 0 16 20 50 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::removeInvalidateListener(464) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::removeNotificationListener(465) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::save(466) : 0 28 60 66 68 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::save(467) : 0 4 58 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setAntiAlias(468) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setAutoAlignAreas(469) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setBounds(470) : 0 24 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setBounds(472) : 0 4 22 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setHitTestEnabled(473) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setPalette(474) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setSeriesStyle(475) : 0 4 8 20 32 58 62 96 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setSpacing(476) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::<clinit>(477) : 0 86 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::<init>(478) : 0 224 320 326 378 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::d(479) : 0 300 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::a(480) : 0 4 8 108 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::a(481) : 0 98 138 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::a(482) : 0 140 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::b(483) : 0 4 56 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$a;::c(484) : 0 98 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::a(487) : 0 6 28 30 42 102 122 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::a(488) : 0 4 200 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::a(489) : 0 66 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::a(490) : 0 4 76 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::a(491) : 0 4 112 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::a(492) : 0 140 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::a(493) : 0 8 28 40 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::b(494) : 0 144 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::<init>(496) : 0 68 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(497) : 0 26 74 76 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(498) : 0 178 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(499) : 0 146 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::b(500) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(501) : 0 10 48 56 70 74 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(502) : 0 4 8 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(503) : 0 4 8 22 54 86 104 114 124 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(504) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(505) : 0 68 100 102 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::a(506) : 0 4 14 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawArea3D(507) : 0 178 394 490 528 566 640 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawBox3D(508) : 0 826 880 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawCylinder3D(509) : 0 58 176 232 456 522 534 640 876 914 988 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawLine(510) : 0 12 104 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawLine3D(511) : 0 56 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawLines3D(512) : 0 4 20 70 88 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawPath(513) : 0 28 68 98 102 178 180 188 192 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawPie3D(514) : 0 148 360 390 402 488 520 558 632 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawPoly3D(515) : 0 52 122 134 178 206 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawPyramid3D(516) : 0 42 1198 1272 1274 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawRect(517) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawRect(518) : 0 20 94 114 118 194 196 204 208 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawSphere3D(519) : 0 32 110 210 218 228 236 330 338 364 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawSpline3D(520) : 0 36 54 60 328 418 432 444 454 480 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::drawWireframe3D(521) : 0 48 118 134 142 170 176 204 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::fillPath(522) : 0 20 60 90 92 100 104 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::getCanvas(523) : 0 4 8 16 18 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::strokePath(524) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::strokePath(525) : 0 4 80 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::strokeRect(526) : 0 12 88 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$1;::<clinit>(527) : 0 106 110 114 118 122 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Alignment;::<clinit>(528) : 0 122 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Alignment;::<init>(529) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Alignment;::valueOf(530) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Alignment;::values(531) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Dock;::<clinit>(532) : 0 122 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Dock;::<init>(533) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Dock;::valueOf(534) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement$Dock;::values(535) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::<init>(536) : 0 62 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::getAlignment(537) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::getBounds(538) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::getChart(539) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::getDock(540) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::getMeasureWidth(541) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::getMeasuredHeight(542) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::inflateAttributes(543) : 0 16 38 44 46 62 86 102 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::invalidateChart(544) : 0 4 8 16 24 32 34 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::isAutoLayout(545) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::isVisible(546) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::layout(547) : 0 4 26 36 38 136 206 276 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::measure(548) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::setAlignment(549) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::setBounds(550) : 0 24 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::setBounds(551) : 0 6 16 18 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::setChart(552) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::setDock(553) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartLayoutElement;::setVisible(554) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartLegend$LayoutMode;::<clinit>(555) : 0 122 
+Lcom/artfulbits/aiCharts/Base/ChartLegend$LayoutMode;::<init>(556) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLegend$LayoutMode;::valueOf(557) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartLegend$LayoutMode;::values(558) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::<init>(559) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::<init>(560) : 0 162 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::a(561) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::a(562) : 0 4 8 32 48 52 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::a(563) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::draw(564) : 0 16 40 52 56 82 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::getAdapter(565) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::getBackDrawable(566) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::getLayoutMode(567) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::getName(568) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::getTextPaint(569) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::hitTest(570) : 0 24 52 64 66 74 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::inflateAttributes(571) : 0 18 32 38 40 56 68 72 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::invalidate(572) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::layout(573) : 0 40 112 146 158 162 182 212 240 316 322 354 358 472 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::measure(574) : 0 40 50 62 98 184 188 192 214 250 312 316 422 424 436 448 460 494 530 534 538 706 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::setAdapter(575) : 0 4 20 52 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::setBackDrawable(576) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::setChart(577) : 0 4 8 22 36 50 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::setLayoutMode(578) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegend;::setName(579) : 0 4 8 26 30 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter;::<init>(580) : 0 24 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter;::a(581) : 0 4 8 12 20 36 50 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter;::a(582) : 0 2 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter;::getCorrespondingSeries(583) : 0 38 50 78 86 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter;::getLegendItems(584) : 0 12 38 106 110 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter;::getSourceItems(585) : 0 2 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$AnnotationItemsAdapter;::<init>(586) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$AnnotationItemsAdapter;::<init>(587) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$AnnotationItemsAdapter;::a(588) : 0 12 14 16 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$AnnotationItemsAdapter;::getSourceItems(589) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$CustomItemsAdapter$1;::<init>(590) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$CustomItemsAdapter$1;::onChanged(591) : 0 4 12 28 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$CustomItemsAdapter;::<init>(592) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$CustomItemsAdapter;::<init>(593) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$CustomItemsAdapter;::<init>(594) : 0 34 44 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$CustomItemsAdapter;::getItems(595) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$CustomItemsAdapter;::getSourceItems(596) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$GroupItemsAdapter;::<init>(597) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$GroupItemsAdapter;::a(598) : 0 14 18 34 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$GroupItemsAdapter;::getLegendItems(599) : 0 4 22 50 54 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$PointItemsAdapter;::<init>(600) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$PointItemsAdapter;::<init>(601) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$PointItemsAdapter;::a(602) : 0 12 24 26 28 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$PointItemsAdapter;::getSourceItems(603) : 0 26 38 70 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SeriesItemsAdapter;::<init>(604) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SeriesItemsAdapter;::<init>(605) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SeriesItemsAdapter;::a(606) : 0 12 14 16 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SeriesItemsAdapter;::getSourceItems(607) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SmartItemsAdapter;::<init>(608) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SmartItemsAdapter;::<init>(609) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SmartItemsAdapter;::a(610) : 0 12 24 26 28 
+Lcom/artfulbits/aiCharts/Base/ChartLegendAdapter$SmartItemsAdapter;::getSourceItems(611) : 0 22 48 50 62 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$1;::<init>(612) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$1;::onChanged(613) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$Cell;::<init>(614) : 0 34 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$DrawableCell;::<init>(617) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$DrawableCell;::a(618) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$DrawableCell;::draw(619) : 0 76 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$DrawableCell;::getDrawable(620) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$DrawableCell;::measure(621) : 0 4 32 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$DrawableCell;::setDrawable(622) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::<init>(623) : 0 4 54 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::draw(624) : 0 4 52 60 86 96 98 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::getHorizontalAlignment(625) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::getText(626) : 0 4 8 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::getVerticalAlignment(627) : 0 4 24 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::measure(628) : 0 4 72 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::setAlignment(629) : 0 24 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem$TextCell;::setText(630) : 0 4 12 32 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::<init>(631) : 0 58 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::<init>(632) : 0 16 24 36 44 52 78 86 102 132 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::a(633) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::a(634) : 0 16 20 40 50 58 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::a(635) : 0 30 50 126 176 184 208 230 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::a(636) : 0 4 34 54 58 78 114 124 126 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::addCell(637) : 0 20 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::addCell(638) : 0 20 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::addCell(639) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::addCell(640) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::clearCells(641) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::getCells(642) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::getLegend(643) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::getTag(644) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::invalidate(645) : 0 4 8 18 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::setCell(646) : 0 4 24 34 36 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::setCell(647) : 0 4 24 34 36 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::setLegend(648) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItem;::setTag(649) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder$a;::<init>(650) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder$a;::draw(651) : 0 4 36 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder$a;::measure(652) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder$b;::<init>(653) : 0 24 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder$b;::draw(654) : 0 122 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder$b;::measure(655) : 0 28 36 108 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder;::<clinit>(657) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder;::<init>(658) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder;::<init>(659) : 0 18 24 26 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder;::bind(660) : 0 4 14 22 52 74 76 80 88 108 116 146 168 188 196 204 248 256 264 310 318 324 
+Lcom/artfulbits/aiCharts/Base/ChartLegendItemsBinder;::bind(661) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartNamedCollection;::contains(663) : 0 12 14 16 
+Lcom/artfulbits/aiCharts/Base/ChartNamedCollection;::get(664) : 0 4 20 52 54 62 
+Lcom/artfulbits/aiCharts/Base/ChartNamedCollection;::validate(665) : 0 12 28 40 52 114 120 122 130 
+Lcom/artfulbits/aiCharts/Base/ChartNamedCollection;::validate(666) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartNamedCollection;::validateName(667) : 0 12 28 
+Lcom/artfulbits/aiCharts/Base/ChartPalette;::rangePalette(670) : 0 10 26 124 182 192 
+Lcom/artfulbits/aiCharts/Base/ChartPalette;::a(671) : 0 4 18 
+Lcom/artfulbits/aiCharts/Base/ChartPalette;::getColor(672) : 0 4 18 
+Lcom/artfulbits/aiCharts/Base/ChartPalette;::getSize(673) : 0 4 6 
+Lcom/artfulbits/aiCharts/Base/ChartPalette;::getValues(674) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::<init>(677) : 0 248 266 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::a(678) : 0 4 8 18 20 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getAttribute(679) : 0 4 8 24 32 44 46 52 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getBackColor(680) : 0 12 20 32 34 38 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getBackDrawable(681) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getBorderColor(682) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getFormatedLabel(683) : 0 12 20 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getHLabelAlignment(684) : 0 4 8 16 28 30 36 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLabel(685) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLabelAngle(686) : 0 4 8 16 28 30 42 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLabelBackground(687) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLabelFormat(688) : 0 12 14 16 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLabelFormatInst(689) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLabelPadding(690) : 0 4 8 16 28 30 36 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLineWidth(691) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getLocalBackColor(692) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getMarkerDrawable(693) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getMarkerSize(694) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getPaint(695) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getPathEffect(696) : 0 12 14 16 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getShowLabel(697) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getTag(698) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getTextPaint(699) : 0 4 8 16 28 30 36 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::getVLabelAlignment(700) : 0 4 8 16 28 30 36 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::inflateAttributes(701) : 0 22 34 38 52 54 70 92 108 120 124 140 156 192 248 278 294 320 336 370 386 412 428 454 470 496 512 538 550 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::isBackFilterEnabled(702) : 0 4 8 16 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::onChanged(703) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::reset(704) : 0 74 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setAttribute(705) : 0 4 8 22 42 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setBackColor(706) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setBackDrawable(707) : 0 10 50 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setBackFilterEnabled(708) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setBaseAttributes(709) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setBorderColor(710) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setChart(711) : 0 4 30 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setHLabelAlignment(712) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setLabel(713) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setLabelAngle(714) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setLabelBackground(715) : 0 10 50 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setLabelFormat(716) : 0 6 18 20 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setLabelPadding(717) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setLineWidth(718) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setMarkerDrawable(719) : 0 10 50 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setMarkerPaint(720) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setMarkerSize(721) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setPaint(722) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setPathEffect(723) : 0 4 8 30 32 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setShowLabel(724) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setTag(725) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setTextPaint(726) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::setVLabelAlignment(727) : 0 10 22 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::<clinit>(728) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::<init>(729) : 0 36 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::<init>(730) : 0 64 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getAxisLabel(731) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getChart(732) : 0 4 8 10 12 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getFormatedLabel(733) : 0 20 28 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getLocalBackColor(734) : 0 12 36 84 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getSeries(735) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getX(736) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getY(737) : 0 4 8 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::getY(738) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::onChanged(739) : 0 4 8 18 24 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::set(740) : 0 18 34 44 46 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::setAxisLabel(741) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::setSeries(742) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::setX(743) : 0 4 12 24 34 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::setY(744) : 0 14 28 30 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::setY(745) : 0 4 16 28 
+Lcom/artfulbits/aiCharts/Base/ChartPoint;::toString(746) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$a;::<init>(747) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$a;::a(748) : 0 8 24 50 90 110 188 260 314 344 402 412 414 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$a;::bind(749) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$b;::<init>(750) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$b;::bind(751) : 0 8 30 44 64 76 102 110 122 124 128 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$c;::<init>(752) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$c;::a(753) : 0 12 28 60 92 112 166 196 250 264 284 304 362 384 392 446 450 454 464 466 470 474 486 498 508 512 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection$c;::bind(754) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::add(756) : 0 12 28 56 68 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::add(757) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::add(758) : 0 12 28 44 62 74 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::add(759) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::addAll(760) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::addAll(761) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::addDate(762) : 0 4 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::addDate(763) : 0 4 30 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::addDate(764) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::addXY(765) : 0 22 24 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::beginUpdate(766) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::clear(767) : 0 22 52 70 80 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::contains(768) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::containsAll(769) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::endUpdate(770) : 0 4 8 28 42 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::get(771) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::get(772) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::getMinMaxRange(773) : 0 48 76 78 86 92 102 104 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::getSum(774) : 0 14 26 54 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::indexOf(775) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::indexOf(776) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::isEmpty(777) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::iterator(778) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::lastIndexOf(779) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::listIterator(780) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::listIterator(781) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::remove(782) : 0 22 36 46 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::remove(783) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::remove(784) : 0 18 36 46 48 50 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::removeAll(785) : 0 30 58 88 94 96 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::removeAt(786) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::retainAll(787) : 0 30 58 88 94 96 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::set(788) : 0 4 42 52 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::set(789) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(790) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(791) : 0 24 46 52 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(792) : 0 38 60 74 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(793) : 0 32 62 68 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(794) : 0 36 62 68 76 82 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(795) : 0 4 20 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(796) : 0 22 62 68 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(797) : 0 22 60 66 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::setData(798) : 0 22 62 68 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::size(799) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::subList(800) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::toArray(801) : 0 4 22 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::toArray(802) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::toArray(803) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration$1;::<clinit>(804) : 0 150 154 158 162 166 170 174 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration$Usage;::<clinit>(805) : 0 180 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration$Usage;::<init>(806) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration$Usage;::valueOf(807) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration$Usage;::values(808) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration;::<init>(811) : 0 102 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration;::a(812) : 0 8 16 18 24 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration;::getIndices(813) : 0 14 40 46 56 66 76 86 96 106 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::<init>(814) : 0 160 178 186 194 210 238 246 306 308 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::create(815) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getSideBySideOffset(816) : 0 50 96 122 126 140 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getStackedValue(817) : 0 20 56 90 102 118 124 128 132 168 180 196 208 232 250 256 260 278 280 290 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getStackedValue(818) : 0 4 52 68 70 94 116 124 130 150 178 180 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::addRegion(819) : 0 30 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::addRegion(820) : 0 4 24 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::addRegion(821) : 0 40 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::draw(822) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::drawMarkers(823) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getPoint(824) : 0 4 8 24 26 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getRect(825) : 0 4 86 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getSideBySideOffset(826) : 0 4 8 32 36 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getStackedValue(827) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::getStackedValue(828) : 0 4 22 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::isVisible(829) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartRenderArgs;::isVisible(830) : 0 26 52 78 104 106 108 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::<init>(831) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::<init>(832) : 0 10 26 38 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::draw(833) : 0 14 30 34 60 62 74 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::getIntrinsicHeight(834) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::getIntrinsicWidth(835) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::getOpacity(836) : 0 2 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::setAlpha(837) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$IconDrawable;::setColorFilter(838) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$a;::a(840) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$a;::a(841) : 0 26 38 46 50 72 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::<init>(842) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::<init>(843) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::<init>(844) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::<init>(845) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::<init>(846) : 130 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::findArea(848) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::a(849) : 0 4 8 32 40 54 56 74 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getActualXAxis(850) : 0 4 16 24 26 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getActualYAxis(851) : 0 4 16 24 26 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getActualZAxis(852) : 0 12 14 16 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getArea(853) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getChart(854) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getLegend(855) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getLegendInst(856) : 0 4 8 32 40 54 56 74 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getLocalBackColor(857) : 0 12 20 60 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getName(858) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getPalette(859) : 0 4 8 12 14 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getPointDeclaration(860) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getPointsCache(862) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getType(863) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getXAxis(864) : 0 4 8 20 26 30 32 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getXRange(865) : 0 4 16 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getYAxis(866) : 0 4 8 20 26 30 32 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getYRange(867) : 0 4 16 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getZRange(868) : 0 4 16 30 34 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::inflateAttributes(869) : 0 20 32 34 50 64 80 94 110 134 150 178 218 234 274 312 326 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::invalidate(870) : 0 4 32 40 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::isRegionsEnabled(871) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::onChanged(872) : 0 12 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::onPointsChanged(873) : 0 4 14 18 42 54 58 62 72 100 114 120 122 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::onPointsChanged(874) : 0 4 52 66 72 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setArea(875) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setChart(876) : 0 30 50 66 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setLegend(877) : 0 12 18 34 40 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setName(878) : 0 4 8 26 30 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setRegionsEnabled(879) : 0 4 8 18 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setType(880) : 0 4 20 28 38 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setType(881) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setXAxis(882) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::setYAxis(883) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartSeriesStyle;::<init>(884) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartSeriesStyle;::getChart(885) : 0 2 
+Lcom/artfulbits/aiCharts/Base/ChartSeriesStyle;::onChanged(886) : 0 4 8 20 26 
+Lcom/artfulbits/aiCharts/Base/ChartSeriesStyle;::setChart(887) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartTitle$1;::<clinit>(888) : 0 146 150 154 158 162 166 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::<init>(889) : 0 60 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::<init>(890) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::a(891) : 0 4 8 34 62 108 152 154 160 178 192 198 216 230 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::draw(892) : 0 48 80 218 256 258 270 344 418 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::getBackground(893) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::getDrawable(894) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::getText(895) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::getTextPaint(896) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::inflateAttributes(897) : 0 18 30 34 46 52 54 70 84 100 122 138 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::measure(898) : 0 20 70 126 134 146 168 178 190 222 328 342 344 362 380 406 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::setBackground(899) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::setDrawable(900) : 0 4 8 20 
+Lcom/artfulbits/aiCharts/Base/ChartTitle;::setText(901) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$1;::<clinit>(902) : 0 62 66 70 
+Lcom/artfulbits/aiCharts/Base/ChartTransform;::<init>(903) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartTransform;::create(904) : 0 40 
+Lcom/artfulbits/aiCharts/Base/ChartTransform;::create(905) : 0 48 
+Lcom/artfulbits/aiCharts/Base/ChartTransform;::create(906) : 0 4 22 32 34 62 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$a;::<init>(910) : 0 64 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$a;::getPoint(911) : 0 4 68 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$a;::getX(912) : 0 4 28 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$a;::getY(913) : 0 4 28 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$b;::<init>(914) : 0 78 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$b;::a(915) : 0 34 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$b;::getPoint(916) : 0 104 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$b;::getX(917) : 0 4 40 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$b;::getY(918) : 0 4 34 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$c;::<init>(919) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$c;::getPoint(920) : 0 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$c;::getX(921) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartTransform$c;::getY(922) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartType;::computeXRange(925) : 0 32 48 56 58 72 76 104 128 130 138 148 160 196 200 
+Lcom/artfulbits/aiCharts/Base/ChartType;::computeYRange(926) : 0 20 52 68 76 106 108 116 118 124 132 140 148 176 178 186 188 194 202 214 238 240 248 250 256 
+Lcom/artfulbits/aiCharts/Base/ChartType;::drawIconInternal(927) : 0 12 16 28 46 58 60 
+Lcom/artfulbits/aiCharts/Base/ChartType;::drawMarker(928) : 0 42 46 152 156 240 302 324 346 350 362 382 384 422 444 476 496 516 548 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getVisibleFrom(929) : 0 24 36 38 66 80 108 122 150 164 192 218 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getVisibleTo(930) : 0 24 36 38 66 80 108 122 150 164 192 218 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isCompatible(931) : 0 18 20 40 68 
+Lcom/artfulbits/aiCharts/Base/ChartType;::colorPerPoint(932) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::drawIcon(934) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::drawMarker(935) : 0 18 116 118 
+Lcom/artfulbits/aiCharts/Base/ChartType;::drawMarker(936) : 0 18 110 112 
+Lcom/artfulbits/aiCharts/Base/ChartType;::drawMarker(937) : 0 22 78 106 
+Lcom/artfulbits/aiCharts/Base/ChartType;::drawMarkers(938) : 0 4 92 96 120 132 148 190 210 224 230 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getMarkerPoint(939) : 0 28 38 50 68 78 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getName(940) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getRequiredCoordinateSystem(941) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getRequiredUsages(942) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getXRange(943) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getYRange(944) : 0 30 
+Lcom/artfulbits/aiCharts/Base/ChartType;::getZRange(945) : 0 16 26 28 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isCompatible(946) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isFlags(947) : 0 4 10 12 14 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isIndexed(948) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isOriginDependent(949) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isRotated(950) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isSideBySide(951) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isStacked(952) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isStacked100(953) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/ChartType;::isSupport3D(954) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::<init>(956) : 0 12 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::union(957) : 0 4 6 10 14 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::a(958) : 0 16 28 30 32 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::center(960) : 0 16 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::extrapolate(961) : 0 4 20 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::getDelta(962) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::interpolate(963) : 0 4 18 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::set(964) : 0 8 16 18 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::union(965) : 0 16 30 36 38 44 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::union(966) : 0 16 28 34 36 42 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::union(967) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::<init>(969) : 0 6 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::cellingTo(970) : 0 14 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::clamp(971) : 0 8 10 18 22 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::clamp(972) : 0 4 6 10 14 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::coerce(973) : 0 12 14 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::equals(974) : 0 4 20 22 24 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::floorTo(975) : 0 14 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::round(976) : 0 40 
+Lcom/artfulbits/aiCharts/Base/MathUtils;::solveQuadratic(977) : 0 12 24 42 44 70 118 
+Lcom/artfulbits/aiCharts/Base/View3D;::<clinit>(978) : 0 18 
+Lcom/artfulbits/aiCharts/Base/View3D;::<init>(979) : 0 128 
+Lcom/artfulbits/aiCharts/Base/View3D;::g(980) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/View3D;::a(981) : 0 4 148 162 164 
+Lcom/artfulbits/aiCharts/Base/View3D;::a(982) : 0 10 20 22 24 34 44 48 324 342 
+Lcom/artfulbits/aiCharts/Base/View3D;::a(983) : 0 10 12 14 24 28 286 304 
+Lcom/artfulbits/aiCharts/Base/View3D;::a(984) : 0 40 426 646 1060 1106 1144 1158 1160 1242 1338 1342 1346 1368 1398 1434 1452 1456 1460 1466 
+Lcom/artfulbits/aiCharts/Base/View3D;::a(985) : 0 4 10 12 14 
+Lcom/artfulbits/aiCharts/Base/View3D;::a(986) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::b(987) : 0 14 
+Lcom/artfulbits/aiCharts/Base/View3D;::b(988) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::c(989) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::d(990) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::e(991) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::f(992) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/View3D;::getDepth(993) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::getMode(994) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::getPerspective(995) : 0 4 
+Lcom/artfulbits/aiCharts/Base/View3D;::getRotationX(996) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/View3D;::getRotationY(997) : 0 4 16 
+Lcom/artfulbits/aiCharts/Base/View3D;::project(998) : 0 142 222 224 
+Lcom/artfulbits/aiCharts/Base/View3D;::project(999) : 0 140 224 226 
+Lcom/artfulbits/aiCharts/Base/View3D;::rotate(1000) : 0 10 18 84 
+Lcom/artfulbits/aiCharts/Base/View3D;::setDepth(1001) : 0 4 12 22 
+Lcom/artfulbits/aiCharts/Base/View3D;::setMode(1002) : 0 4 8 24 
+Lcom/artfulbits/aiCharts/Base/View3D;::setPerspective(1003) : 0 4 12 48 
+Lcom/artfulbits/aiCharts/Base/View3D;::setRotationX(1004) : 0 4 12 34 
+Lcom/artfulbits/aiCharts/Base/View3D;::setRotationY(1005) : 0 4 12 74 
+Lcom/artfulbits/aiCharts/Base/a;::<init>(1007) : 0 6 
+Lcom/artfulbits/aiCharts/Base/a;::<init>(1008) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/a;::a(1009) : 0 22 
+Lcom/artfulbits/aiCharts/Base/a;::a(1010) : 0 14 28 30 52 86 108 130 164 
+Lcom/artfulbits/aiCharts/Base/a;::a(1011) : 0 26 48 50 70 102 122 142 174 
+Lcom/artfulbits/aiCharts/Base/a;::a(1012) : 0 6 8 
+Lcom/artfulbits/aiCharts/Base/b;::<init>(1013) : 0 6 
+Lcom/artfulbits/aiCharts/Base/b;::updateLabels(1014) : 0 6 
+Lcom/artfulbits/aiCharts/Base/c;::<init>(1015) : 0 6 
+Lcom/artfulbits/aiCharts/Base/c;::updateLabels(1016) : 0 12 18 20 
+Lcom/artfulbits/aiCharts/Base/d;::<init>(1017) : 0 6 
+Lcom/artfulbits/aiCharts/Base/d;::updateLabels(1018) : 0 12 18 20 
+Lcom/artfulbits/aiCharts/Base/e;::<clinit>(1019) : 0 54 
+Lcom/artfulbits/aiCharts/Base/e;::<init>(1020) : 0 72 
+Lcom/artfulbits/aiCharts/Base/e;::a(1021) : 0 20 40 74 76 84 120 128 152 160 184 208 216 236 244 284 292 320 
+Lcom/artfulbits/aiCharts/Base/e;::a(1022) : 0 4 
+Lcom/artfulbits/aiCharts/Base/e;::a(1023) : 0 22 32 36 38 46 58 66 
+Lcom/artfulbits/aiCharts/Base/e;::b(1024) : 0 24 90 94 96 100 
+Lcom/artfulbits/aiCharts/Base/g;::invalidateDrawable(1026) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/g;::scheduleDrawable(1027) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/g;::unscheduleDrawable(1028) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/h;::<init>(1029) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/h;::a(1030) : 0 4 24 52 
+Lcom/artfulbits/aiCharts/Base/i;::<init>(1031) : 0 6 
+Lcom/artfulbits/aiCharts/Base/i;::compare(1032) : 0 24 26 28 44 48 
+Lcom/artfulbits/aiCharts/Base/j$a;::<init>(1033) : 0 6 
+Lcom/artfulbits/aiCharts/Base/j;::a(1035) : 0 4 18 40 50 
+Lcom/artfulbits/aiCharts/Base/j;::a(1036) : 0 38 70 80 108 118 126 134 142 164 172 194 214 228 248 266 
+Lcom/artfulbits/aiCharts/Base/j;::a(1037) : 0 28 
+Lcom/artfulbits/aiCharts/Base/k;::<init>(1038) : 0 20 
+Lcom/artfulbits/aiCharts/Base/l$a;::<init>(1039) : 0 30 
+Lcom/artfulbits/aiCharts/Base/l$a;::a(1040) : 0 26 66 102 106 108 110 116 120 130 
+Lcom/artfulbits/aiCharts/Base/l$b;::<init>(1041) : 0 30 
+Lcom/artfulbits/aiCharts/Base/l$b;::a(1042) : 0 42 44 46 82 86 90 94 
+Lcom/artfulbits/aiCharts/Base/l;::<init>(1043) : 0 54 
+Lcom/artfulbits/aiCharts/Base/l;::a(1044) : 0 20 40 52 56 72 74 82 
+Lcom/artfulbits/aiCharts/Base/l;::b(1045) : 0 20 40 52 56 72 74 82 
+Lcom/artfulbits/aiCharts/Base/l;::a(1046) : 0 4 12 
+Lcom/artfulbits/aiCharts/Base/l;::a(1047) : 0 22 30 42 50 58 70 
+Lcom/artfulbits/aiCharts/Base/l;::a(1048) : 0 14 16 18 
+Lcom/artfulbits/aiCharts/Base/l;::a(1049) : 0 52 84 96 128 132 144 174 182 194 206 218 230 234 246 278 290 302 
+Lcom/artfulbits/aiCharts/Base/l;::b(1050) : 0 22 30 42 44 46 
+Lcom/artfulbits/aiCharts/Base/l;::c(1051) : 0 22 30 42 44 
+Lcom/artfulbits/aiCharts/Base/m$a;::<init>(1052) : 0 24 
+Lcom/artfulbits/aiCharts/Base/m$a;::<init>(1053) : 0 26 
+Lcom/artfulbits/aiCharts/Base/m;::<clinit>(1054) : 0 326 
+Lcom/artfulbits/aiCharts/Base/m;::<init>(1055) : 0 52 68 84 96 100 126 134 188 192 208 230 266 272 276 288 312 332 334 
+Lcom/artfulbits/aiCharts/Base/m;::a(1056) : 0 16 18 38 54 
+Lcom/artfulbits/aiCharts/Base/m;::a(1057) : 0 24 36 60 76 96 116 140 176 
+Lcom/artfulbits/aiCharts/Base/m;::a(1058) : 0 4 8 22 24 32 50 
+Lcom/artfulbits/aiCharts/Base/m;::a(1059) : 0 22 36 42 54 70 86 102 132 140 158 188 208 232 264 280 338 350 376 384 
+Lcom/artfulbits/aiCharts/Base/m;::a(1060) : 0 22 36 42 54 70 86 98 122 130 
+Lcom/artfulbits/aiCharts/Base/m;::a(1061) : 0 8 20 22 30 44 66 80 86 98 
+Lcom/artfulbits/aiCharts/Base/n;::<init>(1062) : 0 44 
+Lcom/artfulbits/aiCharts/Base/n;::a(1063) : 0 18 28 30 
+Lcom/artfulbits/aiCharts/Base/n;::a(1064) : 0 18 28 30 76 160 
+Lcom/artfulbits/aiCharts/Base/n;::a(1065) : 0 4 16 24 56 58 
+Lcom/artfulbits/aiCharts/Base/q;::<clinit>(1066) : 0 84 88 92 96 
+Lcom/artfulbits/aiCharts/Base/r;::a(1068) : 38 50 110 134 182 186 210 
+Lcom/artfulbits/aiCharts/ChartGestureListener$a;::a(1071) : 0 4 24 48 50 
+Lcom/artfulbits/aiCharts/ChartGestureListener$a;::a(1072) : 0 4 24 68 70 
+Lcom/artfulbits/aiCharts/ChartGestureListener$a;::a(1073) : 0 4 24 76 
+Lcom/artfulbits/aiCharts/ChartGestureListener$a;::a(1074) : 0 20 30 46 
+Lcom/artfulbits/aiCharts/ChartGestureListener$a;::a(1075) : 0 6 70 168 170 174 
+Lcom/artfulbits/aiCharts/ChartGestureListener$a;::run(1076) : 0 4 16 24 50 58 84 98 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::getAreaAtPoint(1079) : 0 16 28 60 64 76 78 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::moveAxis(1080) : 0 28 78 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::getFlags(1081) : 0 4 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::onDown(1082) : 0 4 8 10 12 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::onFling(1083) : 0 18 32 46 52 56 60 100 104 118 148 150 154 158 162 166 170 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::onLongPress(1084) : 0 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::onScroll(1085) : 0 16 30 46 50 90 102 130 134 162 164 168 172 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::onShowPress(1086) : 0 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::onSingleTapUp(1087) : 0 2 
+Lcom/artfulbits/aiCharts/ChartView;::<init>(1089) : 0 8 
+Lcom/artfulbits/aiCharts/ChartView;::<init>(1090) : 0 10 
+Lcom/artfulbits/aiCharts/ChartView;::<init>(1093) : 48 
+Lcom/artfulbits/aiCharts/ChartView;::addArea(1094) : 0 10 38 
+Lcom/artfulbits/aiCharts/ChartView;::getAnnotations(1095) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::getAreas(1096) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::getChart(1097) : 0 4 
+Lcom/artfulbits/aiCharts/ChartView;::getGestureDetector(1098) : 0 4 
+Lcom/artfulbits/aiCharts/ChartView;::getLegends(1099) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::getPalette(1100) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::getSeries(1101) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::getTitles(1102) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::hitTest(1103) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::isHitTestEnabled(1104) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::onTouchEvent(1107) : 0 4 8 20 22 
+Lcom/artfulbits/aiCharts/ChartView;::setChart(1108) : 0 32 
+Lcom/artfulbits/aiCharts/ChartView;::setChart(1109) : 4 36 
+Lcom/artfulbits/aiCharts/ChartView;::setGestureDetector(1110) : 0 22 
+Lcom/artfulbits/aiCharts/ChartView;::setGestureDetector(1111) : 0 4 
+Lcom/artfulbits/aiCharts/ChartView;::setHitTestEnabled(1112) : 0 4 8 18 
+Lcom/artfulbits/aiCharts/ChartView;::setPalette(1113) : 0 4 8 18 
+Lcom/artfulbits/aiCharts/Drawable/ChartSeriesDrawable;::<init>(1115) : 0 16 
+Lcom/artfulbits/aiCharts/Drawable/ChartSeriesDrawable;::draw(1116) : 0 4 56 
+Lcom/artfulbits/aiCharts/Drawable/ChartSeriesDrawable;::getOpacity(1117) : 0 4 
+Lcom/artfulbits/aiCharts/Drawable/ChartSeriesDrawable;::setAlpha(1118) : 0 
+Lcom/artfulbits/aiCharts/Drawable/ChartSeriesDrawable;::setColorFilter(1119) : 0 
+Lcom/artfulbits/aiCharts/Enums/Alignment;::valueOf(1122) : 0 16 
+Lcom/artfulbits/aiCharts/Enums/Alignment;::values(1123) : 0 4 16 
+Lcom/artfulbits/aiCharts/Enums/ChartBorderStyle;::<clinit>(1124) : 0 66 
+Lcom/artfulbits/aiCharts/Enums/ChartBorderStyle;::<init>(1125) : 0 6 
+Lcom/artfulbits/aiCharts/Enums/ChartBorderStyle;::valueOf(1126) : 0 16 
+Lcom/artfulbits/aiCharts/Enums/ChartBorderStyle;::values(1127) : 0 4 16 
+Lcom/artfulbits/aiCharts/Enums/CoordinateSystem;::<clinit>(1128) : 0 94 
+Lcom/artfulbits/aiCharts/Enums/CoordinateSystem;::<init>(1129) : 0 6 
+Lcom/artfulbits/aiCharts/Enums/CoordinateSystem;::valueOf(1130) : 0 16 
+Lcom/artfulbits/aiCharts/Enums/CoordinateSystem;::values(1131) : 0 4 16 
+Lcom/artfulbits/aiCharts/Enums/Orientation;::<clinit>(1132) : 0 66 
+Lcom/artfulbits/aiCharts/Enums/Orientation;::<init>(1133) : 0 6 
+Lcom/artfulbits/aiCharts/Enums/Orientation;::valueOf(1134) : 0 16 
+Lcom/artfulbits/aiCharts/Enums/Orientation;::values(1135) : 0 4 16 
+Lcom/artfulbits/aiCharts/Enums/Shape3D;::valueOf(1138) : 0 16 
+Lcom/artfulbits/aiCharts/Enums/Shape3D;::values(1139) : 0 4 16 
+Lcom/artfulbits/aiCharts/Exceptions/XmlElementAttributeNotFoundException;::<init>(1140) : 0 14 
+Lcom/artfulbits/aiCharts/Exceptions/XmlElementAttributeNotFoundException;::getAttributeName(1141) : 0 4 
+Lcom/artfulbits/aiCharts/Exceptions/XmlElementAttributeNotFoundException;::getNode(1142) : 0 4 
+Lcom/artfulbits/aiCharts/Exceptions/XmlNodeValueParseException;::<init>(1143) : 0 8 
+Lcom/artfulbits/aiCharts/Exceptions/XmlNodeValueParseException;::<init>(1144) : 0 10 
+Lcom/artfulbits/aiCharts/Exceptions/XmlNodeValueParseException;::getNode(1145) : 0 4 
+Lcom/artfulbits/aiCharts/Extensions/DatabaseBinder;::<init>(1146) : 0 16 32 54 80 86 96 108 114 122 138 
+Lcom/artfulbits/aiCharts/Extensions/DatabaseBinder;::bind(1147) : 0 42 56 70 88 120 140 160 164 186 188 
+Lcom/artfulbits/aiCharts/Extensions/DatabaseBinder;::bind(1148) : 0 12 
+Lcom/artfulbits/aiCharts/Extensions/ShapeHelper;::<clinit>(1149) : 0 238 
+Lcom/artfulbits/aiCharts/Extensions/ShapeHelper;::<init>(1150) : 0 6 
+Lcom/artfulbits/aiCharts/Extensions/ShapeHelper;::build(1151) : 0 24 
+Lcom/artfulbits/aiCharts/Extensions/ShapeHelper;::build3DShpere(1152) : 0 76 
+Lcom/artfulbits/aiCharts/Types/ChartAreaType;::<clinit>(1153) : 0 28 
+Lcom/artfulbits/aiCharts/Types/ChartAreaType;::<init>(1154) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartAreaType;::draw(1155) : 0 62 162 192 320 360 362 390 442 488 514 520 540 544 656 678 682 712 716 
+Lcom/artfulbits/aiCharts/Types/ChartBarOfPieType$1;::<clinit>(1156) : 0 84 88 92 96 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::<clinit>(1157) : 0 234 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::<init>(1158) : 0 34 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::computeSectorPath(1159) : 0 62 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::draw(1160) : 0 4 76 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::drawIcon(1161) : 0 4 12 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::drawMarkers(1162) : 0 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::drawPie(1163) : 0 56 68 190 202 282 288 294 422 498 510 576 590 594 624 710 814 862 890 924 934 952 986 1052 1072 1076 1170 1256 1272 1276 1308 1448 1486 1636 1682 1702 1952 1972 1990 2062 2136 2170 2190 2264 2284 2298 2318 2332 2346 2368 
+Lcom/artfulbits/aiCharts/Types/ChartPieType;::getRequiredCoordinateSystem(1164) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType;::<clinit>(1165) : 0 204 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType;::<init>(1166) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType;::computeTangents(1167) : 0 58 78 80 82 172 188 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType;::computePointCorners(1168) : 0 62 132 134 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType;::draw(1169) : 0 358 396 420 454 482 490 510 518 526 534 554 586 598 880 974 1090 1192 1194 1314 
+Lcom/artfulbits/aiCharts/Types/ChartBarOfPieType;::<init>(1170) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartBarOfPieType;::a(1171) : 0 50 88 100 148 166 188 202 238 378 476 514 536 558 582 594 608 622 636 654 668 686 730 
+Lcom/artfulbits/aiCharts/Types/ChartBarOfPieType;::draw(1172) : 0 358 396 420 454 482 490 498 506 526 534 554 586 598 744 804 962 1044 1108 1150 1152 1284 
+Lcom/artfulbits/aiCharts/Types/ChartColumnType;::draw(1175) : 0 176 302 314 352 362 438 458 478 532 542 552 572 592 648 658 668 688 708 764 774 784 814 832 
+Lcom/artfulbits/aiCharts/Types/ChartColumnType;::getMarkerPoint(1176) : 0 50 78 80 90 120 
+Lcom/artfulbits/aiCharts/Types/ChartBarType;::<init>(1177) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartBubbleType;::<clinit>(1178) : 0 72 
+Lcom/artfulbits/aiCharts/Types/ChartBubbleType;::<init>(1179) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartBubbleType;::draw(1180) : 0 126 160 188 322 416 482 550 558 586 598 612 624 672 684 702 728 730 
+Lcom/artfulbits/aiCharts/Types/ChartCandleStickType;::<clinit>(1181) : 0 70 
+Lcom/artfulbits/aiCharts/Types/ChartCandleStickType;::<init>(1182) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartCandleStickType;::draw(1183) : 0 236 488 514 548 576 
+Lcom/artfulbits/aiCharts/Types/ChartCandleStickType;::getRequiredUsages(1184) : 0 46 
+Lcom/artfulbits/aiCharts/Types/ChartCandleStickType;::getYRange(1185) : 0 60 
+Lcom/artfulbits/aiCharts/Types/ChartColumnType$1;::<clinit>(1186) : 0 190 194 198 202 206 210 214 218 
+Lcom/artfulbits/aiCharts/Types/ChartDoughnutType;::<clinit>(1187) : 0 38 
+Lcom/artfulbits/aiCharts/Types/ChartDoughnutType;::<init>(1188) : 0 12 
+Lcom/artfulbits/aiCharts/Types/ChartDoughnutType;::computeSectorPath(1189) : 0 4 14 20 22 
+Lcom/artfulbits/aiCharts/Types/ChartDoughnutType;::draw(1190) : 0 4 38 
+Lcom/artfulbits/aiCharts/Types/ChartFastLineType;::<clinit>(1191) : 0 4 24 
+Lcom/artfulbits/aiCharts/Types/ChartFastLineType;::<init>(1192) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartFastLineType;::draw(1193) : 0 36 120 130 162 174 242 290 294 320 326 356 388 394 402 406 410 438 442 446 450 470 488 490 494 
+Lcom/artfulbits/aiCharts/Types/ChartFastLineType;::drawMarkers(1194) : 0 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType$1;::<init>(1195) : 0 4 10 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType$1;::compare(1196) : 0 42 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType$Style;::<clinit>(1197) : 0 66 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType$Style;::<init>(1198) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType$Style;::valueOf(1199) : 0 16 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType$Style;::values(1200) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType;::<clinit>(1201) : 0 170 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType;::<init>(1202) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType;::draw(1203) : 0 210 246 288 294 366 688 702 728 740 780 790 914 952 964 988 1038 1072 1166 1344 1406 1424 1462 1474 1526 1534 1542 1700 1798 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType;::drawMarkers(1204) : 0 
+Lcom/artfulbits/aiCharts/Types/ChartFunnelType;::getRequiredCoordinateSystem(1205) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType$1;::<clinit>(1206) : 0 106 110 114 118 122 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType$Style;::<clinit>(1207) : 0 122 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType$Style;::<init>(1208) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType$Style;::valueOf(1209) : 0 16 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType$Style;::values(1210) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType;::<clinit>(1211) : 0 28 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType;::<init>(1212) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType;::draw(1213) : 0 120 128 142 150 156 310 428 538 542 652 664 674 684 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType;::getRequiredUsages(1214) : 0 46 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoOpenCloseType;::getYRange(1215) : 0 56 64 66 88 118 148 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoType;::<init>(1216) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoType;::draw(1217) : 0 164 172 276 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoType;::getRequiredUsages(1218) : 0 26 
+Lcom/artfulbits/aiCharts/Types/ChartHiLoType;::getYRange(1219) : 0 40 
+Lcom/artfulbits/aiCharts/Types/ChartLineType$BreakMode;::valueOf(1222) : 0 16 
+Lcom/artfulbits/aiCharts/Types/ChartLineType$BreakMode;::values(1223) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartLineType;::draw(1226) : 0 52 84 94 170 182 200 218 328 352 396 400 404 430 436 448 514 526 592 618 630 636 646 652 672 676 708 714 720 726 750 752 760 
+Lcom/artfulbits/aiCharts/Types/ChartLineType;::drawIcon(1227) : 0 4 12 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType$SplitMode;::<clinit>(1228) : 0 122 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType$SplitMode;::<init>(1229) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType$SplitMode;::valueOf(1230) : 0 16 
+Lcom/artfulbits/aiCharts/Types/ChartPieOfPieType$SplitMode;::values(1231) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartPieType$LabelStyle;::<clinit>(1232) : 0 94 
+Lcom/artfulbits/aiCharts/Types/ChartPieType$LabelStyle;::<init>(1233) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartPieType$LabelStyle;::valueOf(1234) : 0 16 
+Lcom/artfulbits/aiCharts/Types/ChartPieType$LabelStyle;::values(1235) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartPieType$a;::<init>(1236) : 0 116 178 186 
+Lcom/artfulbits/aiCharts/Types/ChartPointType;::<clinit>(1237) : 0 4 8 
+Lcom/artfulbits/aiCharts/Types/ChartPointType;::<init>(1238) : 0 68 
+Lcom/artfulbits/aiCharts/Types/ChartPointType;::draw(1239) : 0 
+Lcom/artfulbits/aiCharts/Types/ChartPointType;::drawIcon(1240) : 0 4 12 
+Lcom/artfulbits/aiCharts/Types/ChartPointType;::drawMarker(1241) : 0 32 92 122 134 136 
+Lcom/artfulbits/aiCharts/Types/ChartPointType;::drawMarkers(1242) : 0 4 130 134 162 204 230 280 286 
+Lcom/artfulbits/aiCharts/Types/ChartPolarType;::<clinit>(1243) : 0 4 8 
+Lcom/artfulbits/aiCharts/Types/ChartPolarType;::<init>(1244) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartPolarType;::draw(1245) : 0 82 234 252 254 306 372 392 402 
+Lcom/artfulbits/aiCharts/Types/ChartPolarType;::getRequiredCoordinateSystem(1246) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType$Style;::<clinit>(1247) : 0 66 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType$Style;::<init>(1248) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType$Style;::valueOf(1249) : 0 16 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType$Style;::values(1250) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType;::<clinit>(1251) : 0 100 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType;::<init>(1252) : 0 24 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType;::a(1253) : 0 28 56 58 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType;::draw(1254) : 0 200 228 266 314 414 436 556 614 632 644 678 688 804 824 860 898 924 970 1004 1008 1272 1290 1328 1340 1392 1400 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType;::drawMarkers(1255) : 0 
+Lcom/artfulbits/aiCharts/Types/ChartPyramidType;::getRequiredCoordinateSystem(1256) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartRadarAreaType;::<init>(1257) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartRadarAreaType;::draw(1258) : 0 48 202 218 258 268 296 
+Lcom/artfulbits/aiCharts/Types/ChartRadarAreaType;::getRequiredCoordinateSystem(1259) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartRadarType;::<init>(1260) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartRangeAreaType;::<init>(1261) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartRangeAreaType;::draw(1262) : 0 4 26 164 284 292 320 322 362 394 408 444 458 472 
+Lcom/artfulbits/aiCharts/Types/ChartRangeAreaType;::getRequiredUsages(1263) : 0 26 
+Lcom/artfulbits/aiCharts/Types/ChartRangeAreaType;::getYRange(1264) : 0 40 
+Lcom/artfulbits/aiCharts/Types/ChartRangeColumnType;::<init>(1265) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartRangeColumnType;::draw(1266) : 0 166 258 268 300 312 370 378 394 
+Lcom/artfulbits/aiCharts/Types/ChartRangeColumnType;::getRequiredUsages(1267) : 0 26 
+Lcom/artfulbits/aiCharts/Types/ChartRangeColumnType;::getYRange(1268) : 0 40 
+Lcom/artfulbits/aiCharts/Types/ChartRoseType;::<init>(1269) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartRoseType;::draw(1270) : 0 182 194 446 456 482 
+Lcom/artfulbits/aiCharts/Types/ChartRoseType;::getRequiredCoordinateSystem(1271) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartSplineType;::<clinit>(1272) : 0 4 52 
+Lcom/artfulbits/aiCharts/Types/ChartSplineType;::<init>(1273) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartSplineType;::createSpline(1274) : 0 18 70 88 94 96 254 264 276 288 
+Lcom/artfulbits/aiCharts/Types/ChartSplineType;::draw(1275) : 0 48 68 144 210 292 368 426 436 448 460 524 526 
+Lcom/artfulbits/aiCharts/Types/ChartSplineType;::drawIcon(1276) : 0 4 12 
+Lcom/artfulbits/aiCharts/Types/ChartSplineAreaType;::<clinit>(1277) : 0 4 8 
+Lcom/artfulbits/aiCharts/Types/ChartSplineAreaType;::<init>(1278) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartSplineAreaType;::draw(1279) : 0 40 120 248 320 326 346 492 514 516 522 
+Lcom/artfulbits/aiCharts/Types/ChartStackedAreaType;::<clinit>(1280) : 0 4 8 
+Lcom/artfulbits/aiCharts/Types/ChartStackedAreaType;::<init>(1281) : 0 26 
+Lcom/artfulbits/aiCharts/Types/ChartStackedAreaType;::draw(1282) : 0 42 170 306 318 362 364 388 420 428 464 
+Lcom/artfulbits/aiCharts/Types/ChartStackedArea100Type;::<init>(1283) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartStackedArea100Type;::getYRange(1284) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartStackedColumnType;::<clinit>(1285) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartStackedColumnType;::<init>(1286) : 0 32 
+Lcom/artfulbits/aiCharts/Types/ChartStackedColumnType;::draw(1287) : 0 180 308 390 400 462 482 502 562 572 582 602 614 684 694 704 724 736 806 816 826 856 874 
+Lcom/artfulbits/aiCharts/Types/ChartStackedBarType;::<init>(1288) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartStackedBar100Type;::<init>(1289) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartStackedColumn100Type;::<init>(1290) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartStackedColumn100Type;::getYRange(1291) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartStackedColumnType$1;::<clinit>(1292) : 0 106 110 114 118 122 
+Lcom/artfulbits/aiCharts/Types/ChartStackedLineType;::<init>(1293) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartStackedLineType;::getName(1294) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartStackedLine100Type;::<init>(1295) : 0 20 
+Lcom/artfulbits/aiCharts/Types/ChartStackedLine100Type;::getName(1296) : 0 4 
+Lcom/artfulbits/aiCharts/Types/ChartStepAreaType;::<clinit>(1297) : 0 4 16 
+Lcom/artfulbits/aiCharts/Types/ChartStepAreaType;::<init>(1298) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartStepAreaType;::draw(1299) : 0 36 198 296 312 416 422 472 476 618 648 652 678 680 686 
+Lcom/artfulbits/aiCharts/Types/ChartStepAreaType;::drawIcon(1300) : 0 4 12 
+Lcom/artfulbits/aiCharts/Types/ChartStepLineType;::<clinit>(1301) : 0 66 
+Lcom/artfulbits/aiCharts/Types/ChartStepLineType;::<init>(1302) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartStepLineType;::draw(1303) : 0 52 168 178 244 256 366 418 456 460 486 492 504 652 664 734 756 762 770 776 814 820 848 854 860 866 908 910 
+Lcom/artfulbits/aiCharts/Types/ChartStepLineType;::drawIcon(1304) : 0 4 12 
+Lcom/artfulbits/aiCharts/Types/a;::<init>(1305) : 0 20 
+Lcom/artfulbits/aiCharts/Types/a;::computeYRange(1306) : 0 22 48 72 84 86 94 96 102 110 116 
+Lcom/artfulbits/aiCharts/Types/a;::computeZRange(1307) : 0 24 56 58 
+Lcom/artfulbits/aiCharts/Types/a;::computePlanes(1308) : 0 20 40 74 116 124 180 186 192 222 228 
+Lcom/artfulbits/aiCharts/Types/a;::draw(1309) : 0 64 72 94 118 226 236 
+Lcom/artfulbits/aiCharts/Types/a;::drawMarkers(1310) : 0 
+Lcom/artfulbits/aiCharts/Types/a;::getPoint(1312) : 0 4 8 116 118 
+Lcom/artfulbits/aiCharts/Types/a;::getYRange(1313) : 0 28 42 44 
+Lcom/artfulbits/aiCharts/Types/a;::getZRange(1314) : 0 28 42 44 
+Lcom/artfulbits/aiCharts/Types/ChartSurfaceType;::<init>(1315) : 0 48 
+Lcom/artfulbits/aiCharts/Types/ChartSurfaceType;::draw(1316) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartSurfaceType;::drawMarkers(1317) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartSurfaceType;::drawPolygon(1318) : 0 4 28 38 40 102 134 
+Lcom/artfulbits/aiCharts/Types/ChartSurfaceType;::getYRange(1319) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartSurfaceType;::getZRange(1320) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::<init>(1322) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::get(1323) : 16 60 74 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::get(1324) : 0 4 16 40 42 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::getName(1326) : 0 4 20 32 60 62 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::getNames(1327) : 0 4 30 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::getTypes(1328) : 0 4 40 
+Lcom/artfulbits/aiCharts/Types/ChartWireframeType;::<init>(1329) : 0 48 
+Lcom/artfulbits/aiCharts/Types/ChartWireframeType;::draw(1330) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartWireframeType;::drawMarkers(1331) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartWireframeType;::drawPolygon(1332) : 0 4 28 38 40 102 134 
+Lcom/artfulbits/aiCharts/Types/ChartWireframeType;::getYRange(1333) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartWireframeType;::getZRange(1334) : 0 6 
+Lcom/artfulbits/aiCharts/Types/a$a;::<init>(1335) : 0 10 
+Lcom/artfulbits/aiCharts/Types/a$a;::<init>(1336) : 0 4 38 
+Lcom/artfulbits/aiCharts/Types/a$a;::a(1337) : 0 8 12 
+Lcom/artfulbits/aiCharts/Types/a$a;::a(1338) : 0 62 74 82 100 122 144 192 230 242 250 344 394 446 454 512 520 528 576 594 
+Lcom/artfulbits/aiCharts/Types/a$a;::a(1339) : 0 72 
+Lcom/artfulbits/aiCharts/Types/a$a;::a(1340) : 0 98 
+Lcom/artfulbits/aiCharts/Types/a$a;::a(1341) : 0 20 40 46 52 150 160 162 170 180 190 198 206 220 232 240 252 254 258 262 266 272 
+Lcom/artfulbits/aiCharts/a;::onInvalidate(1343) : 0 4 10 
+Lcom/artfulbits/license/LicenseData$a;::<init>(1344) : 0 10 
+Lcom/artfulbits/license/LicenseData$a;::a(1345) : 0 152 156 172 
+Lcom/artfulbits/license/LicenseData$a;::a(1346) : 0 4 12 
+Lcom/artfulbits/license/LicenseData$a;::b(1347) : 0 258 
+Lcom/artfulbits/license/LicenseData;::<init>(1348) : 0 84 
+Lcom/artfulbits/license/LicenseData;::a(1349) : 14 44 56 78 102 114 136 138 
+Lcom/artfulbits/license/LicenseData;::b(1350) : 14 48 60 68 
+Lcom/artfulbits/license/LicenseData;::fromPackage(1351) : 30 86 144 160 170 194 
+Lcom/artfulbits/license/LicenseData;::getCreationDate(1352) : 0 14 
+Lcom/artfulbits/license/LicenseData;::getExpirationDate(1353) : 0 14 
+Lcom/artfulbits/license/LicenseData;::getLicenceType(1354) : 0 4 
+Lcom/artfulbits/license/LicenseData;::getReserved(1355) : 0 4 
+Lcom/artfulbits/license/LicenseData;::getUserName(1356) : 0 4 
+Lcom/artfulbits/license/LicenseData;::isEmpty(1357) : 0 16 28 36 44 46 48 
+Lcom/artfulbits/license/LicenseData;::isExpired(1358) : 0 20 32 34 36 
+Lcom/artfulbits/license/LicenseData;::isValid(1359) : 0 18 20 32 40 48 
+Lcom/artfulbits/license/LicenseData;::toString(1360) : 0 78 
+Lcom/evancharlton/mileage/BaseFormActivity$3;::onClick(1369) : 0 4 42 52 
+Lcom/evancharlton/mileage/BaseFormActivity;::deleted(1372) : 0 6 
+Lcom/evancharlton/mileage/BaseFormActivity;::handleInvalidField(1377) : 12 
+Lcom/evancharlton/mileage/BaseFormActivity;::onCreateDialog(1380) : 6 
+Lcom/evancharlton/mileage/BaseListActivity$1;::<init>(1388) : 0 4 10 
+Lcom/evancharlton/mileage/BaseListActivity$1;::onClick(1389) : 0 6 
+Lcom/evancharlton/mileage/BaseListActivity$2;::<init>(1390) : 0 4 14 
+Lcom/evancharlton/mileage/BaseListActivity$2;::onClick(1391) : 0 4 16 
+Lcom/evancharlton/mileage/BaseListActivity$3;::<init>(1392) : 0 4 14 
+Lcom/evancharlton/mileage/BaseListActivity$3;::run(1393) : 0 4 72 
+Lcom/evancharlton/mileage/BaseListActivity;::<init>(1395) : 0 10 
+Lcom/evancharlton/mileage/BaseListActivity;::addContextMenuItems(1396) : 0 50 82 
+Lcom/evancharlton/mileage/BaseListActivity;::canDelete(1397) : 0 2 
+Lcom/evancharlton/mileage/BaseListActivity;::createContextMenuIntent(1398) : 0 20 
+Lcom/evancharlton/mileage/BaseListActivity;::getAdapter(1399) : 0 4 
+Lcom/evancharlton/mileage/BaseListActivity;::handleContextMenuSelection(1409) : 0 26 32 34 58 76 
+Lcom/evancharlton/mileage/BaseListActivity;::itemDeleted(1411) : 0 
+Lcom/evancharlton/mileage/BaseListActivity;::onContextItemSelected(1413) : 0 12 40 48 50 
+Lcom/evancharlton/mileage/BaseListActivity;::onCreateContextMenu(1416) : 0 38 
+Lcom/evancharlton/mileage/BaseListActivity;::showDeleteDialog(1422) : 0 100 
+Lcom/evancharlton/mileage/BuildConfig;::<init>(1423) : 0 6 
+Lcom/evancharlton/mileage/ChartActivity$1;::onClick(1425) : 0 4 14 
+Lcom/evancharlton/mileage/ChartActivity$2;::onClick(1427) : 0 4 14 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::onPostExecute(1431) : 10 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::onPostExecute(1432) : 12 
+Lcom/evancharlton/mileage/ChartActivity;::restoreLastNonConfigurationInstance(1437) : 12 
+Lcom/evancharlton/mileage/ChartActivity;::addChartSeries(1438) : 68 
+Lcom/evancharlton/mileage/ChartActivity;::getChart(1440) : 0 4 
+Lcom/evancharlton/mileage/ChartActivity;::getExecuteParameters(1441) : 0 2 
+Lcom/evancharlton/mileage/ChartActivity;::onCancel(1443) : 0 4 8 28 40 46 
+Lcom/evancharlton/mileage/ChartActivity;::onCreateDialog(1445) : 8 26 
+Lcom/evancharlton/mileage/ChartActivity;::onRetainNonConfigurationInstance(1446) : 0 30 
+Lcom/evancharlton/mileage/ChartActivity;::zoom(1449) : 0 52 
+Lcom/evancharlton/mileage/ExportActivity$2;::onNothingSelected(1454) : 0 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::doInBackground(1460) : 26 60 
+Lcom/evancharlton/mileage/ExportActivity;::onRetainNonConfigurationInstance(1476) : 0 4 
+Lcom/evancharlton/mileage/FieldListActivity$1;::onClick(1487) : 0 4 28 
+Lcom/evancharlton/mileage/FieldListActivity;::onOptionsItemSelected(1493) : 14 
+Lcom/evancharlton/mileage/FillupActivity$1;::onItemSelected(1496) : 0 4 34 
+Lcom/evancharlton/mileage/FillupActivity$1;::onNothingSelected(1497) : 0 
+Lcom/evancharlton/mileage/FillupActivity;::access$002(1499) : 0 4 
+Lcom/evancharlton/mileage/FillupActivity;::access$100(1500) : 0 8 
+Lcom/evancharlton/mileage/FillupActivity;::getVehicle(1501) : 40 
+Lcom/evancharlton/mileage/FillupActivity;::setDataFormats(1502) : 136 198 238 300 356 
+Lcom/evancharlton/mileage/FillupActivity;::deleted(1503) : 0 52 
+Lcom/evancharlton/mileage/FillupActivity;::getProjectionArray(1506) : 0 4 
+Lcom/evancharlton/mileage/FillupActivity;::getUri(1507) : 0 4 12 
+Lcom/evancharlton/mileage/FillupActivity;::onResume(1511) : 96 136 404 420 444 448 460 472 492 516 546 
+Lcom/evancharlton/mileage/FillupActivity;::populateUI(1513) : 0 118 184 
+Lcom/evancharlton/mileage/FillupActivity;::postSaveValidation(1514) : 0 4 24 120 128 130 
+Lcom/evancharlton/mileage/FillupActivity;::saved(1515) : 0 90 96 128 130 138 
+Lcom/evancharlton/mileage/FillupActivity;::setFields(1516) : 216 244 288 310 318 466 484 510 530 566 610 630 650 670 822 824 952 980 1006 1134 1162 1218 1244 1258 1284 1352 1400 1424 1446 1464 
+Lcom/evancharlton/mileage/FillupInfoActivity$Holder;::<init>(1517) : 0 14 
+Lcom/evancharlton/mileage/FillupInfoActivity$Overrider;::<init>(1518) : 0 10 
+Lcom/evancharlton/mileage/FillupInfoActivity$Overrider;::get(1519) : 0 4 10 20 22 
+Lcom/evancharlton/mileage/FillupInfoActivity$Overrider;::overridePendingTransition(1520) : 0 
+Lcom/evancharlton/mileage/FillupInfoActivity$Overrider$RealOverrider;::<init>(1521) : 0 6 
+Lcom/evancharlton/mileage/FillupInfoActivity$Overrider$RealOverrider;::overridePendingTransition(1522) : 0 4 10 
+Lcom/evancharlton/mileage/provider/Statistic;::<init>(1523) : 0 8 
+Lcom/evancharlton/mileage/provider/Statistic;::getLabel(1528) : 0 4 
+Lcom/evancharlton/mileage/provider/Statistic;::getValue(1530) : 0 4 12 
+Lcom/evancharlton/mileage/provider/Statistic;::setValue(1531) : 0 4 10 
+Lcom/evancharlton/mileage/provider/Statistic;::toString(1532) : 0 70 
+Lcom/evancharlton/mileage/FillupInfoActivity$PartialStatistic;::<init>(1533) : 0 6 
+Lcom/evancharlton/mileage/FillupInfoActivity$PartialStatistic;::format(1534) : 0 24 44 46 
+Lcom/evancharlton/mileage/FillupInfoActivity;::<clinit>(1535) : 0 224 
+Lcom/evancharlton/mileage/FillupInfoActivity;::<init>(1536) : 0 20 
+Lcom/evancharlton/mileage/FillupInfoActivity;::addInformation(1537) : 0 4 24 26 
+Lcom/evancharlton/mileage/FillupInfoActivity;::onClick(1538) : 0 14 16 72 156 
+Lcom/evancharlton/mileage/FillupInfoActivity;::onCreate(1539) : 0 312 408 568 578 790 
+Lcom/evancharlton/mileage/FillupInfoActivity;::onResume(1540) : 0 50 
+Lcom/evancharlton/mileage/FillupListActivity$1;::onReceive(1542) : 0 4 34 
+Lcom/evancharlton/mileage/FillupListActivity$2;::onItemSelected(1544) : 0 4 62 
+Lcom/evancharlton/mileage/FillupListActivity$2;::onNothingSelected(1545) : 0 
+Lcom/evancharlton/mileage/FillupListActivity$3;::onItemClick(1547) : 0 4 10 
+Lcom/evancharlton/mileage/FillupListActivity$4;::<init>(1548) : 0 4 14 
+Lcom/evancharlton/mileage/FillupListActivity$4;::run(1549) : 0 36 
+Lcom/evancharlton/mileage/FillupListActivity$5;::<init>(1550) : 0 4 10 
+Lcom/evancharlton/mileage/FillupListActivity$5;::onClick(1551) : 0 6 
+Lcom/evancharlton/mileage/FillupListActivity$6;::<init>(1552) : 0 4 14 
+Lcom/evancharlton/mileage/FillupListActivity$6;::onClick(1553) : 0 4 16 
+Lcom/evancharlton/mileage/FillupListActivity;::access$000(1555) : 0 4 
+Lcom/evancharlton/mileage/FillupListActivity;::access$100(1556) : 0 4 
+Lcom/evancharlton/mileage/FillupListActivity;::access$102(1557) : 0 4 
+Lcom/evancharlton/mileage/FillupListActivity;::access$200(1558) : 0 6 
+Lcom/evancharlton/mileage/FillupListActivity;::access$300(1559) : 0 6 
+Lcom/evancharlton/mileage/FillupListActivity;::editFillup(1561) : 0 30 
+Lcom/evancharlton/mileage/FillupListActivity;::openFillup(1562) : 0 30 
+Lcom/evancharlton/mileage/FillupListActivity;::showDeleteDialog(1563) : 0 16 
+Lcom/evancharlton/mileage/FillupListActivity;::getVehicle(1564) : 24 
+Lcom/evancharlton/mileage/FillupListActivity;::onContextItemSelected(1566) : 0 28 36 38 50 
+Lcom/evancharlton/mileage/FillupListActivity;::onCreateContextMenu(1568) : 0 32 
+Lcom/evancharlton/mileage/FillupListActivity;::showDeleteDialog(1571) : 0 100 
+Lcom/evancharlton/mileage/ImportActivity$2;::onItemSelected(1575) : 162 
+Lcom/evancharlton/mileage/ImportActivity$2;::onNothingSelected(1576) : 0 
+Lcom/evancharlton/mileage/ImportActivity$3;::<init>(1577) : 0 4 14 
+Lcom/evancharlton/mileage/ImportActivity$3;::onClick(1578) : 0 4 14 
+Lcom/evancharlton/mileage/ImportActivity$FileAdapter;::getDropDownView(1583) : 0 4 24 40 64 78 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::onPostExecute(1594) : 4 
+Lcom/evancharlton/mileage/ImportActivity;::setFiles(1608) : 52 60 
+Lcom/evancharlton/mileage/ImportActivity;::onCreateDialog(1610) : 0 6 14 16 
+Lcom/evancharlton/mileage/ImportExportActivity;::onCreate(1615) : 76 
+Lcom/evancharlton/mileage/Logger;::<init>(1616) : 0 6 
+Lcom/evancharlton/mileage/Logger;::log(1617) : 0 14 28 
+Lcom/evancharlton/mileage/Mileage;::onCreate(1624) : 226 
+Lcom/evancharlton/mileage/Mileage;::switchTo(1626) : 0 4 10 
+Lcom/evancharlton/mileage/Mileage;::switchToHistoryTab(1627) : 0 10 
+Lcom/evancharlton/mileage/R$anim;::<init>(1628) : 0 6 
+Lcom/evancharlton/mileage/R$array;::<init>(1629) : 0 6 
+Lcom/evancharlton/mileage/R$attr;::<init>(1630) : 0 6 
+Lcom/evancharlton/mileage/R$drawable;::<init>(1631) : 0 6 
+Lcom/evancharlton/mileage/R$id;::<init>(1632) : 0 6 
+Lcom/evancharlton/mileage/R$integer;::<init>(1633) : 0 6 
+Lcom/evancharlton/mileage/R$layout;::<init>(1634) : 0 6 
+Lcom/evancharlton/mileage/R$string;::<init>(1635) : 0 6 
+Lcom/evancharlton/mileage/R$style;::<init>(1636) : 0 6 
+Lcom/evancharlton/mileage/R$styleable;::<init>(1638) : 0 6 
+Lcom/evancharlton/mileage/R;::<init>(1639) : 0 6 
+Lcom/evancharlton/mileage/ServiceIntervalActivity$1;::onItemSelected(1641) : 110 
+Lcom/evancharlton/mileage/ServiceIntervalActivity$1;::onNothingSelected(1642) : 0 
+Lcom/evancharlton/mileage/ServiceIntervalActivity$2;::onNothingSelected(1645) : 0 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::access$200(1649) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::canDelete(1655) : 0 28 40 42 44 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::getProjectionArray(1658) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::getUri(1659) : 0 4 24 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::populateUI(1662) : 0 4 140 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::saved(1663) : 0 4 52 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::setFields(1664) : 36 118 140 208 228 250 280 310 354 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::setFields(1673) : 36 118 178 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity$1;::<init>(1674) : 0 4 14 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity$1;::run(1675) : 0 4 18 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::onClick(1679) : 0 14 16 38 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::onOptionsItemSelected(1682) : 14 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onClick(1687) : 0 38 44 46 54 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onCreate(1689) : 42 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onCreateDialog(1690) : 0 54 62 64 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onItemClick(1692) : 0 10 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onOptionsItemSelected(1693) : 16 48 
+Lcom/evancharlton/mileage/SettingsActivity$3;::<init>(1699) : 0 4 14 
+Lcom/evancharlton/mileage/SettingsActivity$3;::onClick(1700) : 0 4 14 
+Lcom/evancharlton/mileage/SettingsActivity$4;::<init>(1701) : 0 4 18 
+Lcom/evancharlton/mileage/SettingsActivity$4;::onClick(1702) : 0 20 48 76 
+Lcom/evancharlton/mileage/SettingsActivity;::onCreate(1704) : 130 
+Lcom/evancharlton/mileage/SettingsActivity;::onCreateDialog(1705) : 14 90 
+Lcom/evancharlton/mileage/SettingsActivity;::onPreferenceClick(1706) : 40 64 78 
+Lcom/evancharlton/mileage/VehicleActivity;::getDistance(1708) : 22 
+Lcom/evancharlton/mileage/VehicleActivity;::getDistanceUnits(1709) : 22 
+Lcom/evancharlton/mileage/VehicleActivity;::getEconomy(1710) : 22 26 32 38 44 50 56 62 
+Lcom/evancharlton/mileage/VehicleActivity;::getEconomyUnits(1711) : 22 26 30 34 38 42 46 50 
+Lcom/evancharlton/mileage/VehicleActivity;::getVolume(1712) : 22 
+Lcom/evancharlton/mileage/VehicleActivity;::getVolumeUnits(1713) : 22 26 
+Lcom/evancharlton/mileage/VehicleActivity;::canDelete(1714) : 40 
+Lcom/evancharlton/mileage/VehicleActivity;::populateUI(1721) : 318 
+Lcom/evancharlton/mileage/VehicleActivity;::setFields(1723) : 40 112 184 256 468 
+Lcom/evancharlton/mileage/VehicleListActivity;::<init>(1725) : 0 6 
+Lcom/evancharlton/mileage/VehicleListActivity;::addContextMenuItems(1726) : 0 40 
+Lcom/evancharlton/mileage/VehicleListActivity;::canDelete(1727) : 0 22 24 
+Lcom/evancharlton/mileage/VehicleListActivity;::handleContextMenuSelection(1730) : 0 26 120 122 
+Lcom/evancharlton/mileage/VehicleListActivity;::onOptionsItemSelected(1733) : 26 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$1;::onItemSelected(1735) : 0 4 28 58 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$1;::onNothingSelected(1736) : 0 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$2;::onItemClick(1738) : 114 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$3;::onClick(1740) : 0 4 10 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::access$100(1744) : 0 6 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::access$200(1745) : 0 6 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::access$300(1746) : 0 6 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::cancelTask(1749) : 0 4 8 28 40 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::recalculate(1751) : 74 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::getProgressBar(1754) : 0 4 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::onCreate(1756) : 40 68 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::onCreateOptionsMenu(1757) : 0 36 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::onOptionsItemSelected(1758) : 0 14 22 24 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::onRetainNonConfigurationInstance(1760) : 0 26 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::<init>(1764) : 0 30 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::canDelete(1765) : 0 28 40 42 44 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::getCreateString(1766) : 0 6 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::getDao(1767) : 0 4 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::getProjectionArray(1768) : 0 4 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::getUri(1769) : 0 4 24 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::initUI(1770) : 0 44 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::onCreate(1771) : 0 12 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::populateUI(1772) : 0 4 44 
+Lcom/evancharlton/mileage/VehicleTypeActivity;::setFields(1773) : 0 4 60 
+Lcom/evancharlton/mileage/VehicleTypeListActivity;::<init>(1774) : 0 6 
+Lcom/evancharlton/mileage/VehicleTypeListActivity;::canDelete(1775) : 0 22 24 
+Lcom/evancharlton/mileage/VehicleTypeListActivity;::getFrom(1776) : 0 26 
+Lcom/evancharlton/mileage/VehicleTypeListActivity;::getUri(1777) : 0 4 16 
+Lcom/evancharlton/mileage/VehicleTypeListActivity;::onCreateOptionsMenu(1778) : 0 38 
+Lcom/evancharlton/mileage/VehicleTypeListActivity;::onItemClick(1779) : 0 10 
+Lcom/evancharlton/mileage/VehicleTypeListActivity;::onOptionsItemSelected(1780) : 0 14 22 24 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter$Holder;::<init>(1781) : 0 10 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::<init>(1782) : 0 18 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getText(1783) : 0 4 10 16 18 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getCount(1784) : 0 4 10 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getDropDownView(1785) : 0 4 24 40 74 92 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getItem(1786) : 0 4 10 14 16 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getItemId(1787) : 0 18 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getItemViewType(1788) : 0 2 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getView(1789) : 0 4 24 40 64 78 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::getViewTypeCount(1790) : 0 2 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::hasStableIds(1791) : 0 2 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::isEmpty(1792) : 0 2 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::registerDataSetObserver(1793) : 0 
+Lcom/evancharlton/mileage/adapters/CsvFieldAdapter;::unregisterDataSetObserver(1794) : 0 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::<init>(1795) : 0 32 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::add(1796) : 0 4 16 26 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getCount(1797) : 0 4 12 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getDropDownView(1798) : 0 4 24 40 64 78 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getItem(1799) : 0 8 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getItemId(1800) : 0 18 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getItemViewType(1801) : 0 2 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getText(1802) : 0 4 16 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getView(1803) : 0 4 24 40 64 78 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::getViewTypeCount(1804) : 0 2 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::hasStableIds(1805) : 0 2 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::isEmpty(1806) : 0 4 16 18 20 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::registerDataSetObserver(1807) : 0 
+Lcom/evancharlton/mileage/adapters/CsvVehiclesAdapter;::unregisterDataSetObserver(1808) : 0 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter$ViewHolder;::<init>(1809) : 0 34 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::<clinit>(1810) : 0 414 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::<init>(1811) : 0 10 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::getView(1812) : 0 4 26 42 52 70 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::getCount(1813) : 0 4 6 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::getDropDownView(1814) : 0 14 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::getItem(1815) : 0 4 8 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::getItemId(1816) : 0 4 18 
+Lcom/evancharlton/mileage/adapters/DateFormatAdapter;::getView(1817) : 0 14 
+Lcom/evancharlton/mileage/adapters/FillupAdapter$Holder;::<init>(1820) : 0 122 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::calculationFinished(1823) : 0 58 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::getContext(1824) : 0 4 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::getItem(1826) : 0 4 8 24 38 40 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::getItemId(1827) : 0 4 8 24 52 54 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::getView(1828) : 0 18 46 62 72 350 368 378 380 388 394 456 476 494 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::setVehicle(1830) : 12 28 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter$1;::run(1833) : 468 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::changeCursor(1842) : 44 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::getItem(1845) : 0 4 12 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::setValue(1852) : 0 4 22 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::setValue(1853) : 0 4 18 
+Lcom/evancharlton/mileage/alarms/IntervalReceiver;::<init>(1854) : 0 6 
+Lcom/evancharlton/mileage/alarms/IntervalReceiver;::onReceive(1855) : 0 38 
+Lcom/evancharlton/mileage/charts/LineChart;::addPoint(1857) : 0 16 
+Lcom/evancharlton/mileage/charts/LineChart;::addPoint(1858) : 0 4 22 
+Lcom/evancharlton/mileage/charts/LineChart;::serializeData(1866) : 0 46 
+Lcom/evancharlton/mileage/charts/LineChart;::unserializeData(1867) : 0 14 62 78 84 
+Lcom/evancharlton/mileage/charts/AverageCostChart;::<init>(1870) : 0 6 
+Lcom/evancharlton/mileage/charts/AverageCostChart;::getAxisTitle(1871) : 0 14 
+Lcom/evancharlton/mileage/charts/AverageCostChart;::processCursor(1872) : 0 14 26 28 
+Lcom/evancharlton/mileage/charts/AverageDistanceChart;::processCursor(1877) : 18 32 46 66 
+Lcom/evancharlton/mileage/charts/AverageFuelEconomyChart;::<init>(1880) : 0 6 
+Lcom/evancharlton/mileage/charts/AverageFuelEconomyChart;::getAxisTitle(1881) : 0 14 
+Lcom/evancharlton/mileage/charts/AverageFuelEconomyChart;::processCursor(1882) : 0 14 26 28 32 54 70 
+Lcom/evancharlton/mileage/charts/PriceChart;::<init>(1883) : 0 6 
+Lcom/evancharlton/mileage/charts/PriceChart;::createChartGenerator(1884) : 0 44 
+Lcom/evancharlton/mileage/charts/AveragePriceChart;::<init>(1885) : 0 6 
+Lcom/evancharlton/mileage/charts/AveragePriceChart;::getAxisTitle(1886) : 0 14 
+Lcom/evancharlton/mileage/charts/AveragePriceChart;::processCursor(1887) : 0 14 26 28 
+Lcom/evancharlton/mileage/charts/VolumeChart;::<init>(1888) : 0 6 
+Lcom/evancharlton/mileage/charts/VolumeChart;::createChartGenerator(1889) : 0 44 
+Lcom/evancharlton/mileage/charts/AverageVolumeChart;::<init>(1890) : 0 6 
+Lcom/evancharlton/mileage/charts/AverageVolumeChart;::getAxisTitle(1891) : 0 14 
+Lcom/evancharlton/mileage/charts/AverageVolumeChart;::processCursor(1892) : 0 14 26 28 
+Lcom/evancharlton/mileage/charts/BestFuelEconomyChart;::processCursor(1895) : 24 38 42 64 66 82 
+Lcom/evancharlton/mileage/charts/LongitudeChart;::<init>(1896) : 0 6 
+Lcom/evancharlton/mileage/charts/LongitudeChart;::createChartGenerator(1897) : 0 44 
+Lcom/evancharlton/mileage/charts/EastChart;::<init>(1898) : 0 6 
+Lcom/evancharlton/mileage/charts/EastChart;::getAxisTitle(1899) : 0 14 
+Lcom/evancharlton/mileage/charts/EastChart;::processCursor(1900) : 0 24 36 38 60 68 70 86 
+Lcom/evancharlton/mileage/charts/IntervalCostChart;::processCursor(1903) : 40 54 70 96 
+Lcom/evancharlton/mileage/charts/LastMonthCostChart;::<init>(1904) : 0 6 
+Lcom/evancharlton/mileage/charts/LastMonthCostChart;::getAxisTitle(1905) : 0 14 
+Lcom/evancharlton/mileage/charts/LastMonthCostChart;::getInterval(1906) : 0 10 
+Lcom/evancharlton/mileage/charts/LatitudeChart;::<init>(1910) : 0 6 
+Lcom/evancharlton/mileage/charts/LatitudeChart;::createChartGenerator(1911) : 0 44 
+Lcom/evancharlton/mileage/charts/LineChart$LineChartGenerator;::doInBackground(1914) : 174 
+Lcom/evancharlton/mileage/charts/LineChart$LineChartGenerator;::update(1915) : 0 26 
+Lcom/evancharlton/mileage/charts/MaximumCostChart;::<init>(1916) : 0 6 
+Lcom/evancharlton/mileage/charts/MaximumCostChart;::getAxisTitle(1917) : 0 14 
+Lcom/evancharlton/mileage/charts/MaximumCostChart;::processCursor(1918) : 0 24 36 38 56 58 
+Lcom/evancharlton/mileage/charts/MaximumDistanceChart;::processCursor(1921) : 28 42 56 68 70 86 
+Lcom/evancharlton/mileage/charts/MaximumPriceChart;::<init>(1922) : 0 6 
+Lcom/evancharlton/mileage/charts/MaximumPriceChart;::getAxisTitle(1923) : 0 14 
+Lcom/evancharlton/mileage/charts/MaximumPriceChart;::processCursor(1924) : 0 24 36 38 56 58 
+Lcom/evancharlton/mileage/charts/MaximumVolumeChart;::<init>(1925) : 0 6 
+Lcom/evancharlton/mileage/charts/MaximumVolumeChart;::getAxisTitle(1926) : 0 14 
+Lcom/evancharlton/mileage/charts/MaximumVolumeChart;::processCursor(1927) : 0 24 36 38 56 58 
+Lcom/evancharlton/mileage/charts/MinimumCostChart;::<init>(1928) : 0 6 
+Lcom/evancharlton/mileage/charts/MinimumCostChart;::getAxisTitle(1929) : 0 14 
+Lcom/evancharlton/mileage/charts/MinimumCostChart;::processCursor(1930) : 0 24 36 38 56 58 
+Lcom/evancharlton/mileage/charts/MinimumDistanceChart;::<init>(1931) : 0 6 
+Lcom/evancharlton/mileage/charts/MinimumDistanceChart;::getAxisTitle(1932) : 0 14 
+Lcom/evancharlton/mileage/charts/MinimumDistanceChart;::processCursor(1933) : 0 28 40 42 56 68 70 86 
+Lcom/evancharlton/mileage/charts/MinimumPriceChart;::<init>(1934) : 0 6 
+Lcom/evancharlton/mileage/charts/MinimumPriceChart;::getAxisTitle(1935) : 0 14 
+Lcom/evancharlton/mileage/charts/MinimumPriceChart;::processCursor(1936) : 0 24 36 38 56 58 
+Lcom/evancharlton/mileage/charts/MinimumVolumeChart;::<init>(1937) : 0 6 
+Lcom/evancharlton/mileage/charts/MinimumVolumeChart;::getAxisTitle(1938) : 0 14 
+Lcom/evancharlton/mileage/charts/MinimumVolumeChart;::processCursor(1939) : 0 24 36 38 56 58 
+Lcom/evancharlton/mileage/charts/NorthChart;::<init>(1940) : 0 6 
+Lcom/evancharlton/mileage/charts/NorthChart;::getAxisTitle(1941) : 0 14 
+Lcom/evancharlton/mileage/charts/NorthChart;::processCursor(1942) : 0 24 36 38 60 68 70 86 
+Lcom/evancharlton/mileage/charts/SouthChart;::<init>(1943) : 0 6 
+Lcom/evancharlton/mileage/charts/SouthChart;::getAxisTitle(1944) : 0 14 
+Lcom/evancharlton/mileage/charts/SouthChart;::processCursor(1945) : 0 24 36 38 60 68 70 86 
+Lcom/evancharlton/mileage/charts/TotalCostChart;::<init>(1946) : 0 6 
+Lcom/evancharlton/mileage/charts/TotalCostChart;::getAxisTitle(1947) : 0 14 
+Lcom/evancharlton/mileage/charts/TotalCostChart;::processCursor(1948) : 0 18 30 32 
+Lcom/evancharlton/mileage/charts/TotalVolumeChart;::<init>(1949) : 0 6 
+Lcom/evancharlton/mileage/charts/TotalVolumeChart;::getAxisTitle(1950) : 0 14 
+Lcom/evancharlton/mileage/charts/TotalVolumeChart;::processCursor(1951) : 0 18 30 32 
+Lcom/evancharlton/mileage/charts/WestChart;::<init>(1952) : 0 6 
+Lcom/evancharlton/mileage/charts/WestChart;::getAxisTitle(1953) : 0 14 
+Lcom/evancharlton/mileage/charts/WestChart;::processCursor(1954) : 0 24 36 38 60 68 70 86 
+Lcom/evancharlton/mileage/charts/WorstFuelEconomyChart;::processCursor(1957) : 24 38 42 64 66 82 
+Lcom/evancharlton/mileage/dao/Dao;::clone(1960) : 0 8 12 
+Lcom/evancharlton/mileage/dao/Dao;::delete(1961) : 0 30 32 34 
+Lcom/evancharlton/mileage/dao/Dao;::getBoolean(1962) : 12 
+Lcom/evancharlton/mileage/dao/Dao;::getBoolean(1963) : 0 22 24 
+Lcom/evancharlton/mileage/dao/Dao;::getDouble(1964) : 12 
+Lcom/evancharlton/mileage/dao/Dao;::getDouble(1965) : 0 16 
+Lcom/evancharlton/mileage/dao/Dao;::getInt(1967) : 0 12 20 
+Lcom/evancharlton/mileage/dao/Dao;::getInt(1968) : 0 16 
+Lcom/evancharlton/mileage/dao/Dao;::getLong(1969) : 12 
+Lcom/evancharlton/mileage/dao/Dao;::getLong(1970) : 0 16 
+Lcom/evancharlton/mileage/dao/Dao;::getString(1972) : 0 16 
+Lcom/evancharlton/mileage/dao/Dao;::getUri(1973) : 90 
+Lcom/evancharlton/mileage/dao/Dao;::load(1975) : 10 118 168 352 398 460 
+Lcom/evancharlton/mileage/dao/Dao;::load(1976) : 140 160 178 188 192 210 222 226 246 288 328 368 388 410 434 496 
+Lcom/evancharlton/mileage/dao/Dao;::save(1978) : 78 
+Lcom/evancharlton/mileage/dao/Dao;::saveIfChanged(1979) : 0 4 8 16 18 
+Lcom/evancharlton/mileage/dao/Dao;::setId(1980) : 0 4 
+Lcom/evancharlton/mileage/dao/Dao;::setInMemoryDataChanged(1981) : 0 6 
+Lcom/evancharlton/mileage/dao/Dao;::validate(1982) : 94 110 124 188 202 246 274 278 306 322 366 382 414 434 438 458 500 550 566 572 
+Lcom/evancharlton/mileage/dao/CachedValue;::<init>(1984) : 0 6 
+Lcom/evancharlton/mileage/dao/CachedValue;::getGroup(1986) : 0 4 
+Lcom/evancharlton/mileage/dao/CachedValue;::getOrder(1988) : 0 4 
+Lcom/evancharlton/mileage/dao/CachedValue;::getValue(1989) : 0 4 
+Lcom/evancharlton/mileage/dao/CachedValue;::setGroup(1990) : 0 4 
+Lcom/evancharlton/mileage/dao/CachedValue;::setOrder(1991) : 0 4 
+Lcom/evancharlton/mileage/dao/CachedValue;::setValue(1992) : 0 4 
+Lcom/evancharlton/mileage/dao/Dao$Range;::<init>(1997) : 0 6 
+Lcom/evancharlton/mileage/dao/Field;::<init>(2000) : 0 6 
+Lcom/evancharlton/mileage/dao/Field;::getType(2003) : 0 4 
+Lcom/evancharlton/mileage/dao/Field;::setType(2006) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::<init>(2008) : 0 30 
+Lcom/evancharlton/mileage/dao/Fillup;::getCostPerDistance(2009) : 0 12 32 50 52 
+Lcom/evancharlton/mileage/dao/Fillup;::getDistance(2010) : 0 22 
+Lcom/evancharlton/mileage/dao/Fillup;::getEconomy(2011) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getFields(2012) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getFields(2013) : 0 18 74 100 106 110 
+Lcom/evancharlton/mileage/dao/Fillup;::getLatitude(2014) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getLongitude(2015) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getNext(2016) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getOdometer(2017) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getPrevious(2018) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getTimestamp(2019) : 0 4 8 22 34 
+Lcom/evancharlton/mileage/dao/Fillup;::getTotalCost(2020) : 0 16 28 40 60 64 
+Lcom/evancharlton/mileage/dao/Fillup;::getUnitPrice(2021) : 0 16 28 40 60 64 
+Lcom/evancharlton/mileage/dao/Fillup;::getVehicleId(2022) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::getVolume(2023) : 0 16 28 40 60 64 
+Lcom/evancharlton/mileage/dao/Fillup;::hasNext(2024) : 0 4 8 10 12 
+Lcom/evancharlton/mileage/dao/Fillup;::hasPrevious(2025) : 0 4 8 10 12 
+Lcom/evancharlton/mileage/dao/Fillup;::isPartial(2026) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::isRestart(2027) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::loadNext(2028) : 0 12 104 120 126 
+Lcom/evancharlton/mileage/dao/Fillup;::loadPrevious(2029) : 0 12 104 120 126 
+Lcom/evancharlton/mileage/dao/Fillup;::preValidate(2030) : 0 26 48 
+Lcom/evancharlton/mileage/dao/Fillup;::setEconomy(2031) : 0 4 10 
+Lcom/evancharlton/mileage/dao/Fillup;::setFields(2032) : 0 4 20 
+Lcom/evancharlton/mileage/dao/Fillup;::setLatitude(2033) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setLongitude(2034) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setNext(2035) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setOdometer(2036) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setPartial(2037) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setPrevious(2038) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setRestart(2039) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setTimestamp(2040) : 0 4 8 22 24 
+Lcom/evancharlton/mileage/dao/Fillup;::setTotalCost(2041) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setUnitPrice(2042) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setVehicleId(2043) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::setVolume(2044) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::validForEconomy(2045) : 0 16 18 30 44 56 60 70 
+Lcom/evancharlton/mileage/dao/FillupField;::<init>(2046) : 0 6 
+Lcom/evancharlton/mileage/dao/FillupField;::<init>(2047) : 0 6 
+Lcom/evancharlton/mileage/dao/FillupField;::getFieldTemplate(2048) : 0 62 
+Lcom/evancharlton/mileage/dao/FillupField;::getFillup(2049) : 0 2 
+Lcom/evancharlton/mileage/dao/FillupField;::getTemplateId(2050) : 0 4 
+Lcom/evancharlton/mileage/dao/FillupField;::getUri(2051) : 0 4 16 44 46 
+Lcom/evancharlton/mileage/dao/FillupField;::getValue(2052) : 0 4 
+Lcom/evancharlton/mileage/dao/FillupField;::save(2053) : 0 104 130 148 160 204 206 
+Lcom/evancharlton/mileage/dao/FillupField;::setFillupId(2054) : 0 4 
+Lcom/evancharlton/mileage/dao/FillupField;::setTemplateId(2055) : 0 4 
+Lcom/evancharlton/mileage/dao/FillupField;::setValue(2056) : 0 4 
+Lcom/evancharlton/mileage/dao/FillupSeries;::<init>(2057) : 0 26 30 38 50 56 68 74 106 
+Lcom/evancharlton/mileage/dao/FillupSeries;::load(2058) : 0 38 60 80 88 94 
+Lcom/evancharlton/mileage/dao/FillupSeries;::add(2059) : 0 12 40 74 
+Lcom/evancharlton/mileage/dao/FillupSeries;::add(2060) : 0 12 
+Lcom/evancharlton/mileage/dao/FillupSeries;::first(2061) : 0 14 
+Lcom/evancharlton/mileage/dao/FillupSeries;::getEconomyVolume(2062) : 0 4 16 28 40 64 76 88 92 96 
+Lcom/evancharlton/mileage/dao/FillupSeries;::getTimeRange(2063) : 0 42 
+Lcom/evancharlton/mileage/dao/FillupSeries;::getTotalCost(2064) : 0 4 
+Lcom/evancharlton/mileage/dao/FillupSeries;::getTotalDistance(2065) : 0 18 38 50 60 72 74 
+Lcom/evancharlton/mileage/dao/FillupSeries;::getTotalVolume(2066) : 0 34 
+Lcom/evancharlton/mileage/dao/FillupSeries;::last(2067) : 0 24 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::<init>(2069) : 0 6 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getPendingIntent(2070) : 0 54 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::loadById(2071) : 0 52 62 72 122 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::delete(2072) : 0 14 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::deleteAlarm(2073) : 0 12 72 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getDescription(2074) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getDistance(2075) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getDuration(2076) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getStartDate(2077) : 0 4 12 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getStartOdometer(2078) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getTemplateId(2079) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getTitle(2080) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::getVehicleId(2081) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::raiseNotification(2082) : 0 32 184 222 240 256 276 288 300 340 356 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::scheduleAlarm(2083) : 0 96 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setDistance(2085) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setDuration(2086) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setStartDate(2087) : 0 4 8 30 32 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setStartOdometer(2088) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setTemplateId(2089) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setVehicleId(2091) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::getVehicleTypeId(2098) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::loadById(2106) : 72 
+Lcom/evancharlton/mileage/dao/Vehicle;::getDefaultTime(2108) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getTitle(2114) : 24 
+Lcom/evancharlton/mileage/dao/Vehicle;::getVehicleType(2115) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::loadLatestFillup(2118) : 0 74 90 96 
+Lcom/evancharlton/mileage/dao/VehicleType;::<init>(2130) : 0 6 
+Lcom/evancharlton/mileage/dao/VehicleType;::<init>(2131) : 0 6 
+Lcom/evancharlton/mileage/dao/VehicleType;::getDescription(2132) : 0 4 
+Lcom/evancharlton/mileage/dao/VehicleType;::getTitle(2133) : 0 4 
+Lcom/evancharlton/mileage/dao/VehicleType;::setDescription(2134) : 0 4 
+Lcom/evancharlton/mileage/dao/VehicleType;::setTitle(2135) : 0 4 
+Lcom/evancharlton/mileage/exceptions/InvalidFieldException;::<init>(2136) : 0 8 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::onPostExecute(2145) : 70 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::onProgressUpdate(2147) : 0 4 16 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::onProgressUpdate(2148) : 0 10 
+Lcom/evancharlton/mileage/io/BaseExportActivity$Update;::<init>(2150) : 0 10 
+Lcom/evancharlton/mileage/io/BaseExportActivity$Update;::<init>(2151) : 0 8 
+Lcom/evancharlton/mileage/io/BaseExportActivity;::onRetainNonConfigurationInstance(2158) : 0 4 
+Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;::<init>(2160) : 0 6 
+Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;::getNextButton(2162) : 0 4 
+Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;::getPreviousButton(2163) : 0 4 
+Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;::onActivityResult(2164) : 0 6 12 14 20 
+Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;::onClick(2165) : 0 14 16 36 44 54 
+Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;::onCreate(2166) : 0 104 
+Lcom/evancharlton/mileage/io/importers/CsvWizardActivity;::setHeaderText(2167) : 0 4 8 30 40 
+Lcom/evancharlton/mileage/io/CsvColumnMappingActivity;::<init>(2168) : 0 20 
+Lcom/evancharlton/mileage/io/CsvColumnMappingActivity;::restoreTask(2169) : 0 24 38 68 110 
+Lcom/evancharlton/mileage/io/CsvColumnMappingActivity;::buildIntent(2170) : 0 34 90 100 
+Lcom/evancharlton/mileage/io/CsvColumnMappingActivity;::onCreate(2171) : 0 24 
+Lcom/evancharlton/mileage/io/CsvColumnMappingActivity;::onRetainNonConfigurationInstance(2172) : 0 4 
+Lcom/evancharlton/mileage/io/CsvColumnMappingActivity;::setColumns(2173) : 0 4 22 26 218 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity$1;::<init>(2174) : 0 4 10 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity$1;::onItemSelected(2175) : 0 4 10 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity$1;::onNothingSelected(2176) : 0 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::<init>(2177) : 0 6 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::access$000(2178) : 0 6 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::formatDate(2179) : 0 126 130 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::getFormatPattern(2180) : 0 4 36 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::restoreTask(2181) : 0 26 60 90 130 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::buildIntent(2182) : 0 38 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::onCreate(2183) : 0 178 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::onRetainNonConfigurationInstance(2184) : 0 4 
+Lcom/evancharlton/mileage/io/CsvDateFormatActivity;::setRawDate(2185) : 0 4 16 
+Lcom/evancharlton/mileage/io/CsvExportActivity$CsvExportTask;::<init>(2186) : 0 6 
+Lcom/evancharlton/mileage/io/CsvExportActivity$CsvExportTask;::<init>(2187) : 0 6 
+Lcom/evancharlton/mileage/io/CsvExportActivity$CsvExportTask;::sendUpdate(2188) : 0 76 
+Lcom/evancharlton/mileage/io/CsvExportActivity$CsvExportTask;::performExport(2189) : 0 142 176 252 276 278 284 314 320 324 360 376 380 382 400 418 452 
+Lcom/evancharlton/mileage/io/CsvExportActivity;::<init>(2190) : 0 6 
+Lcom/evancharlton/mileage/io/CsvExportActivity;::createExportTask(2191) : 0 12 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::<init>(2192) : 0 6 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::restoreTask(2193) : 0 24 38 68 106 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::buildIntent(2194) : 0 10 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::completed(2195) : 0 96 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::error(2196) : 0 4 72 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::onCreate(2197) : 0 166 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::onRetainNonConfigurationInstance(2198) : 0 4 
+Lcom/evancharlton/mileage/io/CsvImportActivity;::update(2199) : 0 12 38 142 144 
+Lcom/evancharlton/mileage/io/CsvVehicleMappingActivity;::<init>(2200) : 0 56 
+Lcom/evancharlton/mileage/io/CsvVehicleMappingActivity;::restoreTask(2201) : 0 26 60 90 130 
+Lcom/evancharlton/mileage/io/CsvVehicleMappingActivity;::buildIntent(2202) : 0 42 156 180 
+Lcom/evancharlton/mileage/io/CsvVehicleMappingActivity;::dataRead(2203) : 0 42 54 74 
+Lcom/evancharlton/mileage/io/CsvVehicleMappingActivity;::onCreate(2204) : 0 86 288 312 
+Lcom/evancharlton/mileage/io/CsvVehicleMappingActivity;::onRetainNonConfigurationInstance(2205) : 0 4 
+Lcom/evancharlton/mileage/io/CsvVehicleMappingActivity;::setRowCount(2206) : 0 4 
+Lcom/evancharlton/mileage/io/DbExportActivity$DbExportTask;::performExport(2209) : 70 
+Lcom/evancharlton/mileage/io/importers/Importer;::<init>(2217) : 0 6 
+Lcom/evancharlton/mileage/math/Calculator;::<init>(2219) : 0 6 
+Lcom/evancharlton/mileage/math/Calculator;::averageCostPerDay(2220) : 0 40 
+Lcom/evancharlton/mileage/math/Calculator;::averageCostPerDistance(2221) : 0 14 18 20 
+Lcom/evancharlton/mileage/math/Calculator;::averageDistanceBetweenFillups(2222) : 0 24 
+Lcom/evancharlton/mileage/math/Calculator;::averageEconomy(2223) : 0 12 28 40 44 46 
+Lcom/evancharlton/mileage/math/Calculator;::averageEconomy(2224) : 0 24 
+Lcom/evancharlton/mileage/math/Calculator;::averageFillupCost(2225) : 0 20 
+Lcom/evancharlton/mileage/math/Calculator;::averageFillupVolume(2226) : 0 20 
+Lcom/evancharlton/mileage/math/Calculator;::averageFuelPerDay(2227) : 0 40 
+Lcom/evancharlton/mileage/math/Calculator;::averagePrice(2228) : 0 18 46 52 
+Lcom/evancharlton/mileage/math/Calculator;::compareEconomies(2229) : 0 10 16 24 26 34 42 46 50 58 62 66 
+Lcom/evancharlton/mileage/math/Calculator;::convert(2230) : 0 26 28 42 46 50 54 58 72 86 100 114 128 
+Lcom/evancharlton/mileage/math/Calculator;::convert(2231) : 0 16 24 26 30 44 58 62 76 90 104 118 132 146 
+Lcom/evancharlton/mileage/math/Calculator;::fillupEconomy(2232) : 0 20 24 26 42 54 92 
+Lcom/evancharlton/mileage/math/Calculator;::getDateString(2235) : 0 4 12 18 34 36 56 76 96 
+Lcom/evancharlton/mileage/math/Calculator;::getDistanceUnits(2236) : 0 14 28 30 
+Lcom/evancharlton/mileage/math/Calculator;::getDistanceUnitsAbbr(2237) : 30 
+Lcom/evancharlton/mileage/math/Calculator;::getEconomy(2238) : 0 60 64 66 78 92 112 126 146 162 184 
+Lcom/evancharlton/mileage/math/Calculator;::getEconomyUnitsAbbr(2239) : 30 46 62 78 94 
+Lcom/evancharlton/mileage/math/Calculator;::getVolumeUnits(2240) : 30 
+Lcom/evancharlton/mileage/math/Calculator;::getVolumeUnitsAbbr(2241) : 30 
+Lcom/evancharlton/mileage/math/Calculator;::isBetterEconomy(2242) : 0 18 26 28 36 40 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::<init>(2244) : 0 6 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::backupExistingTables(2245) : 0 46 106 122 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::cleanUpOldTables(2246) : 0 2 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::createNewTables(2247) : 0 148 180 190 206 216 232 236 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::exec(2248) : 16 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::flush(2249) : 0 4 30 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::migrateOldData(2251) : 0 4 722 726 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::upgradeDatabase(2252) : 280 290 302 314 326 338 384 
+Lcom/evancharlton/mileage/provider/FillUpsProvider$DatabaseHelper;::onCreate(2254) : 72 90 
+Lcom/evancharlton/mileage/provider/FillUpsProvider$DatabaseHelper;::onUpgrade(2255) : 0 6 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::registerUri(2260) : 30 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::delete(2261) : 86 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::getType(2262) : 20 34 46 70 72 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::insert(2263) : 112 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::query(2265) : 116 278 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::update(2266) : 100 
+Lcom/evancharlton/mileage/provider/Settings$DataFormats;::<init>(2267) : 0 6 
+Lcom/evancharlton/mileage/provider/Settings;::<init>(2269) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$FuelStatistic;::<init>(2270) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$FuelStatistic;::format(2273) : 0 66 
+Lcom/evancharlton/mileage/provider/Statistics$1;::format(2275) : 0 54 
+Lcom/evancharlton/mileage/provider/Statistics$CostPerDistanceStatistic;::format(2278) : 0 94 
+Lcom/evancharlton/mileage/provider/Statistics$CostStatistic;::<init>(2280) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$CostStatistic;::format(2283) : 0 54 
+Lcom/evancharlton/mileage/provider/Statistics$CostPerUnitStatistic;::format(2286) : 0 52 
+Lcom/evancharlton/mileage/provider/Statistics$DistanceStatistic;::<init>(2287) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$DistanceStatistic;::format(2290) : 0 66 
+Lcom/evancharlton/mileage/provider/Statistics$EconomyStatistic;::<init>(2291) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$EconomyStatistic;::format(2294) : 0 66 
+Lcom/evancharlton/mileage/provider/Statistics$LocationStatistic;::format(2297) : 0 4 12 
+Lcom/evancharlton/mileage/provider/Statistics$PriceStatistic;::<init>(2298) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$PriceStatistic;::format(2301) : 0 54 
+Lcom/evancharlton/mileage/provider/Statistics;::<init>(2303) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::delete(2311) : 12 16 58 64 84 98 140 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::isValidType(2319) : 0 12 14 16 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::getProjection(2326) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::getType(2328) : 0 6 8 10 16 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::insert(2330) : 6 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::query(2331) : 8 12 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::update(2333) : 0 6 8 10 28 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$InsertBuilder;::toString(2338) : 0 8 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;::toString(2345) : 0 8 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::getProjection(2350) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::getType(2352) : 0 6 8 10 16 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::insert(2354) : 0 6 10 12 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::query(2355) : 8 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::update(2357) : 24 116 134 204 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::getDefaultSortOrder(2361) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::getProjection(2362) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::getType(2364) : 0 6 8 10 16 22 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::insert(2366) : 0 6 10 12 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::query(2367) : 0 10 12 14 50 150 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::update(2369) : 0 6 8 10 56 72 82 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::getDefaultSortOrder(2373) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::getProjection(2374) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::getType(2376) : 0 6 8 10 16 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::insert(2378) : 0 6 10 12 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::query(2379) : 8 12 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::update(2381) : 6 28 92 176 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::getProjection(2389) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::getType(2391) : 0 6 8 10 16 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::insert(2393) : 0 6 10 12 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::query(2394) : 8 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::update(2396) : 6 56 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::getProjection(2400) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::getType(2402) : 0 6 8 10 16 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::insert(2404) : 0 6 10 12 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::query(2405) : 8 48 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::update(2407) : 0 6 8 10 56 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::getProjection(2411) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::getType(2413) : 0 6 8 10 16 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::insert(2415) : 0 6 10 12 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::query(2416) : 8 48 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::update(2418) : 0 6 8 10 56 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::getType(2425) : 0 6 8 10 16 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::init(2426) : 4 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::insert(2427) : 0 6 10 12 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::query(2428) : 8 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::update(2430) : 8 64 
+Lcom/evancharlton/mileage/receivers/MediaChangedReceiver;::<init>(2431) : 0 6 
+Lcom/evancharlton/mileage/receivers/MediaChangedReceiver;::onReceive(2432) : 0 24 42 48 
+Lcom/evancharlton/mileage/services/AutomaticBackupService$Wtf;::<init>(2433) : 0 10 
+Lcom/evancharlton/mileage/services/AutomaticBackupService$Wtf;::get(2434) : 0 4 12 22 24 
+Lcom/evancharlton/mileage/services/AutomaticBackupService$Wtf;::wtf(2435) : 0 14 
+Lcom/evancharlton/mileage/services/AutomaticBackupService$Wtf;::wtf(2436) : 0 48 
+Lcom/evancharlton/mileage/services/AutomaticBackupService$Wtf$RealWtf;::<init>(2437) : 0 6 
+Lcom/evancharlton/mileage/services/AutomaticBackupService$Wtf$RealWtf;::wtf(2438) : 0 92 184 202 
+Lcom/evancharlton/mileage/services/AutomaticBackupService$Wtf$RealWtf;::wtf(2439) : 0 10 
+Lcom/evancharlton/mileage/services/AutomaticBackupService;::error(2442) : 0 28 
+Lcom/evancharlton/mileage/services/AutomaticBackupService;::onHandleIntent(2444) : 210 320 324 334 340 344 356 362 372 378 382 394 400 404 410 414 420 424 428 432 436 440 
+Lcom/evancharlton/mileage/services/RecalculateEconomyService;::onHandleIntent(2447) : 32 154 200 232 264 270 284 286 298 
+Lcom/evancharlton/mileage/tasks/CsvColumnReaderTask;::<init>(2451) : 0 6 
+Lcom/evancharlton/mileage/tasks/CsvColumnReaderTask;::doInBackground(2452) : 0 12 
+Lcom/evancharlton/mileage/tasks/CsvColumnReaderTask;::doInBackground(2453) : 0 88 92 
+Lcom/evancharlton/mileage/tasks/CsvColumnReaderTask;::onPostExecute(2454) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvColumnReaderTask;::onPostExecute(2455) : 0 18 
+Lcom/evancharlton/mileage/tasks/CsvDataReader;::<init>(2456) : 0 6 
+Lcom/evancharlton/mileage/tasks/CsvDataReader;::doInBackground(2457) : 0 12 
+Lcom/evancharlton/mileage/tasks/CsvDataReader;::doInBackground(2458) : 0 112 118 122 128 130 152 156 162 
+Lcom/evancharlton/mileage/tasks/CsvDataReader;::onPostExecute(2459) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvDataReader;::onPostExecute(2460) : 0 
+Lcom/evancharlton/mileage/tasks/CsvDataReader;::onProgressUpdate(2461) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvDataReader;::onProgressUpdate(2462) : 0 
+Lcom/evancharlton/mileage/tasks/CsvDateReaderTask;::<init>(2463) : 0 58 
+Lcom/evancharlton/mileage/tasks/CsvDateReaderTask;::doInBackground(2464) : 0 12 
+Lcom/evancharlton/mileage/tasks/CsvDateReaderTask;::doInBackground(2465) : 0 102 106 
+Lcom/evancharlton/mileage/tasks/CsvDateReaderTask;::onPostExecute(2466) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvDateReaderTask;::onPostExecute(2467) : 0 18 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::<init>(2468) : 0 6 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::getData(2469) : 0 12 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::setBoolean(2470) : 0 30 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::setDouble(2471) : 0 98 102 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::doInBackground(2472) : 0 28 138 406 880 960 966 972 980 982 986 992 998 1030 1040 1048 1054 1058 1062 1066 1072 1078 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::doInBackground(2473) : 0 12 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::onPostExecute(2474) : 0 26 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::onPostExecute(2475) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::onProgressUpdate(2476) : 0 8 40 72 
+Lcom/evancharlton/mileage/tasks/CsvImportTask;::onProgressUpdate(2477) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvVehicleReaderTask;::<init>(2478) : 0 72 
+Lcom/evancharlton/mileage/tasks/CsvVehicleReaderTask;::doInBackground(2479) : 0 94 118 194 200 214 218 
+Lcom/evancharlton/mileage/tasks/CsvVehicleReaderTask;::doInBackground(2480) : 0 12 
+Lcom/evancharlton/mileage/tasks/CsvVehicleReaderTask;::onPostExecute(2481) : 0 26 
+Lcom/evancharlton/mileage/tasks/CsvVehicleReaderTask;::onPostExecute(2482) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvVehicleReaderTask;::onProgressUpdate(2483) : 0 10 
+Lcom/evancharlton/mileage/tasks/CsvVehicleReaderTask;::onProgressUpdate(2484) : 0 24 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::doInBackground(2490) : 300 
+Lcom/evancharlton/mileage/tasks/FillupInfoTask$DataHolder;::<init>(2497) : 0 14 
+Lcom/evancharlton/mileage/tasks/FillupInfoTask;::<init>(2498) : 0 10 
+Lcom/evancharlton/mileage/tasks/FillupInfoTask;::publish(2499) : 0 28 
+Lcom/evancharlton/mileage/tasks/FillupInfoTask;::doInBackground(2500) : 0 12 
+Lcom/evancharlton/mileage/tasks/FillupInfoTask;::doInBackground(2501) : 0 4 56 178 226 228 230 
+Lcom/evancharlton/mileage/tasks/FillupInfoTask;::onProgressUpdate(2502) : 0 6 10 38 
+Lcom/evancharlton/mileage/tasks/FillupInfoTask;::onProgressUpdate(2503) : 0 10 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::update(2505) : 0 44 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::attach(2507) : 0 10 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::doInBackground(2508) : 214 526 538 550 568 806 830 874 890 920 970 994 1040 1062 1078 1108 1146 1184 1234 1246 1276 1336 1366 1426 1456 1494 1506 1536 1548 1586 1598 1628 1640 1952 1976 1980 2000 2020 2040 2060 2080 2100 2120 2140 2178 2198 2218 2238 2258 2278 2298 2318 2338 2358 2378 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::onPostExecute(2510) : 24 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::onProgressUpdate(2513) : 0 10 84 90 168 170 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::onProgressUpdate(2514) : 0 10 
+Lcom/evancharlton/mileage/util/Debugger;::<init>(2515) : 0 6 
+Lcom/evancharlton/mileage/util/Debugger;::d(2517) : 14 
+Lcom/evancharlton/mileage/util/Debugger;::ensureNotUiThread(2518) : 12 
+Lcom/evancharlton/mileage/util/Debugger;::getStackTrace(2520) : 0 34 70 78 
+Lcom/evancharlton/mileage/util/Debugger;::yell(2522) : 10 22 36 
+Lcom/evancharlton/mileage/util/Util;::<init>(2523) : 0 6 
+Lcom/evancharlton/mileage/util/Util;::isIntentAvailable(2525) : 0 32 34 36 
+Lcom/evancharlton/mileage/views/CursorSpinner;::setSelectedId(2529) : 0 4 18 34 40 42 
+Lcom/evancharlton/mileage/views/DateButton$StaticDatePickerDialog;::setCallback(2536) : 0 4 
+Lcom/evancharlton/mileage/views/DateButton;::getDate(2542) : 0 14 
+Lcom/evancharlton/mileage/views/DateButton;::onRestoreInstanceState(2544) : 0 58 88 98 102 
+Lcom/evancharlton/mileage/views/DateButton;::onSaveInstanceState(2545) : 54 
+Lcom/evancharlton/mileage/views/DeltaView;::getDelta(2549) : 80 
+Lcom/evancharlton/mileage/views/DeltaView;::getEditField(2550) : 0 4 
+Lcom/evancharlton/mileage/views/DeltaView;::onRestoreInstanceState(2554) : 0 68 
+Lcom/evancharlton/mileage/views/DeltaView;::onSaveInstanceState(2555) : 0 80 
+Lcom/evancharlton/mileage/views/DateDelta;::getPosition(2559) : 22 26 30 34 
+Lcom/evancharlton/mileage/views/DistanceDelta;::getPosition(2564) : 20 
+Lcom/evancharlton/mileage/views/DividerView;::<init>(2567) : 0 10 
+Lcom/evancharlton/mileage/views/FormattedCurrencyView;::<clinit>(2574) : 0 12 
+Lcom/evancharlton/mileage/views/FormattedCurrencyView;::<init>(2575) : 0 6 
+Lcom/evancharlton/mileage/views/FormattedCurrencyView;::setCurrencySymbol(2576) : 0 30 
+Lcom/evancharlton/mileage/views/FormattedCurrencyView;::setText(2577) : 0 34 38 
+Lcom/evancharlton/mileage/views/FormattedDateView;::<init>(2578) : 0 38 54 60 62 78 86 102 110 126 132 
+Lcom/evancharlton/mileage/views/FormattedDateView;::setText(2579) : 0 14 
+Lcom/evancharlton/mileage/views/FormattedDateView;::setText(2580) : 0 4 10 66 68 86 104 124 160 
+Lcom/evancharlton/mileage/views/FormattedNumberView;::<clinit>(2581) : 0 12 
+Lcom/evancharlton/mileage/views/FormattedNumberView;::<init>(2582) : 0 6 
+Lcom/evancharlton/mileage/views/FormattedNumberView;::setText(2583) : 0 34 38 

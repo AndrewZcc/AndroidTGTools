@@ -1,0 +1,19 @@
+===============================
+14:25:15
+Target            = es.senselesssolutions.gpl.weightchart_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.509027850016026E9
+Elapsed Time(m)   = 59.65
+#Covered Branch   = 571
+#Branch           = 799
+#Query            = 584
+#Events           = 570
+#Reset            = 15
+Query Average(ms) = 6128.01
+Event Average(ms) = 5774.76
+Reset Average(ms) = 14171.4
+Execution Rate    = 97.92%
+Events : Reset    = 93.93 : 6.07
+Decision Rate     = 0.05%
+===============================

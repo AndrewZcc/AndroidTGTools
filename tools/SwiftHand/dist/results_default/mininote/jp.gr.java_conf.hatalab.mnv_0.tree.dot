@@ -1,0 +1,40 @@
+digraph G {
+1 -> 2 [label="MENU", color=black, fontsize=10];
+1 -> 3 [label="BACK", color=black, fontsize=10];
+1 -> 4 [label="(479,179,LinearLayout)", color=black, fontsize=10];
+1 -> 5 [label="(479,237,LinearLayout)", color=black, fontsize=10];
+1 -> 6 [label="(479,295,LinearLayout)", color=black, fontsize=10];
+1 -> 7 [label="(479,353,LinearLayout)", color=black, fontsize=10];
+1 -> 8 [label="(479,411,LinearLayout)", color=black, fontsize=10];
+1 -> 9 [label="(479,469,LinearLayout)", color=black, fontsize=10];
+1 -> 10 [label="(479,527,LinearLayout)", color=black, fontsize=10];
+1 -> 11 [label="(479,585,LinearLayout)", color=black, fontsize=10];
+1 -> 12 [label="(479,643,LinearLayout)", color=black, fontsize=10];
+1 -> 13 [label="(479,701,LinearLayout)", color=black, fontsize=10];
+1 -> 14 [label="(479,727,LinearLayout)", color=black, fontsize=10];
+1 -> 15 [label="(479,122,ImageView)", color=black, fontsize=10];
+1 -> 16 [label="(239,799,Button)", color=black, fontsize=10];
+1 -> 17 [label="(479,799,Button)", color=black, fontsize=10];
+1 -> 18 [label="DS((1,124),(1,726),ListView)", color=black, fontsize=10];
+1 -> 19 [label="US((1,124),(1,726),ListView)", color=black, fontsize=10];
+1[color=black, shape=circle];
+2[color=black, shape=square];
+3[color=black, shape=square];
+4[color=black, shape=square];
+5[color=black, shape=square];
+6[color=black, shape=square];
+7[color=black, shape=square];
+8[color=black, shape=square];
+9[color=black, shape=square];
+10[color=black, shape=square];
+11[color=black, shape=square];
+12[color=black, shape=square];
+13[color=black, shape=square];
+14[color=black, shape=square];
+15[color=black, shape=square];
+16[color=black, shape=square];
+17[color=black, shape=square];
+18[color=black, shape=square];
+19[color=black, shape=square];
+
+}

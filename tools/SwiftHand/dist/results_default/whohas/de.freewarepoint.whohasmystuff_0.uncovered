@@ -1,0 +1,48 @@
+Lde/freewarepoint/whohasmystuff/AbstractListIntent$2;::setViewValue(6) : 96 
+Lde/freewarepoint/whohasmystuff/AbstractListIntent;::getTimeDifference(12) : 20 120 130 200 426 508 618 690 764 836 930 
+Lde/freewarepoint/whohasmystuff/AbstractListIntent;::launchEditActivity(13) : 270 
+Lde/freewarepoint/whohasmystuff/AbstractListIntent;::onActivityResult(19) : 38 308 334 346 408 474 
+Lde/freewarepoint/whohasmystuff/AbstractListIntent;::onContextItemSelected(20) : 0 48 60 64 82 96 116 130 
+Lde/freewarepoint/whohasmystuff/AbstractListIntent;::onCreateContextMenu(22) : 0 28 42 56 
+Lde/freewarepoint/whohasmystuff/AddObject$5;::onClick(35) : 408 
+Lde/freewarepoint/whohasmystuff/AddObject$7;::onClick(39) : 0 54 
+Lde/freewarepoint/whohasmystuff/AddObject;::access$400(61) : 0 4 
+Lde/freewarepoint/whohasmystuff/AddObject;::access$500(63) : 0 4 
+Lde/freewarepoint/whohasmystuff/AddObject;::access$600(65) : 0 4 
+Lde/freewarepoint/whohasmystuff/AddObject;::getCalendarsBeforeICS(71) : 0 14 68 70 
+Lde/freewarepoint/whohasmystuff/AddObject;::initalizeValuesFromBundle(73) : 24 230 234 
+Lde/freewarepoint/whohasmystuff/AddObject;::initializeCalendarSpinner(74) : 56 64 96 104 186 206 
+Lde/freewarepoint/whohasmystuff/AddObject;::onActivityResult(79) : 0 14 16 22 58 
+Lde/freewarepoint/whohasmystuff/AddObject;::onCreateDialog(81) : 6 
+Lde/freewarepoint/whohasmystuff/BuildConfig;::<init>(83) : 0 6 
+Lde/freewarepoint/whohasmystuff/ListLentObjects$1;::<init>(85) : 0 4 10 
+Lde/freewarepoint/whohasmystuff/ListLentObjects$1;::onClick(86) : 0 4 10 
+Lde/freewarepoint/whohasmystuff/ListLentObjects$2;::onClick(88) : 32 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::access$000(90) : 0 6 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::access$100(91) : 0 6 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::askForExportConfirmation(92) : 0 104 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::exportData(94) : 40 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::isExternalStorageReadable(95) : 24 40 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::isExternalStorageWritable(96) : 24 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::showErrorDialog(97) : 0 68 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::showExportErrorDialog(98) : 0 20 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::showImportErrorDialog(99) : 0 20 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::isMarkAsReturnedAvailable(103) : 0 2 
+Lde/freewarepoint/whohasmystuff/ListLentObjects;::onOptionsItemSelected(105) : 98 
+Lde/freewarepoint/whohasmystuff/R$array;::<init>(106) : 0 6 
+Lde/freewarepoint/whohasmystuff/R$attr;::<init>(107) : 0 6 
+Lde/freewarepoint/whohasmystuff/R$drawable;::<init>(108) : 0 6 
+Lde/freewarepoint/whohasmystuff/R$id;::<init>(109) : 0 6 
+Lde/freewarepoint/whohasmystuff/R$layout;::<init>(110) : 0 6 
+Lde/freewarepoint/whohasmystuff/R$menu;::<init>(111) : 0 6 
+Lde/freewarepoint/whohasmystuff/R$string;::<init>(112) : 0 6 
+Lde/freewarepoint/whohasmystuff/R;::<init>(113) : 0 6 
+Lde/freewarepoint/whohasmystuff/ShowHistory;::getEditAction(116) : 0 2 
+Lde/freewarepoint/whohasmystuff/ShowHistory;::isMarkAsReturnedAvailable(118) : 0 2 
+Lde/freewarepoint/whohasmystuff/database/DatabaseHelper;::<init>(119) : 0 6 
+Lde/freewarepoint/whohasmystuff/database/DatabaseHelper;::exportDatabaseToXML(122) : 70 92 114 136 
+Lde/freewarepoint/whohasmystuff/database/DatabaseHelper;::importDatabaseFromXML(124) : 152 174 196 
+Lde/freewarepoint/whohasmystuff/database/OpenLendDbAdapter$DatabaseHelper;::onUpgrade(130) : 0 74 84 90 100 
+Lde/freewarepoint/whohasmystuff/database/OpenLendDbAdapter;::updateLentObject(132) : 64 
+Lde/freewarepoint/whohasmystuff/database/OpenLendDbAdapter;::deleteLentObject(136) : 0 4 60 62 64 
+Lde/freewarepoint/whohasmystuff/database/XMLContentHandler;::parseLentObjectAttributes(145) : 250 

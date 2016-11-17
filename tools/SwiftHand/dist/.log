@@ -1,0 +1,7 @@
+java.lang.RuntimeException: Main Activity is not specified
+	at edu.berkeley.wtchoi.swift.driver.DriverOption.assertComplete(DriverOption.java:68)
+	at edu.berkeley.wtchoi.swift.driver.Driver.connectToDevice(Driver.java:81)
+	at edu.berkeley.wtchoi.swift.testing.android.TargetApplication.<init>(TargetApplication.java:106)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.StrictLearningTestRunner.prepareTesting(StrictLearningTestRunner.java:55)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:76)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)

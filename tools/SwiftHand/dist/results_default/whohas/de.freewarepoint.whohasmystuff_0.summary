@@ -1,0 +1,19 @@
+===============================
+15:32:29
+Target            = de.freewarepoint.whohasmystuff_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 4.162191490973373E9
+Elapsed Time(m)   = 59.68
+#Covered Branch   = 336
+#Branch           = 464
+#Query            = 564
+#Events           = 539
+#Reset            = 26
+Query Average(ms) = 6349.34
+Event Average(ms) = 5862.79
+Reset Average(ms) = 14002.23
+Execution Rate    = 98.41%
+Events : Reset    = 89.67 : 10.33
+Decision Rate     = 0.07%
+===============================

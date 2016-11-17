@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+<!-- 
+  This file is part of My Expenses.
+  My Expenses is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+  
+  My Expenses is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+  
+  You should have received a copy of the GNU General Public License
+  along with My Expenses.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+<!DOCTYPE resources [
+  <!ENTITY app_name "Le mie spese">
+  <!ENTITY grisbi_file "grisbi.xml">
+]>
+<resources>
+  <string name="account">Conto</string>
+  <string name="account_type_cash">Conto monetario</string>
+  <string name="account_type_bank">Conto bancario</string>
+  <string name="account_type_ccard">Carta di credito</string>
+  <string name="account_type_asset">Conto di beni</string>
+  <string name="account_type_liability">Conto di responsabilità</string>
+  <string name="amount">Quantitá</string>
+  <string name="app_name">&app_name;</string>
+  <string name="backup_failure">Backup su SD card non è riuscito.</string>
+  <string name="backup_success">Il database e le impostazioni sono state salvate sulla scheda SD.
+  </string>
+  <string name="button_continue">Continuare</string>
+  <string name="category">Categoria</string>
+  <string name="category_already_defined">La categoria %1$s è già definita</string>
+  <string name="comment">Note</string>
+  <string name="create_category">Nuova categoria</string>
+  <string name="currency">Valuta</string>
+  <string name="currency_not_iso4217">%1$s non è un codice valido secondo la ISO 4217</string>
+  <string name="current_balance">Saldo corrente</string>
+  <string name="date">Data</string>
+  <string name="date_time">Data / Ora</string>
+  <string name="default_account_description">Questo conto stato istituito automaticamente quando si
+      installa</string>
+  <string name="description">Descrizione</string>
+  <string name="dialog_confirm_delete_template">Vuoi veramente eliminare il modelo \"%1$s\" ?</string>
+  <string name="dialog_title_select_account">Scegli il conto</string>
+  <string name="dialog_title_select_currency">Scegli una valuta</string>
+  <string name="dialog_title_select_import_source">Scegli un origine per l\'importazione</string>
+  <string name="dialog_title_select_method">Scegli un modo di pagamento</string>
+  <string name="dialog_title_select_type">Scegli un tipo</string>
+  <string name="dialog_title_template_title">Assegnare un nome</string>
+  <string name="edit_category">Modificare la categoria</string>
+  <string name="expense">spesa</string>
+  <string name="export_expenses_outputfile_exists">Il file di esportazione esiste già.
+      Attendere un minuto prima di riprovare.</string>
+  <string name="export_expenses">Esportazione delle speze</string>
+  <string name="export_expenses_sdcard_failure">Esportazione delle speze nella scheda SD fallito
+  </string>
+  <string name="export_expenses_sdcard_success">Le spese sono esportate nel file %1$s</string>
+  <string name="external_storage_unavailable">Archiviazione esterna (Scheda SD) non è disponibile
+  </string>
+  <string name="ftp_uri_malformed">Sintassi male dell\'URI %1$s</string>
+  <string name="go_to_chapter">Vai al capitolo</string>
+  <string name="grisbi_file">&grisbi_file;</string>
+  <string name="grisbi_import_button_categories_only">Categorie</string>
+  <string name="grisbi_import_button_categories_and_parties">Categorie e beneficiari</string>
+  <string name="grisbi_import_parsing">Analisi di %1$s</string>
+  <string name="grisbi_import_categories_and_parties_success">%1$s categorie e %2$s beneficiari
+      state importati</string>
+  <string name="grisbi_import_categories_loading">Importazione delle categorie dalla %1$s</string>
+  <string name="grisbi_import_categories_success">%1$s categorie state importate</string>
+  <string name="grisbi_import_parties_loading">Importazione dei beneficiari dalla %1$s</string>
+  <string name="help_heading_credits">Generico</string>
+  <string name="help_heading_license">Licenza</string>
+  <string name="help_heading_privacy">Norme sulla privacy</string>
+  <string name="help_heading_quick_guide">Guida rapida</string>
+  <string name="help_heading_whats_new">Novità</string>
+  <string name="help_intro"><i>&app_name;</i> è stato progettato per tenere traccia delle spese nel
+      corso di un breve periodo di tempo, e di esportare queste spese nel programma Grisbi.</string>
+  <string name="help_leading">Grazie di probare <i>&app_name;</i> por Android.</string>
+  <string name="help_quick_guide"><i>&app_name;</i> è dotato di due interfacce di comando: una barra
+      dei  pulsanti e il menu standard di Android (pulsante hardware Menu). È possibile impostare
+      quale usare nella schermata di impostazioni. I pulsanti nella barra dei pulsanti eseguono 
+      i seguenti azioni con un clico breve:\n\n
+      - <b>Nuovo</b> : aggiungere un operazione.\n
+      - <b>Conti</b> : cambiare di un conto a un altro.\n
+      - <b>Reset</b> : esporta tutte le operazioni sulla scheda SD nel formato QIF, 
+      elimina le spese e aggiorna il bilancio di apertura.\n
+      - <b>Impostazioni</b> : da accesso a tutte le impostazioni e funzioni amministrative 
+      (dei conti, categorie, riceventi, metodi di pagamento, modelli, i backup, importazioni).\n
+      - <b>Aiuto</b> apre questa schermata di aiuto.\n
+      \nAlcuni pulsanti (indicato per un triangolo nell\'angolo destro di sopra) aprono 
+      un menu a discesa con un clico più lungo:\n\n
+      - <b>Nuovo</b> : <b>Trasferimento</b> consente creare un trasferimento di un conto a un altro
+      (devono essere della stessa valuta). Anche enumera modelli disponibili i quali può usare 
+      (Modelli possono essere creati nell\'elenco dei menu di contesto delle operazioni)\n
+      - <b>Conti</b> : enumera tutti i conti ai quali può cambiare. <b>Nuovo &#8230;</b> aggiungere un conto,
+      <b>Riassunto</b> apre una panoramica di tutti i conti con l\'attuale situazione finanziaria.\n
+      - <b>Impostazioni</b> : Accesso rapido al backup e agli impostazioni del conto attuale.\n
+      - <b>Aiuto</b> : accesso rapido al manuale, News et FAQ.\n
+      \nPer favore visita il <a href="http://myexpenses.totschnig.org/#tutorial_r4">manuale</a>
+      per avere ulteriori esplicazioni.</string>
+  <string name="help_whats_new">&#160;- Creare operazione riguardo modelli\n
+      - È possibile configurare set di caratteri del file QIF (compatibilità MS Money)\n
+      - Miglioramenti dell\'interfaccia utente\n
+      - Mostra i recenti operazioni in cima\n
+      - L\'elenco degli conti mostra una panoramica della situazione finanziaria</string>
+  <string name="income">redditto</string>
+  <string name="import_categories">Importare le categorie</string>
+  <string name="important_version_information">Informazioni importanti</string>
+  <string name="invalid_number_format">Numero formato non riconosciuto dal vostra regione. Uso %1$s
+  </string>
+  <string name="label">Titolo</string>
+  <string name="menu_accounts">Conti</string>
+  <string name="menu_accounts_explain">Il pulsante Conti consente passare da un conto
+      a un altro se ci sono stati definiti diversi conti.
+      Inizialmente, c\'è uno solo. Vuoi creare un secondo conto adesso?</string>
+  <string name="menu_accounts_new">Nuovo &#8230;</string>
+  <string name="menu_accounts_summary">Riassunto</string>
+  <string name="menu_backup">Backup</string>
+  <string name="menu_changes">Modifiche</string>
+  <string name="menu_change_account">Cambiare conto</string>
+  <string name="menu_create_main_cat">Nuova categoria principale</string>
+  <string name="menu_create_sub_cat">Nuova sottocategoria</string>
+  <string name="menu_create_template">Creare un modello</string>
+  <string name="menu_delete">Cancellare</string>
+  <string name="menu_delete_account">Cancellare il conto</string>
+  <string name="menu_delete_cat">Cancellare la categoria</string>
+  <string name="menu_delete_method">Eliminare un metodo di pagamento</string>
+  <string name="menu_edit_account">Modificare il conto</string>
+  <string name="menu_edit_cat">Modificare la categoria</string>
+  <string name="menu_edit_method">Modificare modo di pagamento</string>
+  <string name="menu_edit_ta">Modificare operazione</string>
+  <string name="menu_edit_transfer">Modificare un trasferimento</string>
+  <string name="menu_faq">FAQ</string>
+  <string name="menu_help">Aiuto</string>
+  <string name="menu_insert_account">Aggiungere conto</string>
+  <string name="menu_insert_method">Aggiungere modo di pagamento</string>
+  <string name="menu_insert_ta">Aggiungere operazione</string>
+  <string name="menu_insert_transfer">Aggiungere un trasferimento</string>
+  <string name="menu_new">Nuovo</string>
+  <string name="menu_new_from_template">Nuovo riguardo al modello</string>
+  <string name="menu_move_transaction">Spostare</string>
+  <string name="menu_reset">Reinitializare</string>
+  <string name="menu_reset_abrev">Reinit.</string>
+  <string name="menu_settings">Impostazioni</string>
+  <string name="menu_settings_abrev">Impos.</string>
+  <string name="menu_settings_account">Conto</string>
+  <string name="menu_show_detail">Visualizza i dettagli</string>
+  <string name="method">Modo</string>
+  <string name="new_version">New version</string>
+  <string name="no_accounts">Nessun conto !</string>
+  <string name="no_app_handling_email_available">Nessuna applicazione disponibile per e-mail
+  </string>
+  <string name="no_app_handling_ftp_available">Nessuna applicazione disponibile per ftp. Installare <i>Invia via FTP</i> da Google Play?</string>
+  <string name="no_categories">Non ci sono categorie.</string>
+  <string name="no_details">Nessun dettaglio.</string>
+  <string name="no_expenses">Non ci sono spese.</string>
+  <string name="no_parties">Non ci sono beneficiari.</string>
+  <string name="no_templates">Non ci sono modelli.</string>
+  <string name="no_text_given">Non ha scritto ningun testo.</string>
+  <string name="no_valid_payment_methods">Nessuni modi di pagamento validi per %1$s (%2$s)</string>
+  <string name="not_deletable_mapped_expenses">Non può cancellar, perché ci
+      sono spese ad esso attribuite.</string>
+  <string name="not_deletable_subcats_exists">Questa categoria non può essere cancellata perché
+      contiene sottocategorie.</string>
+  <string name="opening_balance">Saldo inizial</string>
+  <string name="parse_error_file_not_found">Il file %1$s non esiste</string>
+  <string name="parse_error_no_data_found">Nessun dato importabili trovato nel file.</string>
+  <string name="parse_error_parse_exception">Il file non può essere analizzato</string>
+  <string name="parse_error_other_exception">È verificato un errore: %1$s</string>
+  <!--
+  <string name="parse_error_grisbi_version_not_determined">Versione del file Grisbi non può essere
+      determinata</string>
+  -->
+  <string name="parse_error_grisbi_version_not_supported">Versione del file Grisbi non è supportata:
+      %1$s</string>
+  <string name="payee">Beneficiario</string>
+  <string name="payer">Pagatore</string>
+  <!-- payment methods -->
+  <string name="pm_cheque">Assegno</string>
+  <string name="pm_creditcard">Carta di credito</string>
+  <string name="pm_deposit">Deposito</string>
+  <string name="pm_directdebit">Bancomat</string>
+  <string name="pm_type_neutral">Neutro</string>
+  <string name="pm_type_debit">Debito</string>
+  <string name="pm_type_credit">Credito</string>
+  <string name="peer_transaction_deleted">Questa operazione è stata collegata ad un altro (conto
+      %1$s) che è stato eliminato</string>
+  <string name="pref_account_button_behaviour_title">Comportamento del pulsante \"Conti\"</string>
+  <string name="pref_account_button_behaviour_summary">Vuoi che il pulsante \"Conti\" alterna tra gli
+      ultimi due conti invece di alternare tra tutti i conti?</string>
+  <string name="pref_backup_summary">Crea un backup del database e le preferenze sulla scheda SD.
+  </string>
+  <string name="pref_categories_sort_by_usages_title">Criterio di ordinamento per le categorie
+  </string>
+  <string name="pref_categories_sort_by_usages_summary">Ordinare le principali categorie in base
+      alla frequenza d\'uso (altrimenti in ordine alfabetico)</string>
+  <string name="pref_category_title_manage">Gestione</string>
+  <string name="pref_category_title_ui">Interfaccia utente</string>
+  <string name="pref_currency_decimal_separator_title">Separatore decimale per l\'ingresso della
+      quantità</string>
+  <string name="pref_currency_decimal_separator_summary">Si può scegliere tra "," e "." o decidere
+      di unità di ingresso minori come numeri interi.</string>
+  <string name="pref_currency_decimal_separator_comma">Virgola (,)</string>
+  <string name="pref_currency_decimal_separator_point">Punto (.)</string>
+  <string name="pref_currency_decimal_separator_input_minor_unit">Unità minori come numeri interi
+  </string>
+  <string name="pref_import_from_grisbi_summary">Scegli tra le definizioni standard di Grisbi,
+      inclusi  nell\'applicazione, e il vostro proprio file salvato come &grisbi_file; nella
+      cartellla myexpenses della radice della vostra scheda SD.</string>
+  <string name="pref_import_from_grisbi_title">Importazione dei dati Grisbi</string>
+  <string name="pref_manage_accounts_title">Conti</string>
+  <string name="pref_manage_accounts_summary">Aggiungere, modificare e cancellare conti.</string>
+  <string name="pref_manage_categories_title">Categorie</string>
+  <string name="pref_manage_categories_summary">Aggiungere, modificare, cancellare categorie.</string>
+  <string name="pref_manage_methods_title">Modi di pagamento</string>
+  <string name="pref_manage_methods_summary">Creare, modificare i modi di pagamento e di associarli a tipi di conti.</string>
+  <string name="pref_manage_parties_title">Beneficiari</string>
+  <string name="pref_manage_parties_summary">Cancellare beneficiari.</string>
+  <string name="pref_manage_templates_title">Modelli</string>
+  <string name="pref_manage_templates_summary">Utilizzare et eliminare modelli.</string>
+  <string name="pref_perform_share_title">Condividi QIF Export</string>
+  <string name="pref_perform_share_summary">Se il file QIF da condividere dopo ogni esportazione?
+      </string>
+  <string name="pref_qif_export_file_encoding_title">Set di caratteri del file QIF</string>
+  <string name="pref_qif_export_file_encoding_summary">Fissare il set di caratteri \"ISO-8859-1\" se usa MS Money</string>
+  <string name="pref_share_target_title">Carica URL QIF Export</string>
+  <string name="pref_share_target_summary">Lascia vuoto se si vuole scegliere tra le applicazioni
+      appropriate (e-mail, Dropbox, Google Docs, &#8230;), o fornire l\'URL in uno dei sistemi
+      sostenuti</string>
+  <string name="pref_use_standard_menu_title">Utilizzare Android standard menu</string>
+  <string name="pref_use_standard_menu_summary">Invece di visualizzare una barra dei pulsanti,
+      utilizzare  Android menu standard per l\'accesso ai comandi.</string>
+  <string name="restore_db_success">Il database è stato ripristinato dal backup.</string>
+  <string name="restore_preferences_success">I impostazioni sono stati ripristinati dal backup.
+  </string>
+  <string name="select">Selezionare</string>
+  <string name="select_account">Selezionare un conto</string>
+  <string name="select_category">Selezionare una categoria</string>
+  <string name="select_parent_category">Selezionare questa categoria</string>
+  <string name="share_sending">Invia file QIF</string>
+  <string name="share_scheme_not_supported">Shemà %1$s non è supportata.</string>
+  <string name="suggest_use_standard_menu">Vuoi utilizzare il menu standard Android per chiamare i
+      comandi, e nascondere la barra dei pulsanti?</string>
+  <string name="sum_income">Somma totale dei redditi</string>
+  <string name="sum_expenses">Somma totale delle spese</string>
+  <string name="switch_account">Cambiato al conto \"%1$s\"</string>
+  <string name="template_create_success">Il modello \"%1$s\" è stato creato con successo</string>
+  <string name="template_title_exists">Un modello con il nome \"%1$s\" già esiste</string>
+  <string name="time">Ora</string>
+  <string name="title">Titro</string>
+  <string name="transaction">Operazione</string>
+  <string name="transfer">Trasferimento</string>
+  <string name="tutorial">Manuale</string>
+  <string name="type">Tipo</string>
+  <string name="warning_backup">Database e le preferenze verranno salvate su scheda SD. Vuoi
+      continuare?</string>
+  <string name="warning_backup_exists">Database e le preferenze verranno salvate su scheda SD.
+      Backup esistente verrà sovrascritto. Vuoi continuare?</string>
+  <string name="warning_delete_account">Questo conto sarà cancelatto con tutte le sue operazioni.
+      Vuoi continuare?</string>
+  <string name="warning_reset_account">Tutte le operazioni di questo conto saranno esportati
+      a un file QIF nella scheda SD e cancellati. Vuoi continuare?</string>
+  <string name="warning_select_account">Si deve selezionare un conto !</string>
+
+  <!-- strings below this comment do not need translations for new languages -->
+  <string name="version_14_upgrade_info">Dalla versione 1.4.0, la valuta e definita secondo il
+      codice ISO 4217. Nei vostri contisi utilizza dei seguinti simboli che devono essere cambiati:
+      %1$s </string>
+  <string name="version_26_upgrade_info"><i>&app_name;</i>ha ora una barra dei pulsanti come nueva
+      interfaccia di comandi. È possibile tornare alla vecchia interfaccia nella schermata delle
+      impostazioni.</string>
+  <string name="version_32_upgrade_info">È stato configurato un URL FTP come destinazione.
+      <i>&app_name;</i> non gestisce i trasferimenti FTP da solo.</string>
+</resources>

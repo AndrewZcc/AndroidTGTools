@@ -1,0 +1,679 @@
+Lcom/artfulbits/aiCharts/Base/f;::<init>(116) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$ValueType;::<clinit>(206) : 0 66 
+Lcom/artfulbits/aiCharts/Base/ChartAxis$ValueType;::<init>(207) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartCollection;::<init>(397) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::<clinit>(408) : 0 20 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::<init>(409) : 0 42 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::register(412) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartCustomAttribute;::register(413) : 0 16 44 50 62 74 126 156 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$1;::<init>(416) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$2;::<init>(418) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$3;::<init>(421) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$4;::<init>(423) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$a;::<init>(426) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$a;::<init>(427) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$b;::<init>(429) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$b;::<init>(430) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$c;::<init>(432) : 0 8 
+Lcom/artfulbits/aiCharts/Base/ChartEngine$c;::<init>(433) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::<clinit>(435) : 0 78 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::<init>(436) : 0 318 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::addInvalidateListener(442) : 0 4 10 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::draw(444) : 0 450 458 472 
+Lcom/artfulbits/aiCharts/Base/ChartEngine;::setBounds(471) : 0 4 22 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::<clinit>(485) : 0 42 
+Lcom/artfulbits/aiCharts/Base/ChartGraph$b;::<init>(486) : 0 16 
+Lcom/artfulbits/aiCharts/Base/ChartGraph;::<init>(495) : 0 64 
+Lcom/artfulbits/aiCharts/Base/ChartNamedCollection;::<init>(662) : 0 10 
+Lcom/artfulbits/aiCharts/Base/ChartPalette;::<clinit>(668) : 0 104 
+Lcom/artfulbits/aiCharts/Base/ChartPalette;::<init>(669) : 0 22 28 54 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::<clinit>(675) : 0 78 
+Lcom/artfulbits/aiCharts/Base/ChartPointAttributes;::<init>(676) : 0 88 
+Lcom/artfulbits/aiCharts/Base/ChartPointCollection;::<init>(755) : 0 30 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration;::<clinit>(809) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartPointDeclaration;::<init>(810) : 0 38 
+Lcom/artfulbits/aiCharts/Base/ChartSeries$a;::<init>(839) : 0 6 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::<init>(846) : 0 146 168 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::<init>(847) : 0 14 
+Lcom/artfulbits/aiCharts/Base/ChartSeries;::getPoints(861) : 0 4 
+Lcom/artfulbits/aiCharts/Base/ChartType;::<clinit>(923) : 0 152 
+Lcom/artfulbits/aiCharts/Base/ChartType;::<init>(924) : 0 38 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::<init>(955) : 0 12 
+Lcom/artfulbits/aiCharts/Base/DoubleRange;::b(959) : 0 12 
+Lcom/artfulbits/aiCharts/Base/g;::<init>(1025) : 0 4 24 
+Lcom/artfulbits/aiCharts/Base/j;::<init>(1034) : 0 34 
+Lcom/artfulbits/aiCharts/Base/r;::<init>(1067) : 0 170 204 208 
+Lcom/artfulbits/aiCharts/Base/r;::a(1068) : 0 8 36 
+Lcom/artfulbits/aiCharts/Base/r;::a(1069) : 0 104 156 162 
+Lcom/artfulbits/aiCharts/ChartGestureListener$a;::<init>(1070) : 0 44 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::<init>(1077) : 0 8 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::<init>(1078) : 0 38 
+Lcom/artfulbits/aiCharts/ChartGestureListener;::setFlags(1088) : 0 4 
+Lcom/artfulbits/aiCharts/ChartView;::<init>(1091) : 0 8 
+Lcom/artfulbits/aiCharts/ChartView;::<init>(1092) : 0 8 
+Lcom/artfulbits/aiCharts/ChartView;::<init>(1093) : 0 30 42 54 56 
+Lcom/artfulbits/aiCharts/ChartView;::onDraw(1105) : 0 4 8 18 24 
+Lcom/artfulbits/aiCharts/ChartView;::onLayout(1106) : 0 4 8 62 68 
+Lcom/artfulbits/aiCharts/ChartView;::setChart(1109) : 0 20 28 50 62 76 82 
+Lcom/artfulbits/aiCharts/ChartView;::setPanning(1114) : 0 4 8 48 58 
+Lcom/artfulbits/aiCharts/Enums/Alignment;::<clinit>(1120) : 0 94 
+Lcom/artfulbits/aiCharts/Enums/Alignment;::<init>(1121) : 0 6 
+Lcom/artfulbits/aiCharts/Enums/Shape3D;::<clinit>(1136) : 0 122 
+Lcom/artfulbits/aiCharts/Enums/Shape3D;::<init>(1137) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartColumnType;::<clinit>(1173) : 0 56 
+Lcom/artfulbits/aiCharts/Types/ChartColumnType;::<init>(1174) : 0 26 
+Lcom/artfulbits/aiCharts/Types/ChartLineType$BreakMode;::<clinit>(1220) : 0 94 
+Lcom/artfulbits/aiCharts/Types/ChartLineType$BreakMode;::<init>(1221) : 0 6 
+Lcom/artfulbits/aiCharts/Types/ChartLineType;::<clinit>(1224) : 0 168 
+Lcom/artfulbits/aiCharts/Types/ChartLineType;::<init>(1225) : 0 14 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::<clinit>(1321) : 0 808 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::get(1323) : 0 4 32 34 
+Lcom/artfulbits/aiCharts/Types/ChartTypes;::getDefault(1325) : 0 4 12 
+Lcom/artfulbits/aiCharts/a;::<init>(1342) : 0 4 10 
+Lcom/artfulbits/license/LicenseData;::a(1349) : 0 100 142 
+Lcom/artfulbits/license/LicenseData;::b(1350) : 0 66 
+Lcom/artfulbits/license/LicenseData;::fromPackage(1351) : 0 16 188 190 
+Lcom/evancharlton/mileage/AboutActivity;::<init>(1361) : 0 6 
+Lcom/evancharlton/mileage/AboutActivity;::onClick(1362) : 0 14 16 58 
+Lcom/evancharlton/mileage/AboutActivity;::onCreate(1363) : 0 16 
+Lcom/evancharlton/mileage/BaseFormActivity$1;::<init>(1364) : 0 4 10 
+Lcom/evancharlton/mileage/BaseFormActivity$1;::onClick(1365) : 0 4 38 54 64 68 
+Lcom/evancharlton/mileage/BaseFormActivity$2;::<init>(1366) : 0 4 14 
+Lcom/evancharlton/mileage/BaseFormActivity$2;::onClick(1367) : 0 4 14 
+Lcom/evancharlton/mileage/BaseFormActivity$3;::<init>(1368) : 0 4 14 
+Lcom/evancharlton/mileage/BaseFormActivity;::<init>(1370) : 0 6 
+Lcom/evancharlton/mileage/BaseFormActivity;::canDelete(1371) : 0 2 
+Lcom/evancharlton/mileage/BaseFormActivity;::handleInvalidField(1377) : 0 44 46 
+Lcom/evancharlton/mileage/BaseFormActivity;::onCreate(1379) : 0 68 
+Lcom/evancharlton/mileage/BaseFormActivity;::onCreateDialog(1380) : 0 14 16 
+Lcom/evancharlton/mileage/BaseFormActivity;::onCreateOptionsMenu(1381) : 0 28 40 60 68 
+Lcom/evancharlton/mileage/BaseFormActivity;::onOptionsItemSelected(1382) : 0 14 22 24 
+Lcom/evancharlton/mileage/BaseFormActivity;::onResume(1383) : 0 130 162 214 256 
+Lcom/evancharlton/mileage/BaseFormActivity;::postSaveValidation(1385) : 0 2 
+Lcom/evancharlton/mileage/BaseFormActivity;::saved(1386) : 0 6 
+Lcom/evancharlton/mileage/BaseListActivity;::<init>(1394) : 0 6 
+Lcom/evancharlton/mileage/BaseListActivity;::getCursor(1400) : 0 50 
+Lcom/evancharlton/mileage/BaseListActivity;::getListLayout(1402) : 0 6 
+Lcom/evancharlton/mileage/BaseListActivity;::getProjectionArray(1403) : 0 30 34 52 
+Lcom/evancharlton/mileage/BaseListActivity;::getSelection(1404) : 0 2 
+Lcom/evancharlton/mileage/BaseListActivity;::getSelectionArgs(1405) : 0 2 
+Lcom/evancharlton/mileage/BaseListActivity;::getSortOrder(1406) : 0 2 
+Lcom/evancharlton/mileage/BaseListActivity;::getTo(1407) : 0 12 
+Lcom/evancharlton/mileage/BaseListActivity;::initUI(1410) : 0 
+Lcom/evancharlton/mileage/BaseListActivity;::loadItem(1412) : 0 26 
+Lcom/evancharlton/mileage/BaseListActivity;::onCreate(1414) : 0 12 
+Lcom/evancharlton/mileage/BaseListActivity;::onCreate(1415) : 0 34 
+Lcom/evancharlton/mileage/BaseListActivity;::onItemClick(1418) : 0 6 
+Lcom/evancharlton/mileage/BaseListActivity;::onResume(1419) : 0 32 80 126 
+Lcom/evancharlton/mileage/BaseListActivity;::postUI(1420) : 0 
+Lcom/evancharlton/mileage/BaseListActivity;::setupEmptyView(1421) : 0 
+Lcom/evancharlton/mileage/ChartActivity$1;::<init>(1424) : 0 4 10 
+Lcom/evancharlton/mileage/ChartActivity$2;::<init>(1426) : 0 4 10 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::<init>(1428) : 0 6 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::attach(1429) : 0 4 20 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::getActivity(1430) : 0 4 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::onPostExecute(1431) : 0 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::onPostExecute(1432) : 0 14 34 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::onPreExecute(1433) : 0 4 28 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::onProgressUpdate(1434) : 0 32 54 
+Lcom/evancharlton/mileage/ChartActivity$ChartGenerator;::onProgressUpdate(1435) : 0 10 
+Lcom/evancharlton/mileage/ChartActivity;::<init>(1436) : 0 6 
+Lcom/evancharlton/mileage/ChartActivity;::restoreLastNonConfigurationInstance(1437) : 0 78 96 98 
+Lcom/evancharlton/mileage/ChartActivity;::addChartSeries(1438) : 0 
+Lcom/evancharlton/mileage/ChartActivity;::getProgressDialog(1442) : 0 4 
+Lcom/evancharlton/mileage/ChartActivity;::onCreate(1444) : 0 120 
+Lcom/evancharlton/mileage/ChartActivity;::onCreateDialog(1445) : 0 16 18 32 
+Lcom/evancharlton/mileage/ExportActivity$1;::<init>(1450) : 0 4 10 
+Lcom/evancharlton/mileage/ExportActivity$1;::onClick(1451) : 0 88 
+Lcom/evancharlton/mileage/ExportActivity$2;::<init>(1452) : 0 4 10 
+Lcom/evancharlton/mileage/ExportActivity$2;::onItemSelected(1453) : 0 4 42 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::<init>(1455) : 0 6 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::getAbsoluteFilename(1456) : 0 66 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::getBasename(1457) : 0 26 80 82 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::attach(1458) : 0 4 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::doInBackground(1459) : 0 12 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::doInBackground(1460) : 0 46 62 64 94 104 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::onPostExecute(1461) : 0 10 
+Lcom/evancharlton/mileage/ExportActivity$FilenameTask;::onPostExecute(1462) : 0 4 6 
+Lcom/evancharlton/mileage/ExportActivity;::<clinit>(1463) : 0 54 
+Lcom/evancharlton/mileage/ExportActivity;::<init>(1464) : 0 6 
+Lcom/evancharlton/mileage/ExportActivity;::access$000(1465) : 0 4 
+Lcom/evancharlton/mileage/ExportActivity;::access$100(1466) : 0 4 
+Lcom/evancharlton/mileage/ExportActivity;::access$200(1467) : 0 8 
+Lcom/evancharlton/mileage/ExportActivity;::access$300(1468) : 0 8 
+Lcom/evancharlton/mileage/ExportActivity;::access$400(1469) : 0 4 
+Lcom/evancharlton/mileage/ExportActivity;::access$500(1470) : 0 6 
+Lcom/evancharlton/mileage/ExportActivity;::access$600(1471) : 0 4 
+Lcom/evancharlton/mileage/ExportActivity;::getExtension(1472) : 0 4 20 
+Lcom/evancharlton/mileage/ExportActivity;::getFilename(1473) : 0 54 
+Lcom/evancharlton/mileage/ExportActivity;::startFilenameTask(1474) : 0 4 12 30 38 52 82 98 
+Lcom/evancharlton/mileage/ExportActivity;::onCreate(1475) : 0 170 
+Lcom/evancharlton/mileage/FieldActivity;::<init>(1477) : 0 30 
+Lcom/evancharlton/mileage/FieldActivity;::getCreateString(1478) : 0 6 
+Lcom/evancharlton/mileage/FieldActivity;::getDao(1479) : 0 4 
+Lcom/evancharlton/mileage/FieldActivity;::getProjectionArray(1480) : 0 4 
+Lcom/evancharlton/mileage/FieldActivity;::getUri(1481) : 0 4 24 
+Lcom/evancharlton/mileage/FieldActivity;::initUI(1482) : 0 44 
+Lcom/evancharlton/mileage/FieldActivity;::onCreate(1483) : 0 12 
+Lcom/evancharlton/mileage/FieldActivity;::populateUI(1484) : 0 4 44 
+Lcom/evancharlton/mileage/FieldActivity;::setFields(1485) : 0 4 60 
+Lcom/evancharlton/mileage/FieldListActivity$1;::<init>(1486) : 0 4 10 
+Lcom/evancharlton/mileage/FieldListActivity;::<init>(1488) : 0 6 
+Lcom/evancharlton/mileage/FieldListActivity;::getFrom(1489) : 0 26 
+Lcom/evancharlton/mileage/FieldListActivity;::getUri(1490) : 0 4 16 
+Lcom/evancharlton/mileage/FieldListActivity;::onCreateOptionsMenu(1491) : 0 38 
+Lcom/evancharlton/mileage/FieldListActivity;::onItemClick(1492) : 0 10 
+Lcom/evancharlton/mileage/FieldListActivity;::onOptionsItemSelected(1493) : 0 22 24 
+Lcom/evancharlton/mileage/FieldListActivity;::setupEmptyView(1494) : 0 4 66 
+Lcom/evancharlton/mileage/FillupActivity$1;::<init>(1495) : 0 4 10 
+Lcom/evancharlton/mileage/FillupActivity;::<init>(1498) : 0 44 
+Lcom/evancharlton/mileage/FillupActivity;::getVehicle(1501) : 0 4 8 32 102 106 
+Lcom/evancharlton/mileage/FillupActivity;::setDataFormats(1502) : 0 62 64 
+Lcom/evancharlton/mileage/FillupActivity;::getCreateString(1504) : 0 6 
+Lcom/evancharlton/mileage/FillupActivity;::getDao(1505) : 0 4 
+Lcom/evancharlton/mileage/FillupActivity;::initUI(1508) : 0 180 
+Lcom/evancharlton/mileage/FillupActivity;::onCreate(1509) : 0 16 
+Lcom/evancharlton/mileage/FillupActivity;::onCreateOptionsMenu(1510) : 0 58 
+Lcom/evancharlton/mileage/FillupActivity;::onResume(1511) : 0 172 184 242 254 392 534 564 
+Lcom/evancharlton/mileage/FillupActivity;::onSaveInstanceState(1512) : 0 18 30 74 
+Lcom/evancharlton/mileage/FillupActivity;::setFields(1516) : 0 50 1190 
+Lcom/evancharlton/mileage/provider/Statistic;::<init>(1524) : 0 28 38 60 
+Lcom/evancharlton/mileage/provider/Statistic;::getChartClass(1526) : 0 4 
+Lcom/evancharlton/mileage/provider/Statistic;::getKey(1527) : 0 4 12 
+Lcom/evancharlton/mileage/provider/Statistic;::getLabel(1529) : 0 4 12 
+Lcom/evancharlton/mileage/FillupListActivity$1;::<init>(1541) : 0 4 10 
+Lcom/evancharlton/mileage/FillupListActivity$2;::<init>(1543) : 0 4 10 
+Lcom/evancharlton/mileage/FillupListActivity$3;::<init>(1546) : 0 4 10 
+Lcom/evancharlton/mileage/FillupListActivity;::<init>(1554) : 0 20 
+Lcom/evancharlton/mileage/FillupListActivity;::calculate(1560) : 0 4 10 
+Lcom/evancharlton/mileage/FillupListActivity;::getVehicle(1564) : 0 4 146 
+Lcom/evancharlton/mileage/FillupListActivity;::initUI(1565) : 0 148 
+Lcom/evancharlton/mileage/FillupListActivity;::onCreate(1567) : 0 24 
+Lcom/evancharlton/mileage/FillupListActivity;::onPause(1569) : 0 4 16 
+Lcom/evancharlton/mileage/FillupListActivity;::onResume(1570) : 0 4 40 
+Lcom/evancharlton/mileage/ImportActivity$1;::<init>(1572) : 0 4 10 
+Lcom/evancharlton/mileage/ImportActivity$1;::onClick(1573) : 0 118 
+Lcom/evancharlton/mileage/ImportActivity$2;::<init>(1574) : 0 4 10 
+Lcom/evancharlton/mileage/ImportActivity$2;::onItemSelected(1575) : 0 20 42 92 114 130 154 160 166 
+Lcom/evancharlton/mileage/ImportActivity$4;::<init>(1579) : 0 4 10 
+Lcom/evancharlton/mileage/ImportActivity$4;::accept(1580) : 0 48 
+Lcom/evancharlton/mileage/ImportActivity$FileAdapter;::<init>(1581) : 0 28 
+Lcom/evancharlton/mileage/ImportActivity$FileAdapter;::getCount(1582) : 0 4 6 
+Lcom/evancharlton/mileage/ImportActivity$FileAdapter;::getItem(1584) : 0 4 8 
+Lcom/evancharlton/mileage/ImportActivity$FileAdapter;::getItemId(1585) : 0 4 18 
+Lcom/evancharlton/mileage/ImportActivity$FileAdapter;::getView(1586) : 0 4 24 40 64 78 
+Lcom/evancharlton/mileage/ImportActivity$FileAdapter;::setData(1587) : 0 4 32 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::<init>(1588) : 0 6 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::<init>(1589) : 0 6 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::attach(1590) : 0 4 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::doInBackground(1591) : 0 12 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::doInBackground(1592) : 0 34 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::onPostExecute(1593) : 0 10 
+Lcom/evancharlton/mileage/ImportActivity$FileLoader;::onPostExecute(1594) : 0 24 34 
+Lcom/evancharlton/mileage/ImportActivity;::<clinit>(1595) : 0 54 
+Lcom/evancharlton/mileage/ImportActivity;::<init>(1596) : 0 6 
+Lcom/evancharlton/mileage/ImportActivity;::access$000(1597) : 0 4 
+Lcom/evancharlton/mileage/ImportActivity;::access$100(1598) : 0 4 
+Lcom/evancharlton/mileage/ImportActivity;::access$200(1599) : 0 8 
+Lcom/evancharlton/mileage/ImportActivity;::access$300(1600) : 0 4 
+Lcom/evancharlton/mileage/ImportActivity;::access$400(1601) : 0 4 
+Lcom/evancharlton/mileage/ImportActivity;::access$402(1602) : 0 4 
+Lcom/evancharlton/mileage/ImportActivity;::access$600(1603) : 0 4 
+Lcom/evancharlton/mileage/ImportActivity;::access$700(1604) : 0 8 
+Lcom/evancharlton/mileage/ImportActivity;::access$800(1605) : 0 6 
+Lcom/evancharlton/mileage/ImportActivity;::getFilename(1606) : 0 4 32 
+Lcom/evancharlton/mileage/ImportActivity;::getFilter(1607) : 0 10 
+Lcom/evancharlton/mileage/ImportActivity;::setFiles(1608) : 0 38 58 
+Lcom/evancharlton/mileage/ImportActivity;::onCreate(1609) : 0 190 
+Lcom/evancharlton/mileage/ImportExportActivity$1;::<init>(1611) : 0 4 14 
+Lcom/evancharlton/mileage/ImportExportActivity$1;::onClick(1612) : 0 4 28 
+Lcom/evancharlton/mileage/ImportExportActivity;::<init>(1613) : 0 6 
+Lcom/evancharlton/mileage/ImportExportActivity;::map(1614) : 0 24 
+Lcom/evancharlton/mileage/ImportExportActivity;::onCreate(1615) : 0 134 
+Lcom/evancharlton/mileage/Mileage$1;::<init>(1618) : 0 4 10 
+Lcom/evancharlton/mileage/Mileage$1;::onTabChanged(1619) : 0 4 48 
+Lcom/evancharlton/mileage/Mileage;::<init>(1620) : 0 6 
+Lcom/evancharlton/mileage/Mileage;::access$000(1621) : 0 4 
+Lcom/evancharlton/mileage/Mileage;::add(1622) : 0 28 
+Lcom/evancharlton/mileage/Mileage;::createTabSpec(1623) : 0 4 58 
+Lcom/evancharlton/mileage/Mileage;::onCreate(1624) : 0 232 
+Lcom/evancharlton/mileage/Mileage;::onCreateOptionsMenu(1625) : 0 98 
+Lcom/evancharlton/mileage/R$styleable;::<clinit>(1637) : 0 56 
+Lcom/evancharlton/mileage/ServiceIntervalActivity$1;::<init>(1640) : 0 4 10 
+Lcom/evancharlton/mileage/ServiceIntervalActivity$1;::onItemSelected(1641) : 0 38 142 148 
+Lcom/evancharlton/mileage/ServiceIntervalActivity$2;::<init>(1643) : 0 4 10 
+Lcom/evancharlton/mileage/ServiceIntervalActivity$2;::onItemSelected(1644) : 0 174 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::<init>(1646) : 0 30 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::access$000(1647) : 0 6 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::access$100(1648) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::access$300(1650) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::access$400(1651) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::access$500(1652) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::access$600(1653) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::filterTemplates(1654) : 0 118 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::getCreateString(1656) : 0 6 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::getDao(1657) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::initUI(1660) : 0 216 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::onCreate(1661) : 0 12 
+Lcom/evancharlton/mileage/ServiceIntervalActivity;::setFields(1664) : 0 58 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::<init>(1665) : 0 30 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::getCreateString(1666) : 0 6 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::getDao(1667) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::getProjectionArray(1668) : 0 4 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::getUri(1669) : 0 4 24 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::initUI(1670) : 0 110 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::onCreate(1671) : 0 12 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::populateUI(1672) : 0 4 88 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateActivity;::setFields(1673) : 0 58 148 208 252 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::<init>(1676) : 0 6 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::getFrom(1677) : 0 26 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::getUri(1678) : 0 4 16 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::onCreateOptionsMenu(1680) : 0 38 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::onItemClick(1681) : 0 10 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::onOptionsItemSelected(1682) : 0 22 24 
+Lcom/evancharlton/mileage/ServiceIntervalTemplateListActivity;::setupEmptyView(1683) : 0 4 76 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::<init>(1684) : 0 6 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::getFrom(1685) : 0 26 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::getUri(1686) : 0 4 16 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onClick(1688) : 0 14 16 38 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onCreate(1689) : 0 54 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onCreateOptionsMenu(1691) : 0 66 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::onOptionsItemSelected(1693) : 0 24 26 
+Lcom/evancharlton/mileage/ServiceIntervalsListActivity;::setupEmptyView(1694) : 0 4 76 
+Lcom/evancharlton/mileage/SettingsActivity$1;::<init>(1695) : 0 4 10 
+Lcom/evancharlton/mileage/SettingsActivity$1;::onPreferenceClick(1696) : 0 4 30 
+Lcom/evancharlton/mileage/SettingsActivity$2;::<init>(1697) : 0 4 14 
+Lcom/evancharlton/mileage/SettingsActivity$2;::onClick(1698) : 0 4 14 
+Lcom/evancharlton/mileage/SettingsActivity;::<init>(1703) : 0 6 
+Lcom/evancharlton/mileage/SettingsActivity;::onCreate(1704) : 0 126 
+Lcom/evancharlton/mileage/SettingsActivity;::onCreateDialog(1705) : 0 22 24 
+Lcom/evancharlton/mileage/SettingsActivity;::onPreferenceClick(1706) : 0 26 38 
+Lcom/evancharlton/mileage/VehicleActivity;::<init>(1707) : 0 48 
+Lcom/evancharlton/mileage/VehicleActivity;::getDistance(1708) : 0 20 
+Lcom/evancharlton/mileage/VehicleActivity;::getDistanceUnits(1709) : 0 20 
+Lcom/evancharlton/mileage/VehicleActivity;::getEconomy(1710) : 0 20 
+Lcom/evancharlton/mileage/VehicleActivity;::getEconomyUnits(1711) : 0 20 
+Lcom/evancharlton/mileage/VehicleActivity;::getVolume(1712) : 0 20 26 
+Lcom/evancharlton/mileage/VehicleActivity;::getVolumeUnits(1713) : 0 20 
+Lcom/evancharlton/mileage/VehicleActivity;::canDelete(1714) : 0 28 42 44 
+Lcom/evancharlton/mileage/VehicleActivity;::getCreateString(1715) : 0 6 
+Lcom/evancharlton/mileage/VehicleActivity;::getDao(1716) : 0 4 
+Lcom/evancharlton/mileage/VehicleActivity;::getProjectionArray(1717) : 0 4 
+Lcom/evancharlton/mileage/VehicleActivity;::getUri(1718) : 0 4 12 
+Lcom/evancharlton/mileage/VehicleActivity;::initUI(1719) : 0 260 
+Lcom/evancharlton/mileage/VehicleActivity;::onCreate(1720) : 0 12 
+Lcom/evancharlton/mileage/VehicleActivity;::populateUI(1721) : 0 160 198 206 276 294 316 
+Lcom/evancharlton/mileage/VehicleActivity;::saved(1722) : 0 4 20 40 60 168 174 
+Lcom/evancharlton/mileage/VehicleActivity;::setFields(1723) : 0 4 62 134 206 278 364 382 476 506 
+Lcom/evancharlton/mileage/VehicleListActivity;::<init>(1724) : 0 6 
+Lcom/evancharlton/mileage/VehicleListActivity;::getFrom(1728) : 0 26 
+Lcom/evancharlton/mileage/VehicleListActivity;::getUri(1729) : 0 4 
+Lcom/evancharlton/mileage/VehicleListActivity;::onCreateOptionsMenu(1731) : 0 66 
+Lcom/evancharlton/mileage/VehicleListActivity;::onItemClick(1732) : 0 10 
+Lcom/evancharlton/mileage/VehicleListActivity;::onOptionsItemSelected(1733) : 0 16 24 48 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$1;::<init>(1734) : 0 4 10 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$2;::<init>(1737) : 0 4 10 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$2;::onItemClick(1738) : 0 4 50 112 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity$3;::<init>(1739) : 0 4 10 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::<clinit>(1741) : 0 492 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::<init>(1742) : 0 36 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::access$000(1743) : 0 4 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::access$400(1747) : 0 4 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::calculate(1748) : 0 54 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::loadVehicle(1750) : 0 60 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::recalculate(1751) : 0 46 72 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::getAdapter(1752) : 0 4 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::getCacheCursor(1753) : 0 4 68 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::getVehicle(1755) : 0 4 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::onCreate(1756) : 0 60 78 260 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::onResume(1759) : 0 18 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::setAdapter(1761) : 0 4 8 30 64 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::startCalculations(1762) : 0 4 24 
+Lcom/evancharlton/mileage/VehicleStatisticsActivity;::stopCalculations(1763) : 0 4 14 
+Lcom/evancharlton/mileage/adapters/FillupAdapter$1;::<init>(1818) : 0 4 10 
+Lcom/evancharlton/mileage/adapters/FillupAdapter$1;::onChange(1819) : 0 16 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::<clinit>(1821) : 0 44 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::<init>(1822) : 0 68 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::getCount(1825) : 0 4 12 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::requery(1829) : 0 4 16 
+Lcom/evancharlton/mileage/adapters/FillupAdapter;::setVehicle(1830) : 0 4 38 218 
+Lcom/evancharlton/mileage/adapters/SpinnerCursorAdapter;::<init>(1831) : 0 56 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter$1;::<init>(1832) : 0 4 10 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter$1;::run(1833) : 0 228 276 450 482 484 728 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter$StatisticHolder;::<init>(1834) : 0 36 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter$StatisticHolder;::<init>(1835) : 0 38 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter$ViewHolder;::<init>(1836) : 0 56 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::<init>(1837) : 0 62 66 118 152 160 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::access$000(1838) : 0 4 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::access$100(1839) : 0 4 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::access$200(1840) : 0 4 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::access$300(1841) : 0 4 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::changeCursor(1842) : 0 72 78 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::flush(1843) : 0 16 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::getCount(1844) : 0 4 12 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::getItemId(1846) : 0 2 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::getItemViewType(1847) : 0 4 20 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::getNumHeadersAbove(1848) : 0 6 10 24 28 34 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::getView(1849) : 0 22 32 48 58 68 70 90 110 156 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::getViewTypeCount(1850) : 0 2 
+Lcom/evancharlton/mileage/adapters/VehicleStatisticsAdapter;::isEnabled(1851) : 0 12 14 16 
+Lcom/evancharlton/mileage/charts/LineChart;::<init>(1856) : 0 6 
+Lcom/evancharlton/mileage/charts/LineChart;::createSeries(1860) : 0 22 
+Lcom/evancharlton/mileage/charts/LineChart;::createSeries(1861) : 0 4 10 
+Lcom/evancharlton/mileage/charts/LineChart;::getExecuteParameters(1863) : 0 2 
+Lcom/evancharlton/mileage/charts/LineChart;::getVehicle(1864) : 0 4 66 
+Lcom/evancharlton/mileage/charts/CostChart;::<init>(1868) : 0 6 
+Lcom/evancharlton/mileage/charts/CostChart;::createChartGenerator(1869) : 0 44 
+Lcom/evancharlton/mileage/charts/DistanceChart;::<init>(1873) : 0 6 
+Lcom/evancharlton/mileage/charts/DistanceChart;::createChartGenerator(1874) : 0 44 
+Lcom/evancharlton/mileage/charts/AverageDistanceChart;::<init>(1875) : 0 6 
+Lcom/evancharlton/mileage/charts/AverageDistanceChart;::getAxisTitle(1876) : 0 14 
+Lcom/evancharlton/mileage/charts/AverageDistanceChart;::processCursor(1877) : 0 30 
+Lcom/evancharlton/mileage/charts/FuelEconomyChart;::<init>(1878) : 0 6 
+Lcom/evancharlton/mileage/charts/FuelEconomyChart;::createChartGenerator(1879) : 0 44 
+Lcom/evancharlton/mileage/charts/BestFuelEconomyChart;::<init>(1893) : 0 6 
+Lcom/evancharlton/mileage/charts/BestFuelEconomyChart;::getAxisTitle(1894) : 0 14 
+Lcom/evancharlton/mileage/charts/BestFuelEconomyChart;::processCursor(1895) : 0 36 
+Lcom/evancharlton/mileage/charts/IntervalCostChart;::<init>(1901) : 0 6 
+Lcom/evancharlton/mileage/charts/IntervalCostChart;::processCursor(1903) : 0 52 
+Lcom/evancharlton/mileage/charts/LastYearCostChart;::<init>(1907) : 0 6 
+Lcom/evancharlton/mileage/charts/LastYearCostChart;::getAxisTitle(1908) : 0 14 
+Lcom/evancharlton/mileage/charts/LastYearCostChart;::getInterval(1909) : 0 10 
+Lcom/evancharlton/mileage/charts/LineChart$LineChartGenerator;::<init>(1912) : 0 18 
+Lcom/evancharlton/mileage/charts/LineChart$LineChartGenerator;::doInBackground(1913) : 0 8 
+Lcom/evancharlton/mileage/charts/LineChart$LineChartGenerator;::doInBackground(1914) : 0 176 178 
+Lcom/evancharlton/mileage/charts/MaximumDistanceChart;::<init>(1919) : 0 6 
+Lcom/evancharlton/mileage/charts/MaximumDistanceChart;::getAxisTitle(1920) : 0 14 
+Lcom/evancharlton/mileage/charts/MaximumDistanceChart;::processCursor(1921) : 0 40 
+Lcom/evancharlton/mileage/charts/WorstFuelEconomyChart;::<init>(1955) : 0 6 
+Lcom/evancharlton/mileage/charts/WorstFuelEconomyChart;::getAxisTitle(1956) : 0 14 
+Lcom/evancharlton/mileage/charts/WorstFuelEconomyChart;::processCursor(1957) : 0 36 
+Lcom/evancharlton/mileage/dao/Dao;::<init>(1958) : 0 24 
+Lcom/evancharlton/mileage/dao/Dao;::<init>(1959) : 0 24 
+Lcom/evancharlton/mileage/dao/Dao;::getBoolean(1962) : 0 20 
+Lcom/evancharlton/mileage/dao/Dao;::getDouble(1964) : 0 20 
+Lcom/evancharlton/mileage/dao/Dao;::getId(1966) : 0 4 
+Lcom/evancharlton/mileage/dao/Dao;::getLong(1969) : 0 20 
+Lcom/evancharlton/mileage/dao/Dao;::getString(1971) : 0 12 14 
+Lcom/evancharlton/mileage/dao/Dao;::getUri(1973) : 0 4 8 56 68 88 
+Lcom/evancharlton/mileage/dao/Dao;::isExistingObject(1974) : 0 4 16 18 20 
+Lcom/evancharlton/mileage/dao/Dao;::load(1975) : 0 14 16 32 62 86 102 106 112 132 152 178 182 202 224 244 264 284 306 326 332 374 
+Lcom/evancharlton/mileage/dao/Dao;::load(1976) : 0 12 18 68 92 124 128 134 268 308 350 362 556 
+Lcom/evancharlton/mileage/dao/Dao;::preValidate(1977) : 0 
+Lcom/evancharlton/mileage/dao/Dao;::save(1978) : 0 30 76 
+Lcom/evancharlton/mileage/dao/Dao;::validate(1982) : 0 32 56 62 86 90 144 152 168 222 230 264 318 326 334 338 378 426 470 490 520 542 578 588 
+Lcom/evancharlton/mileage/dao/CachedValue;::<init>(1983) : 0 114 
+Lcom/evancharlton/mileage/dao/CachedValue;::<init>(1985) : 0 20 
+Lcom/evancharlton/mileage/dao/CachedValue;::getKey(1987) : 0 4 
+Lcom/evancharlton/mileage/dao/Field;::<init>(1999) : 0 6 
+Lcom/evancharlton/mileage/dao/Field;::getDescription(2001) : 0 4 
+Lcom/evancharlton/mileage/dao/Field;::getTitle(2002) : 0 4 
+Lcom/evancharlton/mileage/dao/Field;::setDescription(2004) : 0 4 
+Lcom/evancharlton/mileage/dao/Field;::setTitle(2005) : 0 4 
+Lcom/evancharlton/mileage/dao/Fillup;::<init>(2007) : 0 30 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::<init>(2068) : 0 6 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setDescription(2084) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceInterval;::setTitle(2090) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::<init>(2092) : 0 6 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::<init>(2093) : 0 6 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::getDescription(2094) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::getDistance(2095) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::getDuration(2096) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::getTitle(2097) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::setDescription(2099) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::setDistance(2100) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::setDuration(2101) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::setTitle(2102) : 0 4 
+Lcom/evancharlton/mileage/dao/ServiceIntervalTemplate;::setVehicleTypeId(2103) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::<init>(2104) : 0 6 
+Lcom/evancharlton/mileage/dao/Vehicle;::<init>(2105) : 0 6 
+Lcom/evancharlton/mileage/dao/Vehicle;::loadById(2106) : 0 52 62 122 
+Lcom/evancharlton/mileage/dao/Vehicle;::getCurrency(2107) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getDescription(2109) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getDistanceUnits(2110) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getEconomyUnits(2111) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getMake(2112) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getModel(2113) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getTitle(2114) : 0 4 88 92 
+Lcom/evancharlton/mileage/dao/Vehicle;::getVolumeUnits(2116) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::getYear(2117) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setCurrency(2119) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setDefaultTime(2120) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setDescription(2121) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setDistanceUnits(2122) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setEconomyUnits(2123) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setMake(2124) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setModel(2125) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setTitle(2126) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setVehicleType(2127) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setVolumeUnits(2128) : 0 4 
+Lcom/evancharlton/mileage/dao/Vehicle;::setYear(2129) : 0 4 
+Lcom/evancharlton/mileage/exceptions/InvalidFieldException;::<init>(2137) : 0 14 
+Lcom/evancharlton/mileage/exceptions/InvalidFieldException;::getErrorMessage(2138) : 0 4 
+Lcom/evancharlton/mileage/exceptions/InvalidFieldException;::getField(2139) : 0 4 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::<init>(2140) : 0 12 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::attach(2141) : 0 4 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::doInBackground(2142) : 0 12 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::doInBackground(2143) : 0 66 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::onPostExecute(2144) : 0 10 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::onPostExecute(2145) : 0 4 68 
+Lcom/evancharlton/mileage/io/BaseExportActivity$ExportTask;::onPreExecute(2146) : 0 4 42 
+Lcom/evancharlton/mileage/io/BaseExportActivity$Update;::<init>(2152) : 0 10 
+Lcom/evancharlton/mileage/io/BaseExportActivity$Update;::<init>(2153) : 0 18 
+Lcom/evancharlton/mileage/io/BaseExportActivity;::<init>(2154) : 0 6 
+Lcom/evancharlton/mileage/io/BaseExportActivity;::completed(2155) : 0 28 
+Lcom/evancharlton/mileage/io/BaseExportActivity;::onCreate(2157) : 0 148 160 190 234 
+Lcom/evancharlton/mileage/io/BaseExportActivity;::update(2159) : 0 4 8 24 76 84 110 118 132 
+Lcom/evancharlton/mileage/io/DbExportActivity$DbExportTask;::<init>(2207) : 0 6 
+Lcom/evancharlton/mileage/io/DbExportActivity$DbExportTask;::<init>(2208) : 0 6 
+Lcom/evancharlton/mileage/io/DbExportActivity$DbExportTask;::performExport(2209) : 0 66 
+Lcom/evancharlton/mileage/io/DbExportActivity;::<init>(2210) : 0 6 
+Lcom/evancharlton/mileage/io/DbExportActivity;::createExportTask(2211) : 0 12 
+Lcom/evancharlton/mileage/io/DbImportActivity;::<init>(2212) : 0 6 
+Lcom/evancharlton/mileage/io/DbImportActivity;::restoreTask(2213) : 0 24 58 88 104 
+Lcom/evancharlton/mileage/io/DbImportActivity;::log(2214) : 0 4 48 
+Lcom/evancharlton/mileage/io/DbImportActivity;::onCreate(2215) : 0 68 
+Lcom/evancharlton/mileage/io/DbImportActivity;::setWorking(2216) : 0 4 14 26 
+Lcom/evancharlton/mileage/math/Calculator;::<clinit>(2218) : 0 16 
+Lcom/evancharlton/mileage/math/Calculator;::getCurrencySymbol(2233) : 0 24 
+Lcom/evancharlton/mileage/math/Calculator;::getCurrencySymbol(2234) : 0 20 28 
+Lcom/evancharlton/mileage/math/Calculator;::getDistanceUnitsAbbr(2237) : 0 14 28 
+Lcom/evancharlton/mileage/math/Calculator;::getEconomyUnitsAbbr(2239) : 0 14 28 
+Lcom/evancharlton/mileage/math/Calculator;::getVolumeUnits(2240) : 0 14 28 
+Lcom/evancharlton/mileage/math/Calculator;::getVolumeUnitsAbbr(2241) : 0 14 28 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::<clinit>(2243) : 0 14 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::exec(2248) : 0 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::log(2250) : 0 10 
+Lcom/evancharlton/mileage/provider/DatabaseUpgrader;::upgradeDatabase(2252) : 0 4 18 32 34 366 
+Lcom/evancharlton/mileage/provider/FillUpsProvider$DatabaseHelper;::<init>(2253) : 0 14 
+Lcom/evancharlton/mileage/provider/FillUpsProvider$DatabaseHelper;::onCreate(2254) : 0 26 38 62 106 112 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::<clinit>(2256) : 0 232 244 264 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::<init>(2257) : 0 6 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::initTables(2258) : 0 4 12 24 50 56 60 76 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::notifyListeners(2259) : 0 30 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::registerUri(2260) : 0 4 56 66 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::delete(2261) : 0 58 82 136 142 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::getType(2262) : 0 4 16 18 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::insert(2263) : 0 60 96 110 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::onCreate(2264) : 0 44 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::query(2265) : 0 64 108 112 170 174 182 194 268 270 
+Lcom/evancharlton/mileage/provider/FillUpsProvider;::update(2266) : 0 44 92 98 
+Lcom/evancharlton/mileage/provider/Settings;::<clinit>(2268) : 0 50 
+Lcom/evancharlton/mileage/provider/Statistics$FuelStatistic;::<init>(2271) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$FuelStatistic;::<init>(2272) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$1;::<init>(2274) : 0 8 
+Lcom/evancharlton/mileage/provider/Statistics$CostPerDistanceStatistic;::<init>(2276) : 0 8 
+Lcom/evancharlton/mileage/provider/Statistics$CostPerDistanceStatistic;::<init>(2277) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$CostPerDistanceStatistic;::getLabel(2279) : 0 4 32 
+Lcom/evancharlton/mileage/provider/Statistics$CostStatistic;::<init>(2281) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$CostStatistic;::<init>(2282) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$CostPerUnitStatistic;::<init>(2284) : 0 12 
+Lcom/evancharlton/mileage/provider/Statistics$CostPerUnitStatistic;::<init>(2285) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$DistanceStatistic;::<init>(2288) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$DistanceStatistic;::<init>(2289) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$EconomyStatistic;::<init>(2292) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$EconomyStatistic;::<init>(2293) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$LocationStatistic;::<init>(2295) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$LocationStatistic;::<init>(2296) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$PriceStatistic;::<init>(2299) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics$PriceStatistic;::<init>(2300) : 0 6 
+Lcom/evancharlton/mileage/provider/Statistics;::<clinit>(2302) : 0 830 
+Lcom/evancharlton/mileage/provider/StatisticsGroup;::<init>(2304) : 0 38 58 62 
+Lcom/evancharlton/mileage/provider/StatisticsGroup;::getLabel(2305) : 0 4 
+Lcom/evancharlton/mileage/provider/StatisticsGroup;::getStatistics(2306) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::<clinit>(2307) : 0 8 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::<init>(2308) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::buildProjectionMap(2309) : 0 30 34 50 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::create(2310) : 0 38 60 72 100 108 116 124 132 138 146 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::delete(2311) : 0 132 136 
+Lcom/evancharlton/mileage/provider/tables/ContentTable;::getDefaultSortOrder(2313) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::<clinit>(2323) : 0 4 100 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::<init>(2324) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::getDaoType(2325) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::getTableName(2327) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::init(2329) : 0 2 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::insert(2330) : 0 10 12 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::query(2331) : 0 10 76 
+Lcom/evancharlton/mileage/provider/tables/CacheTable;::registerUris(2332) : 0 28 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$InsertBuilder;::<init>(2334) : 0 4 80 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$InsertBuilder;::add(2335) : 0 16 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$InsertBuilder;::add(2336) : 0 4 10 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$InsertBuilder;::build(2337) : 0 4 46 96 110 116 136 182 196 202 228 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;::<init>(2339) : 0 4 92 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;::addField(2340) : 0 4 42 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;::addDouble(2341) : 0 12 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;::addInteger(2342) : 0 12 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;::addText(2343) : 0 12 
+Lcom/evancharlton/mileage/provider/tables/ContentTable$TableBuilder;::build(2344) : 0 4 26 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::<clinit>(2346) : 0 4 70 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::<init>(2347) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::getDaoType(2348) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::getDefaultSortOrder(2349) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::getTableName(2351) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::init(2353) : 0 62 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::query(2355) : 0 10 12 48 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::registerUris(2356) : 0 28 
+Lcom/evancharlton/mileage/provider/tables/FieldsTable;::update(2357) : 0 6 10 14 18 26 28 62 186 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::<clinit>(2358) : 0 4 70 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::<init>(2359) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::getDaoType(2360) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::getTableName(2363) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::init(2365) : 0 2 
+Lcom/evancharlton/mileage/provider/tables/FillupsFieldsTable;::registerUris(2368) : 0 42 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::<clinit>(2370) : 0 302 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::<init>(2371) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::getDaoType(2372) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::getTableName(2375) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::init(2377) : 0 2 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::query(2379) : 0 10 76 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::registerUris(2380) : 0 28 
+Lcom/evancharlton/mileage/provider/tables/FillupsTable;::update(2381) : 0 8 10 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::<clinit>(2382) : 0 302 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::<init>(2383) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::createInterval(2384) : 0 102 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::createIntervalSQL(2385) : 0 38 86 94 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::miles(2386) : 0 8 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::months(2387) : 0 12 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::getDaoType(2388) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::getTableName(2390) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::init(2392) : 0 4 12 22 48 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::query(2394) : 0 10 12 48 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::registerUris(2395) : 0 28 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalTemplatesTable;::update(2396) : 0 8 10 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::<clinit>(2397) : 0 4 124 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::<init>(2398) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::getDaoType(2399) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::getTableName(2401) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::init(2403) : 0 2 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::query(2405) : 0 10 12 
+Lcom/evancharlton/mileage/provider/tables/ServiceIntervalsTable;::registerUris(2406) : 0 28 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::<clinit>(2408) : 0 4 60 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::<init>(2409) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::getDaoType(2410) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::getTableName(2412) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::init(2414) : 0 62 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::query(2416) : 0 10 12 
+Lcom/evancharlton/mileage/provider/tables/VehicleTypesTable;::registerUris(2417) : 0 28 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::<clinit>(2419) : 0 4 160 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::<init>(2420) : 0 6 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::getDaoType(2421) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::getDefaultSortOrder(2422) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::getProjection(2423) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::getTableName(2424) : 0 4 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::init(2426) : 0 6 8 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::query(2428) : 0 10 12 48 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::registerUris(2429) : 0 28 
+Lcom/evancharlton/mileage/provider/tables/VehiclesTable;::update(2430) : 0 10 12 
+Lcom/evancharlton/mileage/services/AutomaticBackupService;::<clinit>(2440) : 0 8 
+Lcom/evancharlton/mileage/services/AutomaticBackupService;::<init>(2441) : 0 18 
+Lcom/evancharlton/mileage/services/AutomaticBackupService;::run(2443) : 0 20 
+Lcom/evancharlton/mileage/services/AutomaticBackupService;::onHandleIntent(2444) : 0 28 76 78 114 164 184 198 228 300 306 310 
+Lcom/evancharlton/mileage/services/RecalculateEconomyService;::<init>(2445) : 0 18 
+Lcom/evancharlton/mileage/services/RecalculateEconomyService;::run(2446) : 0 40 
+Lcom/evancharlton/mileage/services/RecalculateEconomyService;::onHandleIntent(2447) : 0 46 48 138 
+Lcom/evancharlton/mileage/tasks/AttachableAsyncTask;::<init>(2448) : 0 6 
+Lcom/evancharlton/mileage/tasks/AttachableAsyncTask;::attach(2449) : 0 4 
+Lcom/evancharlton/mileage/tasks/AttachableAsyncTask;::getParent(2450) : 0 4 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::<clinit>(2485) : 0 46 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::<init>(2486) : 0 10 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::cleanUp(2487) : 0 258 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::makeBackup(2488) : 0 112 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::upgradeDatabase(2489) : 0 80 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::doInBackground(2490) : 0 296 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::doInBackground(2491) : 0 12 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::onPostExecute(2492) : 0 20 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::onPostExecute(2493) : 0 10 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::onPreExecute(2494) : 0 20 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::onProgressUpdate(2495) : 0 10 
+Lcom/evancharlton/mileage/tasks/DbImportTask;::onProgressUpdate(2496) : 0 24 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::<init>(2504) : 0 16 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::attach(2506) : 0 18 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::doInBackground(2508) : 0 186 212 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::doInBackground(2509) : 0 12 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::onPostExecute(2510) : 0 120 122 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::onPostExecute(2511) : 0 10 
+Lcom/evancharlton/mileage/tasks/VehicleStatisticsTask;::onPreExecute(2512) : 0 32 
+Lcom/evancharlton/mileage/util/Debugger;::checkQueryOnUiThread(2516) : 0 10 
+Lcom/evancharlton/mileage/util/Debugger;::d(2517) : 0 20 
+Lcom/evancharlton/mileage/util/Debugger;::ensureNotUiThread(2518) : 0 18 
+Lcom/evancharlton/mileage/util/Debugger;::ensureOnUiThread(2519) : 0 12 18 
+Lcom/evancharlton/mileage/util/Debugger;::isOnUiThread(2521) : 0 2 
+Lcom/evancharlton/mileage/util/Debugger;::yell(2522) : 0 8 
+Lcom/evancharlton/mileage/util/Util;::getExternalFolder(2524) : 0 68 
+Lcom/evancharlton/mileage/views/CursorSpinner;::<init>(2526) : 0 68 
+Lcom/evancharlton/mileage/views/CursorSpinner;::filter(2527) : 0 84 132 148 158 160 
+Lcom/evancharlton/mileage/views/CursorSpinner;::onDetachedFromWindow(2528) : 0 16 
+Lcom/evancharlton/mileage/views/DateButton$1;::<init>(2530) : 0 4 10 
+Lcom/evancharlton/mileage/views/DateButton$1;::onDateSet(2531) : 0 98 
+Lcom/evancharlton/mileage/views/DateButton$2;::<init>(2532) : 0 4 10 
+Lcom/evancharlton/mileage/views/DateButton$2;::onClick(2533) : 0 4 10 
+Lcom/evancharlton/mileage/views/DateButton$StaticDatePickerDialog;::<init>(2534) : 0 46 
+Lcom/evancharlton/mileage/views/DateButton$StaticDatePickerDialog;::onDateChanged(2535) : 0 16 
+Lcom/evancharlton/mileage/views/DateButton;::<init>(2537) : 0 86 
+Lcom/evancharlton/mileage/views/DateButton;::access$002(2538) : 0 4 
+Lcom/evancharlton/mileage/views/DateButton;::access$100(2539) : 0 4 
+Lcom/evancharlton/mileage/views/DateButton;::access$200(2540) : 0 6 
+Lcom/evancharlton/mileage/views/DateButton;::showDialog(2541) : 0 40 
+Lcom/evancharlton/mileage/views/DateButton;::getTimestamp(2543) : 0 4 
+Lcom/evancharlton/mileage/views/DateButton;::onSaveInstanceState(2545) : 0 64 
+Lcom/evancharlton/mileage/views/DateButton;::setDate(2546) : 0 16 
+Lcom/evancharlton/mileage/views/DateButton;::setDate(2547) : 0 4 44 
+Lcom/evancharlton/mileage/views/DeltaView;::<init>(2548) : 0 180 
+Lcom/evancharlton/mileage/views/DeltaView;::getDelta(2549) : 0 4 24 78 
+Lcom/evancharlton/mileage/views/DeltaView;::setDelta(2556) : 0 52 
+Lcom/evancharlton/mileage/views/DateDelta;::<clinit>(2557) : 0 30 
+Lcom/evancharlton/mileage/views/DateDelta;::<init>(2558) : 0 102 
+Lcom/evancharlton/mileage/views/DateDelta;::getPosition(2559) : 0 20 
+Lcom/evancharlton/mileage/views/DateDelta;::getTexts(2560) : 0 4 
+Lcom/evancharlton/mileage/views/DateDelta;::getValues(2561) : 0 4 
+Lcom/evancharlton/mileage/views/DistanceDelta;::<clinit>(2562) : 0 30 
+Lcom/evancharlton/mileage/views/DistanceDelta;::<init>(2563) : 0 54 
+Lcom/evancharlton/mileage/views/DistanceDelta;::getPosition(2564) : 0 16 18 
+Lcom/evancharlton/mileage/views/DistanceDelta;::getTexts(2565) : 0 4 
+Lcom/evancharlton/mileage/views/DistanceDelta;::getValues(2566) : 0 4 
+Lcom/evancharlton/mileage/views/DividerView;::<init>(2568) : 0 8 
+Lcom/evancharlton/mileage/views/DividerView;::<init>(2569) : 0 60 
+Lcom/evancharlton/mileage/views/FieldView;::<init>(2570) : 0 14 
+Lcom/evancharlton/mileage/views/FieldView;::getFieldId(2571) : 0 4 
+Lcom/evancharlton/mileage/views/FieldView;::getKey(2572) : 0 46 
+Lcom/evancharlton/mileage/views/FieldView;::setFieldId(2573) : 0 4 

@@ -1,0 +1,18 @@
+# view AndroidManifest.xml #generated:19
+-keep class de.freewarepoint.whohasmystuff.AddObject { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class de.freewarepoint.whohasmystuff.EmmaInstrument.EmmaInstrumentation { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class de.freewarepoint.whohasmystuff.EmmaInstrument.InstrumentedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class de.freewarepoint.whohasmystuff.EmmaInstrument.SMSInstrumentedReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class de.freewarepoint.whohasmystuff.ListLentObjects { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class de.freewarepoint.whohasmystuff.ShowHistory { <init>(...); }
+

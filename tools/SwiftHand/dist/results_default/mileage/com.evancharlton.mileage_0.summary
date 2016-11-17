@@ -1,0 +1,19 @@
+===============================
+09:18:55
+Target            = com.evancharlton.mileage_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.702100790857895E9
+Elapsed Time(m)   = 59.53
+#Covered Branch   = 1819
+#Branch           = 9672
+#Query            = 525
+#Events           = 504
+#Reset            = 22
+Query Average(ms) = 6803.84
+Event Average(ms) = 5951.26
+Reset Average(ms) = 19156.5
+Execution Rate    = 95.77%
+Events : Reset    = 87.68 : 12.32
+Decision Rate     = 0.06%
+===============================

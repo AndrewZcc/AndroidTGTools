@@ -1,0 +1,315 @@
+Lcri/sanity/A;::<clinit>(10) : 0 4 16 
+Lcri/sanity/A;::<init>(11) : 0 6 
+Lcri/sanity/A;::app(13) : 0 4 
+Lcri/sanity/A;::audioMan(14) : 0 4 8 32 36 
+Lcri/sanity/A;::beta(15) : 0 4 12 
+Lcri/sanity/A;::btAdapter(16) : 0 4 8 20 24 
+Lcri/sanity/A;::commit(19) : 0 4 14 
+Lcri/sanity/A;::devpolMan(25) : 0 4 8 32 36 
+Lcri/sanity/A;::edit(26) : 0 4 
+Lcri/sanity/A;::empty(27) : 0 4 16 18 20 
+Lcri/sanity/A;::get(28) : 0 16 20 
+Lcri/sanity/A;::geti(29) : 0 4 14 
+Lcri/sanity/A;::getl(30) : 0 4 16 
+Lcri/sanity/A;::gets(31) : 0 4 16 
+Lcri/sanity/A;::has(33) : 0 4 12 
+Lcri/sanity/A;::is(34) : 0 4 14 
+Lcri/sanity/A;::isEnabled(35) : 0 4 18 
+Lcri/sanity/A;::isFull(36) : 0 4 
+Lcri/sanity/A;::name(41) : 0 4 
+Lcri/sanity/A;::prefs(57) : 0 4 
+Lcri/sanity/A;::put(61) : 0 8 34 36 44 68 100 108 132 
+Lcri/sanity/A;::put(63) : 0 4 14 
+Lcri/sanity/A;::putAll(64) : 0 28 68 72 
+Lcri/sanity/A;::putc(66) : 0 4 22 
+Lcri/sanity/A;::putc(67) : 0 4 22 
+Lcri/sanity/A;::putc(68) : 0 14 
+Lcri/sanity/A;::putc(70) : 0 4 22 
+Lcri/sanity/A;::rawstr(71) : 0 66 90 92 
+Lcri/sanity/A;::resolver(72) : 0 4 8 24 28 
+Lcri/sanity/A;::resources(73) : 0 4 8 24 28 
+Lcri/sanity/A;::rstring(74) : 0 24 
+Lcri/sanity/A;::s(75) : 0 4 12 
+Lcri/sanity/A;::sdcardDir(76) : 0 22 24 104 116 
+Lcri/sanity/A;::sensorMan(77) : 0 4 8 32 36 
+Lcri/sanity/A;::sensorProxim(78) : 0 14 16 
+Lcri/sanity/A;::telMan(81) : 0 4 8 32 36 
+Lcri/sanity/A;::time(82) : 0 8 
+Lcri/sanity/A;::verCode(87) : 0 4 8 
+Lcri/sanity/A;::verName(88) : 0 4 8 
+Lcri/sanity/A;::onCreate(90) : 0 106 
+Lcri/sanity/util/Alert$Click;::<init>(91) : 0 6 
+Lcri/sanity/util/Alert$Click;::dismiss(92) : 0 4 10 
+Lcri/sanity/util/Alert$Click;::on(93) : 0 4 10 
+Lcri/sanity/util/Alert$Click;::onClick(94) : 0 4 14 
+Lcri/sanity/PrefActivity$Change;::<init>(97) : 0 6 
+Lcri/sanity/PrefActivity$Change;::onPreferenceChange(99) : 0 4 16 
+Lcri/sanity/Admin$1;::<init>(100) : 0 4 14 
+Lcri/sanity/Admin;::compName(105) : 0 4 8 34 38 
+Lcri/sanity/Admin;::isActive(106) : 0 4 12 42 44 
+Lcri/sanity/Admin;::prefCheck(107) : 0 18 
+Lcri/sanity/Admin;::prefSetup(108) : 0 4 32 34 
+Lcri/sanity/Admin;::request(110) : 0 4 12 14 
+Lcri/sanity/BootService;::<clinit>(156) : 0 6 
+Lcri/sanity/BootService;::<init>(157) : 0 12 
+Lcri/sanity/BootService;::onStartCommand(161) : 0 16 18 
+Lcri/sanity/PrefActivity$Click;::<init>(169) : 0 6 
+Lcri/sanity/PrefActivity$Click;::onPreferenceClick(171) : 0 4 12 
+Lcri/sanity/PrefActivity;::<init>(182) : 0 6 
+Lcri/sanity/PrefActivity;::fullOnly(183) : 0 12 14 22 30 38 56 
+Lcri/sanity/PrefActivity;::fullOnly(184) : 0 14 
+Lcri/sanity/PrefActivity;::fullOnly(186) : 0 6 10 26 
+Lcri/sanity/PrefActivity;::is(187) : 0 12 
+Lcri/sanity/PrefActivity;::is(188) : 0 20 
+Lcri/sanity/PrefActivity;::isMainActivity(189) : 0 2 
+Lcri/sanity/PrefActivity;::on(190) : 0 6 
+Lcri/sanity/PrefActivity;::on(191) : 0 6 
+Lcri/sanity/PrefActivity;::on(193) : 0 14 
+Lcri/sanity/PrefActivity;::on(194) : 0 14 
+Lcri/sanity/PrefActivity;::onCreate(196) : 0 4 10 
+Lcri/sanity/PrefActivity;::onResume(197) : 0 4 10 
+Lcri/sanity/PrefActivity;::pref(198) : 0 8 
+Lcri/sanity/PrefActivity;::setChecked(200) : 0 18 
+Lcri/sanity/PrefActivity;::setEnabled(202) : 0 14 
+Lcri/sanity/ScreenActivity;::<clinit>(207) : 0 80 
+Lcri/sanity/ScreenActivity;::<init>(208) : 0 18 
+Lcri/sanity/ScreenActivity;::appDesc(212) : 0 44 82 178 
+Lcri/sanity/ScreenActivity;::fullName(213) : 0 68 88 
+Lcri/sanity/ScreenActivity;::protect(214) : 0 4 8 16 18 
+Lcri/sanity/ScreenActivity;::screener(215) : 0 4 18 
+Lcri/sanity/ScreenActivity;::screener(216) : 0 4 36 
+Lcri/sanity/ScreenActivity;::nag(217) : 0 4 8 20 22 60 
+Lcri/sanity/ScreenActivity;::onCreate(218) : 0 62 80 108 110 114 144 206 220 
+Lcri/sanity/ScreenActivity;::onCreateOptionsMenu(219) : 0 48 68 82 126 
+Lcri/sanity/ScreenActivity;::onOptionsItemSelected(220) : 0 4 44 46 58 64 
+Lcri/sanity/ScreenActivity;::onPause(221) : 0 36 
+Lcri/sanity/ScreenActivity;::onResume(222) : 0 32 
+Lcri/sanity/ScreenActivity;::onSharedPreferenceChanged(223) : 0 4 8 24 40 42 
+Lcri/sanity/ScreenActivity;::screener(224) : 0 10 46 50 52 
+Lcri/sanity/ScreenActivity;::screener(225) : 0 4 24 
+Lcri/sanity/ScreenActivity;::screenerAll(226) : 0 12 16 122 
+Lcri/sanity/ScreenActivity;::ungrant(227) : 0 12 
+Lcri/sanity/K;::getDefaults(245) : 0 3014 
+Lcri/sanity/MainActivity$1;::<init>(247) : 0 4 10 
+Lcri/sanity/MainActivity$2;::<init>(249) : 0 4 10 
+Lcri/sanity/MainActivity$4;::<init>(253) : 0 4 10 
+Lcri/sanity/MainActivity$5;::<init>(255) : 0 4 10 
+Lcri/sanity/MainActivity$5;::on(256) : 0 56 58 
+Lcri/sanity/MainActivity$6;::<init>(257) : 0 4 10 
+Lcri/sanity/MainActivity$6;::on(258) : 0 4 10 
+Lcri/sanity/MainActivity$9;::<init>(263) : 0 4 10 
+Lcri/sanity/MainActivity$9;::on(264) : 0 4 10 
+Lcri/sanity/MainActivity;::<init>(265) : 0 6 
+Lcri/sanity/MainActivity;::access$200(268) : 0 6 
+Lcri/sanity/MainActivity;::access$400(270) : 0 6 
+Lcri/sanity/MainActivity;::askAdmin(271) : 0 4 12 24 26 
+Lcri/sanity/MainActivity;::enableFull(273) : 0 54 56 
+Lcri/sanity/MainActivity;::firstRun(274) : 0 140 
+Lcri/sanity/MainActivity;::setupFull(275) : 0 22 24 36 
+Lcri/sanity/MainActivity;::startup(276) : 0 16 22 
+Lcri/sanity/MainActivity;::updateOptions(277) : 0 88 
+Lcri/sanity/MainActivity;::isMainActivity(278) : 0 2 
+Lcri/sanity/MainActivity;::onActivityResult(279) : 0 8 10 56 
+Lcri/sanity/MainActivity;::onCreate(280) : 0 74 80 92 102 124 126 
+Lcri/sanity/MainActivity;::onDestroy(281) : 0 12 
+Lcri/sanity/MainActivity;::onResume(282) : 0 12 
+Lcri/sanity/P;::backupExists(333) : 0 14 16 
+Lcri/sanity/P;::bakMap(334) : 0 26 30 46 52 58 
+Lcri/sanity/P;::getDefaults(336) : 0 4 12 14 44 76 
+Lcri/sanity/P;::setDefaults(347) : 0 48 
+Lcri/sanity/P;::setVer(348) : 0 18 
+Lcri/sanity/P;::skipKeysMap(349) : 0 22 26 44 
+Lcri/sanity/PrefActivity$1;::<init>(448) : 0 4 10 
+Lcri/sanity/PrefActivity$1;::on(449) : 0 22 
+Lcri/sanity/PrefActivity$2;::<init>(450) : 0 4 10 
+Lcri/sanity/PrefGroups;::screens(457) : 0 1252 
+Lcri/sanity/PrefGroups;::skipKeys(459) : 0 66 
+Lcri/sanity/ScreenActivity$1;::<init>(517) : 0 4 10 
+Lcri/sanity/ScreenActivity$1;::on(518) : 0 12 
+Lcri/sanity/ScreenActivity$2;::<init>(519) : 0 4 10 
+Lcri/sanity/ScreenActivity$2;::getGroupText(520) : 0 22 38 142 148 152 176 412 416 
+Lcri/sanity/ScreenActivity$2;::onMenuItemClick(521) : 0 44 
+Lcri/sanity/ScreenActivity$3;::<init>(522) : 0 4 14 
+Lcri/sanity/ScreenActivity$3;::on(523) : 0 4 34 
+Lcri/sanity/ScreenActivity$4;::<init>(524) : 0 4 10 
+Lcri/sanity/ScreenActivity$4;::on(525) : 0 4 20 
+Lcri/sanity/ScreenActivity$5;::<init>(526) : 0 4 10 
+Lcri/sanity/pref/PEdit;::<init>(637) : 0 28 
+Lcri/sanity/pref/PEdit;::fullText(639) : 0 18 22 24 
+Lcri/sanity/pref/PEdit;::init(640) : 0 12 44 52 60 68 76 88 
+Lcri/sanity/pref/PEdit;::updateSum(641) : 0 4 8 20 24 32 44 92 94 
+Lcri/sanity/pref/PEdit;::isWrap(645) : 0 12 30 32 
+Lcri/sanity/pref/PEdit;::setOnPreferenceChangeListener(647) : 0 4 
+Lcri/sanity/pref/PEdit;::setText(650) : 0 20 
+Lcri/sanity/pref/PEdit;::updateSum(651) : 0 14 
+Lcri/sanity/pref/PFilter;::<init>(653) : 0 12 
+Lcri/sanity/pref/PFilter;::init(655) : 0 24 36 72 90 122 
+Lcri/sanity/pref/PFilter;::filterKey(656) : 0 46 
+Lcri/sanity/pref/PFilter;::onPreferenceClick(657) : 0 22 24 114 
+Lcri/sanity/pref/PFilter;::sect(658) : 0 32 
+Lcri/sanity/pref/PFilter;::updateSum(659) : 0 54 102 104 
+Lcri/sanity/pref/PFilter;::updateSum(660) : 0 20 
+Lcri/sanity/pref/PList;::<init>(662) : 0 28 
+Lcri/sanity/pref/PList;::init(663) : 0 18 20 48 
+Lcri/sanity/pref/PList;::update(664) : 0 4 8 20 24 72 74 
+Lcri/sanity/pref/PList;::findEntry(665) : 0 6 8 20 28 44 58 
+Lcri/sanity/pref/PList;::getWrapKey(668) : 0 40 
+Lcri/sanity/pref/PList;::isWrap(669) : 0 12 28 30 32 
+Lcri/sanity/pref/PList;::onPreferenceChange(670) : 0 4 8 24 26 28 54 80 
+Lcri/sanity/pref/PList;::setOnPreferenceChangeListener(671) : 0 4 
+Lcri/sanity/pref/PList;::setSummary(673) : 0 4 10 
+Lcri/sanity/pref/PList;::setValue(675) : 0 20 
+Lcri/sanity/pref/PList;::update(677) : 0 14 
+Lcri/sanity/pref/PPwd;::<init>(681) : 0 18 
+Lcri/sanity/pref/PPwd;::init(683) : 0 24 
+Lcri/sanity/pref/PPwd;::pwd(686) : 0 16 
+Lcri/sanity/pref/PPwd;::updateSum(690) : 0 4 8 20 74 122 
+Lcri/sanity/screen/AboutActivity$1;::<init>(691) : 0 4 10 
+Lcri/sanity/screen/AboutActivity$2;::<init>(693) : 0 4 10 
+Lcri/sanity/screen/AboutActivity$3;::<init>(695) : 0 4 10 
+Lcri/sanity/screen/AboutActivity$4;::<init>(697) : 0 4 10 
+Lcri/sanity/screen/AboutActivity$5;::<init>(699) : 0 4 10 
+Lcri/sanity/screen/AboutActivity$6;::<init>(701) : 0 4 10 
+Lcri/sanity/screen/AboutActivity$6;::on(702) : 0 4 
+Lcri/sanity/screen/AboutActivity;::<init>(703) : 0 6 
+Lcri/sanity/screen/AboutActivity;::access$100(705) : 0 
+Lcri/sanity/screen/AboutActivity;::googleAccount(707) : 0 
+Lcri/sanity/screen/AboutActivity;::mailToDeveloper(708) : 0 
+Lcri/sanity/screen/AboutActivity;::subject(709) : 0 136 
+Lcri/sanity/screen/AboutActivity;::onCreate(710) : 0 138 
+Lcri/sanity/screen/AnonymActivity$1;::<init>(711) : 0 4 14 
+Lcri/sanity/screen/AnonymActivity$1;::on(712) : 0 28 38 48 50 
+Lcri/sanity/screen/AnonymActivity;::<init>(713) : 0 6 
+Lcri/sanity/screen/AnonymActivity;::onCreate(714) : 0 82 98 106 120 178 180 
+Lcri/sanity/screen/AnswerActivity;::<init>(715) : 0 6 
+Lcri/sanity/screen/AnswerActivity;::onCreate(716) : 0 48 
+Lcri/sanity/screen/BlockerActivity$1;::<init>(717) : 0 4 10 
+Lcri/sanity/screen/BlockerActivity$1;::on(718) : 0 4 36 
+Lcri/sanity/screen/BlockerActivity$2;::<init>(719) : 0 4 10 
+Lcri/sanity/screen/BlockerActivity$3;::<init>(721) : 0 4 10 
+Lcri/sanity/screen/BlockerActivity$4;::<init>(723) : 0 4 10 
+Lcri/sanity/screen/BlockerActivity$5;::<init>(725) : 0 4 10 
+Lcri/sanity/screen/BlockerActivity$6;::<init>(727) : 0 4 10 
+Lcri/sanity/screen/BlockerActivity;::<init>(729) : 0 6 
+Lcri/sanity/screen/BlockerActivity;::access$000(730) : 0 8 
+Lcri/sanity/screen/BlockerActivity;::prefFilter(732) : 0 16 
+Lcri/sanity/screen/BlockerActivity;::prefSmsFilter(733) : 0 16 
+Lcri/sanity/screen/BlockerActivity;::onCreate(734) : 0 80 108 132 186 362 
+Lcri/sanity/screen/BlockerActivity;::onResume(735) : 0 48 56 
+Lcri/sanity/screen/BrowseActivity$1;::<init>(736) : 0 4 10 
+Lcri/sanity/screen/BrowseActivity;::<clinit>(746) : 0 254 
+Lcri/sanity/screen/BrowseActivity;::<init>(747) : 0 26 
+Lcri/sanity/screen/BrowseActivity;::empty(759) : 0 18 
+Lcri/sanity/screen/BrowseActivity;::empty(760) : 0 52 
+Lcri/sanity/screen/BrowseActivity;::isMainActivity(764) : 0 4 10 12 
+Lcri/sanity/screen/BrowseActivity;::onCreate(765) : 0 92 94 132 
+Lcri/sanity/screen/BrowseActivity;::onCreateOptionsMenu(766) : 0 4 8 16 
+Lcri/sanity/screen/BrowseActivity;::onOptionsItemSelected(767) : 0 4 8 16 
+Lcri/sanity/screen/FilterActivity$1;::<init>(876) : 0 4 10 
+Lcri/sanity/screen/FilterActivity$2;::<init>(878) : 0 4 10 
+Lcri/sanity/screen/FilterActivity$3;::<init>(880) : 0 4 10 
+Lcri/sanity/screen/FilterActivity$4;::<init>(882) : 0 4 10 
+Lcri/sanity/screen/FilterActivity$5;::<init>(884) : 0 4 10 
+Lcri/sanity/screen/FilterActivity;::<clinit>(886) : 0 18 
+Lcri/sanity/screen/FilterActivity;::<init>(887) : 0 6 
+Lcri/sanity/screen/FilterActivity;::initCheckbox(889) : 0 6 10 66 
+Lcri/sanity/screen/FilterActivity;::initList(890) : 0 6 10 68 
+Lcri/sanity/screen/FilterActivity;::itemsFmt(891) : 0 82 
+Lcri/sanity/screen/FilterActivity;::keySect(892) : 0 50 
+Lcri/sanity/screen/FilterActivity;::setSumContacts(893) : 0 16 68 
+Lcri/sanity/screen/FilterActivity;::setSumDt(894) : 0 16 102 104 
+Lcri/sanity/screen/FilterActivity;::setSumGroups(895) : 0 16 68 
+Lcri/sanity/screen/FilterActivity;::setSumNums(896) : 0 16 68 
+Lcri/sanity/screen/FilterActivity;::setSumPrefix(897) : 0 16 68 
+Lcri/sanity/screen/FilterActivity;::updateDeps(899) : 0 20 36 60 84 90 104 120 136 148 164 180 204 232 244 256 332 344 356 374 386 
+Lcri/sanity/screen/FilterActivity;::onCreate(901) : 0 92 168 624 
+Lcri/sanity/screen/FilterActivity;::onDestroy(902) : 0 14 16 
+Lcri/sanity/screen/GeneralActivity$1;::<init>(904) : 0 4 10 
+Lcri/sanity/screen/GeneralActivity$1;::on(905) : 0 42 50 
+Lcri/sanity/screen/GeneralActivity$2;::<init>(908) : 0 4 10 
+Lcri/sanity/screen/GeneralActivity$3;::<init>(913) : 0 4 10 
+Lcri/sanity/screen/GeneralActivity$4;::<init>(916) : 0 4 10 
+Lcri/sanity/screen/GeneralActivity$5;::<init>(922) : 0 4 10 
+Lcri/sanity/screen/GeneralActivity$6;::<init>(926) : 0 4 10 
+Lcri/sanity/screen/GeneralActivity$7;::<init>(930) : 0 4 10 
+Lcri/sanity/screen/GeneralActivity;::<init>(933) : 0 6 
+Lcri/sanity/screen/GeneralActivity;::onCreate(938) : 0 88 100 204 
+Lcri/sanity/screen/GeneralActivity;::onResume(939) : 0 24 
+Lcri/sanity/screen/ProximityActivity;::<init>(1093) : 0 6 
+Lcri/sanity/screen/ProximityActivity;::onCreate(1094) : 0 38 
+Lcri/sanity/screen/ProximityActivity;::onResume(1095) : 0 24 
+Lcri/sanity/screen/RecordActivity$1;::<init>(1096) : 0 4 10 
+Lcri/sanity/screen/RecordActivity$1;::on(1097) : 0 4 34 
+Lcri/sanity/screen/RecordActivity$2;::<init>(1098) : 0 4 10 
+Lcri/sanity/screen/RecordActivity$2;::on(1099) : 0 4 80 82 
+Lcri/sanity/screen/RecordActivity$3;::<init>(1100) : 0 4 10 
+Lcri/sanity/screen/RecordActivity$4;::<init>(1102) : 0 4 10 
+Lcri/sanity/screen/RecordActivity$5;::<init>(1104) : 0 4 10 
+Lcri/sanity/screen/RecordActivity$6;::<init>(1106) : 0 4 10 
+Lcri/sanity/screen/RecordActivity;::<init>(1108) : 0 6 
+Lcri/sanity/screen/RecordActivity;::access$100(1110) : 0 8 
+Lcri/sanity/screen/RecordActivity;::scanAllowed(1113) : 0 20 22 24 
+Lcri/sanity/screen/RecordActivity;::scanDisable(1114) : 0 22 
+Lcri/sanity/screen/RecordActivity;::scanFile(1116) : 0 18 
+Lcri/sanity/screen/RecordActivity;::scanFn(1117) : 0 46 
+Lcri/sanity/screen/RecordActivity;::updateEnabled(1118) : 0 34 180 182 206 208 212 216 220 224 
+Lcri/sanity/screen/RecordActivity;::onCreate(1119) : 0 144 250 
+Lcri/sanity/screen/RecordActivity;::onResume(1120) : 0 12 
+Lcri/sanity/screen/SpeakerActivity$1;::<init>(1135) : 0 4 10 
+Lcri/sanity/screen/SpeakerActivity$1;::on(1136) : 0 24 66 68 96 
+Lcri/sanity/screen/SpeakerActivity$2;::<init>(1137) : 0 4 10 
+Lcri/sanity/screen/SpeakerActivity$2;::on(1138) : 0 54 62 
+Lcri/sanity/screen/SpeakerActivity;::<init>(1139) : 0 6 
+Lcri/sanity/screen/SpeakerActivity;::onCreate(1140) : 0 66 82 126 146 148 152 
+Lcri/sanity/screen/TtsActivity$1;::<init>(1141) : 0 4 10 
+Lcri/sanity/screen/TtsActivity$1;::on(1142) : 0 24 26 
+Lcri/sanity/screen/TtsActivity$2;::<init>(1143) : 0 4 10 
+Lcri/sanity/screen/TtsActivity$3;::<init>(1145) : 0 4 10 
+Lcri/sanity/screen/TtsActivity$4;::<init>(1147) : 0 4 10 
+Lcri/sanity/screen/TtsActivity$5;::<init>(1155) : 0 4 10 
+Lcri/sanity/screen/TtsActivity$6;::<init>(1158) : 0 4 10 
+Lcri/sanity/screen/TtsActivity;::<clinit>(1162) : 0 12 
+Lcri/sanity/screen/TtsActivity;::<init>(1163) : 0 6 
+Lcri/sanity/screen/TtsActivity;::getVolumeStream(1175) : 0 20 
+Lcri/sanity/screen/TtsActivity;::getVolumeStream(1176) : 0 6 8 
+Lcri/sanity/screen/TtsActivity;::getVolumeStreamSMS(1177) : 0 20 
+Lcri/sanity/screen/TtsActivity;::getVolumeStreamSMS(1178) : 0 6 8 
+Lcri/sanity/screen/TtsActivity;::setVolumeLevels(1181) : 0 14 
+Lcri/sanity/screen/TtsActivity;::setVolumeLevels(1182) : 0 22 
+Lcri/sanity/screen/TtsActivity;::setVolumeLevelsSMS(1183) : 0 14 
+Lcri/sanity/screen/TtsActivity;::setVolumeLevelsSMS(1184) : 0 22 
+Lcri/sanity/screen/TtsActivity;::ttsFree(1186) : 0 4 8 
+Lcri/sanity/screen/TtsActivity;::onActivityResult(1187) : 0 6 8 12 
+Lcri/sanity/screen/TtsActivity;::onCreate(1188) : 0 62 304 
+Lcri/sanity/screen/TtsActivity;::onPause(1189) : 0 12 
+Lcri/sanity/screen/TtsActivity;::onResume(1190) : 0 26 34 
+Lcri/sanity/screen/UrgentActivity$1;::<init>(1191) : 0 4 10 
+Lcri/sanity/screen/UrgentActivity$1;::on(1192) : 0 46 
+Lcri/sanity/screen/UrgentActivity;::<init>(1193) : 0 6 
+Lcri/sanity/screen/UrgentActivity;::onCreate(1194) : 0 58 
+Lcri/sanity/screen/UrgentActivity;::onResume(1195) : 0 28 
+Lcri/sanity/screen/VibraActivity$1;::<init>(1196) : 0 4 10 
+Lcri/sanity/screen/VibraActivity;::<init>(1198) : 0 6 
+Lcri/sanity/screen/VibraActivity;::onCreate(1199) : 0 
+Lcri/sanity/screen/VolumeActivity;::getVolumeLevels(1201) : 0 296 360 374 
+Lcri/sanity/screen/VolumeActivity;::setVolumeLevels(1202) : 0 14 
+Lcri/sanity/screen/VolumeActivity;::setVolumeLevels(1203) : 0 30 
+Lcri/sanity/util/Alert;::<clinit>(1227) : 0 12 
+Lcri/sanity/util/Alert;::msg(1249) : 0 24 
+Lcri/sanity/util/Alert;::msg(1251) : 0 24 
+Lcri/sanity/util/Alert;::msg(1252) : 0 4 24 
+Lcri/sanity/util/Alert;::msg(1256) : 0 22 
+Lcri/sanity/util/Alert;::msg(1260) : 0 22 
+Lcri/sanity/util/Alert;::msg(1262) : 0 4 26 
+Lcri/sanity/util/Alert;::msg(1263) : 0 12 56 60 70 76 80 84 94 100 124 132 134 142 
+Lcri/sanity/util/Alert;::resetPwd(1275) : 0 14 
+Lcri/sanity/util/Dev;::isBtOn(1330) : 0 14 
+Lcri/sanity/util/Goto;::marketDetails(1347) : 0 46 
+Lcri/sanity/util/Goto;::marketSearchPub(1348) : 0 58 
+Lcri/sanity/util/Goto;::marketUrl(1349) : 0 50 70 
+Lcri/sanity/util/Goto;::url(1350) : 0 48 52 
+Lcri/sanity/util/License;::<clinit>(1359) : 0 6 
+Lcri/sanity/util/License;::check(1363) : 0 16 18 68 
+Lcri/sanity/util/License;::hasOld(1365) : 0 10 12 
+Lcri/sanity/util/License;::isChecked(1366) : 0 44 46 
+Lcri/sanity/util/License;::result(1368) : 0 4 8 36 

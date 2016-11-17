@@ -1,0 +1,19 @@
+java.lang.RuntimeException: Being inconsistent for 1 times?
+path:	MENU
+model:	{MENU, BACK, (238,699,IconMenuItemView), (476,699,IconMenuItemView), (159,799,IconMenuItemView), (317,799,IconMenuItemView), (476,799,IconMenuItemView)}
+observed:	{MENU, BACK, (474,242,Button), (474,323,Button), (474,422,Button), (471,799,Button)}
+
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.handleInconsistency(AbstractLearningGuide.java:367)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:187)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:56)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:119)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+Caused by: edu.berkeley.wtchoi.swift.testing.android.learning.model.InconsistencyException
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.Model.visitState(Model.java:87)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.TreeModel.visitState(TreeModel.java:92)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.TreeModel.addTrace(TreeModel.java:78)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.updateTree(AbstractLearningGuide.java:210)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:184)
+	... 5 more

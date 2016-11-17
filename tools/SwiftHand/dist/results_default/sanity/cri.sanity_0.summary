@@ -1,0 +1,19 @@
+===============================
+12:10:53
+Target            = cri.sanity_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.465045793773399E9
+Elapsed Time(m)   = 59.6
+#Covered Branch   = 999
+#Branch           = 5723
+#Query            = 571
+#Events           = 560
+#Reset            = 12
+Query Average(ms) = 6262.48
+Event Average(ms) = 5882.68
+Reset Average(ms) = 17900.08
+Execution Rate    = 98.13%
+Events : Reset    = 93.88 : 6.12
+Decision Rate     = 0.08%
+===============================

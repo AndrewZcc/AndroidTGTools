@@ -1,0 +1,19 @@
+===============================
+08:11:42
+Target            = org.jessies.dalvikexplorer_0
+Guide             = ActiveLearningGuide
+Guide Option      = M:ToAncestor, D:UseUnrealizedPath
+                    mean time to learning : 3.4228571332287107E9
+Elapsed Time(m)   = 59.59
+#Covered Branch   = 634
+#Branch           = 885
+#Query            = 600
+#Events           = 595
+#Reset            = 6
+Query Average(ms) = 5959.05
+Event Average(ms) = 5853.91
+Reset Average(ms) = 13518
+Execution Rate    = 99.69%
+Events : Reset    = 97.72 : 2.28
+Decision Rate     = 0.07%
+===============================

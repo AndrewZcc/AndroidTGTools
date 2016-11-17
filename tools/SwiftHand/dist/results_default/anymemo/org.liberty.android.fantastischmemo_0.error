@@ -1,0 +1,19 @@
+java.lang.RuntimeException: Being inconsistent for 1 times?
+path:	(240,603,Button)::(366,179,RelativeLayout)::(273,179,RelativeLayout)
+model:	{MENU, BACK, (93,179,RelativeLayout), (180,179,RelativeLayout), (273,179,RelativeLayout), (366,179,RelativeLayout), (471,179,RelativeLayout), (463,241,LinearLayout), (463,296,LinearLayout), DS((17,189),(17,275),ListView), DS((17,189),(17,295),ListView), US((17,189),(17,275),ListView), US((17,189),(17,295),ListView), DS((17,189),(17,782),ScrollView), US((17,189),(17,782),ScrollView)}
+observed:	{MENU, BACK, (93,179,RelativeLayout), (180,179,RelativeLayout), (273,179,RelativeLayout), (366,179,RelativeLayout), (471,179,RelativeLayout), (463,241,LinearLayout), (463,296,LinearLayout), (463,351,LinearLayout), DS((17,189),(17,275),ListView), DS((17,189),(17,350),ListView), US((17,189),(17,275),ListView), US((17,189),(17,350),ListView), DS((17,189),(17,782),ScrollView), US((17,189),(17,782),ScrollView)}
+
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.handleInconsistency(AbstractLearningGuide.java:367)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:187)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:56)
+	at edu.berkeley.wtchoi.swift.testing.Testing.doSomething(Testing.java:119)
+	at edu.berkeley.wtchoi.swift.testing.Testing.run(Testing.java:84)
+	at edu.berkeley.wtchoi.swift.testing.android.runners.TestRunner.runTesting(TestRunner.java:117)
+	at edu.berkeley.wtchoi.swift.CommandLine.main(CommandLine.java:152)
+Caused by: edu.berkeley.wtchoi.swift.testing.android.learning.model.InconsistencyException
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.Model.visitState(Model.java:87)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.TreeModel.visitState(TreeModel.java:92)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.model.TreeModel.addTrace(TreeModel.java:78)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.updateTree(AbstractLearningGuide.java:210)
+	at edu.berkeley.wtchoi.swift.testing.android.learning.AbstractLearningGuide.receiveResult(AbstractLearningGuide.java:184)
+	... 5 more

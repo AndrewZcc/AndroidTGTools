@@ -1,0 +1,4 @@
+digraph G {
+1[color=black, shape=circle, style=bold, peripheries=2];
+
+}
