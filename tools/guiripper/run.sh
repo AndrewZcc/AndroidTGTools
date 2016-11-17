@@ -1,19 +1,20 @@
 #!/bin/bash
-
-
+echo "running in the guiripper/run.sh"
+PATH_Origin=$PATH
 #System Path
 JAVA_CMD=/usr/bin/java
 JARSIGNER_CMD=/usr/bin/jarsigner
-ANDROID_HOME=/home/vagrant/android-sdk-linux
+ANDROID_HOME=/Users/zhchuch/Downloads/adt-bundle-mac-x86_64-20140702/sdk
 EMULATORPATH=$ANDROID_HOME/tools
 PLATFORMPATH=$ANDROID_HOME/platform-tools
-BUILDTOOLS=$ANDROID_HOME/build-tools/20.0.0
+BUILDTOOLS=$ANDROID_HOME/build-tools/android-4.4W
+export $BUILDTOOLS:$PATH
 
 #AVD Path
 #EMULATORTASK=$EMULATORPATH/emulator-arm
 EMULATORTASK=$EMULATORPATH/emulator
 AVDNAME=gui-ripper
-ANDROIDCONF=/home/vagrant/.android
+ANDROIDCONF=/Users/zhchuch/.android
 SNAPSHOTPATH=$ANDROIDCONF/avd/$AVDNAME.avd/snapshots.img
 
 #App Information
@@ -261,3 +262,6 @@ case  $1  in
   ;;
 
 esac
+
+export $PATH_Origin
+

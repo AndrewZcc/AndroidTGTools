@@ -1,0 +1,62 @@
+I/androidripper(  825): Preferences file found.
+I/androidripper(  825): Waiting for 1 sec.
+I/androidripper(  825): Current activity is activities.TippyTipper
+W/androidripper(  825): --->activities.TippyTipper
+I/androidripper(  825): Retrieving widgets
+E/androidripper(  825): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  825): Starting a new session
+I/androidripper(  825): Saved image on disk: a1.jpg
+I/androidripper(  825): Planning for new Activity TippyTipper
+I/androidripper(  825): Created trace to press the menu button
+I/androidripper(  825): Created trace to change orientation
+I/androidripper(  825): Dispatching new task. 14 more tasks remaining.
+I/androidripper(  825): Restarting
+I/androidripper(  825): Waiting for 1 sec.
+I/androidripper(  825): Retrieving widgets
+I/androidripper(  825): Playing Trace 0
+I/androidripper(  825): Setting input: type= writeText id=2131361792 value=15
+I/androidripper(  825): Retrieved from return list id=2131361792
+I/androidripper(  825): Retrieved from return list id=2131361793
+I/androidripper(  825): Firing event: type= click index=10 widget=android.widget.Button
+I/androidripper(  825): Waiting for 1 sec.
+I/androidripper(  825): Current activity is activities.TippyTipper
+I/androidripper(  825): Retrieving widgets
+E/androidripper(  825): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  825): Performing comparation for activity TippyTipper
+I/androidripper(  825): Saved image on disk: a2.jpg
+I/androidripper(  825): Waiting for 1 sec.
+I/androidripper(  825): Session count is 1. Will dump to disk at 1
+I/androidripper(  825): Saving the session on disk. This is the first batch: the file will be created.
+I/androidripper(  825): Check for pause: 0 steps left of 1
+I/androidripper(  825): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  816): Preferences file found.
+I/androidripper(  816): Waiting for 1 sec.
+I/androidripper(  816): Current activity is activities.TippyTipper
+W/androidripper(  816): --->activities.TippyTipper
+I/androidripper(  816): Retrieving widgets
+E/androidripper(  816): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  816): Attempting to resume previous session
+I/androidripper(  816): Reading task file
+I/androidripper(  816): Reading state file
+I/androidripper(  816): Saving the session on disk.
+I/androidripper(  816): Dispatching new task. 13 more tasks remaining.
+I/androidripper(  816): Restarting
+I/androidripper(  816): Waiting for 1 sec.
+I/androidripper(  816): Retrieving widgets
+I/androidripper(  816): Playing Trace 1
+I/androidripper(  816): Setting input: type= writeText id=2131361792 value=15
+I/androidripper(  816): Retrieved from return list id=2131361792
+I/androidripper(  816): Retrieved from return list id=2131361794
+I/androidripper(  816): Firing event: type= click index=11 widget=android.widget.Button
+I/androidripper(  816): Waiting for 1 sec.
+I/androidripper(  816): Current activity is activities.TippyTipper
+I/androidripper(  816): Retrieving widgets
+E/androidripper(  816): java.lang.NoSuchFieldException: mOnFocusChangeListener
+I/androidripper(  816): Performing comparation for activity TippyTipper
+I/androidripper(  816): Saved image on disk: a3.jpg
+I/androidripper(  816): Waiting for 1 sec.
+I/androidripper(  816): Session count is 1. Will dump to disk at 1
+I/androidripper(  816): Saving the session on disk.
+I/androidripper(  816): Check for pause: 0 steps left of 1
+I/androidripper(  816): Saving the session on disk. This is the last batch. The session will be terminated.
+I/androidripper(  765): Preferences file found.

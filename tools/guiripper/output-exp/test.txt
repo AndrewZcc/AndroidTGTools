@@ -1,0 +1,26 @@
+Playing Session 1
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 16.86
+
+OK (1 test)
+
+
+End of Session 1
+Playing Session 2
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:.
+Test results for InstrumentationTestRunner=.
+Time: 15.78
+
+OK (1 test)
+
+
+End of Session 2
+Playing Session 3
+RandomSeed -4244019791393197310
+
+it.unina.androidripper.guitree.GuiTreeEngine:

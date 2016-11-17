@@ -5,29 +5,39 @@
     <map/>
     <node name="it.unina.androidripper">
       <map>
-        <entry key="PACKAGE_NAME" value="org.tomdroid"/>
         <entry key="ENABLE_MODEL" value="true"/>
-        <entry key="CLASS_NAME" value="org.tomdroid.ui.Tomdroid"/>
-        <entry key="RANDOM_SEED" value="-4971030886054769832"/>
+        <entry key="CLASS_NAME" value="net.mandaria.tippytipper.activities.TippyTipper"/>
+        <entry key="RANDOM_SEED" value="-4244019791393197310"/>
+        <entry key="PACKAGE_NAME" value="net.mandaria.tippytipper"/>
       </map>
       <node name="automation">
         <map>
-          <entry key="SLEEP_AFTER_TASK" value="1000"/>
-          <entry key="SCREENSHOT_ONLY_NEW_STATES" value="false"/>
-          <entry key="SCREENSHOT_FOR_EVENTS" value="false"/>
           <entry key="SLEEP_ON_THROBBER" value="1000"/>
           <entry key="SLEEP_AFTER_EVENT" value="1000"/>
+          <entry key="SLEEP_AFTER_TASK" value="1000"/>
           <entry key="SLEEP_AFTER_RESTART" value="1000"/>
-          <entry key="SCREENSHOT_FOR_STATES" value="false"/>
         </map>
       </node>
       <node name="comparator">
         <map>
+          <entry key="WIDGET_TYPES[8]" value="tabHost"/>
           <entry key="COMPARE_LIST_COUNT" value="false"/>
-          <entry key="COMPARE_MENU_COUNT" value="false"/>
-          <entry key="COMPARATOR_TYPE" value="NullComparator"/>
-          <entry key="COMPARE_STATE_TITLE" value="false"/>
+          <entry key="WIDGET_TYPES[7]" value="webPage"/>
+          <entry key="WIDGET_TYPES[5]" value="singleChoiceList"/>
+          <entry key="COMPARATOR_TYPE" value="CustomWidgetsSimpleComparator"/>
+          <entry key="WIDGET_TYPES[4]" value="listView"/>
+          <entry key="WIDGET_TYPES[2]" value="menu"/>
+          <entry key="COMPARE_STATE_TITLE" value="true"/>
+          <entry key="WIDGET_TYPES[1]" value="button"/>
+          <entry key="WIDGET_TYPES[12]" value="autoCText"/>
+          <entry key="WIDGET_TYPES[0]" value="editText"/>
+          <entry key="WIDGET_TYPES[3]" value="dialog"/>
+          <entry key="WIDGET_TYPES[11]" value="searchBar"/>
+          <entry key="WIDGET_TYPES[6]" value="multiChoiceList"/>
           <entry key="COMPARE_VALUES" value="false"/>
+          <entry key="WIDGET_TYPES[10]" value="text"/>
+          <entry key="COMPARE_MENU_COUNT" value="true"/>
+          <entry key="WIDGET_TYPES[9]" value="image"/>
         </map>
       </node>
       <node name="interactions">
@@ -49,27 +59,22 @@
       <node name="planner">
         <map>
           <entry key="PLANNER" value="SimplePlanner"/>
-          <entry key="MAX_EVENTS_PER_WIDGET" value="0"/>
           <entry key="ORIENTATION_EVENTS" value="true"/>
+          <entry key="MAX_EVENTS_PER_WIDGET" value="0"/>
           <entry key="TEXT_VALUES_ID_HASH" value="true"/>
           <entry key="ACTIONBARHOME_EVENTS" value="false"/>
         </map>
       </node>
       <node name="scheduler">
         <map>
-          <entry key="SCHEDULER_ALGORITHM" value="DEPTH_FIRST"/>
-          <entry key="MAX_TASKS_IN_SCHEDULER" value="2"/>
-        </map>
-      </node>
-      <node name="storage">
-        <map>
-          <entry key="ONLY_FINALTRANSITION" value="false"/>
+          <entry key="SCHEDULER_ALGORITHM" value="BREADTH_FIRST"/>
+          <entry key="MAX_TASKS_IN_SCHEDULER" value="0"/>
         </map>
       </node>
       <node name="strategy">
         <map>
-          <entry key="MAX_NUM_TRACES" value="100"/>
-          <entry key="EXPLORE_ONLY_NEW_STATES" value="false"/>
+          <entry key="MAX_NUM_TRACES" value="0"/>
+          <entry key="EXPLORE_ONLY_NEW_STATES" value="true"/>
           <entry key="TRACE_MAX_DEPTH" value="0"/>
         </map>
       </node>
