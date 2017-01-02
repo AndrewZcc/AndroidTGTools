@@ -1,5 +1,0 @@
-WARNING: this function will remove all call filters you have configured.
-
-All current call filters will be lost.
-
-Would you really delete all filters?

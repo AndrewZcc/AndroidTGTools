@@ -1,0 +1,8 @@
+<?xml version="1.0"?><root>
+<fired_event interaction="changeOrientation" value=""/>
+<activity class="net.mandaria.tippytipper.activities.TippyTipper" id="a1" keypress="FALSE" longkeypress="FALSE" menu="TRUE" name="TippyTipper" root_activity="TRUE" tab_activity="FALSE" tab_count="0" title="Tippy Tipper" uid="18"/>
+<fired_event interaction="openMenu" value=""/>
+
+<error type='executeTask' />
+
+</root>

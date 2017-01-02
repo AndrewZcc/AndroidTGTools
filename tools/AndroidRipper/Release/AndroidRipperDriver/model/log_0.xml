@@ -1,0 +1,11 @@
+<?xml version="1.0"?><root>
+<bootstrap>
+  <activity class="es.senselesssolutions.gpl.weightchart.ChartActivity" id="a1" keypress="FALSE" longkeypress="FALSE" menu="TRUE" name="ChartActivity" root_activity="TRUE" tab_activity="FALSE" tab_count="0" title="Weight Chart" uid="1"/>
+  <extracted_events id="a1">
+    <event interaction="back" value=""/>
+    <event interaction="changeOrientation" value=""/>
+    <event interaction="openMenu" value=""/>
+  </extracted_events>
+</bootstrap>
+
+</root>

@@ -1,5 +1,0 @@
-WARNING: this function will restore all default preference values.
-
-All current application preferences will be lost.
-
-Would you really reset all preferences?

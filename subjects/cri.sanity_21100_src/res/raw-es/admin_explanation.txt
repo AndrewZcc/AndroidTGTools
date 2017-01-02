@@ -1,3 +1,0 @@
-Confirme esta opcion para que Sanity pueda apagar la pantalla durante las llamadas.
-
-RECUERDE para desinstalar Sanity, tiene que revocar los permisos de "Administrador". Si no lo hace, no podra desinstalarlo.

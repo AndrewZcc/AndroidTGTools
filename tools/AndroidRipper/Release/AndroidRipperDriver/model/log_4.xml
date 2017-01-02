@@ -1,0 +1,10 @@
+<?xml version="1.0"?><root>
+<fired_event interaction="changeOrientation" value=""/>
+<activity class="es.senselesssolutions.gpl.weightchart.ChartActivity" id="a1" keypress="FALSE" longkeypress="FALSE" menu="TRUE" name="ChartActivity" root_activity="TRUE" tab_activity="FALSE" tab_count="0" title="Weight Chart" uid="13"/>
+<fired_event interaction="changeOrientation" value=""/>
+<activity_description>
+  <activity class="es.senselesssolutions.gpl.weightchart.ChartActivity" id="a1" keypress="FALSE" longkeypress="FALSE" menu="TRUE" name="ChartActivity" root_activity="TRUE" tab_activity="FALSE" tab_count="0" title="Weight Chart" uid="15"/>
+  <extracted_events/>
+</activity_description>
+
+</root>

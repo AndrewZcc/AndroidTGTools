@@ -1,0 +1,903 @@
+Last login: Mon Jan  2 02:01:49 on ttys003
+zhchuch-MacBook:~ zhchuch$ cd /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/tools/AndroidRipper/Release
+zhchuch-MacBook:Release zhchuch$ ./ARdrive.sh 
+Android Ripper
+[1483294865386] Systematic Ripper 2016.04.26
+[1483294865386] Loading configuration
+[1483294865405] Starting Ripper...
+[1483294865414] Start Ripping Loop...
+[1483294865415] Start emulator...
+[1483294865461] Waiting for AVD...
+Emulator Online!
+WARNING: Data partition already in use. Changes will not persist!
+Emulator Booted!
+[1483294870633] AVD online!
+[1483294870634] Start ripper service...
+WARNING: SD Card image already in use: /Users/zhchuch/.android/avd/RipperDevice.avd/sdcard.img
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+WARNING: Cache partition already in use. Changes will not persist!
+it seems too many emulator instances are running on this machine. Aborting
+^Z
+[1]+  Stopped                 ./ARdrive.sh
+zhchuch-MacBook:Release zhchuch$ ./ARdrive.sh 
+Android Ripper
+[1483294879098] Systematic Ripper 2016.04.26
+[1483294879098] Loading configuration
+[1483294879116] Starting Ripper...
+[1483294879122] Start Ripping Loop...
+[1483294879123] Start emulator...
+[1483294879144] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483294988822] AVD online!
+[1483294988823] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483294991840] Redir port...
+[1483294992886] Start ripper...
+
+it.unina.android.ripper.RipperTestCase:[1483294995894] Connect...
+[1483294995894] Ping...
+{"index":"1","type":"PING"}
+[1483294997912] Ping...
+{"index":"2","type":"PING"}
+[1483294999913] Ping...
+{"index":"3","type":"PING"}
+
+{"type":"PONG","index":"4"}
+
+PONG
+[1483294999949] Startup time: 120826
+[1483294999951] Alive...
+{"index":"5","type":"PING"}
+
+{"type":"PONG","index":"6"}
+
+PONG
+[1483294999985] Send describe msg...
+{"index":"7","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"8"}
+
+DSC
+[1483295000446] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[1483295000632] Plan...
+[1483295000633] plannedTasks 3
+[1483295000649] Send describe msg...
+{"index":"9","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"10"}
+
+DSC
+[1483295000763] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295000776] event:back
+{"index":"11","eventType":"back","type":"EVT"}
+[1483295000777] Wait ack...
+
+{"type":"ACK","index":"12"}
+
+ACK
+[1483295002833] Send describe msg...
+{"index":"13","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"14"}
+
+DSC
+[1483295002903] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295002906] Send describe msg...
+{"index":"15","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"16"}
+
+DSC
+[1483295002997] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[1483295003001] 	Comparator...
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295003028] pull coverage before end...
+[1483295003028] pull coverage...
+{"index":"17","filename":"coverage1483295003028.ec","type":"COVER"}
+
+{"type":"ACK","index":"18"}
+
+ACK
+[1483295003151] coverage
+[1483295003192] End message...
+{"index":"19","type":"END"}
+[1483295003193] Wait process end...
+21 KB/s (398 bytes in 0.018s)
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 9.727
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.jessies.dalvikexplorer/files/coverage.ec
+[1483295004365] Wait test_case end...
+[1483295004365] pull coverage before end...
+[1483295004365] pull coverage after end...
+57 KB/s (398 bytes in 0.006s)
+[1483295004416] junit log
+118 KB/s (2942 bytes in 0.024s)
+[1483295004525] Shutdown...
+Emulator offline!
+[1483295007585] Start emulator...
+[1483295007604] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483295128085] AVD online!
+[1483295128086] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483295131104] Redir port...
+[1483295132108] Start ripper...
+[1483295135130] Connect...
+[1483295135130] Ping...
+{"index":"1","type":"PING"}
+
+it.unina.android.ripper.RipperTestCase:[1483295137131] Ping...
+{"index":"2","type":"PING"}
+[1483295139136] Ping...
+{"index":"3","type":"PING"}
+[1483295141141] Ping...
+{"index":"4","type":"PING"}
+[1483295143145] Ping...
+{"index":"5","type":"PING"}
+[1483295145149] Ping...
+{"index":"6","type":"PING"}
+
+{"type":"PONG","index":"7"}
+
+PONG
+[1483295145216] Startup time: 137631
+[1483295145224] Send describe msg...
+{"index":"8","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909145\" class=\"com.android.internal.widget.ActionBarContainer\" simple_type=\"\" r_id=\"action_bar_container\" name=\"\" count=\"2\" index=\"1\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909146\" class=\"com.android.internal.widget.ActionBarView\" simple_type=\"\" r_id=\"action_bar\" name=\"\" count=\"2\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16909145\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarContainer\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"3\" enabled=\"FALSE\" visible=\"TRUE\" p_id=\"16909146\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.widget.ActionBarView.HomeView\" simple_type=\"\" name=\"\" count=\"2\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908870\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"up\" name=\"\" index=\"5\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView.HomeView\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908332\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"home\" name=\"\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView.HomeView\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908870\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"up\" name=\"\" index=\"8\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908877\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"action_bar_title\" text_type=\"0\" name=\"Dalvik Explorer\" value=\"Dalvik Explorer\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908878\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"action_bar_subtitle\" text_type=\"0\" name=\"\" value=\"\" index=\"11\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.view.menu.ActionMenuView\" simple_type=\"menu\" name=\"\" count=\"0\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16909146\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16909147\" class=\"com.android.internal.widget.ActionBarContextView\" simple_type=\"\" r_id=\"action_context_bar\" name=\"\" count=\"0\" index=\"13\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"16909145\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarContainer\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"14\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908298\" class=\"android.widget.ListView\" simple_type=\"listView\" r_id=\"list\" name=\"\" count=\"8\" index=\"15\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Build Details\" value=\"Build Details\" index=\"16\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Charsets\" value=\"Charsets\" index=\"17\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Device Details\" value=\"Device Details\" index=\"18\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Environment Variables\" value=\"Environment Variables\" index=\"19\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"File Systems\" value=\"File Systems\" index=\"20\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Locales\" value=\"Locales\" index=\"21\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"System Properties\" value=\"System Properties\" index=\"22\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Time Zones\" value=\"Time Zones\" index=\"23\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16909148\" class=\"com.android.internal.widget.ActionBarContainer\" simple_type=\"\" r_id=\"split_action_bar\" name=\"\" count=\"0\" index=\"24\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"25\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"9"}
+
+DSC
+[1483295147282] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909145" class="com.android.internal.widget.ActionBarContainer" simple_type="" r_id="action_bar_container" name="" count="2" index="1" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909146" class="com.android.internal.widget.ActionBarView" simple_type="" r_id="action_bar" name="" count="2" index="2" enabled="TRUE" visible="TRUE" p_id="16909145" p_name="" p_type="com.android.internal.widget.ActionBarContainer" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="3" enabled="FALSE" visible="TRUE" p_id="16909146" p_name="" p_type="com.android.internal.widget.ActionBarView" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="com.android.internal.widget.ActionBarView.HomeView" simple_type="" name="" count="2" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908870" class="android.widget.ImageView" simple_type="image" r_id="up" name="" index="5" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="com.android.internal.widget.ActionBarView.HomeView" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908332" class="android.widget.ImageView" simple_type="image" r_id="home" name="" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.widget.ActionBarView.HomeView" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908870" class="android.widget.ImageView" simple_type="image" r_id="up" name="" index="8" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908877" class="android.widget.TextView" simple_type="text" r_id="action_bar_title" text_type="0" name="Dalvik Explorer" value="Dalvik Explorer" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908878" class="android.widget.TextView" simple_type="text" r_id="action_bar_subtitle" text_type="0" name="" value="" index="11" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="com.android.internal.view.menu.ActionMenuView" simple_type="menu" name="" count="0" index="12" enabled="TRUE" visible="TRUE" p_id="16909146" p_name="" p_type="com.android.internal.widget.ActionBarView" ancestor_id="" ancestor_type=""/>
+  <widget id="16909147" class="com.android.internal.widget.ActionBarContextView" simple_type="" r_id="action_context_bar" name="" count="0" index="13" enabled="TRUE" visible="FALSE" p_id="16909145" p_name="" p_type="com.android.internal.widget.ActionBarContainer" ancestor_id="" ancestor_type=""/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="14" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908298" class="android.widget.ListView" simple_type="listView" r_id="list" name="" count="8" index="15" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Build Details" value="Build Details" index="16" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Charsets" value="Charsets" index="17" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Device Details" value="Device Details" index="18" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Environment Variables" value="Environment Variables" index="19" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="File Systems" value="File Systems" index="20" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Locales" value="Locales" index="21" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="System Properties" value="System Properties" index="22" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Time Zones" value="Time Zones" index="23" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16909148" class="com.android.internal.widget.ActionBarContainer" simple_type="" r_id="split_action_bar" name="" count="0" index="24" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="25" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=26 - size2=0
+[GenericComparator]FilteredWidgets size1=15 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=15 - size2=0
+[GenericComparator]lookFor(w1, widgets2) no 16908870
+[GenericComparator]test if FILTERED widgets match -> false
+[1483295147317] event:changeOrientation
+{"index":"10","eventType":"changeOrientation","type":"EVT"}
+[1483295147317] Wait ack...
+
+{"type":"ACK","index":"11"}
+
+ACK
+[1483295149159] Send describe msg...
+{"index":"12","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909145\" class=\"com.android.internal.widget.ActionBarContainer\" simple_type=\"\" r_id=\"action_bar_container\" name=\"\" count=\"2\" index=\"1\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909146\" class=\"com.android.internal.widget.ActionBarView\" simple_type=\"\" r_id=\"action_bar\" name=\"\" count=\"2\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16909145\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarContainer\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"3\" enabled=\"FALSE\" visible=\"TRUE\" p_id=\"16909146\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.widget.ActionBarView.HomeView\" simple_type=\"\" name=\"\" count=\"2\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908870\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"up\" name=\"\" index=\"5\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView.HomeView\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908332\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"home\" name=\"\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView.HomeView\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908870\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"up\" name=\"\" index=\"8\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908877\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"action_bar_title\" text_type=\"0\" name=\"Dalvik Explorer\" value=\"Dalvik Explorer\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908878\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"action_bar_subtitle\" text_type=\"0\" name=\"\" value=\"\" index=\"11\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.view.menu.ActionMenuView\" simple_type=\"menu\" name=\"\" count=\"0\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16909146\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16909147\" class=\"com.android.internal.widget.ActionBarContextView\" simple_type=\"\" r_id=\"action_context_bar\" name=\"\" count=\"0\" index=\"13\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"16909145\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarContainer\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"14\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908298\" class=\"android.widget.ListView\" simple_type=\"listView\" r_id=\"list\" name=\"\" count=\"8\" index=\"15\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Build Details\" value=\"Build Details\" index=\"16\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Charsets\" value=\"Charsets\" index=\"17\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Device Details\" value=\"Device Details\" index=\"18\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Environment Variables\" value=\"Environment Variables\" index=\"19\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"File Systems\" value=\"File Systems\" index=\"20\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Locales\" value=\"Locales\" index=\"21\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16909148\" class=\"com.android.internal.widget.ActionBarContainer\" simple_type=\"\" r_id=\"split_action_bar\" name=\"\" count=\"0\" index=\"22\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"23\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"13"}
+
+DSC
+[1483295151275] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909145" class="com.android.internal.widget.ActionBarContainer" simple_type="" r_id="action_bar_container" name="" count="2" index="1" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909146" class="com.android.internal.widget.ActionBarView" simple_type="" r_id="action_bar" name="" count="2" index="2" enabled="TRUE" visible="TRUE" p_id="16909145" p_name="" p_type="com.android.internal.widget.ActionBarContainer" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="3" enabled="FALSE" visible="TRUE" p_id="16909146" p_name="" p_type="com.android.internal.widget.ActionBarView" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="com.android.internal.widget.ActionBarView.HomeView" simple_type="" name="" count="2" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908870" class="android.widget.ImageView" simple_type="image" r_id="up" name="" index="5" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="com.android.internal.widget.ActionBarView.HomeView" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908332" class="android.widget.ImageView" simple_type="image" r_id="home" name="" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.widget.ActionBarView.HomeView" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908870" class="android.widget.ImageView" simple_type="image" r_id="up" name="" index="8" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908877" class="android.widget.TextView" simple_type="text" r_id="action_bar_title" text_type="0" name="Dalvik Explorer" value="Dalvik Explorer" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908878" class="android.widget.TextView" simple_type="text" r_id="action_bar_subtitle" text_type="0" name="" value="" index="11" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="com.android.internal.view.menu.ActionMenuView" simple_type="menu" name="" count="0" index="12" enabled="TRUE" visible="TRUE" p_id="16909146" p_name="" p_type="com.android.internal.widget.ActionBarView" ancestor_id="" ancestor_type=""/>
+  <widget id="16909147" class="com.android.internal.widget.ActionBarContextView" simple_type="" r_id="action_context_bar" name="" count="0" index="13" enabled="TRUE" visible="FALSE" p_id="16909145" p_name="" p_type="com.android.internal.widget.ActionBarContainer" ancestor_id="" ancestor_type=""/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="14" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908298" class="android.widget.ListView" simple_type="listView" r_id="list" name="" count="8" index="15" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Build Details" value="Build Details" index="16" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Charsets" value="Charsets" index="17" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Device Details" value="Device Details" index="18" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Environment Variables" value="Environment Variables" index="19" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="File Systems" value="File Systems" index="20" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Locales" value="Locales" index="21" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16909148" class="com.android.internal.widget.ActionBarContainer" simple_type="" r_id="split_action_bar" name="" count="0" index="22" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="23" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=24 - size2=0
+[GenericComparator]FilteredWidgets size1=13 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=13 - size2=0
+[GenericComparator]lookFor(w1, widgets2) no 16908870
+[GenericComparator]test if FILTERED widgets match -> false
+[1483295151291] Send describe msg...
+{"index":"14","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909145\" class=\"com.android.internal.widget.ActionBarContainer\" simple_type=\"\" r_id=\"action_bar_container\" name=\"\" count=\"2\" index=\"1\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909146\" class=\"com.android.internal.widget.ActionBarView\" simple_type=\"\" r_id=\"action_bar\" name=\"\" count=\"2\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16909145\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarContainer\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"3\" enabled=\"FALSE\" visible=\"TRUE\" p_id=\"16909146\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.widget.ActionBarView.HomeView\" simple_type=\"\" name=\"\" count=\"2\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908870\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"up\" name=\"\" index=\"5\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView.HomeView\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908332\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"home\" name=\"\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView.HomeView\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908870\" class=\"android.widget.ImageView\" simple_type=\"image\" r_id=\"up\" name=\"\" index=\"8\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"2\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908877\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"action_bar_title\" text_type=\"0\" name=\"Dalvik Explorer\" value=\"Dalvik Explorer\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"16908878\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"action_bar_subtitle\" text_type=\"0\" name=\"\" value=\"\" index=\"11\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"16909146\" ancestor_type=\"com.android.internal.widget.ActionBarView\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.view.menu.ActionMenuView\" simple_type=\"menu\" name=\"\" count=\"0\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16909146\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16909147\" class=\"com.android.internal.widget.ActionBarContextView\" simple_type=\"\" r_id=\"action_context_bar\" name=\"\" count=\"0\" index=\"13\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"16909145\" p_name=\"\" p_type=\"com.android.internal.widget.ActionBarContainer\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"14\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908298\" class=\"android.widget.ListView\" simple_type=\"listView\" r_id=\"list\" name=\"\" count=\"8\" index=\"15\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Build Details\" value=\"Build Details\" index=\"16\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Charsets\" value=\"Charsets\" index=\"17\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Device Details\" value=\"Device Details\" index=\"18\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Environment Variables\" value=\"Environment Variables\" index=\"19\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"File Systems\" value=\"File Systems\" index=\"20\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908308\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"text1\" text_type=\"0\" name=\"Locales\" value=\"Locales\" index=\"21\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908298\" p_name=\"\" p_type=\"android.widget.ListView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16909148\" class=\"com.android.internal.widget.ActionBarContainer\" simple_type=\"\" r_id=\"split_action_bar\" name=\"\" count=\"0\" index=\"22\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"23\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"15"}
+
+DSC
+[1483295151913] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909145" class="com.android.internal.widget.ActionBarContainer" simple_type="" r_id="action_bar_container" name="" count="2" index="1" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909146" class="com.android.internal.widget.ActionBarView" simple_type="" r_id="action_bar" name="" count="2" index="2" enabled="TRUE" visible="TRUE" p_id="16909145" p_name="" p_type="com.android.internal.widget.ActionBarContainer" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="3" enabled="FALSE" visible="TRUE" p_id="16909146" p_name="" p_type="com.android.internal.widget.ActionBarView" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="com.android.internal.widget.ActionBarView.HomeView" simple_type="" name="" count="2" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908870" class="android.widget.ImageView" simple_type="image" r_id="up" name="" index="5" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="com.android.internal.widget.ActionBarView.HomeView" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908332" class="android.widget.ImageView" simple_type="image" r_id="home" name="" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.widget.ActionBarView.HomeView" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908870" class="android.widget.ImageView" simple_type="image" r_id="up" name="" index="8" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="2" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908877" class="android.widget.TextView" simple_type="text" r_id="action_bar_title" text_type="0" name="Dalvik Explorer" value="Dalvik Explorer" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="16908878" class="android.widget.TextView" simple_type="text" r_id="action_bar_subtitle" text_type="0" name="" value="" index="11" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="16909146" ancestor_type="com.android.internal.widget.ActionBarView"/>
+  <widget id="-1" class="com.android.internal.view.menu.ActionMenuView" simple_type="menu" name="" count="0" index="12" enabled="TRUE" visible="TRUE" p_id="16909146" p_name="" p_type="com.android.internal.widget.ActionBarView" ancestor_id="" ancestor_type=""/>
+  <widget id="16909147" class="com.android.internal.widget.ActionBarContextView" simple_type="" r_id="action_context_bar" name="" count="0" index="13" enabled="TRUE" visible="FALSE" p_id="16909145" p_name="" p_type="com.android.internal.widget.ActionBarContainer" ancestor_id="" ancestor_type=""/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="14" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908298" class="android.widget.ListView" simple_type="listView" r_id="list" name="" count="8" index="15" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Build Details" value="Build Details" index="16" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Charsets" value="Charsets" index="17" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Device Details" value="Device Details" index="18" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Environment Variables" value="Environment Variables" index="19" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="File Systems" value="File Systems" index="20" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908308" class="android.widget.TextView" simple_type="text" r_id="text1" text_type="0" name="Locales" value="Locales" index="21" enabled="TRUE" visible="TRUE" p_id="16908298" p_name="" p_type="android.widget.ListView" ancestor_id="" ancestor_type=""/>
+  <widget id="16909148" class="com.android.internal.widget.ActionBarContainer" simple_type="" r_id="split_action_bar" name="" count="0" index="22" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="23" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[1483295151925] 	Comparator...
+[GenericComparator]Widgets size1=24 - size2=0
+[GenericComparator]FilteredWidgets size1=13 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=13 - size2=0
+[GenericComparator]lookFor(w1, widgets2) no 16908870
+[GenericComparator]test if FILTERED widgets match -> false
+[1483295151926] Plan...
+[1483295151927] plannedTasks 3
+[GenericComparator]Widgets size1=24 - size2=0
+[GenericComparator]FilteredWidgets size1=13 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=13 - size2=0
+[GenericComparator]lookFor(w1, widgets2) no 16908870
+[GenericComparator]test if FILTERED widgets match -> false
+[GenericComparator]Widgets size1=24 - size2=24
+[GenericComparator]FilteredWidgets size1=13 - size2=13
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=13 - size2=13
+[GenericComparator]compare widget id (16908870,16908870) -> true
+[GenericComparator]compare widget simple type(image,image) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908870
+[GenericComparator]compare widget id (16908332,16908870) -> false
+[GenericComparator]compare widget id (16908332,16908332) -> true
+[GenericComparator]compare widget simple type(image,image) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908332
+[GenericComparator]compare widget id (16908870,16908870) -> true
+[GenericComparator]compare widget simple type(image,image) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908870
+[GenericComparator]compare widget id (16908877,16908870) -> false
+[GenericComparator]compare widget id (16908877,16908332) -> false
+[GenericComparator]compare widget id (16908877,16908870) -> false
+[GenericComparator]compare widget id (16908877,16908877) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908877
+[GenericComparator]compare widget id (16908878,16908870) -> false
+[GenericComparator]compare widget id (16908878,16908332) -> false
+[GenericComparator]compare widget id (16908878,16908870) -> false
+[GenericComparator]compare widget id (16908878,16908877) -> false
+[GenericComparator]compare widget id (16908878,16908878) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908878
+[GenericComparator]compare widget id (-1,16908870) -> false
+[GenericComparator]compare widget id (-1,16908332) -> false
+[GenericComparator]compare widget id (-1,16908870) -> false
+[GenericComparator]compare widget id (-1,16908877) -> false
+[GenericComparator]compare widget id (-1,16908878) -> false
+[GenericComparator]compare widget id (-1,-1) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]lookFor(w1, widgets2) yes -1
+[GenericComparator]compare widget id (16908298,16908870) -> false
+[GenericComparator]compare widget id (16908298,16908332) -> false
+[GenericComparator]compare widget id (16908298,16908870) -> false
+[GenericComparator]compare widget id (16908298,16908877) -> false
+[GenericComparator]compare widget id (16908298,16908878) -> false
+[GenericComparator]compare widget id (16908298,-1) -> false
+[GenericComparator]compare widget id (16908298,16908298) -> true
+[GenericComparator]compare widget simple type(listView,listView) -> true
+[GenericComparator]compare list item count -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908298
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908308
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908308
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908308
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908308
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908308
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908308
+[GenericComparator]compare widget id (16908870,16908870) -> true
+[GenericComparator]compare widget simple type(image,image) -> true
+[GenericComparator]compare widget id (16908332,16908870) -> false
+[GenericComparator]compare widget id (16908332,16908332) -> true
+[GenericComparator]compare widget simple type(image,image) -> true
+[GenericComparator]compare widget id (16908870,16908870) -> true
+[GenericComparator]compare widget simple type(image,image) -> true
+[GenericComparator]compare widget id (16908877,16908870) -> false
+[GenericComparator]compare widget id (16908877,16908332) -> false
+[GenericComparator]compare widget id (16908877,16908870) -> false
+[GenericComparator]compare widget id (16908877,16908877) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (16908878,16908870) -> false
+[GenericComparator]compare widget id (16908878,16908332) -> false
+[GenericComparator]compare widget id (16908878,16908870) -> false
+[GenericComparator]compare widget id (16908878,16908877) -> false
+[GenericComparator]compare widget id (16908878,16908878) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (-1,16908870) -> false
+[GenericComparator]compare widget id (-1,16908332) -> false
+[GenericComparator]compare widget id (-1,16908870) -> false
+[GenericComparator]compare widget id (-1,16908877) -> false
+[GenericComparator]compare widget id (-1,16908878) -> false
+[GenericComparator]compare widget id (-1,-1) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]compare widget id (16908298,16908870) -> false
+[GenericComparator]compare widget id (16908298,16908332) -> false
+[GenericComparator]compare widget id (16908298,16908870) -> false
+[GenericComparator]compare widget id (16908298,16908877) -> false
+[GenericComparator]compare widget id (16908298,16908878) -> false
+[GenericComparator]compare widget id (16908298,-1) -> false
+[GenericComparator]compare widget id (16908298,16908298) -> true
+[GenericComparator]compare widget simple type(listView,listView) -> true
+[GenericComparator]compare list item count -> true
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908332) -> false
+[GenericComparator]compare widget id (16908308,16908870) -> false
+[GenericComparator]compare widget id (16908308,16908877) -> false
+[GenericComparator]compare widget id (16908308,16908878) -> false
+[GenericComparator]compare widget id (16908308,-1) -> false
+[GenericComparator]compare widget id (16908308,16908298) -> false
+[GenericComparator]compare widget id (16908308,16908308) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295152047] pull coverage before end...
+[1483295152047] pull coverage...
+{"index":"16","filename":"coverage1483295152047.ec","type":"COVER"}
+
+{"type":"ACK","index":"17"}
+
+ACK
+[1483295152115] coverage
+[1483295152121] End message...
+{"index":"18","type":"END"}
+[1483295152122] Wait process end...
+18 KB/s (398 bytes in 0.021s)
+[1483295153287] Wait test_case end...
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 19.513
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.jessies.dalvikexplorer/files/coverage.ec
+[1483295156301] pull coverage before end...
+[1483295156301] pull coverage after end...
+43 KB/s (398 bytes in 0.008s)
+[1483295156347] junit log
+378 KB/s (2944 bytes in 0.007s)
+[1483295156399] Shutdown...
+Emulator offline!
+[1483295159454] Start emulator...
+[1483295159479] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483295260474] AVD online!
+[1483295260475] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483295263499] Redir port...
+[1483295264510] Start ripper...
+[1483295267520] Connect...
+[1483295267520] Ping...
+{"index":"1","type":"PING"}
+
+it.unina.android.ripper.RipperTestCase:[1483295269526] Ping...
+{"index":"2","type":"PING"}
+[1483295271527] Ping...
+{"index":"3","type":"PING"}
+[1483295273528] Ping...
+{"index":"4","type":"PING"}
+[1483295275530] Ping...
+{"index":"5","type":"PING"}
+[1483295277535] Ping...
+{"index":"6","type":"PING"}
+[1483295279538] Ping...
+{"index":"7","type":"PING"}
+
+{"type":"PONG","index":"8"}
+
+PONG
+[1483295279562] Startup time: 120108
+[1483295279563] Send describe msg...
+{"index":"9","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"10"}
+
+DSC
+[1483295281572] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295281578] event:changeOrientation
+{"index":"11","eventType":"changeOrientation","type":"EVT"}
+[1483295281579] Wait ack...
+
+{"type":"ACK","index":"12"}
+
+ACK
+[1483295283145] Send describe msg...
+{"index":"13","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"14"}
+
+DSC
+[1483295283223] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295283238] event:back
+{"index":"15","eventType":"back","type":"EVT"}
+[1483295283238] Wait ack...
+
+{"type":"ACK","index":"16"}
+
+ACK
+[1483295285287] Send describe msg...
+{"index":"17","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"18"}
+
+DSC
+[1483295285353] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295285355] Send describe msg...
+{"index":"19","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"20"}
+
+DSC
+[1483295285437] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[1483295285438] 	Comparator...
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295285450] pull coverage before end...
+[1483295285450] pull coverage...
+{"index":"21","filename":"coverage1483295285450.ec","type":"COVER"}
+
+{"type":"ACK","index":"22"}
+
+ACK
+[1483295285565] coverage
+[1483295285570] End message...
+{"index":"23","type":"END"}
+[1483295285570] Wait process end...
+44 KB/s (398 bytes in 0.008s)
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 17.22
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.jessies.dalvikexplorer/files/coverage.ec
+[1483295286743] Wait test_case end...
+[1483295287245] pull coverage before end...
+[1483295287245] pull coverage after end...
+61 KB/s (398 bytes in 0.006s)
+[1483295287292] junit log
+368 KB/s (2944 bytes in 0.007s)
+[1483295287349] Shutdown...
+Emulator offline!
+[1483295290432] Start emulator...
+[1483295290451] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483295404645] AVD online!
+[1483295404645] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483295407663] Redir port...
+[1483295408670] Start ripper...
+[1483295411680] Connect...
+[1483295411681] Ping...
+{"index":"1","type":"PING"}
+[1483295413685] Ping...
+{"index":"2","type":"PING"}
+
+it.unina.android.ripper.RipperTestCase:[1483295415687] Ping...
+{"index":"3","type":"PING"}
+[1483295417691] Ping...
+{"index":"4","type":"PING"}
+[1483295419693] Ping...
+{"index":"5","type":"PING"}
+
+{"type":"PONG","index":"6"}
+
+PONG
+[1483295419727] Startup time: 129295
+[1483295419740] Send describe msg...
+{"index":"7","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"8"}
+
+DSC
+[1483295420201] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295420212] event:changeOrientation
+{"index":"9","eventType":"changeOrientation","type":"EVT"}
+[1483295420212] Wait ack...
+
+{"type":"ACK","index":"10"}
+
+ACK
+[1483295421767] Send describe msg...
+{"index":"11","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"12"}
+
+DSC
+[1483295421855] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295421863] event:changeOrientation
+{"index":"13","eventType":"changeOrientation","type":"EVT"}
+[1483295421863] Wait ack...
+
+{"type":"ACK","index":"14"}
+
+ACK
+[1483295423417] Send describe msg...
+{"index":"15","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"16"}
+
+DSC
+[1483295423479] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295423483] Send describe msg...
+{"index":"17","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"18"}
+
+DSC
+[1483295423546] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[1483295423548] 	Comparator...
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295423559] pull coverage before end...
+[1483295423560] pull coverage...
+{"index":"19","filename":"coverage1483295423560.ec","type":"COVER"}
+
+{"type":"ACK","index":"20"}
+
+ACK
+[1483295423628] coverage
+[1483295423633] End message...
+{"index":"21","type":"END"}
+[1483295423634] Wait process end...
+41 KB/s (398 bytes in 0.009s)
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 10.528
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.jessies.dalvikexplorer/files/coverage.ec
+[1483295424776] Wait test_case end...
+[1483295425278] pull coverage before end...
+[1483295425278] pull coverage after end...
+33 KB/s (398 bytes in 0.011s)
+[1483295425328] junit log
+310 KB/s (2944 bytes in 0.009s)
+[1483295425377] Shutdown...
+Emulator offline!
+[1483295428449] Start emulator...
+[1483295428474] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483295535132] AVD online!
+[1483295535132] Start ripper service...
+[1483295538149] Redir port...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483295539160] Start ripper...
+[1483295542167] Connect...
+[1483295542168] Ping...
+{"index":"1","type":"PING"}
+
+it.unina.android.ripper.RipperTestCase:[1483295544170] Ping...
+{"index":"2","type":"PING"}
+[1483295546172] Ping...
+{"index":"3","type":"PING"}
+[1483295548173] Ping...
+{"index":"4","type":"PING"}
+[1483295550193] Ping...
+{"index":"5","type":"PING"}
+
+{"type":"PONG","index":"6"}
+
+PONG
+[1483295550966] Startup time: 122517
+[1483295550981] Send describe msg...
+{"index":"7","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"8"}
+
+DSC
+[1483295551805] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295551819] event:changeOrientation
+{"index":"9","eventType":"changeOrientation","type":"EVT"}
+[1483295551819] Wait ack...
+
+{"type":"ACK","index":"10"}
+
+ACK
+[1483295553419] Send describe msg...
+{"index":"11","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Dalvik Explorer\" name=\"DalvikExplorerActivity\" class=\"org.jessies.dalvikexplorer.DalvikExplorerActivity\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\"\/>\n","index":"12"}
+
+DSC
+[1483295553501] <activity title="Dalvik Explorer" name="DalvikExplorerActivity" class="org.jessies.dalvikexplorer.DalvikExplorerActivity" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE"/>
+
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=0 - size2=0
+[GenericComparator]FilteredWidgets size1=0 - size2=0
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=0 - size2=0
+[GenericComparator]test if FILTERED widgets match -> true
+[1483295553516] event:openMenu
+{"index":"13","eventType":"openMenu","type":"EVT"}
+[1483295553516] Wait ack...
+
+{"type":"EVT","index":"14","eventType":"openMenu"}
+
+EVT
+[1483295553775] executeTask(): something went wrong?!?
+[1483295553783] pull coverage before end...
+[1483295553783] pull coverage...
+{"index":"15","filename":"coverage1483295553783.ec","type":"COVER"}
+
+{"type":"ACK","index":"16"}
+
+ACK
+[1483295553844] coverage
+[1483295553850] End message...
+{"index":"17","type":"END"}
+[1483295553850] Wait process end...
+73 KB/s (398 bytes in 0.005s)
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 11.617
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/org.jessies.dalvikexplorer/files/coverage.ec
+[1483295554977] Wait test_case end...
+[1483295555482] pull coverage before end...
+[1483295555482] pull coverage after end...
+50 KB/s (398 bytes in 0.007s)
+[1483295555529] junit log
+180 KB/s (2944 bytes in 0.015s)
+[1483295555602] Shutdown...
+Emulator offline!
+[1483295558676] Start emulator...
+[1483295558695] Waiting for AVD...
+^Z
+[2]+  Stopped                 ./ARdrive.sh
+zhchuch-MacBook:Release zhchuch$ 

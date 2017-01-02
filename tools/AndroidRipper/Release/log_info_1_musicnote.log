@@ -1,0 +1,1155 @@
+Last login: Sat Dec 31 18:05:02 on ttys007
+zhchuch-MacBook:~ zhchuch$ cd /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/tools/AndroidRipper/Release/AndroidRipperDriver
+zhchuch-MacBook:AndroidRipperDriver zhchuch$ cd ../AndroidRipperInstaller
+zhchuch-MacBook:AndroidRipperInstaller zhchuch$ java -jar ARInstaller.jar
+Android Ripper Installer
+Using default configuration file 'ripper.properties'!
+Starting installation...
+Exception in thread "main" java.lang.RuntimeException: JAVA_HOME not set!
+	at it.unina.android.ripper.installer.console.GuiRipperInstaller.install(GuiRipperInstaller.java:60)
+	at it.unina.android.ripper.installer.console.GuiRipperInstallerMain.main(GuiRipperInstallerMain.java:29)
+zhchuch-MacBook:AndroidRipperInstaller zhchuch$ source ~/.profile 
+zhchuch-MacBook:AndroidRipperInstaller zhchuch$ java -jar ARInstaller.jar
+Android Ripper Installer
+Using default configuration file 'ripper.properties'!
+Starting installation...
+[1483285999041] adb devices...
+[1483285999082] Editing 'Configuration.java'
+[1483285999115] Editing 'AndroidManifest.xml'
+[1483285999117] >>> STEP-1: update AUT project...
+android update project --path /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/net.fercanet.LNM_3_src
+[1483285999870] Updated project.properties
+[1483285999872] Updated local.properties
+[1483285999876] Updated file /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/net.fercanet.LNM_3_src/proguard-project.txt
+[1483285999878] Updated and renamed default.properties to project.properties
+[1483285999880] Updated local.properties
+[1483285999958] No project name specified, using Activity name 'MainMenu'.
+[1483285999958] If you wish to change it, edit the first line of build.xml.
+[1483285999987] Added file /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/net.fercanet.LNM_3_src/bin/build.xml
+[1483285999989] Added file /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/net.fercanet.LNM_3_src/bin/proguard-project.txt
+[1483286000005] >>> STEP-1: update test-suite project...
+android update test-project -p /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/tools/AndroidRipper/Release/AndroidRipperInstaller/AndroidRipper --main /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/net.fercanet.LNM_3_src
+[1483286000552] Resolved location of main project to: /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/subjects/net.fercanet.LNM_3_src
+[1483286000761] Updated project.properties
+[1483286000764] Updated local.properties
+[1483286000767] Updated file /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/tools/AndroidRipper/Release/AndroidRipperInstaller/AndroidRipper/proguard-project.txt
+[1483286000768] Updated ant.properties
+[1483286000786] >>> STEP-2: compiling and install test-suite project...
+[1483286025449] >>> STEP-3: install ripper-serivice apk...
+adb install /Users/zhchuch/Desktop/paper/Backup/constrast_experi/AndroidTGTools/tools/AndroidRipper/Release/AndroidRipperInstaller/AndroidRipperService.apk
+[1483286026521] 	pkg: /data/local/tmp/AndroidRipperService.apk
+[1483286026836] Failure [INSTALL_FAILED_ALREADY_EXISTS]
+[1483286027107] 
+adb shell mkdir...
+su adb shell mkdir /data/data/net.fercanet.LNM/files
+[1483286027123] 
+adb chmod 777...
+su adb shell chmod 777 /data/data/net.fercanet.LNM/files
+[1483286027135] 
+adb shell rm...
+su adb shell rm /data/data/net.fercanet.LNM/files/*
+[1483286027149] Installation finished!
+[1483286027149] Unlocking Emulator...
+zhchuch-MacBook:AndroidRipperInstaller zhchuch$ 
+zhchuch-MacBook:AndroidRipperInstaller zhchuch$ cd ../AndroidRipperDriver
+zhchuch-MacBook:AndroidRipperDriver zhchuch$  java -jar ARDriver.jar s systematic.properties
+Android Ripper
+[1483286096953] Systematic Ripper 2016.04.26
+[1483286096953] Loading configuration
+[1483286096971] Starting Ripper...
+[1483286096982] Start Ripping Loop...
+[1483286096983] Start emulator...
+[1483286097026] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483286200238] AVD online!
+[1483286200239] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483286203246] Redir port...
+[1483286204294] Start ripper...
+[1483286207308] Connect...
+[1483286207308] Ping...
+{"index":"1","type":"PING"}
+
+it.unina.android.ripper.RipperTestCase:[1483286209328] Ping...
+{"index":"2","type":"PING"}
+[1483286211329] Ping...
+{"index":"3","type":"PING"}
+
+{"type":"PONG","index":"4"}
+
+PONG
+[1483286211360] Startup time: 114377
+[1483286211360] Alive...
+{"index":"5","type":"PING"}
+
+{"type":"PONG","index":"6"}
+
+PONG
+[1483286211396] Send describe msg...
+{"index":"7","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"8"}
+
+DSC
+[1483286213427] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[1483286213626] Plan...
+[1483286213628] plannedTasks 3
+[1483286213674] Send describe msg...
+{"index":"9","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"10"}
+
+DSC
+[1483286214050] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286214070] event:back
+{"index":"11","eventType":"back","type":"EVT"}
+[1483286214070] Wait ack...
+
+{"type":"ACK","index":"12"}
+
+ACK
+[1483286216879] Send describe msg...
+{"index":"13","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"14"}
+
+DSC
+[1483286218906] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286218920] Send describe msg...
+{"index":"15","type":"DSC"}
+
+{"type":"DSC","index":"16"}
+
+DSC
+java.lang.RuntimeException: describeCnt overflow
+	at it.unina.android.ripper.net.RipperServiceSocket.describe(RipperServiceSocket.java:488)
+	at it.unina.android.ripper.net.RipperServiceSocket.describe(RipperServiceSocket.java:437)
+	at it.unina.android.ripper.driver.AbstractDriver.getCurrentDescription(AbstractDriver.java:623)
+	at it.unina.android.ripper.driver.AbstractDriver.getCurrentDescriptionAsActivityDescription(AbstractDriver.java:661)
+	at it.unina.android.ripper.driver.systematic.SystematicDriver.rippingLoop(SystematicDriver.java:173)
+	at it.unina.android.ripper.driver.AbstractDriver.startRipping(AbstractDriver.java:226)
+	at it.unina.android.ripper.driver.AndroidRipperStarter.startRipping(AndroidRipperStarter.java:346)
+	at it.unina.android.ripper.driver.AndroidRipper.main(AndroidRipper.java:33)
+[1483286232021] End message...
+{"index":"17","type":"END"}
+[1483286232021] Wait process end...
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 6.45
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/net.fercanet.LNM/files/coverage.ec
+[1483286233109] Wait test_case end...
+[1483286233109] pull coverage before end...
+[1483286233109] pull coverage after end...
+30 KB/s (168 bytes in 0.005s)
+[1483286233191] junit log
+318 KB/s (2942 bytes in 0.009s)
+[1483286233237] Shutdown...
+Emulator offline!
+[1483286236340] Start emulator...
+[1483286236359] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483286345794] AVD online!
+[1483286345794] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483286348802] Redir port...
+[1483286349816] Start ripper...
+[1483286352826] Connect...
+[1483286352827] Ping...
+{"index":"1","type":"PING"}
+
+it.unina.android.ripper.RipperTestCase:[1483286354832] Ping...
+{"index":"2","type":"PING"}
+[1483286356835] Ping...
+{"index":"3","type":"PING"}
+[1483286358840] Ping...
+{"index":"4","type":"PING"}
+[1483286360842] Ping...
+{"index":"5","type":"PING"}
+[1483286362846] Ping...
+{"index":"6","type":"PING"}
+[1483286364846] Ping...
+{"index":"7","type":"PING"}
+
+{"type":"PONG","index":"8"}
+
+PONG
+[1483286364875] Startup time: 128535
+[1483286364875] Send describe msg...
+{"index":"9","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"10"}
+
+DSC
+[1483286365724] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286365743] event:changeOrientation
+{"index":"11","eventType":"changeOrientation","type":"EVT"}
+[1483286365743] Wait ack...
+INSTRUMENTATION_RESULT: shortMsg=android.content.res.Resources$NotFoundException
+INSTRUMENTATION_RESULT: longMsg=android.content.res.Resources$NotFoundException: Resource is not a Drawable (color or path): TypedValue{t=0x1/d=0x7f020002 a=-1 r=0x7f020002}
+INSTRUMENTATION_CODE: 0
+[1483286376776] waitAck() : max retry exceded event ack
+[1483286376776] executeTask(): AckNotReceivedException
+[1483286376784] msg == null || running == false
+[1483286376784] End message...
+{"index":"12","type":"END"}
+[1483286376785] Wait process end...
+[1483286377863] Wait test_case end...
+[1483286377863] pull coverage before end...
+[1483286377863] pull coverage after end...
+11 KB/s (168 bytes in 0.014s)
+[1483286377908] junit log
+remote object '/data/data/net.fercanet.LNM/files/it.unina.android.ripper-TEST.xml' does not exist
+[1483286377968] Shutdown...
+Emulator offline!
+[1483286381080] Start emulator...
+[1483286381099] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483286519353] AVD online!
+[1483286519353] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483286522368] Redir port...
+[1483286523378] Start ripper...
+[1483286526385] Connect...
+[1483286526385] Ping...
+{"index":"1","type":"PING"}
+[1483286528389] Ping...
+{"index":"2","type":"PING"}
+
+it.unina.android.ripper.RipperTestCase:[1483286530390] Ping...
+{"index":"3","type":"PING"}
+[1483286532390] Ping...
+{"index":"4","type":"PING"}
+[1483286534395] Ping...
+{"index":"5","type":"PING"}
+[1483286536396] Ping...
+{"index":"6","type":"PING"}
+
+{"type":"PONG","index":"7"}
+
+PONG
+[1483286536430] Startup time: 155350
+[1483286536430] Send describe msg...
+{"index":"8","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"9"}
+
+DSC
+[1483286538452] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286538463] event:openMenu
+{"index":"10","eventType":"openMenu","type":"EVT"}
+[1483286538463] Wait ack...
+
+{"type":"ACK","index":"11"}
+
+ACK
+[1483286539895] Send describe msg...
+{"index":"12","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"16908952\" class=\"com.android.internal.view.menu.IconMenuView\" simple_type=\"menu\" r_id=\"icon_menu\" name=\"\" count=\"5\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"1\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Settings\" value=\"Settings\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Quit\" value=\"Quit\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"13"}
+
+DSC
+[1483286540351] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="16908952" class="com.android.internal.view.menu.IconMenuView" simple_type="menu" r_id="icon_menu" name="" count="5" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="One Minute Test" value="One Minute Test" index="1" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Training" value="Training" index="2" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="3" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Settings" value="Settings" index="4" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Quit" value="Quit" index="5" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="6" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=7 - size2=13
+[GenericComparator]FilteredWidgets size1=1 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=6
+[GenericComparator]compare widget id (16908952,16908310) -> false
+[GenericComparator]compare widget id (16908952,2131165187) -> false
+[GenericComparator]compare widget id (16908952,2131165202) -> false
+[GenericComparator]compare widget id (16908952,2131165203) -> false
+[GenericComparator]compare widget id (16908952,2131165204) -> false
+[GenericComparator]compare widget id (16908952,2131165197) -> false
+[GenericComparator]lookFor(w1, widgets2) no 16908952
+[GenericComparator]test if FILTERED widgets match -> false
+[1483286540356] Send describe msg...
+{"index":"14","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"16908952\" class=\"com.android.internal.view.menu.IconMenuView\" simple_type=\"menu\" r_id=\"icon_menu\" name=\"\" count=\"5\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"1\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Settings\" value=\"Settings\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Quit\" value=\"Quit\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"15"}
+
+DSC
+[1483286540676] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="16908952" class="com.android.internal.view.menu.IconMenuView" simple_type="menu" r_id="icon_menu" name="" count="5" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="One Minute Test" value="One Minute Test" index="1" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Training" value="Training" index="2" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="3" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Settings" value="Settings" index="4" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Quit" value="Quit" index="5" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="6" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[1483286540686] 	Comparator...
+[GenericComparator]Widgets size1=7 - size2=13
+[GenericComparator]FilteredWidgets size1=1 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=6
+[GenericComparator]compare widget id (16908952,16908310) -> false
+[GenericComparator]compare widget id (16908952,2131165187) -> false
+[GenericComparator]compare widget id (16908952,2131165202) -> false
+[GenericComparator]compare widget id (16908952,2131165203) -> false
+[GenericComparator]compare widget id (16908952,2131165204) -> false
+[GenericComparator]compare widget id (16908952,2131165197) -> false
+[GenericComparator]lookFor(w1, widgets2) no 16908952
+[GenericComparator]test if FILTERED widgets match -> false
+[1483286540686] Plan...
+[1483286540687] plannedTasks 3
+[GenericComparator]Widgets size1=7 - size2=13
+[GenericComparator]FilteredWidgets size1=1 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=6
+[GenericComparator]compare widget id (16908952,16908310) -> false
+[GenericComparator]compare widget id (16908952,2131165187) -> false
+[GenericComparator]compare widget id (16908952,2131165202) -> false
+[GenericComparator]compare widget id (16908952,2131165203) -> false
+[GenericComparator]compare widget id (16908952,2131165204) -> false
+[GenericComparator]compare widget id (16908952,2131165197) -> false
+[GenericComparator]lookFor(w1, widgets2) no 16908952
+[GenericComparator]test if FILTERED widgets match -> false
+[GenericComparator]Widgets size1=7 - size2=7
+[GenericComparator]FilteredWidgets size1=1 - size2=1
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=1
+[GenericComparator]compare widget id (16908952,16908952) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908952
+[GenericComparator]compare widget id (16908952,16908952) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286540728] pull coverage before end...
+[1483286540728] pull coverage...
+{"index":"16","filename":"coverage1483286540728.ec","type":"COVER"}
+
+{"type":"ACK","index":"17"}
+
+ACK
+[1483286540851] coverage
+[1483286540856] End message...
+{"index":"18","type":"END"}
+[1483286540856] Wait process end...
+14 KB/s (168 bytes in 0.011s)
+[1483286542000] Wait test_case end...
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 0.151
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/net.fercanet.LNM/files/coverage.ec
+[1483286547532] pull coverage before end...
+[1483286547532] pull coverage after end...
+18 KB/s (168 bytes in 0.008s)
+[1483286547580] junit log
+314 KB/s (2944 bytes in 0.009s)
+[1483286547631] Shutdown...
+Emulator offline!
+[1483286550697] Start emulator...
+[1483286550716] Waiting for AVD...
+Emulator Online!
+Emulator Booted!
+[1483286693930] AVD online!
+[1483286693930] Start ripper service...
+Starting service: Intent { act=it.unina.android.ripper_service.ANDROID_RIPPER_SERVICE }
+[1483286696944] Redir port...
+[1483286697955] Start ripper...
+
+it.unina.android.ripper.RipperTestCase:[1483286700965] Connect...
+[1483286700966] Ping...
+{"index":"1","type":"PING"}
+[1483286702970] Ping...
+{"index":"2","type":"PING"}
+
+{"type":"PONG","index":"3"}
+
+PONG
+[1483286702992] Startup time: 152295
+[1483286702999] Send describe msg...
+{"index":"4","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"5"}
+
+DSC
+[1483286703800] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286703809] event:openMenu
+{"index":"6","eventType":"openMenu","type":"EVT"}
+[1483286703810] Wait ack...
+
+{"type":"ACK","index":"7"}
+
+ACK
+[1483286705068] Send describe msg...
+{"index":"8","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"16908952\" class=\"com.android.internal.view.menu.IconMenuView\" simple_type=\"menu\" r_id=\"icon_menu\" name=\"\" count=\"5\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"1\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Settings\" value=\"Settings\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"16908310\" class=\"com.android.internal.view.menu.IconMenuItemView\" simple_type=\"menuItem\" r_id=\"title\" text_type=\"0\" name=\"Quit\" value=\"Quit\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908952\" p_name=\"\" p_type=\"com.android.internal.view.menu.IconMenuView\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"9"}
+
+DSC
+[1483286705299] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="16908952" class="com.android.internal.view.menu.IconMenuView" simple_type="menu" r_id="icon_menu" name="" count="5" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="One Minute Test" value="One Minute Test" index="1" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Training" value="Training" index="2" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="3" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Settings" value="Settings" index="4" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="16908310" class="com.android.internal.view.menu.IconMenuItemView" simple_type="menuItem" r_id="title" text_type="0" name="Quit" value="Quit" index="5" enabled="TRUE" visible="TRUE" p_id="16908952" p_name="" p_type="com.android.internal.view.menu.IconMenuView" ancestor_id="" ancestor_type=""/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="6" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=7 - size2=13
+[GenericComparator]FilteredWidgets size1=1 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=6
+[GenericComparator]compare widget id (16908952,16908310) -> false
+[GenericComparator]compare widget id (16908952,2131165187) -> false
+[GenericComparator]compare widget id (16908952,2131165202) -> false
+[GenericComparator]compare widget id (16908952,2131165203) -> false
+[GenericComparator]compare widget id (16908952,2131165204) -> false
+[GenericComparator]compare widget id (16908952,2131165197) -> false
+[GenericComparator]lookFor(w1, widgets2) no 16908952
+[GenericComparator]test if FILTERED widgets match -> false
+[GenericComparator]Widgets size1=7 - size2=7
+[GenericComparator]FilteredWidgets size1=1 - size2=1
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=1
+[GenericComparator]compare widget id (16908952,16908952) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908952
+[GenericComparator]compare widget id (16908952,16908952) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=7 - size2=13
+[GenericComparator]FilteredWidgets size1=1 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=6
+[GenericComparator]compare widget id (16908952,16908310) -> false
+[GenericComparator]compare widget id (16908952,2131165187) -> false
+[GenericComparator]compare widget id (16908952,2131165202) -> false
+[GenericComparator]compare widget id (16908952,2131165203) -> false
+[GenericComparator]compare widget id (16908952,2131165204) -> false
+[GenericComparator]compare widget id (16908952,2131165197) -> false
+[GenericComparator]lookFor(w1, widgets2) no 16908952
+[GenericComparator]test if FILTERED widgets match -> false
+[GenericComparator]Widgets size1=7 - size2=7
+[GenericComparator]FilteredWidgets size1=1 - size2=1
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=1 - size2=1
+[GenericComparator]compare widget id (16908952,16908952) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908952
+[GenericComparator]compare widget id (16908952,16908952) -> true
+[GenericComparator]compare widget simple type(menu,menu) -> true
+[GenericComparator]compare menu item count -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286705317] event:back
+{"index":"10","eventType":"back","type":"EVT"}
+[1483286705318] Wait ack...
+
+{"type":"ACK","index":"11"}
+
+ACK
+[1483286707954] Send describe msg...
+{"index":"12","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"13"}
+
+DSC
+[1483286708311] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286708318] Send describe msg...
+{"index":"14","type":"DSC"}
+
+{"type":"DSC","xml":"<activity title=\"Learn Music Notes\" name=\"MainMenu\" class=\"net.fercanet.LNM.MainMenu\" menu=\"TRUE\" keypress=\"FALSE\" longkeypress=\"FALSE\" tab_activity=\"FALSE\" tab_count=\"0\" id=\"\" uid=\"\" root_activity=\"TRUE\">\n  <widget id=\"-1\" class=\"android.widget.LinearLayout\" simple_type=\"linearLayout\" name=\"\" count=\"3\" index=\"0\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16909140\" class=\"android.view.ViewStub\" simple_type=\"\" name=\"\" index=\"1\" enabled=\"TRUE\" visible=\"FALSE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.FrameLayout\" simple_type=\"\" name=\"\" count=\"1\" index=\"2\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908310\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"title\" text_type=\"0\" name=\"Learn Music Notes\" value=\"Learn Music Notes\" index=\"3\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"16908290\" class=\"android.widget.FrameLayout\" simple_type=\"\" r_id=\"content\" name=\"\" count=\"1\" index=\"4\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.LinearLayout\" ancestor_id=\"\" ancestor_type=\"null\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"5\" index=\"5\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"16908290\" p_name=\"\" p_type=\"android.widget.FrameLayout\" ancestor_id=\"\" ancestor_type=\"\"\/>\n  <widget id=\"2131165187\" class=\"android.widget.TextView\" simple_type=\"text\" r_id=\"fila1\" text_type=\"0\" name=\"Choose a game:\" value=\"Choose a game:\" index=\"6\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165202\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"mintest\" text_type=\"0\" name=\"One Minute Test\" value=\"One Minute Test\" index=\"7\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165203\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"training\" text_type=\"0\" name=\"Training\" value=\"Training\" index=\"8\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165204\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"hof\" text_type=\"0\" name=\"Hall Of Fame\" value=\"Hall Of Fame\" index=\"9\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"android.widget.RelativeLayout\" simple_type=\"relativeLayout\" name=\"\" count=\"1\" index=\"10\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"2131165197\" class=\"android.widget.Button\" simple_type=\"button\" r_id=\"endgame\" text_type=\"0\" name=\"End Game\" value=\"End Game\" index=\"11\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"-1\" p_name=\"\" p_type=\"android.widget.RelativeLayout\" ancestor_id=\"16908290\" ancestor_type=\"android.widget.FrameLayout\"\/>\n  <widget id=\"-1\" class=\"com.android.internal.policy.impl.PhoneWindow.DecorView\" simple_type=\"\" name=\"\" count=\"1\" index=\"12\" enabled=\"TRUE\" visible=\"TRUE\" p_id=\"\" p_name=\"\" p_type=\"null\" ancestor_id=\"\" ancestor_type=\"\"\/>\n<\/activity>\n","index":"15"}
+
+DSC
+[1483286708599] <activity title="Learn Music Notes" name="MainMenu" class="net.fercanet.LNM.MainMenu" menu="TRUE" keypress="FALSE" longkeypress="FALSE" tab_activity="FALSE" tab_count="0" id="" uid="" root_activity="TRUE">
+  <widget id="-1" class="android.widget.LinearLayout" simple_type="linearLayout" name="" count="3" index="0" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="com.android.internal.policy.impl.PhoneWindow.DecorView" ancestor_id="" ancestor_type="null"/>
+  <widget id="16909140" class="android.view.ViewStub" simple_type="" name="" index="1" enabled="TRUE" visible="FALSE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.FrameLayout" simple_type="" name="" count="1" index="2" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908310" class="android.widget.TextView" simple_type="text" r_id="title" text_type="0" name="Learn Music Notes" value="Learn Music Notes" index="3" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="16908290" class="android.widget.FrameLayout" simple_type="" r_id="content" name="" count="1" index="4" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.LinearLayout" ancestor_id="" ancestor_type="null"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="5" index="5" enabled="TRUE" visible="TRUE" p_id="16908290" p_name="" p_type="android.widget.FrameLayout" ancestor_id="" ancestor_type=""/>
+  <widget id="2131165187" class="android.widget.TextView" simple_type="text" r_id="fila1" text_type="0" name="Choose a game:" value="Choose a game:" index="6" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165202" class="android.widget.Button" simple_type="button" r_id="mintest" text_type="0" name="One Minute Test" value="One Minute Test" index="7" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165203" class="android.widget.Button" simple_type="button" r_id="training" text_type="0" name="Training" value="Training" index="8" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165204" class="android.widget.Button" simple_type="button" r_id="hof" text_type="0" name="Hall Of Fame" value="Hall Of Fame" index="9" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="android.widget.RelativeLayout" simple_type="relativeLayout" name="" count="1" index="10" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="2131165197" class="android.widget.Button" simple_type="button" r_id="endgame" text_type="0" name="End Game" value="End Game" index="11" enabled="TRUE" visible="TRUE" p_id="-1" p_name="" p_type="android.widget.RelativeLayout" ancestor_id="16908290" ancestor_type="android.widget.FrameLayout"/>
+  <widget id="-1" class="com.android.internal.policy.impl.PhoneWindow.DecorView" simple_type="" name="" count="1" index="12" enabled="TRUE" visible="TRUE" p_id="" p_name="" p_type="null" ancestor_id="" ancestor_type=""/>
+</activity>
+
+[1483286708603] 	Comparator...
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[GenericComparator]Widgets size1=13 - size2=13
+[GenericComparator]FilteredWidgets size1=6 - size2=6
+[GenericComparator]compare activity titles -> true
+[GenericComparator]testIfFilteredWidgetsMatch size1=6 - size2=6
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 16908310
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165187
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165202
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165203
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165204
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]lookFor(w1, widgets2) yes 2131165197
+[GenericComparator]compare widget id (16908310,16908310) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165187,16908310) -> false
+[GenericComparator]compare widget id (2131165187,2131165187) -> true
+[GenericComparator]compare widget simple type(text,text) -> true
+[GenericComparator]compare widget id (2131165202,16908310) -> false
+[GenericComparator]compare widget id (2131165202,2131165187) -> false
+[GenericComparator]compare widget id (2131165202,2131165202) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165203,16908310) -> false
+[GenericComparator]compare widget id (2131165203,2131165187) -> false
+[GenericComparator]compare widget id (2131165203,2131165202) -> false
+[GenericComparator]compare widget id (2131165203,2131165203) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165204,16908310) -> false
+[GenericComparator]compare widget id (2131165204,2131165187) -> false
+[GenericComparator]compare widget id (2131165204,2131165202) -> false
+[GenericComparator]compare widget id (2131165204,2131165203) -> false
+[GenericComparator]compare widget id (2131165204,2131165204) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]compare widget id (2131165197,16908310) -> false
+[GenericComparator]compare widget id (2131165197,2131165187) -> false
+[GenericComparator]compare widget id (2131165197,2131165202) -> false
+[GenericComparator]compare widget id (2131165197,2131165203) -> false
+[GenericComparator]compare widget id (2131165197,2131165204) -> false
+[GenericComparator]compare widget id (2131165197,2131165197) -> true
+[GenericComparator]compare widget simple type(button,button) -> true
+[GenericComparator]test if FILTERED widgets match -> true
+[1483286708631] pull coverage before end...
+[1483286708631] pull coverage...
+{"index":"16","filename":"coverage1483286708631.ec","type":"COVER"}
+
+{"type":"ACK","index":"17"}
+
+ACK
+[1483286708705] coverage
+[1483286708709] End message...
+{"index":"18","type":"END"}
+[1483286708710] Wait process end...
+19 KB/s (168 bytes in 0.008s)
+.
+Test results for PolideaInstrumentationTestRunner=.
+Time: 9.859
+
+OK (1 test)
+
+
+Generated code coverage data to /data/data/net.fercanet.LNM/files/coverage.ec
+[1483286709831] Wait test_case end...
+[1483286709831] pull coverage before end...
+[1483286709831] pull coverage after end...
+9 KB/s (168 bytes in 0.017s)
+[1483286709886] junit log
+391 KB/s (2942 bytes in 0.007s)
+[1483286709946] Shutdown...
+Emulator offline!
+[1483286713044] Start emulator...
+[1483286713062] Waiting for AVD...
+^Z
+[1]+  Stopped                 java -jar ARDriver.jar s systematic.properties
+zhchuch-MacBook:AndroidRipperDriver zhchuch$ 

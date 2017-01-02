@@ -1,0 +1,6 @@
+AUT_PATH = AutPathHere
+TEST_SUITE_PATH = %PWD%/AndroidRipper
+SERVICE_APK_PATH = %PWD%
+AVD_NAME = AVDNameHere
+AVD_PORT = 5554
+EXTRACTOR_CLASS=SimpleExtractor

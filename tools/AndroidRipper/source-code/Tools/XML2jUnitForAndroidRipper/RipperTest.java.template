@@ -1,0 +1,115 @@
+package it.unina.android.ripper.test;
+
+import java.io.File;
+import java.io.InputStream;
+
+import com.robotium.solo.Solo;
+
+import android.app.Activity;
+import android.app.ActivityManager;
+import android.content.Context;
+import android.test.ActivityInstrumentationTestCase2;
+import it.unina.android.ripper.automation.IAutomation;
+import it.unina.android.ripper.automation.RipperAutomation;
+import it.unina.android.ripper.automation.robot.IRobot;
+import it.unina.android.ripper.automation.robot.RobotiumWrapperRobot;
+import it.unina.android.ripper.comparator.GenericComparator;
+import it.unina.android.ripper.comparator.GenericComparatorConfiguration;
+import it.unina.android.ripper.comparator.IComparator;
+import it.unina.android.ripper.extractor.IExtractor;
+import it.unina.android.ripper.extractor.SimpleExtractor;
+import it.unina.android.ripper.input.XMLRipperInput;
+import it.unina.android.ripper.model.ActivityDescription;
+import it.unina.android.ripper.states.ActivityStateList;
+
+public class RipperTest extends ActivityInstrumentationTestCase2 {
+
+	//configuration
+	public static final String TAG = "RipperTestCase";
+	public static final int SLEEP_AFTER_TASK = %SLEEP_AFTER_TASK%;
+	
+	IRobot robot = null;
+	IAutomation automation = null;
+	IExtractor extractor = null;
+	//IScreenshotTaker screenshotTaker = null;
+	ActivityStateList activityStateList = null;
+	
+	ActivityManager mActivityManager;
+	Context mContext;
+
+	//main class
+	public static Class<?> AUT_ACTIVITY_CLASS;
+	static {
+		try {
+			AUT_ACTIVITY_CLASS = Class.forName("%AUT_ACTIVITY_CLASS%");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}	
+	
+	public RipperTest() {
+		super(AUT_ACTIVITY_CLASS);
+		
+		//load activities.xml into activityStateList
+		IComparator comparator = new GenericComparator(GenericComparatorConfiguration.Factory.get%COMPARATOR_NAME%());
+		activityStateList = new ActivityStateList(comparator);
+		try {
+			
+			String file = "assets/activities.xml";
+			InputStream in = this.getClass().getClassLoader().getResourceAsStream(file);
+			XMLRipperInput input = new XMLRipperInput();
+			for (ActivityDescription ad : input.loadActivityDescriptionList(in)) {
+				activityStateList.add(ad);
+			}
+
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		
+	}
+
+	@Override
+	protected void setUp() throws Exception {
+		super.setUp();
+
+		mContext = this.getInstrumentation().getContext();
+		mActivityManager = (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
+		
+		//init components
+		this.robot = new RobotiumWrapperRobot(this);
+		this.automation = new RipperAutomation(this.robot);
+		this.extractor = new SimpleExtractor(this.robot);
+		//this.screenshotTaker = new RobotiumScreenshotTaker(this.robot);
+	}
+
+	@Override
+	protected void tearDown() throws Exception {
+
+		if (this.automation != null) {
+			Activity theActivity = this.automation.getCurrentActivity();
+
+			try {
+				this.automation.finalizeRobot();
+			} catch (Throwable e) {
+				e.printStackTrace();
+			}
+			theActivity.finish();
+		}
+
+		super.tearDown();
+	}
+	
+	public void afterRestart() {
+		automation.setActivityOrientation(Solo.PORTRAIT);
+		sleepAfterTask();
+		automation.waitOnThrobber();
+	}
+	
+	private void sleepAfterTask() {
+		automation.sleep(SLEEP_AFTER_TASK);
+	}
+	
+%TEST_CASES%
+	
+}

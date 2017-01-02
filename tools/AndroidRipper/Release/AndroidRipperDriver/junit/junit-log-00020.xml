@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites>
+  <testsuite errors="0" failures="0" name="it.unina.android.ripper.RipperTestCase" package="it.unina.android.ripper" tests="1" time="50.572" timestamp="2016-11-26T05:31:26">
+    <testcase classname="it.unina.android.ripper.RipperTestCase" name="testApplication" time="50.572" />
+    <properties>
+      <property name="android.Build.BOARD" value="unknown" />
+      <property name="android.Build.BRAND" value="generic" />
+      <property name="android.Build.CPU_ABI" value="armeabi-v7a" />
+      <property name="android.Build.DEVICE" value="generic" />
+      <property name="android.Build.DISPLAY" value="sdk-eng 4.2.2 JB_MR1.1 1742939 test-keys" />
+      <property name="android.Build.FINGERPRINT" value="generic/sdk/generic:4.2.2/JB_MR1.1/1742939:eng/test-keys" />
+      <property name="android.Build.HOST" value="vpak28.mtv.corp.google.com" />
+      <property name="android.Build.ID" value="JB_MR1.1" />
+      <property name="android.Build.MANUFACTURER" value="unknown" />
+      <property name="android.Build.MODEL" value="sdk" />
+      <property name="android.Build.PRODUCT" value="sdk" />
+      <property name="android.Build.TAGS" value="test-keys" />
+      <property name="android.Build.TYPE" value="eng" />
+      <property name="android.Build.USER" value="android-build" />
+      <property name="android.Build.BOOTLOADER" value="unknown" />
+      <property name="android.Build.CPU_ABI2" value="armeabi" />
+      <property name="android.Build.HARDWARE" value="goldfish" />
+      <property name="android.Build.SERIAL" value="unknown" />
+      <property name="android.Build.VERSION.CODENAME" value="REL" />
+      <property name="android.Build.VERSION.INCREMENTAL" value="1742939" />
+      <property name="android.Build.VERSION.RELEASE" value="4.2.2" />
+      <property name="android.Build.VERSION.SDK_INT" value="17" />
+      <property name="android.Configuration.fontScale" value="1.0" />
+      <property name="android.Configuration.locale" value="en_US" />
+      <property name="android.Configuration.orientation" value="portrait" />
+      <property name="android.Configuration.screenLayout.long" value="long" />
+      <property name="android.Configuration.screenLayout.size" value="normal" />
+      <property name="android.DisplayMetrics.density" value="1.5" />
+      <property name="android.DisplayMetrics.densityDpi" value="hdpi" />
+      <property name="android.DisplayMetrics.heightPixels" value="800" />
+      <property name="android.DisplayMetrics.scaledDensity" value="1.5" />
+      <property name="android.DisplayMetrics.widthPixels" value="480" />
+      <property name="android.DisplayMetrics.xdpi" value="240.0" />
+      <property name="android.DisplayMetrics.ydpi" value="240.0" />
+      <property name="java.util.Locale.default" value="en_US" />
+    </properties>
+    <system-out />
+    <system-err />
+  </testsuite>
+</testsuites>
